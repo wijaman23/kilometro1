@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://kilometro1-backend.onrender.com",
+  baseURL: "https://kilometro1-backend.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
