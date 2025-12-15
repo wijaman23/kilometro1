@@ -1,10 +1,12 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
+import { useState } from "react";
 
 export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
+  const [open, setOpen] = useState(false);
 
   if (!token) return null;
 
@@ -74,6 +76,7 @@ export default function Navbar() {
             to="/dashboard"
             className="navbar-brand fw-bold text-white"
             style={{ letterSpacing: "1px" }}
+            onClick={() => setOpen(false)}
           >
             Kilómetro 1
           </Link>
@@ -82,14 +85,14 @@ export default function Navbar() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
+            onClick={() => setOpen(!open)}
+            style={{ borderColor: "#444" }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
           {/* CONTENIDO */}
-          <div className="collapse navbar-collapse" id="navbarContent">
+          <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
             <ul className="navbar-nav mx-auto gap-lg-4 text-center">
               <li className="nav-item">
                 <Link
@@ -97,6 +100,7 @@ export default function Navbar() {
                   className={`nav-link nav-link-custom ${isActive(
                     "/dashboard"
                   )}`}
+                  onClick={() => setOpen(false)}
                 >
                   Inicio
                 </Link>
@@ -108,6 +112,7 @@ export default function Navbar() {
                   className={`nav-link nav-link-custom ${isActive(
                     "/videos"
                   )}`}
+                  onClick={() => setOpen(false)}
                 >
                   Vídeos
                 </Link>
@@ -127,13 +132,14 @@ export default function Navbar() {
             </ul>
 
             {/* DERECHA */}
-            <div className="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+            <div className="d-flex align-items-center justify-content-center gap-3 mt-3 mt-lg-0">
               {role === "admin" && (
                 <Link
                   to="/admin"
                   className={`nav-link nav-link-custom ${isActive(
                     "/admin"
                   )}`}
+                  onClick={() => setOpen(false)}
                 >
                   Admin
                   <span className="admin-badge">ADMIN</span>
