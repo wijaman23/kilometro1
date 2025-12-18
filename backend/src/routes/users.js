@@ -1,15 +1,20 @@
 const express = require("express");
 const router = express.Router();
-const auth = require("../middlewares/auth");
-const {
-  createUser,
-  getUsers,
-  deleteUser,
-} = require("../controllers/userController");
+const User = require("../models/User");
+const authMiddleware = require("../middlewares/auth");
 
-// Solo admin
-router.post("/", auth(["admin"]), createUser);
-router.get("/", auth(["admin"]), getUsers);
-router.delete("/:id", auth(["admin"]), deleteUser);
+/**
+ * GET /api/users
+ * Ruta protegida
+ */
+router.get("/", authMiddleware, async (req, res) => {
+  try {
+    const users = await User.find().select("-password");
+    res.json(users);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ msg: "Error del servidor" });
+  }
+});
 
 module.exports = router;

@@ -1,3 +1,4 @@
+// Videos.js
 import { useEffect, useState } from "react";
 import api from "../services/api";
 import Navbar from "../components/Navbar";
@@ -47,12 +48,13 @@ export default function Videos() {
 
           return (
             <div className="col-12 mb-4" key={video._id}>
-              <div className="card shadow-sm" style={{ minHeight: "220px" }}>
+              <div className="card shadow-sm">
                 {isExpanded && (
                   <div className="ratio ratio-16x9">
                     <iframe
-                      src={`https://www.youtube.com/embed/${video.youtubeId}`}
+                      src={video.embedUrl}
                       title={video.title}
+                      allow="autoplay; fullscreen"
                       allowFullScreen
                     />
                   </div>
@@ -62,12 +64,10 @@ export default function Videos() {
                   {!isEditing ? (
                     <>
                       <h5>{video.title}</h5>
-
                       <p className="text-muted mb-1">
                         📅{" "}
                         {new Date(video.publishDate).toLocaleDateString()}
                       </p>
-
                       <p className="text-muted">{video.description}</p>
 
                       <div className="d-flex gap-2">

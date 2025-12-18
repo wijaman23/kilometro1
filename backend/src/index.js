@@ -1,3 +1,4 @@
+//backend/src/index.js
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
@@ -6,6 +7,9 @@ const authRoutes = require("./routes/auth");
 const testRoutes = require("./routes/test");
 const userRoutes = require("./routes/users");
 const videoRoutes = require("./routes/videos");
+const adminUsersRoutes = require("./routes/adminUsers");
+const newsRoutes = require("./routes/news");
+const racesRoutes = require("./routes/races");
 
 const app = express();
 
@@ -18,6 +22,9 @@ app.use("/api/test", testRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/videos", videoRoutes);
+app.use("/api/admin/users", adminUsersRoutes);
+app.use("/api/news", newsRoutes);
+app.use("/api/races", racesRoutes);
 
 app.get("/", (req, res) => {
   res.send("Kilómetro 1 API funcionando 🚀");

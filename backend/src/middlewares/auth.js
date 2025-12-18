@@ -1,26 +1,27 @@
 const jwt = require("jsonwebtoken");
 
-module.exports = (roles = []) => {
-  return (req, res, next) => {
-    const authHeader = req.headers.authorization;
+module.exports = (req, res, next) => {
+  if (!req || !res) {
+    return;
+  }
 
-    if (!authHeader)
-      return res.status(401).json({ msg: "No token, acceso denegado" });
+  const authHeader = req.headers?.authorization;
 
-    const token = authHeader.split(" ")[1];
+  if (!authHeader) {
+    return res.status(401).json({ msg: "Token no proporcionado" });
+  }
 
-    try {
-      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+  const token = authHeader.split(" ")[1];
 
-      // comprobar roles
-      if (roles.length && !roles.includes(decoded.role)) {
-        return res.status(403).json({ msg: "Permisos insuficientes" });
-      }
+  if (!token) {
+    return res.status(401).json({ msg: "Token inválido" });
+  }
 
-      req.user = decoded;
-      next();
-    } catch (err) {
-      res.status(401).json({ msg: "Token inválido" });
-    }
-  };
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    req.user = decoded;
+    next();
+  } catch {
+    return res.status(401).json({ msg: "Token no válido" });
+  }
 };

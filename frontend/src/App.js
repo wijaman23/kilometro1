@@ -1,23 +1,49 @@
+// src/App.js
+
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 
+/* =========================
+   CONTEXTO DE AUTENTICACIÓN
+   ========================= */
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 
+/* =========================
+   PÁGINAS PÚBLICAS
+   ========================= */
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
+import ChangePassword from "./pages/ChangePassword";
+
+/* =========================
+   PÁGINAS DE USUARIO
+   ========================= */
 import Dashboard from "./pages/Dashboard";
 import Videos from "./pages/Videos";
-import AdminPanel from "./pages/AdminPanel";
+import NewsList from "./pages/news/NewsList";
+import NewsDetail from "./pages/news/NewsDetail";
+import Races from "./pages/races/RaceList";
+import RaceDetail from "./pages/races/RaceDetail";
+
+/* =========================
+   ADMIN
+   ========================= */
+import AdminPanel from "./pages/admin/AdminPanel";
+import AdminUsers from "./pages/admin/AdminUsers";
+import AdminVideos from "./pages/admin/AdminVideos";
+import AdminNews from "./pages/admin/AdminNews";
+import AdminRaces from "./pages/admin/AdminRaces";
+import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./components/AdminRoute";
 
-
-
-/**
- * Ruta privada: requiere estar logueado
- */
+/* =========================
+   RUTA PRIVADA (USUARIO)
+   ========================= */
 const PrivateRoute = ({ children }) => {
   const { token } = useContext(AuthContext);
-  return token ? children : <Navigate to="/" />;
+  return token ? children : <Navigate to="/login" />;
 };
 
 export default function App() {
@@ -25,12 +51,22 @@ export default function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-
-          {/* LOGIN */}
+          {/* =========================
+              RUTAS PÚBLICAS
+              ========================= */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
 
-          {/* DASHBOARD (usuario) */}
+          {/* Recuperación de contraseña */}
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/reset-password/:token" element={<ResetPassword />} />
+
+          {/* Cambio obligatorio de contraseña */}
+          <Route path="/change-password" element={<ChangePassword />} />
+
+          {/* =========================
+              RUTAS DE USUARIO
+              ========================= */}
           <Route
             path="/dashboard"
             element={
@@ -40,7 +76,6 @@ export default function App() {
             }
           />
 
-          {/* VIDEOS (usuario + admin) */}
           <Route
             path="/videos"
             element={
@@ -50,19 +85,65 @@ export default function App() {
             }
           />
 
-          {/* PANEL ADMIN (solo admin) */}
+          {/* NOTICIAS */}
+          <Route
+            path="/news"
+            element={
+              <PrivateRoute>
+                <NewsList />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/news/:id"
+            element={
+              <PrivateRoute>
+                <NewsDetail />
+              </PrivateRoute>
+            }
+          />
+
+          {/* CARRERAS */}
+          <Route
+            path="/races"
+            element={
+              <PrivateRoute>
+                <Races />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/races/:id"
+            element={
+              <PrivateRoute>
+                <RaceDetail />
+              </PrivateRoute>
+            }
+          />
+
+          {/* =========================
+              RUTAS DE ADMIN
+              ========================= */}
           <Route
             path="/admin"
             element={
               <AdminRoute>
-                <AdminPanel />
+                <AdminLayout />
               </AdminRoute>
             }
-          />
+          >
+            <Route index element={<AdminPanel />} />
+            <Route path="users" element={<AdminUsers />} />
+            <Route path="videos" element={<AdminVideos />} />
+            <Route path="news" element={<AdminNews />} />
+            <Route path="races" element={<AdminRaces />} />
+          </Route>
 
-          {/* REDIRECCIÓN POR DEFECTO */}
-          <Route path="*" element={<Navigate to="/dashboard" />} />
-
+          {/* =========================
+              FALLBACK
+              ========================= */}
+          <Route path="*" element={<Navigate to="/login" />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>

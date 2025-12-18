@@ -3,9 +3,8 @@ const mongoose = require("mongoose");
 const VideoSchema = new mongoose.Schema({
   title: { type: String, required: true },
   description: String,
-  youtubeId: { type: String, required: true },
-  publishDate: { type: Date, required: true },
-  createdAt: { type: Date, default: Date.now },
-});
+  embedUrl: { type: String, required: true },
+  publishDate: Date,
+}, { timestamps: true });
 
 module.exports = mongoose.model("Video", VideoSchema);

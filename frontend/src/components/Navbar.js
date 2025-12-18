@@ -1,7 +1,7 @@
+//Navbar.js
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import { useState } from "react";
-
 
 export default function Navbar() {
   const location = useLocation();
@@ -18,8 +18,7 @@ export default function Navbar() {
     navigate("/");
   };
 
-  const isActive = (path) =>
-    location.pathname === path ? "active-link" : "";
+  const isActive = (path) => (location.pathname === path ? "active-link" : "");
 
   return (
     <>
@@ -110,19 +109,29 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link
                   to="/videos"
-                  className={`nav-link nav-link-custom ${isActive(
-                    "/videos"
-                  )}`}
+                  className={`nav-link nav-link-custom ${isActive("/videos")}`}
                   onClick={() => setOpen(false)}
                 >
                   Vídeos
                 </Link>
               </li>
-
               <li className="nav-item">
-                <span className="nav-link nav-link-custom text-muted">
+                <Link
+                  to="/news"
+                  className={`nav-link nav-link-custom ${isActive("/news")}`}
+                  onClick={() => setOpen(false)}
+                >
+                  Noticias
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link nav-link-custom ${isActive("/races")}`}
+                  onClick={() => setOpen(false)}
+                  to="/races"
+                >
                   Carreras
-                </span>
+                </Link>
               </li>
 
               <li className="nav-item">
@@ -137,9 +146,7 @@ export default function Navbar() {
               {role === "admin" && (
                 <Link
                   to="/admin"
-                  className={`nav-link nav-link-custom ${isActive(
-                    "/admin"
-                  )}`}
+                  className={`nav-link nav-link-custom ${isActive("/admin")}`}
                   onClick={() => setOpen(false)}
                 >
                   Admin
@@ -147,10 +154,7 @@ export default function Navbar() {
                 </Link>
               )}
 
-              <button
-                className="btn btn-sm btn-outline-light"
-                onClick={logout}
-              >
+              <button className="btn btn-sm btn-outline-light" onClick={logout}>
                 Salir
               </button>
             </div>
