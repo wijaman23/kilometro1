@@ -26,6 +26,7 @@ import NewsList from "./pages/news/NewsList";
 import NewsDetail from "./pages/news/NewsDetail";
 import Races from "./pages/races/RaceList";
 import RaceDetail from "./pages/races/RaceDetail";
+import Achievements from "./pages/achievements/Achievements";
 
 /* =========================
    ADMIN
@@ -35,6 +36,7 @@ import AdminUsers from "./pages/admin/AdminUsers";
 import AdminVideos from "./pages/admin/AdminVideos";
 import AdminNews from "./pages/admin/AdminNews";
 import AdminRaces from "./pages/admin/AdminRaces";
+import AdminAchievements from "./pages/admin/AdminAchievements";
 import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./components/AdminRoute";
 
@@ -44,6 +46,18 @@ import AdminRoute from "./components/AdminRoute";
 const PrivateRoute = ({ children }) => {
   const { token } = useContext(AuthContext);
   return token ? children : <Navigate to="/login" />;
+};
+
+/* =========================
+   RUTA SOLO PARA USUARIOS NO "VIDEO"
+   ========================= */
+const NonVideoRoute = ({ children }) => {
+  const { user } = useContext(AuthContext);
+
+  if (!user) return <Navigate to="/login" />;
+  if (user.role === "video") return <Navigate to="/videos" />;
+
+  return children;
 };
 
 export default function App() {
@@ -71,11 +85,14 @@ export default function App() {
             path="/dashboard"
             element={
               <PrivateRoute>
-                <Dashboard />
+                <NonVideoRoute>
+                  <Dashboard />
+                </NonVideoRoute>
               </PrivateRoute>
             }
           />
 
+          {/* VÍDEOS (VISIBLE PARA TODOS LOS ROLES LOGUEADOS) */}
           <Route
             path="/videos"
             element={
@@ -90,7 +107,9 @@ export default function App() {
             path="/news"
             element={
               <PrivateRoute>
-                <NewsList />
+                <NonVideoRoute>
+                  <NewsList />
+                </NonVideoRoute>
               </PrivateRoute>
             }
           />
@@ -99,7 +118,9 @@ export default function App() {
             path="/news/:id"
             element={
               <PrivateRoute>
-                <NewsDetail />
+                <NonVideoRoute>
+                  <NewsDetail />
+                </NonVideoRoute>
               </PrivateRoute>
             }
           />
@@ -109,15 +130,32 @@ export default function App() {
             path="/races"
             element={
               <PrivateRoute>
-                <Races />
+                <NonVideoRoute>
+                  <Races />
+                </NonVideoRoute>
               </PrivateRoute>
             }
           />
+
           <Route
             path="/races/:id"
             element={
               <PrivateRoute>
-                <RaceDetail />
+                <NonVideoRoute>
+                  <RaceDetail />
+                </NonVideoRoute>
+              </PrivateRoute>
+            }
+          />
+
+          {/* LOGROS */}
+          <Route
+            path="/logros"
+            element={
+              <PrivateRoute>
+                <NonVideoRoute>
+                  <Achievements />
+                </NonVideoRoute>
               </PrivateRoute>
             }
           />
@@ -138,6 +176,7 @@ export default function App() {
             <Route path="videos" element={<AdminVideos />} />
             <Route path="news" element={<AdminNews />} />
             <Route path="races" element={<AdminRaces />} />
+            <Route path="logros" element={<AdminAchievements />} />
           </Route>
 
           {/* =========================

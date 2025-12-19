@@ -79,7 +79,7 @@ export default function Home() {
           </div>
 
           <div className="col-md-3">
-            <Link to="/achievements" className="text-decoration-none text-dark">
+            <Link to="/logros" className="text-decoration-none text-dark">
               <div className="card h-100 shadow-sm hover-card text-center p-4">
                 <div style={{ fontSize: 40 }}>🏆</div>
                 <h5 className="mt-3">Logros</h5>

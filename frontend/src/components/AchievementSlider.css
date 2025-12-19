@@ -1,0 +1,63 @@
+.achievement-slider {
+  max-width: 900px;
+  margin: auto;
+}
+
+.achievement-card {
+  position: relative;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: flex-end;
+}
+
+.achievement-content {
+  color: white;
+  padding: 30px;
+  max-width: 80%;
+}
+
+.achievement-content h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.achievement-content h5 {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.achievement-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 15px;
+}
+
+.slider-controls button {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  padding: 6px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.slider-controls button:hover {
+  background: rgba(255, 255, 255, 0.35);
+}

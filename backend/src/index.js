@@ -10,6 +10,7 @@ const videoRoutes = require("./routes/videos");
 const adminUsersRoutes = require("./routes/adminUsers");
 const newsRoutes = require("./routes/news");
 const racesRoutes = require("./routes/races");
+const achievementsRoutes = require("./routes/achievements");
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use("/api/videos", videoRoutes);
 app.use("/api/admin/users", adminUsersRoutes);
 app.use("/api/news", newsRoutes);
 app.use("/api/races", racesRoutes);
+app.use("/api/achievements", achievementsRoutes);
 
 app.get("/", (req, res) => {
   res.send("Kilómetro 1 API funcionando 🚀");

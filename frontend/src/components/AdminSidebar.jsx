@@ -21,6 +21,9 @@ export default function AdminSidebar() {
       <NavLink className="nav-link" to="/admin/news">
         Noticias
       </NavLink>
+            <NavLink className="nav-link" to="/admin/logros">
+        Logros
+      </NavLink>
     </div>
   );
 }

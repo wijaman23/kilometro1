@@ -1,4 +1,3 @@
-//Navbar.js
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import { useState } from "react";
@@ -18,13 +17,16 @@ export default function Navbar() {
     navigate("/");
   };
 
-  const isActive = (path) => (location.pathname === path ? "active-link" : "");
+  const isActive = (path) =>
+    location.pathname.startsWith(path) ? "active-link" : "";
+
+  const isVideoUser = role === "video";
 
   return (
     <>
       <style>{`
         .navbar-dark-custom {
-          background-color: #111;
+          background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
           border-bottom: 1px solid #222;
         }
 
@@ -32,6 +34,7 @@ export default function Navbar() {
           color: #ddd !important;
           position: relative;
           transition: color 0.2s ease;
+          font-weight: 500;
         }
 
         .nav-link-custom:hover {
@@ -42,7 +45,7 @@ export default function Navbar() {
           content: "";
           position: absolute;
           left: 0;
-          bottom: -4px;
+          bottom: -6px;
           width: 0%;
           height: 2px;
           background-color: #dc3545;
@@ -66,14 +69,15 @@ export default function Navbar() {
           padding: 2px 6px;
           border-radius: 6px;
           margin-left: 6px;
+          font-weight: 700;
         }
       `}</style>
 
-      <nav className="navbar navbar-expand-lg navbar-dark-custom">
+      <nav className="navbar navbar-expand-lg navbar-dark navbar-dark-custom">
         <div className="container">
           {/* LOGO */}
           <Link
-            to="/dashboard"
+            to={isVideoUser ? "/videos" : "/dashboard"}
             className="navbar-brand fw-bold text-white"
             style={{ letterSpacing: "1px" }}
             onClick={() => setOpen(false)}
@@ -94,18 +98,58 @@ export default function Navbar() {
           {/* CONTENIDO */}
           <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
             <ul className="navbar-nav mx-auto gap-lg-4 text-center">
-              <li className="nav-item">
-                <Link
-                  to="/dashboard"
-                  className={`nav-link nav-link-custom ${isActive(
-                    "/dashboard"
-                  )}`}
-                  onClick={() => setOpen(false)}
-                >
-                  Inicio
-                </Link>
-              </li>
+              {/* SOLO SI NO ES VIDEO */}
+              {!isVideoUser && (
+                <>
+                  <li className="nav-item">
+                    <Link
+                      to="/dashboard"
+                      className={`nav-link nav-link-custom ${isActive(
+                        "/dashboard"
+                      )}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      Inicio
+                    </Link>
+                  </li>
 
+                  <li className="nav-item">
+                    <Link
+                      to="/news"
+                      className={`nav-link nav-link-custom ${isActive("/news")}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      Noticias
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      to="/races"
+                      className={`nav-link nav-link-custom ${isActive(
+                        "/races"
+                      )}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      Carreras
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      to="/logros"
+                      className={`nav-link nav-link-custom ${isActive(
+                        "/logros"
+                      )}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      Logros
+                    </Link>
+                  </li>
+                </>
+              )}
+
+              {/* VÍDEOS (SIEMPRE VISIBLE) */}
               <li className="nav-item">
                 <Link
                   to="/videos"
@@ -114,30 +158,6 @@ export default function Navbar() {
                 >
                   Vídeos
                 </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="/news"
-                  className={`nav-link nav-link-custom ${isActive("/news")}`}
-                  onClick={() => setOpen(false)}
-                >
-                  Noticias
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className={`nav-link nav-link-custom ${isActive("/races")}`}
-                  onClick={() => setOpen(false)}
-                  to="/races"
-                >
-                  Carreras
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <span className="nav-link nav-link-custom text-muted">
-                  Logros
-                </span>
               </li>
             </ul>
 
@@ -154,7 +174,10 @@ export default function Navbar() {
                 </Link>
               )}
 
-              <button className="btn btn-sm btn-outline-light" onClick={logout}>
+              <button
+                className="btn btn-sm btn-outline-light"
+                onClick={logout}
+              >
                 Salir
               </button>
             </div>
