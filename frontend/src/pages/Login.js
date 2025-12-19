@@ -18,12 +18,10 @@ export default function Login() {
     setError("");
 
     try {
-      const res = await api.post("/auth/login", { username, password });
-
-      // Si tu backend devuelve { token: "..." } esto es correcto
-      localStorage.setItem("token", res.data.token);
-      setToken(res.data.token);
-      navigate("/dashboard");
+      const res = await api.post("/auth/login", {
+        username,
+        password,
+      });
 
       const jwt = res.data?.token;
 
@@ -32,14 +30,22 @@ export default function Login() {
         return;
       }
 
-      // ✅ IMPORTANTÍSIMO: persistir token (lo hace AuthContext)
+      // ✅ Guardar token
+      localStorage.setItem("token", jwt);
       setToken(jwt);
 
+      // ✅ Redirigir
       navigate("/dashboard", { replace: true });
     } catch (err) {
-      // Caso "mustChangePassword"
-      if (err.response?.status === 403 && err.response.data?.mustChangePassword) {
-        localStorage.setItem("mustChangeUserId", err.response.data.userId);
+      // 🔒 Caso cambio obligatorio de contraseña
+      if (
+        err.response?.status === 403 &&
+        err.response.data?.mustChangePassword
+      ) {
+        localStorage.setItem(
+          "mustChangeUserId",
+          err.response.data.userId
+        );
         navigate("/change-password", { replace: true });
         return;
       }
@@ -55,13 +61,17 @@ export default function Login() {
         <div className="overlay" />
       </div>
 
-      {/* LADO DERECHO – FORM */}
+      {/* LADO DERECHO – FORMULARIO */}
       <div className="login-form">
         <div className="card shadow p-4 login-card">
-          <h2 className="login-title text-center mb-4">Kilometro 1</h2>
+          <h2 className="login-title text-center mb-4">
+            Kilómetro 1
+          </h2>
 
           {error && (
-            <div className="alert alert-danger text-center">{error}</div>
+            <div className="alert alert-danger text-center">
+              {error}
+            </div>
           )}
 
           <form onSubmit={handleSubmit}>
@@ -94,15 +104,20 @@ export default function Login() {
               </button>
             </div>
 
-            <button className="btn btn-danger w-100 mb-3">Entrar</button>
+            <button className="btn btn-danger w-100 mb-3">
+              Entrar
+            </button>
           </form>
 
           <div className="text-center">
-            <Link to="/forgot-password">¿Has olvidado tu contraseña?</Link>
+            <Link to="/forgot-password">
+              ¿Has olvidado tu contraseña?
+            </Link>
           </div>
         </div>
       </div>
 
+      {/* FIRMA */}
       <img
         src={require("../assets/firma.png")}
         alt="Firma"
