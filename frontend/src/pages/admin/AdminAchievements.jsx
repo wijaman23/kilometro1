@@ -60,8 +60,6 @@ export default function AdminAchievements() {
 
   return (
     <>
-      <Navbar />
-
       <div className="container mt-4">
         <h2 className="mb-3">🏆 Logros</h2>
 

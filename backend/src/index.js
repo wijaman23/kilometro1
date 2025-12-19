@@ -12,6 +12,7 @@ const newsRoutes = require("./routes/news");
 const racesRoutes = require("./routes/races");
 const achievementsRoutes = require("./routes/achievements");
 
+
 const app = express();
 
 // Conectar DB
