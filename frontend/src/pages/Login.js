@@ -1,4 +1,3 @@
-// src/pages/Login.js
 import { useState, useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import api from "../services/api";
@@ -19,20 +18,25 @@ export default function Login() {
     setError("");
 
     try {
-      const res = await api.post("/auth/login", {
-        username,
-        password,
-      });
+      const res = await api.post("/auth/login", { username, password });
 
-      setToken(res.data.token);
-      navigate("/dashboard");
+      // Si tu backend devuelve { token: "..." } esto es correcto
+      const jwt = res.data?.token;
+
+      if (!jwt) {
+        setError("No se recibió token del servidor");
+        return;
+      }
+
+      // ✅ IMPORTANTÍSIMO: persistir token (lo hace AuthContext)
+      setToken(jwt);
+
+      navigate("/dashboard", { replace: true });
     } catch (err) {
-      if (
-        err.response?.status === 403 &&
-        err.response.data?.mustChangePassword
-      ) {
+      // Caso "mustChangePassword"
+      if (err.response?.status === 403 && err.response.data?.mustChangePassword) {
         localStorage.setItem("mustChangeUserId", err.response.data.userId);
-        navigate("/change-password");
+        navigate("/change-password", { replace: true });
         return;
       }
 
@@ -94,6 +98,7 @@ export default function Login() {
           </div>
         </div>
       </div>
+
       <img
         src={require("../assets/firma.png")}
         alt="Firma"

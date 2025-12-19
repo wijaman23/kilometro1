@@ -1,36 +1,45 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useEffect, useMemo, useState } from "react";
 
 export const AuthContext = createContext();
 
+/**
+ * AuthProvider
+ * - Guarda token en state
+ * - Persistencia en localStorage
+ * - Se recupera al arrancar (muy importante en producción)
+ */
 export function AuthProvider({ children }) {
-  const [token, setTokenState] = useState(null);
+  const [token, setTokenState] = useState(() => localStorage.getItem("token") || "");
 
-  // 🔁 Cargar token al refrescar
-  useEffect(() => {
-    const savedToken = localStorage.getItem("token");
-    if (savedToken) {
-      setTokenState(savedToken);
-    }
-  }, []);
-
-  // 🔐 Guardar token correctamente
   const setToken = (newToken) => {
-    if (newToken) {
-      localStorage.setItem("token", newToken);
-      setTokenState(newToken);
-    } else {
+    if (!newToken) {
       localStorage.removeItem("token");
-      setTokenState(null);
+      setTokenState("");
+      return;
     }
+
+    localStorage.setItem("token", newToken);
+    setTokenState(newToken);
   };
 
   const logout = () => {
-    setToken(null);
+    localStorage.removeItem("token");
+    localStorage.removeItem("mustChangeUserId");
+    setTokenState("");
   };
 
-  return (
-    <AuthContext.Provider value={{ token, setToken, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
+  // Por si el usuario abre otra pestaña y se desloguea/loguea
+  useEffect(() => {
+    const onStorage = (e) => {
+      if (e.key === "token") {
+        setTokenState(e.newValue || "");
+      }
+    };
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
+
+  const value = useMemo(() => ({ token, setToken, logout }), [token]);
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
