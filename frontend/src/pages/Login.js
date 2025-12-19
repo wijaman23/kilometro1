@@ -18,34 +18,22 @@ export default function Login() {
     setError("");
 
     try {
-      const res = await api.post("/auth/login", {
-        username,
-        password,
-      });
+      const res = await api.post("/auth/login", { username, password });
 
       const jwt = res.data?.token;
-
       if (!jwt) {
         setError("No se recibió token del servidor");
         return;
       }
 
-      // ✅ Guardar token
-      localStorage.setItem("token", jwt);
+      // ✅ Persistencia + estado global
       setToken(jwt);
 
-      // ✅ Redirigir
+      // ✅ Ir al dashboard
       navigate("/dashboard", { replace: true });
     } catch (err) {
-      // 🔒 Caso cambio obligatorio de contraseña
-      if (
-        err.response?.status === 403 &&
-        err.response.data?.mustChangePassword
-      ) {
-        localStorage.setItem(
-          "mustChangeUserId",
-          err.response.data.userId
-        );
+      if (err.response?.status === 403 && err.response.data?.mustChangePassword) {
+        localStorage.setItem("mustChangeUserId", err.response.data.userId);
         navigate("/change-password", { replace: true });
         return;
       }
@@ -56,23 +44,15 @@ export default function Login() {
 
   return (
     <div className="login-wrapper">
-      {/* LADO IZQUIERDO – IMAGEN */}
       <div className="login-image">
         <div className="overlay" />
       </div>
 
-      {/* LADO DERECHO – FORMULARIO */}
       <div className="login-form">
         <div className="card shadow p-4 login-card">
-          <h2 className="login-title text-center mb-4">
-            Kilómetro 1
-          </h2>
+          <h2 className="login-title text-center mb-4">Kilometro 1</h2>
 
-          {error && (
-            <div className="alert alert-danger text-center">
-              {error}
-            </div>
-          )}
+          {error && <div className="alert alert-danger text-center">{error}</div>}
 
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -104,20 +84,15 @@ export default function Login() {
               </button>
             </div>
 
-            <button className="btn btn-danger w-100 mb-3">
-              Entrar
-            </button>
+            <button className="btn btn-danger w-100 mb-3">Entrar</button>
           </form>
 
           <div className="text-center">
-            <Link to="/forgot-password">
-              ¿Has olvidado tu contraseña?
-            </Link>
+            <Link to="/forgot-password">¿Has olvidado tu contraseña?</Link>
           </div>
         </div>
       </div>
 
-      {/* FIRMA */}
       <img
         src={require("../assets/firma.png")}
         alt="Firma"

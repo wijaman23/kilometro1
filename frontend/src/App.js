@@ -1,25 +1,15 @@
-// src/App.js
-
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
+import { jwtDecode } from "jwt-decode";
 
-/* =========================
-   CONTEXTO DE AUTENTICACIÓN
-   ========================= */
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 
-/* =========================
-   PÁGINAS PÚBLICAS
-   ========================= */
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import ChangePassword from "./pages/ChangePassword";
 
-/* =========================
-   PÁGINAS DE USUARIO
-   ========================= */
 import Dashboard from "./pages/Dashboard";
 import Videos from "./pages/Videos";
 import NewsList from "./pages/news/NewsList";
@@ -28,9 +18,6 @@ import Races from "./pages/races/RaceList";
 import RaceDetail from "./pages/races/RaceDetail";
 import Achievements from "./pages/achievements/Achievements";
 
-/* =========================
-   ADMIN
-   ========================= */
 import AdminPanel from "./pages/admin/AdminPanel";
 import AdminUsers from "./pages/admin/AdminUsers";
 import AdminVideos from "./pages/admin/AdminVideos";
@@ -40,22 +27,22 @@ import AdminAchievements from "./pages/admin/AdminAchievements";
 import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./components/AdminRoute";
 
-/* =========================
-   RUTA PRIVADA (USUARIO)
-   ========================= */
 const PrivateRoute = ({ children }) => {
   const { token } = useContext(AuthContext);
-  return token ? children : <Navigate to="/login" />;
+  return token ? children : <Navigate to="/login" replace />;
 };
 
-/* =========================
-   RUTA SOLO PARA USUARIOS NO "VIDEO"
-   ========================= */
+// ✅ NO depende de user; decodifica rol desde token
 const NonVideoRoute = ({ children }) => {
-  const { user } = useContext(AuthContext);
+  const token = localStorage.getItem("token");
+  if (!token) return <Navigate to="/login" replace />;
 
-  if (!user) return <Navigate to="/login" />;
-  if (user.role === "video") return <Navigate to="/videos" />;
+  try {
+    const decoded = jwtDecode(token);
+    if (decoded?.role === "video") return <Navigate to="/videos" replace />;
+  } catch {
+    return <Navigate to="/login" replace />;
+  }
 
   return children;
 };
@@ -65,22 +52,14 @@ export default function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          {/* =========================
-              RUTAS PÚBLICAS
-              ========================= */}
+          {/* Públicas */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-
-          {/* Recuperación de contraseña */}
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
-
-          {/* Cambio obligatorio de contraseña */}
           <Route path="/change-password" element={<ChangePassword />} />
 
-          {/* =========================
-              RUTAS DE USUARIO
-              ========================= */}
+          {/* Usuario */}
           <Route
             path="/dashboard"
             element={
@@ -92,7 +71,6 @@ export default function App() {
             }
           />
 
-          {/* VÍDEOS (VISIBLE PARA TODOS LOS ROLES LOGUEADOS) */}
           <Route
             path="/videos"
             element={
@@ -102,7 +80,6 @@ export default function App() {
             }
           />
 
-          {/* NOTICIAS */}
           <Route
             path="/news"
             element={
@@ -125,7 +102,6 @@ export default function App() {
             }
           />
 
-          {/* CARRERAS */}
           <Route
             path="/races"
             element={
@@ -148,7 +124,6 @@ export default function App() {
             }
           />
 
-          {/* LOGROS */}
           <Route
             path="/logros"
             element={
@@ -160,9 +135,7 @@ export default function App() {
             }
           />
 
-          {/* =========================
-              RUTAS DE ADMIN
-              ========================= */}
+          {/* Admin */}
           <Route
             path="/admin"
             element={
@@ -179,10 +152,7 @@ export default function App() {
             <Route path="logros" element={<AdminAchievements />} />
           </Route>
 
-          {/* =========================
-              FALLBACK
-              ========================= */}
-          <Route path="*" element={<Navigate to="/login" />} />
+          <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
