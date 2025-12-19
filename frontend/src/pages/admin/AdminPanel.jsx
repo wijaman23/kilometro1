@@ -36,6 +36,9 @@ export default function AdminPanel() {
         <Link to="races" className={`btn ${isActive("races")}`}>
           Carreras
         </Link>
+        <Link to="logros" className={`btn ${isActive("logros")}`}>
+          Logros
+        </Link>
       </div>
 
       {/* CONTENIDO DINÁMICO */}
