@@ -21,6 +21,10 @@ export default function Login() {
       const res = await api.post("/auth/login", { username, password });
 
       // Si tu backend devuelve { token: "..." } esto es correcto
+      localStorage.setItem("token", res.data.token);
+      setToken(res.data.token);
+      navigate("/dashboard");
+
       const jwt = res.data?.token;
 
       if (!jwt) {
