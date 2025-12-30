@@ -4,14 +4,18 @@ import { jwtDecode } from "jwt-decode";
 export const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
-  const [token, setTokenState] = useState(() => localStorage.getItem("token") || "");
+  const [token, setTokenState] = useState(() => localStorage.getItem("token") || null);
   const [user, setUser] = useState(null);
+
+  const logout = () => {
+    localStorage.removeItem("token");
+    setTokenState(null);
+    setUser(null);
+  };
 
   const setToken = (newToken) => {
     if (!newToken) {
-      localStorage.removeItem("token");
-      setTokenState("");
-      setUser(null);
+      logout();
       return;
     }
 
@@ -19,10 +23,10 @@ export function AuthProvider({ children }) {
     setTokenState(newToken);
 
     try {
-      const decoded = jwtDecode(newToken);
-      setUser(decoded);
+      setUser(jwtDecode(newToken));
     } catch {
-      setUser(null);
+      // token corrupto
+      logout();
     }
   };
 
@@ -31,14 +35,16 @@ export function AuthProvider({ children }) {
       setUser(null);
       return;
     }
+
     try {
       setUser(jwtDecode(token));
     } catch {
-      setUser(null);
+      logout();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
 
-  const value = useMemo(() => ({ token, user, setToken }), [token, user]);
+  const value = useMemo(() => ({ token, user, setToken, logout }), [token, user]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

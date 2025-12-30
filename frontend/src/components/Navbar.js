@@ -1,32 +1,32 @@
+// src/components/Navbar.js
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { jwtDecode } from "jwt-decode";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
-  const token = localStorage.getItem("token");
+  const { user, logout } = useContext(AuthContext);
   const [open, setOpen] = useState(false);
 
-  if (!token) return null;
+  if (!user) return null;
 
-  const { role } = jwtDecode(token);
-
-  const logout = () => {
-    localStorage.removeItem("token");
-    navigate("/");
-  };
+  const role = user.role;
+  const isVideoOnly = role === "video";
 
   const isActive = (path) =>
     location.pathname.startsWith(path) ? "active-link" : "";
 
-  const isVideoUser = role === "video";
+  const handleLogout = () => {
+    logout();
+    navigate("/login", { replace: true });
+  };
 
   return (
     <>
       <style>{`
         .navbar-dark-custom {
-          background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
+          background-color: #111;
           border-bottom: 1px solid #222;
         }
 
@@ -34,7 +34,6 @@ export default function Navbar() {
           color: #ddd !important;
           position: relative;
           transition: color 0.2s ease;
-          font-weight: 500;
         }
 
         .nav-link-custom:hover {
@@ -45,7 +44,7 @@ export default function Navbar() {
           content: "";
           position: absolute;
           left: 0;
-          bottom: -6px;
+          bottom: -4px;
           width: 0%;
           height: 2px;
           background-color: #dc3545;
@@ -69,15 +68,14 @@ export default function Navbar() {
           padding: 2px 6px;
           border-radius: 6px;
           margin-left: 6px;
-          font-weight: 700;
         }
       `}</style>
 
-      <nav className="navbar navbar-expand-lg navbar-dark navbar-dark-custom">
+      <nav className="navbar navbar-expand-lg navbar-dark-custom">
         <div className="container">
           {/* LOGO */}
           <Link
-            to={isVideoUser ? "/videos" : "/dashboard"}
+            to={isVideoOnly ? "/videos" : "/dashboard"}
             className="navbar-brand fw-bold text-white"
             style={{ letterSpacing: "1px" }}
             onClick={() => setOpen(false)}
@@ -98,15 +96,23 @@ export default function Navbar() {
           {/* CONTENIDO */}
           <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
             <ul className="navbar-nav mx-auto gap-lg-4 text-center">
-              {/* SOLO SI NO ES VIDEO */}
-              {!isVideoUser && (
+              {/* USUARIO VIDEO → SOLO VÍDEOS */}
+              {isVideoOnly ? (
+                <li className="nav-item">
+                  <Link
+                    to="/videos"
+                    className={`nav-link nav-link-custom ${isActive("/videos")}`}
+                    onClick={() => setOpen(false)}
+                  >
+                    Vídeos
+                  </Link>
+                </li>
+              ) : (
                 <>
                   <li className="nav-item">
                     <Link
                       to="/dashboard"
-                      className={`nav-link nav-link-custom ${isActive(
-                        "/dashboard"
-                      )}`}
+                      className={`nav-link nav-link-custom ${isActive("/dashboard")}`}
                       onClick={() => setOpen(false)}
                     >
                       Inicio
@@ -126,9 +132,7 @@ export default function Navbar() {
                   <li className="nav-item">
                     <Link
                       to="/races"
-                      className={`nav-link nav-link-custom ${isActive(
-                        "/races"
-                      )}`}
+                      className={`nav-link nav-link-custom ${isActive("/races")}`}
                       onClick={() => setOpen(false)}
                     >
                       Carreras
@@ -138,45 +142,41 @@ export default function Navbar() {
                   <li className="nav-item">
                     <Link
                       to="/logros"
-                      className={`nav-link nav-link-custom ${isActive(
-                        "/logros"
-                      )}`}
+                      className={`nav-link nav-link-custom ${isActive("/logros")}`}
                       onClick={() => setOpen(false)}
                     >
                       Logros
                     </Link>
                   </li>
+
+                  <li className="nav-item">
+                    <Link
+                      to="/videos"
+                      className={`nav-link nav-link-custom ${isActive("/videos")}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      Vídeos
+                    </Link>
+                  </li>
                 </>
               )}
-
-              {/* VÍDEOS (SIEMPRE VISIBLE) */}
-              <li className="nav-item">
-                <Link
-                  to="/videos"
-                  className={`nav-link nav-link-custom ${isActive("/videos")}`}
-                  onClick={() => setOpen(false)}
-                >
-                  Vídeos
-                </Link>
-              </li>
             </ul>
 
             {/* DERECHA */}
-            <div className="d-flex align-items-center justify-content-center gap-3 mt-3 mt-lg-0">
-              {role === "admin" && (
+            <div className="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+              {!isVideoOnly && role === "admin" && (
                 <Link
                   to="/admin"
                   className={`nav-link nav-link-custom ${isActive("/admin")}`}
                   onClick={() => setOpen(false)}
                 >
-                  Admin
-                  <span className="admin-badge">ADMIN</span>
+                  Admin <span className="admin-badge">ADMIN</span>
                 </Link>
               )}
 
               <button
                 className="btn btn-sm btn-outline-light"
-                onClick={logout}
+                onClick={handleLogout}
               >
                 Salir
               </button>
