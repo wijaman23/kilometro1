@@ -123,6 +123,7 @@ export default function AdminUsers() {
           onChange={(e) => setNewUser({ ...newUser, role: e.target.value })}
         >
           <option value="user">Usuario</option>
+          <option value="video">Video</option>
           <option value="admin">Admin</option>
         </select>
 
