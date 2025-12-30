@@ -52,19 +52,6 @@ export default function AchievementSlider({ achievements = [] }) {
           display:block;
           filter: contrast(1.02) saturate(1.05);
         }
-        .ach-laurel {
-          position:absolute;
-          inset: -10px;
-          pointer-events:none;
-          opacity: 0.95;
-          background:
-            radial-gradient(circle at 50% 30%, rgba(255,255,255,0.10), transparent 55%),
-            url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='520' viewBox='0 0 420 520'%3E%3Cg fill='none' stroke='%23d6b24c' stroke-width='10' opacity='0.85'%3E%3Cpath d='M110 420c-40-60-55-150-10-240 22-45 50-78 85-105'/%3E%3Cpath d='M310 420c40-60 55-150 10-240-22-45-50-78-85-105'/%3E%3C/g%3E%3Cg fill='%23d6b24c' opacity='0.75'%3E%3Ccircle cx='112' cy='410' r='5'/%3E%3Ccircle cx='308' cy='410' r='5'/%3E%3C/g%3E%3C/svg%3E");
-          background-repeat:no-repeat;
-          background-position:center;
-          background-size: cover;
-          mix-blend-mode: screen;
-        }
         .ach-right {
           padding: 22px 22px 18px;
         }
@@ -129,7 +116,6 @@ export default function AchievementSlider({ achievements = [] }) {
             <div className="ach-left">
               <div className="ach-img-wrap">
                 <img className="ach-img" src={current.imageUrl} alt={current.title} />
-                <div className="ach-laurel" />
               </div>
             </div>
           </div>
