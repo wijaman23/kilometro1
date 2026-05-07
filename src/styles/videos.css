@@ -4,6 +4,7 @@
     radial-gradient(circle at top right, rgba(20, 49, 28, .62), transparent 34%),
     var(--km-black);
   color: var(--km-white);
+  overflow-x: hidden;
 }
 
 /* NAV */
@@ -258,6 +259,7 @@
 
 .youtube-card {
   width: 100%;
+  min-width: 0;
   transform: translateZ(0);
   animation: fadeUp .32s ease both;
 }
@@ -413,19 +415,6 @@
   font-size: 13px;
   font-weight: 450;
   letter-spacing: .1px;
-}
-
-/* EMPTY */
-
-.empty-message {
-  padding: 28px;
-
-  border-radius: 22px;
-
-  background: rgba(225, 225, 225, .045);
-  border: 1px solid rgba(225, 225, 225, .10);
-
-  color: rgba(225, 225, 225, .72);
 }
 
 /* MODAL */
@@ -611,62 +600,117 @@
 
 @media (max-width: 620px) {
   .videos-nav {
-    padding: 16px;
+    padding: 14px 12px;
   }
 
   .videos-logo-link {
-    padding: 8px 10px;
-    border-radius: 14px;
+    padding: 7px 9px;
+    border-radius: 13px;
   }
 
   .videos-logo-img {
-    width: 132px;
+    width: 114px;
+    max-width: 40vw;
   }
 
   .back-home-btn {
-    min-height: 40px;
-    padding: 0 15px;
-    font-size: 12px;
+    min-height: 36px;
+    padding: 0 12px;
+    font-size: 11px;
+    letter-spacing: .2px;
   }
 
   .videos-container {
-    width: calc(100% - 24px);
-    padding-top: 30px;
+    width: calc(100% - 20px);
+    padding-top: 24px;
     padding-bottom: 54px;
   }
 
+  .videos-title {
+    margin-bottom: 24px;
+  }
+
+  .videos-title p {
+    font-size: 12px;
+    letter-spacing: 1.6px;
+  }
+
   .videos-title h1 {
-    font-size: 50px;
-    letter-spacing: -2px;
+    font-size: 42px;
+    letter-spacing: -1px;
   }
 
   .videos-title span {
-    font-size: 16px;
+    font-size: 14.5px;
+    line-height: 1.38;
+  }
+
+  .filters-panel {
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .category-scroll {
+    gap: 8px;
+    padding-bottom: 6px;
   }
 
   .category-pill {
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 9px 13px;
+    font-size: 13px;
   }
 
   .selects-row {
     flex-direction: column;
-    gap: 10px;
+    gap: 9px;
   }
 
   .select-wrapper {
-    height: 52px;
+    height: 48px;
+  }
+
+  .select-icon {
+    left: 15px;
+    font-size: 14px;
+  }
+
+  .select-arrow {
+    right: 15px;
+    font-size: 16px;
+  }
+
+  .select-wrapper select {
+    font-size: 13px;
+    padding-left: 44px;
+    padding-right: 42px;
   }
 
   .youtube-grid {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 26px;
+  }
+
+  .youtube-thumb {
+    border-radius: 14px;
   }
 
   .play-badge {
-    width: 48px;
-    height: 48px;
-    font-size: 18px;
+    width: 46px;
+    height: 46px;
+    font-size: 17px;
+  }
+
+  .youtube-card-info button {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .video-meta span {
+    font-size: 10.5px;
+  }
+
+  .video-meta small {
+    font-size: 12px;
   }
 
   .video-modal {
@@ -674,10 +718,19 @@
   }
 
   .video-modal-content {
-    border-radius: 20px;
+    border-radius: 18px;
   }
 
   .modal-video-info {
-    padding: 16px;
+    padding: 15px;
+  }
+
+  .modal-video-info h2 {
+    font-size: 20px;
+  }
+
+  .modal-video-info p,
+  .modal-video-info span {
+    font-size: 14px;
   }
 }

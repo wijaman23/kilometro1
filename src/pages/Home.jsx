@@ -23,7 +23,7 @@ function Home() {
 
           <h1 className="hero-title">
             <span>Somos</span>
-            <span>Kilómetro1</span>
+            <span>Kilometro1</span>
           </h1>
 
           <p className="hero-description">
