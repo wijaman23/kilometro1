@@ -1,4 +1,13 @@
 const videos = [
+      {
+    id: 17,
+    titulo: 'Corrí la Movistar Medio Maratón SIN entrenarla… ¿error o acierto?',
+    categoria: 'Otros',
+    fecha: '2026-04-12',
+    descripcion: 'Corrí la Media Maratón de Madrid sin prepararla específicamente… y así lo viví.',
+    enlace: 'https://www.youtube.com/watch?v=qBaVmUm4x2Q&t=11s',
+    thumbnail: 'https://img.youtube.com/vi/qBaVmUm4x2Q/hqdefault.jpg',
+  },
   {
     id: 16,
     titulo: 'Sesión Mastermind KM1 | Abril',
