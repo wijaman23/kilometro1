@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import logo from "../assets/logo.png";
+import logo from '../assets/LOGO_2_BLANCO.svg'
 import crownLogo from "../assets/crown.png";
 
 import "../styles/home.css";
