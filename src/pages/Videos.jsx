@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { track } from '@vercel/analytics'
+import ReactGA from 'react-ga4'
 
 import videos from '../data/videos'
 import logo from '../assets/LOGO_2_BLANCO.svg'
@@ -88,11 +88,10 @@ function Videos() {
   }, [categoriaActiva, orden, mes])
 
   const abrirVideo = video => {
-    track('Abrir video', {
-      titulo: video.titulo,
-      categoria: video.categoria,
-      fecha: video.fecha,
-      enlace: video.enlace,
+    ReactGA.event({
+      category: 'Videos',
+      action: 'Abrir video',
+      label: video.titulo,
     })
 
     setCargandoVideo(true)
@@ -127,9 +126,7 @@ function Videos() {
       <section className="videos-container">
         <header className="videos-title">
           <p>Contenido KM1</p>
-
           <h1>Vídeos</h1>
-
           <span>
             Clases, nutrición, mentalidad, técnica y sesiones Mastermind.
           </span>
@@ -191,11 +188,7 @@ function Videos() {
                     className="youtube-thumb"
                     onClick={() => abrirVideo(video)}
                   >
-                    <img
-                      src={video.thumbnail}
-                      alt={video.titulo}
-                      loading="lazy"
-                    />
+                    <img src={video.thumbnail} alt={video.titulo} loading="lazy" />
 
                     <iframe
                       className="preview-iframe"
@@ -230,10 +223,7 @@ function Videos() {
 
       {videoActivo && (
         <div className="video-modal" onClick={cerrarVideo}>
-          <div
-            className="video-modal-content"
-            onClick={e => e.stopPropagation()}
-          >
+          <div className="video-modal-content" onClick={e => e.stopPropagation()}>
             <button className="close-modal" onClick={cerrarVideo}>
               ✕
             </button>
@@ -245,9 +235,7 @@ function Videos() {
             )}
 
             <iframe
-              src={`https://www.youtube.com/embed/${getYoutubeId(
-                videoActivo.enlace,
-              )}?autoplay=1&rel=0`}
+              src={`https://www.youtube.com/embed/${getYoutubeId(videoActivo.enlace)}?autoplay=1&rel=0`}
               title={videoActivo.titulo}
               allow="autoplay; encrypted-media; picture-in-picture"
               allowFullScreen
@@ -256,9 +244,7 @@ function Videos() {
 
             <div className="modal-video-info">
               <h2>{videoActivo.titulo}</h2>
-
               <p>{videoActivo.descripcion}</p>
-
               <span>
                 {videoActivo.categoria} · {formatearFecha(videoActivo.fecha)}
               </span>
