@@ -126,7 +126,9 @@ function Videos() {
       <section className="videos-container">
         <header className="videos-title">
           <p>Contenido KM1</p>
+
           <h1>Vídeos</h1>
+
           <span>
             Clases, nutrición, mentalidad, técnica y sesiones Mastermind.
           </span>
@@ -149,8 +151,29 @@ function Videos() {
             ))}
           </div>
 
+          <div className="mobile-filters-title">
+            Filtra el contenido
+          </div>
+
           <div className="selects-row">
-            <div className="select-wrapper">
+            <div className="select-wrapper mobile-category-select">
+              <span className="select-icon">☰</span>
+
+              <select
+                value={categoriaActiva}
+                onChange={e => setCategoriaActiva(e.target.value)}
+              >
+                {categorias.map(categoria => (
+                  <option key={categoria} value={categoria}>
+                    {categoria}
+                  </option>
+                ))}
+              </select>
+
+              <span className="select-arrow">⌄</span>
+            </div>
+
+            <div className="select-wrapper desktop-month-select">
               <span className="select-icon">☰</span>
 
               <select value={mes} onChange={e => setMes(e.target.value)}>
@@ -188,7 +211,11 @@ function Videos() {
                     className="youtube-thumb"
                     onClick={() => abrirVideo(video)}
                   >
-                    <img src={video.thumbnail} alt={video.titulo} loading="lazy" />
+                    <img
+                      src={video.thumbnail}
+                      alt={video.titulo}
+                      loading="lazy"
+                    />
 
                     <iframe
                       className="preview-iframe"
@@ -223,7 +250,10 @@ function Videos() {
 
       {videoActivo && (
         <div className="video-modal" onClick={cerrarVideo}>
-          <div className="video-modal-content" onClick={e => e.stopPropagation()}>
+          <div
+            className="video-modal-content"
+            onClick={e => e.stopPropagation()}
+          >
             <button className="close-modal" onClick={cerrarVideo}>
               ✕
             </button>
@@ -235,7 +265,9 @@ function Videos() {
             )}
 
             <iframe
-              src={`https://www.youtube.com/embed/${getYoutubeId(videoActivo.enlace)}?autoplay=1&rel=0`}
+              src={`https://www.youtube.com/embed/${getYoutubeId(
+                videoActivo.enlace,
+              )}?autoplay=1&rel=0`}
               title={videoActivo.titulo}
               allow="autoplay; encrypted-media; picture-in-picture"
               allowFullScreen
@@ -244,7 +276,9 @@ function Videos() {
 
             <div className="modal-video-info">
               <h2>{videoActivo.titulo}</h2>
+
               <p>{videoActivo.descripcion}</p>
+
               <span>
                 {videoActivo.categoria} · {formatearFecha(videoActivo.fecha)}
               </span>
