@@ -1,34 +1,38 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-import logo from '../assets/LOGO_2_BLANCO.svg'
+import logo from "../assets/logo.png";
+import crownLogo from "../assets/crown.png";
 
-function Home() {
+import "../styles/home.css";
+
+export default function Home() {
   return (
-    <main className="home-page">
+    <div className="home-page">
       <div className="hero-background"></div>
 
-      <nav className="hero-navbar">
+      <header className="hero-navbar">
         <Link to="/" className="hero-logo-link">
-          <img src={logo} alt="Kilómetro 1" className="hero-logo-img" />
+          <img src={logo} alt="Kilómetro1" className="hero-logo-img" />
         </Link>
 
         <Link to="/videos" className="hero-videos-btn">
-          ▶ Ver vídeos
+          ▶ VER VÍDEOS
         </Link>
-      </nav>
+      </header>
 
-      <section className="hero-content">
+      <main className="hero-content">
         <div className="hero-text">
-          <p className="hero-subtitle">Comunidad runner</p>
+          <p className="hero-subtitle">COMUNIDAD RUNNER</p>
 
           <h1 className="hero-title">
-            <span>Somos</span>
-            <span>Kilometro1</span>
+            <span>SOMOS</span>
+            <span>KILOMETRO1</span>
           </h1>
 
           <p className="hero-description">
-            Corredores de todo el mundo persiguiendo la{' '}
-            <strong>EXCELENCIA</strong> también en el <strong>RUNNING</strong>.
+            Corredores de todo el mundo persiguiendo la{" "}
+            <strong>EXCELENCIA</strong> también en el{" "}
+            <strong>RUNNING.</strong>
           </p>
 
           <div className="hero-actions">
@@ -38,17 +42,22 @@ function Home() {
               rel="noreferrer"
               className="hero-community-btn"
             >
-              Únete a la comunidad
+              ÚNETE A LA COMUNIDAD
             </a>
-
-            <Link to="/videos" className="hero-secondary-btn">
-              Ver vídeos
-            </Link>
           </div>
         </div>
-      </section>
-    </main>
-  )
-}
+      </main>
 
-export default Home
+      <a
+        href="https://club.crownsportnutrition.com/es/iniciar-sesion?back=my-account"
+        target="_blank"
+        rel="noreferrer"
+        className="crown-partner"
+      >
+        <span>Partner nutricional</span>
+
+        <img src={crownLogo} alt="Crown Sport Nutrition" />
+      </a>
+    </div>
+  );
+}
