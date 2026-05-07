@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { track } from '@vercel/analytics'
 
 import videos from '../data/videos'
-
-import logo from '../assets/kilometro1.png'
+import logo from '../assets/LOGO_2_BLANCO.svg'
 
 function getYoutubeId(url) {
   if (url.includes('youtu.be/')) {
@@ -22,8 +22,25 @@ function Videos() {
   const [orden, setOrden] = useState('recientes')
   const [mes, setMes] = useState('Todos')
   const [videoActivo, setVideoActivo] = useState(null)
+  const [cargandoVideo, setCargandoVideo] = useState(false)
 
-  const categorias = ['Todos', ...new Set(videos.map(video => video.categoria))]
+  const categoriasOrdenadas = [
+    'Todos',
+    'Mastermind',
+    'Clase mensual',
+    'Nutrición',
+    'Entrenamiento',
+    'Técnica',
+    'Mentalidad',
+    'Material',
+    'Otros',
+  ]
+
+  const categorias = categoriasOrdenadas.filter(
+    categoria =>
+      categoria === 'Todos' ||
+      videos.some(video => video.categoria === categoria),
+  )
 
   const meses = [
     'Todos',
@@ -43,9 +60,7 @@ function Videos() {
     let resultado = [...videos]
 
     if (categoriaActiva !== 'Todos') {
-      resultado = resultado.filter(
-        video => video.categoria === categoriaActiva,
-      )
+      resultado = resultado.filter(video => video.categoria === categoriaActiva)
     }
 
     if (mes !== 'Todos') {
@@ -72,6 +87,23 @@ function Videos() {
     return resultado
   }, [categoriaActiva, orden, mes])
 
+  const abrirVideo = video => {
+    track('Abrir video', {
+      titulo: video.titulo,
+      categoria: video.categoria,
+      fecha: video.fecha,
+      enlace: video.enlace,
+    })
+
+    setCargandoVideo(true)
+    setVideoActivo(video)
+  }
+
+  const cerrarVideo = () => {
+    setVideoActivo(null)
+    setCargandoVideo(false)
+  }
+
   const formatearFecha = fecha => {
     return new Date(fecha).toLocaleDateString('es-ES', {
       day: 'numeric',
@@ -83,8 +115,8 @@ function Videos() {
   return (
     <main className="videos-page">
       <nav className="videos-nav">
-        <Link to="/" className="logo-link">
-          <img src={logo} alt="Kilómetro 1" className="logo-img" />
+        <Link to="/" className="videos-logo-link">
+          <img src={logo} alt="Kilómetro 1" className="videos-logo-img" />
         </Link>
 
         <Link to="/" className="back-home-btn">
@@ -99,19 +131,19 @@ function Videos() {
           <h1>Vídeos</h1>
 
           <span>
-            Clases, entrenamientos, mastermind y comunidad runner.
+            Clases, nutrición, mentalidad, técnica y sesiones Mastermind.
           </span>
         </header>
 
-        <div className="filters-row">
+        <section className="filters-panel">
           <div className="category-scroll">
             {categorias.map(categoria => (
               <button
                 key={categoria}
                 className={
                   categoriaActiva === categoria
-                    ? 'filter-btn active'
-                    : 'filter-btn'
+                    ? 'category-pill active'
+                    : 'category-pill'
                 }
                 onClick={() => setCategoriaActiva(categoria)}
               >
@@ -121,76 +153,106 @@ function Videos() {
           </div>
 
           <div className="selects-row">
-            <select value={mes} onChange={e => setMes(e.target.value)}>
-              {meses.map(mesItem => (
-                <option key={mesItem} value={mesItem}>
-                  {mesItem}
-                </option>
-              ))}
-            </select>
+            <div className="select-wrapper">
+              <span className="select-icon">☰</span>
 
-            <select value={orden} onChange={e => setOrden(e.target.value)}>
-              <option value="recientes">Más recientes</option>
-              <option value="antiguos">Más antiguos</option>
-            </select>
+              <select value={mes} onChange={e => setMes(e.target.value)}>
+                {meses.map(mesItem => (
+                  <option key={mesItem} value={mesItem}>
+                    {mesItem}
+                  </option>
+                ))}
+              </select>
+
+              <span className="select-arrow">⌄</span>
+            </div>
+
+            <div className="select-wrapper select-featured">
+              <span className="select-icon">◷</span>
+
+              <select value={orden} onChange={e => setOrden(e.target.value)}>
+                <option value="recientes">Más recientes</option>
+                <option value="antiguos">Más antiguos</option>
+              </select>
+
+              <span className="select-arrow">⌄</span>
+            </div>
           </div>
-        </div>
-
-        <section className="youtube-grid">
-          {videosFiltrados.map(video => (
-            <article className="youtube-card" key={video.id}>
-              <button
-                className="youtube-thumb"
-                onClick={() => setVideoActivo(video)}
-              >
-                <img src={video.thumbnail} alt={video.titulo} />
-
-                <iframe
-                  className="preview-iframe"
-                  src={`https://www.youtube.com/embed/${getYoutubeId(video.enlace)}?autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${getYoutubeId(video.enlace)}`}
-                  title={`Preview ${video.titulo}`}
-                  allow="autoplay; encrypted-media"
-                ></iframe>
-
-                <span className="play-badge">▶</span>
-              </button>
-
-              <div className="youtube-card-info">
-                <button onClick={() => setVideoActivo(video)}>
-                  {video.titulo}
-                </button>
-
-                <span>{video.categoria}</span>
-
-                <small>{formatearFecha(video.fecha)}</small>
-              </div>
-            </article>
-          ))}
         </section>
+
+        {videosFiltrados.length > 0 ? (
+          <section className="youtube-grid">
+            {videosFiltrados.map(video => {
+              const youtubeId = getYoutubeId(video.enlace)
+
+              return (
+                <article className="youtube-card" key={video.id}>
+                  <button
+                    className="youtube-thumb"
+                    onClick={() => abrirVideo(video)}
+                  >
+                    <img
+                      src={video.thumbnail}
+                      alt={video.titulo}
+                      loading="lazy"
+                    />
+
+                    <iframe
+                      className="preview-iframe"
+                      src={`https://www.youtube.com/embed/${youtubeId}?mute=1&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${youtubeId}`}
+                      title={`Preview ${video.titulo}`}
+                      allow="autoplay; encrypted-media"
+                    />
+
+                    <span className="play-badge">▶</span>
+                  </button>
+
+                  <div className="youtube-card-info">
+                    <button onClick={() => abrirVideo(video)}>
+                      {video.titulo}
+                    </button>
+
+                    <div className="video-meta">
+                      <span>{video.categoria}</span>
+                      <small>{formatearFecha(video.fecha)}</small>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </section>
+        ) : (
+          <div className="empty-message">
+            No hay vídeos con estos filtros.
+          </div>
+        )}
       </section>
 
       {videoActivo && (
-        <div
-          className="video-modal"
-          onClick={() => setVideoActivo(null)}
-        >
+        <div className="video-modal" onClick={cerrarVideo}>
           <div
             className="video-modal-content"
             onClick={e => e.stopPropagation()}
           >
-            <button
-              className="close-modal"
-              onClick={() => setVideoActivo(null)}
-            >
+            <button className="close-modal" onClick={cerrarVideo}>
               ✕
             </button>
 
+            {cargandoVideo && (
+              <div className="modal-loader">
+                <div className="page-loader"></div>
+              </div>
+            )}
+
             <iframe
-              src={`https://www.youtube.com/embed/${getYoutubeId(videoActivo.enlace)}?autoplay=1`}
+              src={`https://www.youtube.com/embed/${getYoutubeId(
+                videoActivo.enlace,
+              )}?autoplay=1&rel=0`}
               title={videoActivo.titulo}
               allow="autoplay; encrypted-media; picture-in-picture"
               allowFullScreen
-            ></iframe>
+              onLoad={() => setCargandoVideo(false)}
+            />
 
             <div className="modal-video-info">
               <h2>{videoActivo.titulo}</h2>
@@ -198,8 +260,7 @@ function Videos() {
               <p>{videoActivo.descripcion}</p>
 
               <span>
-                {videoActivo.categoria} ·{' '}
-                {formatearFecha(videoActivo.fecha)}
+                {videoActivo.categoria} · {formatearFecha(videoActivo.fecha)}
               </span>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import trainer from '../assets/trainer.png'
-import logo from '../assets/kilometro1.png'
+import logo from '../assets/LOGO_2_BLANCO.svg'
 
 function Home() {
   return (
