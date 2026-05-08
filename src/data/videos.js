@@ -1,8 +1,9 @@
 const videos = [
-      {
+  {
     id: 17,
     titulo: 'Corrí la Movistar Medio Maratón SIN entrenarla… ¿error o acierto?',
-    categoria: 'Otros',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Mentalidad', 'Entrenamiento'],
     fecha: '2026-04-12',
     descripcion: 'Corrí la Media Maratón de Madrid sin prepararla específicamente… y así lo viví.',
     enlace: 'https://www.youtube.com/watch?v=qBaVmUm4x2Q&t=11s',
@@ -11,7 +12,8 @@ const videos = [
   {
     id: 16,
     titulo: 'Sesión Mastermind KM1 | Abril',
-    categoria: 'Mastermind',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
     fecha: '2026-04-15',
     descripcion: 'Sesión Mastermind KM1 del mes de abril.',
     enlace: 'https://youtu.be/wvDRwhZ-TYs',
@@ -20,7 +22,8 @@ const videos = [
   {
     id: 15,
     titulo: 'Mejora tu control y estabilidad del pie al correr',
-    categoria: 'Técnica',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Técnica', 'Entrenamiento'],
     fecha: '2026-04-01',
     descripcion: 'Clase de abril sobre control, estabilidad del pie y técnica al correr.',
     enlace: 'https://youtu.be/cPzKi7zUWZI',
@@ -29,7 +32,8 @@ const videos = [
   {
     id: 14,
     titulo: 'Sesión Mastermind KM1 | Marzo',
-    categoria: 'Mastermind',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
     fecha: '2026-03-15',
     descripcion: 'Sesión Mastermind KM1 del mes de marzo.',
     enlace: 'https://youtu.be/z6ZNdeVWU0M',
@@ -38,7 +42,8 @@ const videos = [
   {
     id: 13,
     titulo: 'Mira esto antes de usar zapatillas con placa de carbono',
-    categoria: 'Técnica',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Material deportivo', 'Técnica'],
     fecha: '2026-03-01',
     descripcion: 'Clase de marzo sobre el uso de zapatillas con placa de carbono.',
     enlace: 'https://youtu.be/G9dd_B6C46o',
@@ -47,7 +52,8 @@ const videos = [
   {
     id: 12,
     titulo: 'Sesión Mastermind KM1 | Febrero',
-    categoria: 'Mastermind',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
     fecha: '2026-02-15',
     descripcion: 'Sesión Mastermind KM1 del mes de febrero.',
     enlace: 'https://youtu.be/344CJodlurI',
@@ -56,7 +62,8 @@ const videos = [
   {
     id: 11,
     titulo: 'Guía para elegir adecuadamente tus zapatillas de running',
-    categoria: 'Técnica',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Material deportivo'],
     fecha: '2026-02-01',
     descripcion: 'Clase de febrero sobre cómo elegir zapatillas de running correctamente.',
     enlace: 'https://youtu.be/aK26pwGJIEU',
@@ -65,7 +72,8 @@ const videos = [
   {
     id: 10,
     titulo: 'Técnica de Carrera: TODO lo que necesitas saber',
-    categoria: 'Técnica',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Técnica', 'Entrenamiento'],
     fecha: '2026-01-01',
     descripcion: 'Clase de enero sobre técnica de carrera.',
     enlace: 'https://youtu.be/rRkchEAMqxw',
@@ -74,7 +82,8 @@ const videos = [
   {
     id: 9,
     titulo: 'Sesión Mastermind KM1 | Diciembre',
-    categoria: 'Mastermind',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
     fecha: '2025-12-15',
     descripcion: 'Sesión Mastermind KM1 del mes de diciembre.',
     enlace: 'https://youtu.be/5LklrHAnpE0',
@@ -83,7 +92,8 @@ const videos = [
   {
     id: 8,
     titulo: 'Cómo afrontar las Navidades',
-    categoria: 'Clase mensual',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Mentalidad', 'Nutrición'],
     fecha: '2025-12-01',
     descripcion: 'Clase de diciembre sobre cómo afrontar las Navidades.',
     enlace: 'https://youtu.be/bMrQ_I9t5-g',
@@ -92,7 +102,8 @@ const videos = [
   {
     id: 7,
     titulo: 'Sesión Mastermind KM1 | Noviembre',
-    categoria: 'Mastermind',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
     fecha: '2025-11-15',
     descripcion: 'Sesión Mastermind KM1 del mes de noviembre.',
     enlace: 'https://youtu.be/hS_VySmUt6Q',
@@ -101,7 +112,8 @@ const videos = [
   {
     id: 6,
     titulo: 'Preparación Mental para Carreras de Larga Distancia',
-    categoria: 'Otros',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Mentalidad'],
     fecha: '2025-11-01',
     descripcion: 'Clase sobre preparación mental para carreras de larga distancia.',
     enlace: 'https://youtu.be/EqHRsi2eiD4',
@@ -110,7 +122,8 @@ const videos = [
   {
     id: 5,
     titulo: 'Estrategias para el Uso Efectivo de Geles Energéticos',
-    categoria: 'Nutrición',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Nutrición'],
     fecha: '2025-10-01',
     descripcion: 'Clase sobre el uso efectivo de geles energéticos.',
     enlace: 'https://youtu.be/ENC4uKEKcJo',
@@ -119,7 +132,8 @@ const videos = [
   {
     id: 4,
     titulo: 'Cómo afrontar los días en los que el cuerpo no responde durante el entrenamiento',
-    categoria: 'Otros',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Mentalidad'],
     fecha: '2025-09-01',
     descripcion: 'Clase sobre cómo gestionar esos días en los que el cuerpo no responde durante el entrenamiento.',
     enlace: 'https://youtu.be/XEPm8xyj238',
