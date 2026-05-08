@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import ReactGA from 'react-ga4'
+import { Apple, Brain, GraduationCap } from 'lucide-react'
 
 import videos from '../data/videos'
 import logo from '../assets/LOGO_2_BLANCO.svg'
@@ -52,17 +53,17 @@ function Videos() {
     {
       nombre: 'Sesión Mastermind',
       descripcion: 'Sesiones exclusivas con la comunidad KM1.',
-      icono: '♣',
+      icono: <Brain size={24} strokeWidth={2.4} />,
     },
     {
       nombre: 'Clase del mes',
       descripcion: 'Clases mensuales sobre entrenamiento y rendimiento.',
-      icono: '▱',
+      icono: <GraduationCap size={24} strokeWidth={2.4} />,
     },
     {
       nombre: 'Nutrición con Alfonso Mendoza',
       descripcion: 'Consejos y estrategias de nutrición para runners.',
-      icono: '◓',
+      icono: <Apple size={24} strokeWidth={2.4} />,
     },
   ]
 
@@ -130,13 +131,8 @@ function Videos() {
       )
     }
 
-    if (
-      categoriaPrincipal === 'Clase del mes' &&
-      subcategoria !== 'Todos'
-    ) {
-      resultado = resultado.filter(
-        video => video.subcategoria === subcategoria,
-      )
+    if (categoriaPrincipal === 'Clase del mes' && subcategoria !== 'Todos') {
+      resultado = resultado.filter(video => video.subcategoria === subcategoria)
     }
 
     if (mes !== 'Todos') {
@@ -227,22 +223,14 @@ function Videos() {
 
           <div className="top-actions">
             <button
-              className={
-                mostrarBuscador
-                  ? 'round-action active'
-                  : 'round-action'
-              }
+              className={mostrarBuscador ? 'round-action active' : 'round-action'}
               onClick={() => setMostrarBuscador(!mostrarBuscador)}
             >
               ⌕
             </button>
 
             <button
-              className={
-                mostrarFiltros
-                  ? 'filter-toggle active'
-                  : 'filter-toggle'
-              }
+              className={mostrarFiltros ? 'filter-toggle active' : 'filter-toggle'}
               onClick={() => setMostrarFiltros(!mostrarFiltros)}
             >
               ☰ Filtros <small></small>
@@ -275,106 +263,42 @@ function Videos() {
         )}
 
         <section className="main-category-cards">
-          <button
-            className={
-              categoriaPrincipal === 'Sesión Mastermind'
-                ? 'main-category-card active'
-                : 'main-category-card'
-            }
-            onClick={() =>
-              setCategoriaPrincipal('Sesión Mastermind')
-            }
-          >
-            <div className="main-category-icon">♣</div>
+          {categoriasPrincipales.map(categoria => (
+            <button
+              key={categoria.nombre}
+              className={
+                categoriaPrincipal === categoria.nombre
+                  ? 'main-category-card active'
+                  : 'main-category-card'
+              }
+              onClick={() => {
+                setCategoriaPrincipal(categoria.nombre)
+                setSubcategoria('Todos')
+              }}
+            >
+              <div className="main-category-icon">
+                {categoria.icono}
+              </div>
 
-            <div className="main-category-text">
-              <strong>Sesión Mastermind</strong>
+              <div className="main-category-text">
+                <strong>{categoria.nombre}</strong>
 
-              <em>Sesiones exclusivas con la comunidad KM1.</em>
+                <em>{categoria.descripcion}</em>
 
-              <small>
-                {
-                  videos.filter(
-                    video =>
-                      video.categoriaPrincipal ===
-                      'Sesión Mastermind',
-                  ).length
-                }{' '}
-                vídeos
-              </small>
-            </div>
+                <small>
+                  {
+                    videos.filter(
+                      video =>
+                        video.categoriaPrincipal === categoria.nombre,
+                    ).length
+                  }{' '}
+                  vídeos
+                </small>
+              </div>
 
-            <b>›</b>
-          </button>
-
-          <button
-            className={
-              categoriaPrincipal === 'Clase del mes'
-                ? 'main-category-card active'
-                : 'main-category-card'
-            }
-            onClick={() => setCategoriaPrincipal('Clase del mes')}
-          >
-            <div className="main-category-icon">▱</div>
-
-            <div className="main-category-text">
-              <strong>Clase del mes</strong>
-
-              <em>
-                Clases mensuales sobre entrenamiento y rendimiento.
-              </em>
-
-              <small>
-                {
-                  videos.filter(
-                    video =>
-                      video.categoriaPrincipal ===
-                      'Clase del mes',
-                  ).length
-                }{' '}
-                vídeos
-              </small>
-            </div>
-
-            <b>›</b>
-          </button>
-
-          <button
-            className={
-              categoriaPrincipal ===
-              'Nutrición con Alfonso Mendoza'
-                ? 'main-category-card active'
-                : 'main-category-card'
-            }
-            onClick={() =>
-              setCategoriaPrincipal(
-                'Nutrición con Alfonso Mendoza',
-              )
-            }
-          >
-            <div className="main-category-icon">◓</div>
-
-            <div className="main-category-text">
-              <strong>Nutrición con Alfonso Mendoza</strong>
-
-              <em>
-                Consejos y estrategias de nutrición para runners.
-              </em>
-
-              <small>
-                {
-                  videos.filter(
-                    video =>
-                      video.categoriaPrincipal ===
-                      'Nutrición con Alfonso Mendoza',
-                  ).length
-                }{' '}
-                vídeos
-              </small>
-            </div>
-
-            <b>›</b>
-          </button>
+              <b>›</b>
+            </button>
+          ))}
         </section>
 
         {mostrarFiltros && (
@@ -395,9 +319,10 @@ function Videos() {
 
                 <select
                   value={categoriaPrincipal}
-                  onChange={e =>
+                  onChange={e => {
                     setCategoriaPrincipal(e.target.value)
-                  }
+                    setSubcategoria('Todos')
+                  }}
                 >
                   <option value="Todos">Todos</option>
 
@@ -422,15 +347,10 @@ function Videos() {
 
                   <select
                     value={subcategoria}
-                    onChange={e =>
-                      setSubcategoria(e.target.value)
-                    }
+                    onChange={e => setSubcategoria(e.target.value)}
                   >
                     {subcategorias.map(categoria => (
-                      <option
-                        key={categoria}
-                        value={categoria}
-                      >
+                      <option key={categoria} value={categoria}>
                         {categoria}
                       </option>
                     ))}
@@ -524,9 +444,7 @@ function Videos() {
                     </button>
 
                     <div className="video-meta">
-                      <small>
-                        {formatearFecha(video.fecha)}
-                      </small>
+                      <small>{formatearFecha(video.fecha)}</small>
                     </div>
                   </div>
                 </article>
@@ -536,9 +454,7 @@ function Videos() {
         ) : (
           <div className="empty-message">
             <div>
-              <strong>
-                No hay vídeos con estos filtros.
-              </strong>
+              <strong>No hay vídeos con estos filtros.</strong>
             </div>
 
             <button onClick={limpiarFiltros}>
@@ -582,9 +498,7 @@ function Videos() {
 
               <p>{videoActivo.descripcion}</p>
 
-              <span>
-                {formatearFecha(videoActivo.fecha)}
-              </span>
+              <span>{formatearFecha(videoActivo.fecha)}</span>
             </div>
           </div>
         </div>
