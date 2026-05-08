@@ -1,6 +1,4 @@
-// src/pages/Videos.jsx
-
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import ReactGA from 'react-ga4'
 
@@ -19,49 +17,57 @@ function getYoutubeId(url) {
   return ''
 }
 
-function normalizarTexto(texto = '') {
-  return texto
-    .toString()
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-}
+function formatearDuracion(isoDuration) {
+  if (!isoDuration) return ''
 
-function getCategoriasVideo(video) {
-  if (Array.isArray(video.categorias)) return video.categorias
-  return []
+  const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/)
+
+  const horas = parseInt(match?.[1] || 0)
+  const minutos = parseInt(match?.[2] || 0)
+  const segundos = parseInt(match?.[3] || 0)
+
+  if (horas > 0) {
+    return `${horas}:${String(minutos).padStart(2, '0')}:${String(
+      segundos,
+    ).padStart(2, '0')}`
+  }
+
+  return `${minutos}:${String(segundos).padStart(2, '0')}`
 }
 
 function Videos() {
-  const [categoriaPrincipal, setCategoriaPrincipal] = useState('Todas')
-  const [subcategoria, setSubcategoria] = useState('Todas')
+  const [categoriaPrincipal, setCategoriaPrincipal] = useState('Todos')
+  const [subcategoria, setSubcategoria] = useState('Todos')
   const [mes, setMes] = useState('Todos')
   const [busqueda, setBusqueda] = useState('')
-  const [buscadorAbierto, setBuscadorAbierto] = useState(false)
-  const [filtrosAbiertos, setFiltrosAbiertos] = useState(false)
   const [videoActivo, setVideoActivo] = useState(null)
   const [cargandoVideo, setCargandoVideo] = useState(false)
+
+  const [mostrarBuscador, setMostrarBuscador] = useState(false)
+  const [mostrarFiltros, setMostrarFiltros] = useState(false)
+
+  const [duraciones, setDuraciones] = useState({})
 
   const categoriasPrincipales = [
     {
       nombre: 'Sesión Mastermind',
-      icono: '👥',
-      texto: 'Sesiones exclusivas con la comunidad KM1.',
+      descripcion: 'Sesiones exclusivas con la comunidad KM1.',
+      icono: '♣',
     },
     {
       nombre: 'Clase del mes',
-      icono: '🎓',
-      texto: 'Clases mensuales sobre entrenamiento y rendimiento.',
+      descripcion: 'Clases mensuales sobre entrenamiento y rendimiento.',
+      icono: '▱',
     },
     {
       nombre: 'Nutrición con Alfonso Mendoza',
-      icono: '🥑',
-      texto: 'Consejos y estrategias de nutrición para runners.',
+      descripcion: 'Consejos y estrategias de nutrición para runners.',
+      icono: '◓',
     },
   ]
 
-  const subcategoriasClase = [
-    'Todas',
+  const subcategorias = [
+    'Todos',
     'Material deportivo',
     'Entrenamiento',
     'Técnica',
@@ -83,24 +89,53 @@ function Videos() {
     ),
   ]
 
-  const contarVideos = categoria => {
-    return videos.filter(video => video.categoriaPrincipal === categoria).length
-  }
+  useEffect(() => {
+    async function cargarDuraciones() {
+      try {
+        const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY
+
+        if (!apiKey) return
+
+        const ids = videos.map(video => getYoutubeId(video.enlace)).join(',')
+
+        const response = await fetch(
+          `https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${ids}&key=${apiKey}`,
+        )
+
+        const data = await response.json()
+
+        const nuevasDuraciones = {}
+
+        data.items.forEach(item => {
+          nuevasDuraciones[item.id] = formatearDuracion(
+            item.contentDetails.duration,
+          )
+        })
+
+        setDuraciones(nuevasDuraciones)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+
+    cargarDuraciones()
+  }, [])
 
   const videosFiltrados = useMemo(() => {
     let resultado = [...videos]
 
-    const busquedaNormalizada = normalizarTexto(busqueda.trim())
-
-    if (categoriaPrincipal !== 'Todas') {
+    if (categoriaPrincipal !== 'Todos') {
       resultado = resultado.filter(
         video => video.categoriaPrincipal === categoriaPrincipal,
       )
     }
 
-    if (categoriaPrincipal === 'Clase del mes' && subcategoria !== 'Todas') {
-      resultado = resultado.filter(video =>
-        getCategoriasVideo(video).includes(subcategoria),
+    if (
+      categoriaPrincipal === 'Clase del mes' &&
+      subcategoria !== 'Todos'
+    ) {
+      resultado = resultado.filter(
+        video => video.subcategoria === subcategoria,
       )
     }
 
@@ -117,13 +152,16 @@ function Videos() {
       })
     }
 
-    if (busquedaNormalizada) {
-      resultado = resultado.filter(video => {
-        const textoVideo = normalizarTexto(
-          `${video.titulo} ${video.descripcion} ${video.categoriaPrincipal} ${getCategoriasVideo(video).join(' ')}`,
-        )
+    if (busqueda.trim()) {
+      const texto = busqueda.toLowerCase()
 
-        return textoVideo.includes(busquedaNormalizada)
+      resultado = resultado.filter(video => {
+        return (
+          video.titulo.toLowerCase().includes(texto) ||
+          video.descripcion.toLowerCase().includes(texto) ||
+          video.categoriaPrincipal.toLowerCase().includes(texto) ||
+          (video.subcategoria || '').toLowerCase().includes(texto)
+        )
       })
     }
 
@@ -148,6 +186,13 @@ function Videos() {
     setCargandoVideo(false)
   }
 
+  const limpiarFiltros = () => {
+    setCategoriaPrincipal('Todos')
+    setSubcategoria('Todos')
+    setMes('Todos')
+    setBusqueda('')
+  }
+
   const formatearFecha = fecha => {
     return new Date(fecha).toLocaleDateString('es-ES', {
       day: 'numeric',
@@ -155,19 +200,6 @@ function Videos() {
       year: 'numeric',
     })
   }
-
-  const limpiarFiltros = () => {
-    setCategoriaPrincipal('Todas')
-    setSubcategoria('Todas')
-    setMes('Todos')
-    setBusqueda('')
-  }
-
-  const hayFiltrosActivos =
-    categoriaPrincipal !== 'Todas' ||
-    subcategoria !== 'Todas' ||
-    mes !== 'Todos' ||
-    busqueda.trim() !== ''
 
   return (
     <main className="videos-page">
@@ -182,8 +214,8 @@ function Videos() {
       </nav>
 
       <section className="videos-container">
-        <header className="videos-title-row">
-          <div className="videos-title">
+        <div className="videos-title-row">
+          <header className="videos-title">
             <p>Contenido KM1</p>
 
             <h1>Vídeos</h1>
@@ -191,45 +223,47 @@ function Videos() {
             <span>
               Clases, nutrición, mentalidad, técnica y sesiones Mastermind.
             </span>
-          </div>
+          </header>
 
           <div className="top-actions">
             <button
-              type="button"
-              className={buscadorAbierto ? 'round-action active' : 'round-action'}
-              onClick={() => setBuscadorAbierto(!buscadorAbierto)}
+              className={
+                mostrarBuscador
+                  ? 'round-action active'
+                  : 'round-action'
+              }
+              onClick={() => setMostrarBuscador(!mostrarBuscador)}
             >
               ⌕
             </button>
 
             <button
-              type="button"
-              className={filtrosAbiertos ? 'filter-toggle active' : 'filter-toggle'}
-              onClick={() => setFiltrosAbiertos(!filtrosAbiertos)}
+              className={
+                mostrarFiltros
+                  ? 'filter-toggle active'
+                  : 'filter-toggle'
+              }
+              onClick={() => setMostrarFiltros(!mostrarFiltros)}
             >
-              <span>☷</span>
-              Filtros
-              {hayFiltrosActivos && <small></small>}
-              <b>{filtrosAbiertos ? '⌃' : '⌄'}</b>
+              ☰ Filtros <small></small>
             </button>
           </div>
-        </header>
+        </div>
 
-        {buscadorAbierto && (
-          <section className="search-drop">
+        {mostrarBuscador && (
+          <div className="search-drop">
             <div className="search-wrapper">
               <span className="search-icon">⌕</span>
 
               <input
-                type="search"
+                type="text"
+                placeholder="Buscar vídeos..."
                 value={busqueda}
                 onChange={e => setBusqueda(e.target.value)}
-                placeholder="Buscar por título, categoría o descripción..."
               />
 
               {busqueda && (
                 <button
-                  type="button"
                   className="clear-search"
                   onClick={() => setBusqueda('')}
                 >
@@ -237,66 +271,141 @@ function Videos() {
                 </button>
               )}
             </div>
-          </section>
+          </div>
         )}
 
         <section className="main-category-cards">
-          {categoriasPrincipales.map(categoria => (
-            <button
-              type="button"
-              key={categoria.nombre}
-              className={
-                categoriaPrincipal === categoria.nombre
-                  ? 'main-category-card active'
-                  : 'main-category-card'
-              }
-              onClick={() => {
-                setCategoriaPrincipal(categoria.nombre)
-                setSubcategoria('Todas')
-              }}
-            >
-              <span className="main-category-icon">{categoria.icono}</span>
+          <button
+            className={
+              categoriaPrincipal === 'Sesión Mastermind'
+                ? 'main-category-card active'
+                : 'main-category-card'
+            }
+            onClick={() =>
+              setCategoriaPrincipal('Sesión Mastermind')
+            }
+          >
+            <div className="main-category-icon">♣</div>
 
-              <span className="main-category-text">
-                <strong>{categoria.nombre}</strong>
-                <em>{categoria.texto}</em>
-                <small>{contarVideos(categoria.nombre)} vídeos</small>
-              </span>
+            <div className="main-category-text">
+              <strong>Sesión Mastermind</strong>
 
-              <b>›</b>
-            </button>
-          ))}
+              <em>Sesiones exclusivas con la comunidad KM1.</em>
+
+              <small>
+                {
+                  videos.filter(
+                    video =>
+                      video.categoriaPrincipal ===
+                      'Sesión Mastermind',
+                  ).length
+                }{' '}
+                vídeos
+              </small>
+            </div>
+
+            <b>›</b>
+          </button>
+
+          <button
+            className={
+              categoriaPrincipal === 'Clase del mes'
+                ? 'main-category-card active'
+                : 'main-category-card'
+            }
+            onClick={() => setCategoriaPrincipal('Clase del mes')}
+          >
+            <div className="main-category-icon">▱</div>
+
+            <div className="main-category-text">
+              <strong>Clase del mes</strong>
+
+              <em>
+                Clases mensuales sobre entrenamiento y rendimiento.
+              </em>
+
+              <small>
+                {
+                  videos.filter(
+                    video =>
+                      video.categoriaPrincipal ===
+                      'Clase del mes',
+                  ).length
+                }{' '}
+                vídeos
+              </small>
+            </div>
+
+            <b>›</b>
+          </button>
+
+          <button
+            className={
+              categoriaPrincipal ===
+              'Nutrición con Alfonso Mendoza'
+                ? 'main-category-card active'
+                : 'main-category-card'
+            }
+            onClick={() =>
+              setCategoriaPrincipal(
+                'Nutrición con Alfonso Mendoza',
+              )
+            }
+          >
+            <div className="main-category-icon">◓</div>
+
+            <div className="main-category-text">
+              <strong>Nutrición con Alfonso Mendoza</strong>
+
+              <em>
+                Consejos y estrategias de nutrición para runners.
+              </em>
+
+              <small>
+                {
+                  videos.filter(
+                    video =>
+                      video.categoriaPrincipal ===
+                      'Nutrición con Alfonso Mendoza',
+                  ).length
+                }{' '}
+                vídeos
+              </small>
+            </div>
+
+            <b>›</b>
+          </button>
         </section>
 
-        {filtrosAbiertos && (
+        {mostrarFiltros && (
           <section className="filters-drawer">
             <div className="filters-drawer-head">
               <strong>Filtros</strong>
 
-              {hayFiltrosActivos && (
-                <button type="button" onClick={limpiarFiltros}>
-                  Limpiar
-                </button>
-              )}
+              <button onClick={limpiarFiltros}>
+                Limpiar
+              </button>
             </div>
 
             <div className="filters-drawer-grid">
               <div className="select-wrapper">
-                <span className="select-icon">◎</span>
+                <span className="select-icon">◉</span>
 
                 <label>Categoría principal</label>
 
                 <select
                   value={categoriaPrincipal}
-                  onChange={e => {
+                  onChange={e =>
                     setCategoriaPrincipal(e.target.value)
-                    setSubcategoria('Todas')
-                  }}
+                  }
                 >
-                  <option value="Todas">Todas</option>
+                  <option value="Todos">Todos</option>
 
                   {categoriasPrincipales.map(categoria => (
-                    <option key={categoria.nombre} value={categoria.nombre}>
+                    <option
+                      key={categoria.nombre}
+                      value={categoria.nombre}
+                    >
                       {categoria.nombre}
                     </option>
                   ))}
@@ -307,16 +416,21 @@ function Videos() {
 
               {categoriaPrincipal === 'Clase del mes' && (
                 <div className="select-wrapper">
-                  <span className="select-icon">⌘</span>
+                  <span className="select-icon">◎</span>
 
                   <label>Subcategoría</label>
 
                   <select
                     value={subcategoria}
-                    onChange={e => setSubcategoria(e.target.value)}
+                    onChange={e =>
+                      setSubcategoria(e.target.value)
+                    }
                   >
-                    {subcategoriasClase.map(categoria => (
-                      <option key={categoria} value={categoria}>
+                    {subcategorias.map(categoria => (
+                      <option
+                        key={categoria}
+                        value={categoria}
+                      >
                         {categoria}
                       </option>
                     ))}
@@ -331,7 +445,10 @@ function Videos() {
 
                 <label>Mes</label>
 
-                <select value={mes} onChange={e => setMes(e.target.value)}>
+                <select
+                  value={mes}
+                  onChange={e => setMes(e.target.value)}
+                >
                   {meses.map(mesItem => (
                     <option key={mesItem} value={mesItem}>
                       {mesItem}
@@ -342,60 +459,93 @@ function Videos() {
                 <span className="select-arrow">⌄</span>
               </div>
             </div>
-
-            <button
-              type="button"
-              className="apply-filters-btn"
-              onClick={() => setFiltrosAbiertos(false)}
-            >
-              Aplicar filtros
-            </button>
           </section>
         )}
 
         <div className="videos-count-row">
-          <span>{videosFiltrados.length} vídeos encontrados</span>
+          <div>
+            <strong>{videosFiltrados.length} vídeos</strong>
+
+            <span>Contenido KM1 disponible</span>
+          </div>
+
+          {(categoriaPrincipal !== 'Todos' ||
+            subcategoria !== 'Todos' ||
+            mes !== 'Todos' ||
+            busqueda) && (
+            <div className="list-actions">
+              <button
+                type="button"
+                className="see-all-btn"
+                onClick={limpiarFiltros}
+              >
+                Ver todos
+              </button>
+            </div>
+          )}
         </div>
 
-        <section className="youtube-grid">
-          {videosFiltrados.map(video => {
-            const youtubeId = getYoutubeId(video.enlace)
+        {videosFiltrados.length > 0 ? (
+          <section className="youtube-grid">
+            {videosFiltrados.map(video => {
+              const youtubeId = getYoutubeId(video.enlace)
 
-            return (
-              <article className="youtube-card" key={video.id}>
-                <button
-                  className="youtube-thumb"
-                  onClick={() => abrirVideo(video)}
-                >
-                  <img
-                    src={video.thumbnail}
-                    alt={video.titulo}
-                    loading="lazy"
-                  />
+              return (
+                <article className="youtube-card" key={video.id}>
+                  <button
+                    className="youtube-thumb"
+                    onClick={() => abrirVideo(video)}
+                  >
+                    <img
+                      src={video.thumbnail}
+                      alt={video.titulo}
+                      loading="lazy"
+                    />
 
-                  <iframe
-                    className="preview-iframe"
-                    src={`https://www.youtube.com/embed/${youtubeId}?mute=1&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${youtubeId}`}
-                    title={`Preview ${video.titulo}`}
-                    allow="autoplay; encrypted-media"
-                  />
+                    <iframe
+                      className="preview-iframe"
+                      src={`https://www.youtube.com/embed/${youtubeId}?mute=1&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${youtubeId}`}
+                      title={`Preview ${video.titulo}`}
+                      allow="autoplay; encrypted-media"
+                    />
 
-                  <span className="play-badge">▶</span>
-                </button>
+                    <span className="play-badge">▶</span>
 
-                <div className="youtube-card-info">
-                  <button onClick={() => abrirVideo(video)}>
-                    {video.titulo}
+                    {duraciones[youtubeId] && (
+                      <span className="duration-badge">
+                        {duraciones[youtubeId]}
+                      </span>
+                    )}
                   </button>
 
-                  <div className="video-meta">
-                    <small>{formatearFecha(video.fecha)}</small>
+                  <div className="youtube-card-info">
+                    <button onClick={() => abrirVideo(video)}>
+                      {video.titulo}
+                    </button>
+
+                    <div className="video-meta">
+                      <small>
+                        {formatearFecha(video.fecha)}
+                      </small>
+                    </div>
                   </div>
-                </div>
-              </article>
-            )
-          })}
-        </section>
+                </article>
+              )
+            })}
+          </section>
+        ) : (
+          <div className="empty-message">
+            <div>
+              <strong>
+                No hay vídeos con estos filtros.
+              </strong>
+            </div>
+
+            <button onClick={limpiarFiltros}>
+              Ver todos
+            </button>
+          </div>
+        )}
       </section>
 
       {videoActivo && (
@@ -404,7 +554,10 @@ function Videos() {
             className="video-modal-content"
             onClick={e => e.stopPropagation()}
           >
-            <button className="close-modal" onClick={cerrarVideo}>
+            <button
+              className="close-modal"
+              onClick={cerrarVideo}
+            >
               ✕
             </button>
 
@@ -426,8 +579,12 @@ function Videos() {
 
             <div className="modal-video-info">
               <h2>{videoActivo.titulo}</h2>
+
               <p>{videoActivo.descripcion}</p>
-              <span>{formatearFecha(videoActivo.fecha)}</span>
+
+              <span>
+                {formatearFecha(videoActivo.fecha)}
+              </span>
             </div>
           </div>
         </div>
