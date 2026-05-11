@@ -18,6 +18,11 @@ function getYoutubeId(url) {
   return ''
 }
 
+function getCategoriasVideo(video) {
+  if (Array.isArray(video.categorias)) return video.categorias
+  return []
+}
+
 function formatearDuracion(isoDuration) {
   if (!isoDuration) return ''
 
@@ -97,13 +102,20 @@ function Videos() {
 
         if (!apiKey) return
 
-        const ids = videos.map(video => getYoutubeId(video.enlace)).join(',')
+        const ids = videos
+          .map(video => getYoutubeId(video.enlace))
+          .filter(Boolean)
+          .join(',')
+
+        if (!ids) return
 
         const response = await fetch(
           `https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${ids}&key=${apiKey}`,
         )
 
         const data = await response.json()
+
+        if (!data.items) return
 
         const nuevasDuraciones = {}
 
@@ -132,7 +144,9 @@ function Videos() {
     }
 
     if (categoriaPrincipal === 'Clase del mes' && subcategoria !== 'Todos') {
-      resultado = resultado.filter(video => video.subcategoria === subcategoria)
+      resultado = resultado.filter(video =>
+        getCategoriasVideo(video).includes(subcategoria),
+      )
     }
 
     if (mes !== 'Todos') {
@@ -156,7 +170,7 @@ function Videos() {
           video.titulo.toLowerCase().includes(texto) ||
           video.descripcion.toLowerCase().includes(texto) ||
           video.categoriaPrincipal.toLowerCase().includes(texto) ||
-          (video.subcategoria || '').toLowerCase().includes(texto)
+          getCategoriasVideo(video).join(' ').toLowerCase().includes(texto)
         )
       })
     }
@@ -197,6 +211,12 @@ function Videos() {
     })
   }
 
+  const hayFiltrosActivos =
+    categoriaPrincipal !== 'Todos' ||
+    subcategoria !== 'Todos' ||
+    mes !== 'Todos' ||
+    busqueda.trim() !== ''
+
   return (
     <main className="videos-page">
       <nav className="videos-nav">
@@ -233,7 +253,7 @@ function Videos() {
               className={mostrarFiltros ? 'filter-toggle active' : 'filter-toggle'}
               onClick={() => setMostrarFiltros(!mostrarFiltros)}
             >
-              ☰ Filtros <small></small>
+              ☰ Filtros {hayFiltrosActivos && <small></small>}
             </button>
           </div>
         </div>
@@ -306,9 +326,11 @@ function Videos() {
             <div className="filters-drawer-head">
               <strong>Filtros</strong>
 
-              <button onClick={limpiarFiltros}>
-                Limpiar
-              </button>
+              {hayFiltrosActivos && (
+                <button onClick={limpiarFiltros}>
+                  Limpiar
+                </button>
+              )}
             </div>
 
             <div className="filters-drawer-grid">
@@ -389,10 +411,7 @@ function Videos() {
             <span>Contenido KM1 disponible</span>
           </div>
 
-          {(categoriaPrincipal !== 'Todos' ||
-            subcategoria !== 'Todos' ||
-            mes !== 'Todos' ||
-            busqueda) && (
+          {hayFiltrosActivos && (
             <div className="list-actions">
               <button
                 type="button"
