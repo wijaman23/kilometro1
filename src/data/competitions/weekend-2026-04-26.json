@@ -1,0 +1,116 @@
+{
+  "id": "weekend-2026-04-26",
+  "date": "2026-04-26",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Luis Javier Muñoz",
+      "race": "Maratón de Madrid",
+      "goal": "Disfrutar del debut por debajo de 3h35",
+      "type": "Maratón"
+    },
+    {
+      "name": "Adrián Ortega",
+      "race": "Maratón de Madrid",
+      "goal": "Disfrutar de la carrera sin objetivo de tiempo",
+      "type": "Maratón"
+    },
+    {
+      "name": "Mireia Aznar",
+      "race": "VII Volta a Peu Per la Discapacitat",
+      "goal": "Buscar mejorar marca personal",
+      "type": "Running"
+    },
+    {
+      "name": "Irune Ansa",
+      "race": "10k Hondarribia",
+      "goal": "Estrenarse en la distancia con un tiempazo",
+      "type": "10K"
+    },
+    {
+      "name": "Arantxa Campos",
+      "race": "5k Cursa Mujer Castelló D´Empúries",
+      "goal": "Buscar mejorar marca personal",
+      "type": "5K"
+    },
+    {
+      "name": "Francisco Chafer",
+      "race": "Maratón de Madrid",
+      "goal": "Reventar la compleja maratón de la capital.",
+      "type": "Maratón"
+    },
+    {
+      "name": "Ariadna de Dios",
+      "race": "R&R Media Maratón Madrid",
+      "goal": "Buscar mejorar marca en una media complicada, atacando la 1h42!",
+      "type": "Media"
+    },
+    {
+      "name": "Laís Ferreira",
+      "race": "12k Cross Villa de Gijón",
+      "goal": "Mantener las sensaciones de Laredo y bajar la 1h01",
+      "type": "12K"
+    },
+    {
+      "name": "Nacho Leyún",
+      "race": "R&R Media Maratón Madrid",
+      "goal": "Disfrutar a tope, con la mira puesta en bajar ese 1h45!",
+      "type": "Media"
+    },
+    {
+      "name": "Rafael López",
+      "race": "Media maratón Granada",
+      "goal": "Desbloqueando distancias, llevando las buenas sensaciones hasta la meta!",
+      "type": "Media"
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "Media Marató del Mediterrani",
+      "goal": "Nos olvidamos de marcas, carrera emotiva y especial a nivel personal",
+      "type": "Media"
+    },
+    {
+      "name": "Marta Pascual",
+      "race": "5k Ponle Freno Badalona",
+      "goal": "Buscar marca personal, atacando los 27´!",
+      "type": "5K"
+    },
+    {
+      "name": "Nerea García",
+      "race": "10k Trail BKT Trapagaran",
+      "goal": "Debut en trail!!",
+      "type": "Trail"
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "10k Madrid R&R",
+      "goal": "Disfrutar cada metro, sabiendo que la marca viene con ello!",
+      "type": "10K"
+    },
+    {
+      "name": "Paula Rodríguez",
+      "race": "8k Portal de la Marina Ondara",
+      "goal": "Seguir haciendo marcas personales, vamos a bajar de 54´!",
+      "type": "8K"
+    },
+    {
+      "name": "Laura Turro",
+      "race": "5k Ponle Freno Badalona",
+      "goal": "Otra marca personal que vamos a reventar!",
+      "type": "5K"
+    },
+    {
+      "name": "Horacio Vega",
+      "race": "Maratón de Madrid",
+      "goal": "Debutar en la distancia comiéndonos el asfalto!",
+      "type": "Maratón"
+    }
+  ]
+}

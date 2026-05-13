@@ -1,238 +1,228 @@
-import { useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
-import ReactGA from 'react-ga4'
-import { Apple, Brain, GraduationCap } from 'lucide-react'
+import { useEffect, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import ReactGA from "react-ga4";
+import { Apple, Brain, GraduationCap } from "lucide-react";
 
-import videos from '../data/videos'
-import logo from '../assets/LOGO_2_BLANCO.svg'
+import videos from "../data/videos";
+import Header from "../components/Header";
 
 function getYoutubeId(url) {
-  if (url.includes('youtu.be/')) {
-    return url.split('youtu.be/')[1].split('?')[0]
+  if (url.includes("youtu.be/")) {
+    return url.split("youtu.be/")[1].split("?")[0];
   }
 
-  if (url.includes('watch?v=')) {
-    return url.split('watch?v=')[1].split('&')[0]
+  if (url.includes("watch?v=")) {
+    return url.split("watch?v=")[1].split("&")[0];
   }
 
-  return ''
+  return "";
 }
 
 function getCategoriasVideo(video) {
-  if (Array.isArray(video.categorias)) return video.categorias
-  return []
+  if (Array.isArray(video.categorias)) return video.categorias;
+  return [];
 }
 
 function formatearDuracion(isoDuration) {
-  if (!isoDuration) return ''
+  if (!isoDuration) return "";
 
-  const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/)
+  const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
 
-  const horas = parseInt(match?.[1] || 0)
-  const minutos = parseInt(match?.[2] || 0)
-  const segundos = parseInt(match?.[3] || 0)
+  const horas = parseInt(match?.[1] || 0);
+  const minutos = parseInt(match?.[2] || 0);
+  const segundos = parseInt(match?.[3] || 0);
 
   if (horas > 0) {
-    return `${horas}:${String(minutos).padStart(2, '0')}:${String(
+    return `${horas}:${String(minutos).padStart(2, "0")}:${String(
       segundos,
-    ).padStart(2, '0')}`
+    ).padStart(2, "0")}`;
   }
 
-  return `${minutos}:${String(segundos).padStart(2, '0')}`
+  return `${minutos}:${String(segundos).padStart(2, "0")}`;
 }
 
 function Videos() {
-  const [categoriaPrincipal, setCategoriaPrincipal] = useState('Todos')
-  const [subcategoria, setSubcategoria] = useState('Todos')
-  const [mes, setMes] = useState('Todos')
-  const [busqueda, setBusqueda] = useState('')
-  const [videoActivo, setVideoActivo] = useState(null)
-  const [cargandoVideo, setCargandoVideo] = useState(false)
+  const [categoriaPrincipal, setCategoriaPrincipal] = useState("Todos");
+  const [subcategoria, setSubcategoria] = useState("Todos");
+  const [mes, setMes] = useState("Todos");
+  const [busqueda, setBusqueda] = useState("");
+  const [videoActivo, setVideoActivo] = useState(null);
+  const [cargandoVideo, setCargandoVideo] = useState(false);
 
-  const [mostrarBuscador, setMostrarBuscador] = useState(false)
-  const [mostrarFiltros, setMostrarFiltros] = useState(false)
+  const [mostrarBuscador, setMostrarBuscador] = useState(false);
+  const [mostrarFiltros, setMostrarFiltros] = useState(false);
 
-  const [duraciones, setDuraciones] = useState({})
+  const [duraciones, setDuraciones] = useState({});
 
   const categoriasPrincipales = [
     {
-      nombre: 'Sesión Mastermind',
-      descripcion: 'Sesiones exclusivas con la comunidad KM1.',
+      nombre: "Sesión Mastermind",
+      descripcion: "Sesiones exclusivas con la comunidad KM1.",
       icono: <Brain size={24} strokeWidth={2.4} />,
     },
     {
-      nombre: 'Clase del mes',
-      descripcion: 'Clases mensuales sobre entrenamiento y rendimiento.',
+      nombre: "Clase del mes",
+      descripcion: "Clases mensuales sobre entrenamiento y rendimiento.",
       icono: <GraduationCap size={24} strokeWidth={2.4} />,
     },
     {
-      nombre: 'Nutrición con Alfonso Mendoza',
-      descripcion: 'Consejos y estrategias de nutrición para runners.',
+      nombre: "Nutrición con Alfonso Mendoza",
+      descripcion: "Consejos y estrategias de nutrición para runners.",
       icono: <Apple size={24} strokeWidth={2.4} />,
     },
-  ]
+  ];
 
   const subcategorias = [
-    'Todos',
-    'Material deportivo',
-    'Entrenamiento',
-    'Técnica',
-    'Mentalidad',
-    'Nutrición',
-  ]
+    "Todos",
+    "Material deportivo",
+    "Entrenamiento",
+    "Técnica",
+    "Mentalidad",
+    "Nutrición",
+  ];
 
   const meses = [
-    'Todos',
+    "Todos",
     ...new Set(
-      videos.map(video => {
-        const fecha = new Date(video.fecha)
+      videos.map((video) => {
+        const fecha = new Date(video.fecha);
 
-        return fecha.toLocaleDateString('es-ES', {
-          month: 'long',
-          year: 'numeric',
-        })
+        return fecha.toLocaleDateString("es-ES", {
+          month: "long",
+          year: "numeric",
+        });
       }),
     ),
-  ]
+  ];
 
   useEffect(() => {
     async function cargarDuraciones() {
       try {
-        const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY
+        const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
 
-        if (!apiKey) return
+        if (!apiKey) return;
 
         const ids = videos
-          .map(video => getYoutubeId(video.enlace))
+          .map((video) => getYoutubeId(video.enlace))
           .filter(Boolean)
-          .join(',')
+          .join(",");
 
-        if (!ids) return
+        if (!ids) return;
 
         const response = await fetch(
           `https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${ids}&key=${apiKey}`,
-        )
+        );
 
-        const data = await response.json()
+        const data = await response.json();
 
-        if (!data.items) return
+        if (!data.items) return;
 
-        const nuevasDuraciones = {}
+        const nuevasDuraciones = {};
 
-        data.items.forEach(item => {
+        data.items.forEach((item) => {
           nuevasDuraciones[item.id] = formatearDuracion(
             item.contentDetails.duration,
-          )
-        })
+          );
+        });
 
-        setDuraciones(nuevasDuraciones)
+        setDuraciones(nuevasDuraciones);
       } catch (error) {
-        console.error(error)
+        console.error(error);
       }
     }
 
-    cargarDuraciones()
-  }, [])
+    cargarDuraciones();
+  }, []);
 
   const videosFiltrados = useMemo(() => {
-    let resultado = [...videos]
+    let resultado = [...videos];
 
-    if (categoriaPrincipal !== 'Todos') {
+    if (categoriaPrincipal !== "Todos") {
       resultado = resultado.filter(
-        video => video.categoriaPrincipal === categoriaPrincipal,
-      )
+        (video) => video.categoriaPrincipal === categoriaPrincipal,
+      );
     }
 
-    if (categoriaPrincipal === 'Clase del mes' && subcategoria !== 'Todos') {
-      resultado = resultado.filter(video =>
+    if (categoriaPrincipal === "Clase del mes" && subcategoria !== "Todos") {
+      resultado = resultado.filter((video) =>
         getCategoriasVideo(video).includes(subcategoria),
-      )
+      );
     }
 
-    if (mes !== 'Todos') {
-      resultado = resultado.filter(video => {
-        const fecha = new Date(video.fecha)
+    if (mes !== "Todos") {
+      resultado = resultado.filter((video) => {
+        const fecha = new Date(video.fecha);
 
-        const mesVideo = fecha.toLocaleDateString('es-ES', {
-          month: 'long',
-          year: 'numeric',
-        })
+        const mesVideo = fecha.toLocaleDateString("es-ES", {
+          month: "long",
+          year: "numeric",
+        });
 
-        return mesVideo === mes
-      })
+        return mesVideo === mes;
+      });
     }
 
     if (busqueda.trim()) {
-      const texto = busqueda.toLowerCase()
+      const texto = busqueda.toLowerCase();
 
-      resultado = resultado.filter(video => {
+      resultado = resultado.filter((video) => {
         return (
           video.titulo.toLowerCase().includes(texto) ||
           video.descripcion.toLowerCase().includes(texto) ||
           video.categoriaPrincipal.toLowerCase().includes(texto) ||
-          getCategoriasVideo(video).join(' ').toLowerCase().includes(texto)
-        )
-      })
+          getCategoriasVideo(video).join(" ").toLowerCase().includes(texto)
+        );
+      });
     }
 
-    resultado.sort((a, b) => new Date(b.fecha) - new Date(a.fecha))
+    resultado.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
 
-    return resultado
-  }, [categoriaPrincipal, subcategoria, mes, busqueda])
+    return resultado;
+  }, [categoriaPrincipal, subcategoria, mes, busqueda]);
 
-  const abrirVideo = video => {
+  const abrirVideo = (video) => {
     ReactGA.event({
-      category: 'Videos',
-      action: 'Abrir video',
+      category: "Videos",
+      action: "Abrir video",
       label: video.titulo,
-    })
+    });
 
-    setCargandoVideo(true)
-    setVideoActivo(video)
-  }
+    setCargandoVideo(true);
+    setVideoActivo(video);
+  };
 
   const cerrarVideo = () => {
-    setVideoActivo(null)
-    setCargandoVideo(false)
-  }
+    setVideoActivo(null);
+    setCargandoVideo(false);
+  };
 
   const limpiarFiltros = () => {
-    setCategoriaPrincipal('Todos')
-    setSubcategoria('Todos')
-    setMes('Todos')
-    setBusqueda('')
-  }
+    setCategoriaPrincipal("Todos");
+    setSubcategoria("Todos");
+    setMes("Todos");
+    setBusqueda("");
+  };
 
-  const formatearFecha = fecha => {
-    return new Date(fecha).toLocaleDateString('es-ES', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    })
-  }
+  const formatearFecha = (fecha) => {
+    return new Date(fecha).toLocaleDateString("es-ES", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+  };
 
   const hayFiltrosActivos =
-    categoriaPrincipal !== 'Todos' ||
-    subcategoria !== 'Todos' ||
-    mes !== 'Todos' ||
-    busqueda.trim() !== ''
+    categoriaPrincipal !== "Todos" ||
+    subcategoria !== "Todos" ||
+    mes !== "Todos" ||
+    busqueda.trim() !== "";
 
   return (
     <main className="videos-page">
-      <nav className="videos-nav">
-        <Link to="/" className="videos-logo-link">
-          <img src={logo} alt="Kilómetro 1" className="videos-logo-img" />
-        </Link>
-
-        <Link to="/" className="back-home-btn">
-          Inicio
-        </Link>
-      </nav>
-
+      <Header />
       <section className="videos-container">
         <div className="videos-title-row">
           <header className="videos-title">
-            <p>Contenido KM1</p>
 
             <h1>Vídeos</h1>
 
@@ -243,14 +233,18 @@ function Videos() {
 
           <div className="top-actions">
             <button
-              className={mostrarBuscador ? 'round-action active' : 'round-action'}
+              className={
+                mostrarBuscador ? "round-action active" : "round-action"
+              }
               onClick={() => setMostrarBuscador(!mostrarBuscador)}
             >
               ⌕
             </button>
 
             <button
-              className={mostrarFiltros ? 'filter-toggle active' : 'filter-toggle'}
+              className={
+                mostrarFiltros ? "filter-toggle active" : "filter-toggle"
+              }
               onClick={() => setMostrarFiltros(!mostrarFiltros)}
             >
               ☰ Filtros {hayFiltrosActivos && <small></small>}
@@ -267,13 +261,13 @@ function Videos() {
                 type="text"
                 placeholder="Buscar vídeos..."
                 value={busqueda}
-                onChange={e => setBusqueda(e.target.value)}
+                onChange={(e) => setBusqueda(e.target.value)}
               />
 
               {busqueda && (
                 <button
                   className="clear-search"
-                  onClick={() => setBusqueda('')}
+                  onClick={() => setBusqueda("")}
                 >
                   ✕
                 </button>
@@ -283,22 +277,20 @@ function Videos() {
         )}
 
         <section className="main-category-cards">
-          {categoriasPrincipales.map(categoria => (
+          {categoriasPrincipales.map((categoria) => (
             <button
               key={categoria.nombre}
               className={
                 categoriaPrincipal === categoria.nombre
-                  ? 'main-category-card active'
-                  : 'main-category-card'
+                  ? "main-category-card active"
+                  : "main-category-card"
               }
               onClick={() => {
-                setCategoriaPrincipal(categoria.nombre)
-                setSubcategoria('Todos')
+                setCategoriaPrincipal(categoria.nombre);
+                setSubcategoria("Todos");
               }}
             >
-              <div className="main-category-icon">
-                {categoria.icono}
-              </div>
+              <div className="main-category-icon">{categoria.icono}</div>
 
               <div className="main-category-text">
                 <strong>{categoria.nombre}</strong>
@@ -308,10 +300,9 @@ function Videos() {
                 <small>
                   {
                     videos.filter(
-                      video =>
-                        video.categoriaPrincipal === categoria.nombre,
+                      (video) => video.categoriaPrincipal === categoria.nombre,
                     ).length
-                  }{' '}
+                  }{" "}
                   vídeos
                 </small>
               </div>
@@ -327,9 +318,7 @@ function Videos() {
               <strong>Filtros</strong>
 
               {hayFiltrosActivos && (
-                <button onClick={limpiarFiltros}>
-                  Limpiar
-                </button>
+                <button onClick={limpiarFiltros}>Limpiar</button>
               )}
             </div>
 
@@ -341,18 +330,15 @@ function Videos() {
 
                 <select
                   value={categoriaPrincipal}
-                  onChange={e => {
-                    setCategoriaPrincipal(e.target.value)
-                    setSubcategoria('Todos')
+                  onChange={(e) => {
+                    setCategoriaPrincipal(e.target.value);
+                    setSubcategoria("Todos");
                   }}
                 >
                   <option value="Todos">Todos</option>
 
-                  {categoriasPrincipales.map(categoria => (
-                    <option
-                      key={categoria.nombre}
-                      value={categoria.nombre}
-                    >
+                  {categoriasPrincipales.map((categoria) => (
+                    <option key={categoria.nombre} value={categoria.nombre}>
                       {categoria.nombre}
                     </option>
                   ))}
@@ -361,7 +347,7 @@ function Videos() {
                 <span className="select-arrow">⌄</span>
               </div>
 
-              {categoriaPrincipal === 'Clase del mes' && (
+              {categoriaPrincipal === "Clase del mes" && (
                 <div className="select-wrapper">
                   <span className="select-icon">◎</span>
 
@@ -369,9 +355,9 @@ function Videos() {
 
                   <select
                     value={subcategoria}
-                    onChange={e => setSubcategoria(e.target.value)}
+                    onChange={(e) => setSubcategoria(e.target.value)}
                   >
-                    {subcategorias.map(categoria => (
+                    {subcategorias.map((categoria) => (
                       <option key={categoria} value={categoria}>
                         {categoria}
                       </option>
@@ -387,11 +373,8 @@ function Videos() {
 
                 <label>Mes</label>
 
-                <select
-                  value={mes}
-                  onChange={e => setMes(e.target.value)}
-                >
-                  {meses.map(mesItem => (
+                <select value={mes} onChange={(e) => setMes(e.target.value)}>
+                  {meses.map((mesItem) => (
                     <option key={mesItem} value={mesItem}>
                       {mesItem}
                     </option>
@@ -426,8 +409,8 @@ function Videos() {
 
         {videosFiltrados.length > 0 ? (
           <section className="youtube-grid">
-            {videosFiltrados.map(video => {
-              const youtubeId = getYoutubeId(video.enlace)
+            {videosFiltrados.map((video) => {
+              const youtubeId = getYoutubeId(video.enlace);
 
               return (
                 <article className="youtube-card" key={video.id}>
@@ -467,7 +450,7 @@ function Videos() {
                     </div>
                   </div>
                 </article>
-              )
+              );
             })}
           </section>
         ) : (
@@ -476,9 +459,7 @@ function Videos() {
               <strong>No hay vídeos con estos filtros.</strong>
             </div>
 
-            <button onClick={limpiarFiltros}>
-              Ver todos
-            </button>
+            <button onClick={limpiarFiltros}>Ver todos</button>
           </div>
         )}
       </section>
@@ -487,12 +468,9 @@ function Videos() {
         <div className="video-modal" onClick={cerrarVideo}>
           <div
             className="video-modal-content"
-            onClick={e => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()}
           >
-            <button
-              className="close-modal"
-              onClick={cerrarVideo}
-            >
+            <button className="close-modal" onClick={cerrarVideo}>
               ✕
             </button>
 
@@ -523,7 +501,7 @@ function Videos() {
         </div>
       )}
     </main>
-  )
+  );
 }
 
-export default Videos
+export default Videos;

@@ -1,0 +1,50 @@
+{
+  "id": "weekend-2026-05-09",
+  "date": "2026-05-09",
+  "title": "COMPETICIONES DEL FINDE",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100%❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Juan Ortiz",
+      "race": "Trail Desafío Portichuelo",
+      "goal": "Disfrutar de una disciplina diferente!",
+      "type": "Trail"
+    },
+    {
+      "name": "Rafa López",
+      "race": "Carrera urbana Ciudad La Carolina",
+      "goal": "Vamos a buscar marca personal, parando el crono en menos de 49’!",
+      "type": "10K"
+    },
+    {
+      "name": "Anabel Vera",
+      "race": "Carrera de la Mujer Reus",
+      "goal": "Estreno con el equipo en su primera semana!",
+      "type": "Running"
+    },
+    {
+      "name": "Ruth Lucilla",
+      "race": "5K Granja de Rocamora",
+      "goal": "Carrera de casa, carrera de marca personal, que pare el crono en menos de 31’!",
+      "type": "5K"
+    },
+    {
+      "name": "Iñaki Tovar",
+      "race": "5K Granja de Rocamora",
+      "goal": "También en casa, también marca personal, vamos a bajar de 26’!",
+      "type": "5K"
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "Trail Tren Burra",
+      "goal": "Coger sensaciones de competición de cara a retos venideros!",
+      "type": "Trail"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "weekend-2026-03-15",
+  "date": "2026-03-15",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Gorka Guenaga",
+      "race": "10k Getxo",
+      "goal": "Objetivo MMP e intentar sub40’",
+      "type": "10K"
+    },
+    {
+      "name": "Horacio Vega",
+      "race": "Media Maratón Segovia",
+      "goal": "Realizar un entreno contundente de cuestas de cara a Madrid!",
+      "type": "Media"
+    },
+    {
+      "name": "Anne García",
+      "race": "10K Getxo",
+      "goal": "Superar marca y bajar de 58:30!",
+      "type": "10K"
+    },
+    {
+      "name": "Nerea Garrido",
+      "race": "Media maratón Getxo",
+      "goal": "Estrenarnos en la distancia con una marca de sub 1h42",
+      "type": "Media"
+    },
+    {
+      "name": "Rafa López",
+      "race": "Circuito Carreras Jaén",
+      "goal": "Estrenarse en su primera semana en el equipo!!",
+      "type": "Running"
+    },
+    {
+      "name": "Andrea Herrera",
+      "race": "10k Cursa Patrimoni",
+      "goal": "Atacar el sub 55 y establecer nueva marca personal!",
+      "type": "10K"
+    }
+  ]
+}

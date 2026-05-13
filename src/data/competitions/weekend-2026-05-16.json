@@ -1,0 +1,115 @@
+{
+  "id": "weekend-2026-05-16",
+  "date": "2026-05-16",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis."
+  ],
+  "runners": [
+    {
+      "name": "Mario González",
+      "race": "Vektor Apex - Camargo",
+      "goal": "Disfrutar de la primera prueba híbrida",
+      "type": "Híbrida"
+    },
+    {
+      "name": "Adrián Ortega",
+      "race": "Vuelta a Casa de Campo",
+      "goal": "Tirada larga con dorsal",
+      "type": "Running"
+    },
+    {
+      "name": "Marta Sánchez",
+      "race": "10k Azuqueca de Henares",
+      "goal": "Objetivo MMP y sub 47:45",
+      "type": "10K"
+    },
+    {
+      "name": "Mireia",
+      "race": "XI Carrera José Antonio Redolat",
+      "goal": "Disfrutar de cada metro!!",
+      "type": "Running"
+    },
+    {
+      "name": "Irune Ansa",
+      "race": "Media maratón Pamplona",
+      "goal": "Desbloquear una nueva distancia!!",
+      "type": "Media maratón"
+    },
+    {
+      "name": "Marina de la Fuente",
+      "race": "Carrera de la mujer Madrid",
+      "goal": "Tener las mejores sensaciones en una carrera en equipo!",
+      "type": "Running"
+    },
+    {
+      "name": "Iodia García",
+      "race": "10k Martin Fiz",
+      "goal": "Estrenarse con el equipo, sacando una marca de menos de 55´!",
+      "type": "10K"
+    },
+    {
+      "name": "Nerea Garrido",
+      "race": "21k Martin Fiz",
+      "goal": "Atacar MP, vamos a por ese 1h40!",
+      "type": "Media maratón"
+    },
+    {
+      "name": "Enekpo Martinez",
+      "race": "Barrika Pirata Trail",
+      "goal": "Debut con el equipo, preparando retos venideros!",
+      "type": "Trail"
+    },
+    {
+      "name": "Natalia Mostolac",
+      "race": "Binter Run La Palma",
+      "goal": "Vamos a por MP, bajar de 48:30´!",
+      "type": "10K"
+    },
+    {
+      "name": "Jose Carlos Otón",
+      "race": "Night Run Arx Asdrubalis",
+      "goal": "Mantener buenas posiciones en el circuito de Cartagena!",
+      "type": "Running"
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "10k Cursa Corte Inglés",
+      "goal": "Vamos con todo, buscando un sub 53´!",
+      "type": "10K"
+    },
+    {
+      "name": "Maria Palco",
+      "race": "Rabiosa OCR",
+      "goal": "Disfrutar en equipo de una nueva disciplina!",
+      "type": "OCR"
+    },
+    {
+      "name": "Marta Pascual",
+      "race": "10k Cursa Corte Inglés",
+      "goal": "Otra marca que queremos, en este caso sub 53:30´!",
+      "type": "10K"
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "Carrera de la mujer Madrid",
+      "goal": "Romper barrera de 36´!",
+      "type": "Running"
+    },
+    {
+      "name": "Laura Turro",
+      "race": "10k Cursa Corte Inglés",
+      "goal": "Desbloquear nueva distancia!!",
+      "type": "10K"
+    },
+    {
+      "name": "Marimar",
+      "race": "Legua a Legua Palencia",
+      "goal": "Empezar a coger chispa para los próximos objetivos",
+      "type": "Running"
+    }
+  ]
+}

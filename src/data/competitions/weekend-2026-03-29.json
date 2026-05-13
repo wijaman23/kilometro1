@@ -1,0 +1,122 @@
+{
+  "id": "weekend-2026-03-29",
+  "date": "2026-03-29",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Manuel Cristóbal",
+      "race": "10k de Laredo",
+      "goal": "Objetivo MMP y sub42’",
+      "type": "10K"
+    },
+    {
+      "name": "Jorge Cubero",
+      "race": "10k de Laredo",
+      "goal": "Objetivo sub 41’30”",
+      "type": "10K"
+    },
+    {
+      "name": "Pablo Cristóbal",
+      "race": "10k de Laredo",
+      "goal": "Objetivo volver a exprimirme post lesión y estar entorno a 36’",
+      "type": "10K"
+    },
+    {
+      "name": "Gorka Guenaga",
+      "race": "10k de Laredo",
+      "goal": "Objetivo MMP (sub39’20”)",
+      "type": "10K"
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "10k de Laredo",
+      "goal": "Objetivo sub32:30",
+      "type": "10K"
+    },
+    {
+      "name": "Marta Sánchez",
+      "race": "Media de Zamora",
+      "goal": "Objetivo MMP y sub 1h50",
+      "type": "Media"
+    },
+    {
+      "name": "Pedro Alberto",
+      "race": "10k Binter Run Tenerife",
+      "goal": "Buscar marca personal, atacando sub 56´!",
+      "type": "10K"
+    },
+    {
+      "name": "Seve Arias",
+      "race": "Ruta de las Fortalezas Cartagena",
+      "goal": "Vamos a por un mítico ultra de 53km, reventando el tiempo de pasadas ediciones",
+      "type": "Ultra"
+    },
+    {
+      "name": "Arantxa Campos",
+      "race": "10k D´Empúries",
+      "goal": "Estrenarnos en la distancia con las mejores sensaciones posibles!",
+      "type": "10K"
+    },
+    {
+      "name": "Judit Claret",
+      "race": "5k de Lorqui",
+      "goal": "Reventar la barrera de 35´!",
+      "type": "5K"
+    },
+    {
+      "name": "Marina de La Fuente",
+      "race": "Marcha contra el Cáncer",
+      "goal": "Disfrutar en familia un evento solidario",
+      "type": "Solidaria"
+    },
+    {
+      "name": "Laís Ferreira",
+      "race": "10k Laredo",
+      "goal": "Disfrutar de Laredo y traernos un sub 49´!",
+      "type": "10K"
+    },
+    {
+      "name": "Lourdes Gallardo",
+      "race": "5k Binter Run Tenerife",
+      "goal": "Atacar nuestra marca personal!",
+      "type": "5K"
+    },
+    {
+      "name": "Andrea Herrera",
+      "race": "12k Ibiza",
+      "goal": "Desbloqueando distancias, mirando a por más!",
+      "type": "12K"
+    },
+    {
+      "name": "Rafa López",
+      "race": "10k Córdoba",
+      "goal": "Entreno con dorsal de cara a la media de Granada!",
+      "type": "10K"
+    },
+    {
+      "name": "Juan Ortiz",
+      "race": "Maratón de Ibiza",
+      "goal": "Disfrutar de uno de los maratones más bonitos del país!",
+      "type": "Maratón"
+    },
+    {
+      "name": "Rocio Ruiz",
+      "race": "Carrera saludable Ciudad De Lorca",
+      "goal": "Disfrutar de la distancia y atacar un buen tiempo!",
+      "type": "Running"
+    },
+    {
+      "name": "Ruth Lucilla e Iñaki Tovar",
+      "race": "Open de San José de la Montaña",
+      "goal": "Disfrutar en pareja de una prueba de Orientación",
+      "type": "Orientación"
+    }
+  ]
+}
