@@ -1,0 +1,110 @@
+{
+  "id": "weekend-2026-03-20",
+  "date": "2026-03-20",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Úrsula Campos",
+      "race": "10K El Puerto de Santa María",
+      "goal": "Mejorar marca del año pasado y estar en 51’",
+      "type": "10K"
+    },
+    {
+      "name": "Jorge Cubero",
+      "race": "5.000m pista Campeonato de La Rioja",
+      "goal": "Buscar el sub20’",
+      "type": "Pista"
+    },
+    {
+      "name": "Pablo Cristóbal",
+      "race": "MM Movistar Madrid",
+      "goal": "Disfrutar Madrid en modo entreno con dorsal",
+      "type": "Media"
+    },
+    {
+      "name": "Adrián Ortega",
+      "race": "Maratón de Roma",
+      "goal": "Marca personal y acercarnos a 3h20’",
+      "type": "Maratón"
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "Carrera Entreviñas",
+      "goal": "Pelear los puestos de cabeza",
+      "type": "Running"
+    },
+    {
+      "name": "Ayala Rubías",
+      "race": "MM Movistar Madrid",
+      "goal": "Estrenarse en la distancia con las mejores sensaciones",
+      "type": "Media"
+    },
+    {
+      "name": "Nacho Leyún",
+      "race": "MM Movistar Madrid",
+      "goal": "Batir marca personal y bajar de 1h50’",
+      "type": "Media"
+    },
+    {
+      "name": "Vladimir",
+      "race": "MM Movistar Madrid",
+      "goal": "Buscar una nueva marca personal y tocar 1h35’",
+      "type": "Media"
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "MM Movistar Madrid",
+      "goal": "Atacar el sub1h45’",
+      "type": "Media"
+    },
+    {
+      "name": "María Palco",
+      "race": "Media Maratón Azpeitia-Azkoitia",
+      "goal": "Superarnos y bajar marca personal",
+      "type": "Media"
+    },
+    {
+      "name": "Nerea Tomás",
+      "race": "Media Maratón Elche",
+      "goal": "Tocar marca de 1h55’ en la media más antigua del mundo",
+      "type": "Media"
+    },
+    {
+      "name": "Ariadna de Dios",
+      "race": "5K Mou-te Per L’Epilèpsia",
+      "goal": "Disfrutar en la semana post-maratón",
+      "type": "5K"
+    },
+    {
+      "name": "Carlos Palomares",
+      "race": "Maratón de Roma",
+      "goal": "Disfrutar la distancia reina en su estreno en una ciudad emblemática",
+      "type": "Maratón"
+    },
+    {
+      "name": "Paula Rodríguez",
+      "race": "10K Carrera Pas Ras",
+      "goal": "Acabar de la mejor manera la semana Fallera",
+      "type": "10K"
+    },
+    {
+      "name": "Sara Rubio",
+      "race": "Carrera Entreviñas",
+      "goal": "Reventar la marca del año pasado",
+      "type": "Running"
+    },
+    {
+      "name": "Araceli Peinado",
+      "race": "10K Reset Running",
+      "goal": "Disfrutar cada metro de la distancia",
+      "type": "10K"
+    }
+  ]
+}

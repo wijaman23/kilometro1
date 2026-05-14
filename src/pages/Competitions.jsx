@@ -8,6 +8,9 @@ import weekend20260426 from '../data/competitions/weekend-2026-04-26.json'
 import weekend20260329 from '../data/competitions/weekend-2026-03-29.json'
 import weekend20260322 from '../data/competitions/weekend-2026-03-22.json'
 import weekend20260315 from '../data/competitions/weekend-2026-03-15.json'
+import weekend20260320 from '../data/competitions/weekend-2026-03-20.json'
+import weekend20260314 from '../data/competitions/weekend-2026-03-14.json'
+import weekend20260306 from '../data/competitions/weekend-2026-03-06.json'
 
 const competitionWeeks = [
   weekend20260516,
@@ -16,6 +19,9 @@ const competitionWeeks = [
   weekend20260329,
   weekend20260322,
   weekend20260315,
+  weekend20260320,
+  weekend20260314,
+  weekend20260306,
 ]
 
 function formatDate(date) {
@@ -198,7 +204,7 @@ function Competitions() {
             <p key={text}>{text}</p>
           ))}
 
-          <h2>¡Vamos a por ello equipo! 🔥</h2>
+          <h2>¡Vamos a por ello equipo!🔥</h2>
         </div>
       </section>
     </main>

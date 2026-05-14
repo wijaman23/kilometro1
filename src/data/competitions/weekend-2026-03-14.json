@@ -1,0 +1,104 @@
+{
+  "id": "weekend-2026-03-15",
+  "date": "2026-03-15",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Manuel Cristóbal",
+      "race": "10K Camargo",
+      "goal": "Objetivo MMP (42:56)",
+      "type": "10K"
+    },
+    {
+      "name": "Mario González",
+      "race": "10K Camargo",
+      "goal": "Primer 10K en asfalto. Objetivo sub42:30",
+      "type": "10K"
+    },
+    {
+      "name": "Ariadna de Dios",
+      "race": "Maratón de Barcelona",
+      "goal": "Estrenarse en la distancia reina con las mejores sensaciones",
+      "type": "Maratón"
+    },
+    {
+      "name": "Oskar Martinez",
+      "race": "Maratón de Barcelona",
+      "goal": "Debut en maratón buscando un 3h20",
+      "type": "Maratón"
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "Maratón de Barcelona",
+      "goal": "Estrenarse en la distancia reina con las mejores sensaciones",
+      "type": "Maratón"
+    },
+    {
+      "name": "Juan Ortiz",
+      "race": "Maratón de Barcelona",
+      "goal": "Buscar las mejores sensaciones de cara a repetir gesta en Ibiza",
+      "type": "Maratón"
+    },
+    {
+      "name": "Marina De La Fuente",
+      "race": "Carrera del Agua",
+      "goal": "Buscar bajar de 59’",
+      "type": "Running"
+    },
+    {
+      "name": "Lucía Abellán",
+      "race": "Carrera Popular Base Aérea Alcantarilla",
+      "goal": "Estrenarse con el equipo bajando de 35’",
+      "type": "Running"
+    },
+    {
+      "name": "Judit Claret",
+      "race": "5K Lorca",
+      "goal": "Otro estreno con el equipo buscando las mejores sensaciones",
+      "type": "5K"
+    },
+    {
+      "name": "Arantxa Campos",
+      "race": "Cursa de la Dona Santa Coloma de Gramenet - 5K",
+      "goal": "Disfrutar la distancia en el estreno con el equipo",
+      "type": "5K"
+    },
+    {
+      "name": "Aurelio Escribano",
+      "race": "Media Maratón de Málaga",
+      "goal": "Objetivo reventar marca personal",
+      "type": "Media"
+    },
+    {
+      "name": "Andrés Gea",
+      "race": "5K Lorca",
+      "goal": "Reventar el 5K después de hacerlo en media",
+      "type": "5K"
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "Carrera del Agua",
+      "goal": "Romper la barrera de la hora",
+      "type": "Running"
+    },
+    {
+      "name": "Marta Sanchez",
+      "race": "5K Castellón",
+      "goal": "Poner buen broche a las fiestas de Castellón",
+      "type": "5K"
+    },
+    {
+      "name": "Laura Marco",
+      "race": "Cursa de la Dona Santa Coloma de Gramenet - 5K",
+      "goal": "Estreno con el equipo con un buen objetivo",
+      "type": "5K"
+    }
+  ]
+}

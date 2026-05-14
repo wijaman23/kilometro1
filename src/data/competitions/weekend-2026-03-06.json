@@ -1,0 +1,92 @@
+{
+  "id": "weekend-2026-03-06",
+  "date": "2026-03-06",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Gorka Guenaga",
+      "race": "10K Bilbao",
+      "goal": "Vuelta a la competición buscando sub43’",
+      "type": "10K"
+    },
+    {
+      "name": "Adrian Ortega",
+      "race": "21K Universitaria",
+      "goal": "Rodaje con dorsal pre maratón de Roma",
+      "type": "Media"
+    },
+    {
+      "name": "Pedro Alberto Pérez",
+      "race": "Carrera Nocturna Ciudad de Laguna",
+      "goal": "Disfrutar cada kilómetro superándonos",
+      "type": "Running"
+    },
+    {
+      "name": "Tamara López",
+      "race": "10K del Grupo",
+      "goal": "Volvemos al asfalto tras Kangas a buscar un sub49’",
+      "type": "10K"
+    },
+    {
+      "name": "Laís Ferreira",
+      "race": "10K del Grupo",
+      "goal": "Apretarnos bajando de 46:30",
+      "type": "10K"
+    },
+    {
+      "name": "Carlos Cabello",
+      "race": "10K Urbana de Torrevieja",
+      "goal": "Sumar de cara a Málaga con un sub48’",
+      "type": "10K"
+    },
+    {
+      "name": "Nacho Leyún",
+      "race": "Metlife",
+      "goal": "Entreno con dorsal de cara a Madrid buscando 1h15’",
+      "type": "Media"
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "Metlife",
+      "goal": "Objetivo sumar de cara a las medias madrileñas buscando 1h12’",
+      "type": "Media"
+    },
+    {
+      "name": "Anne García",
+      "race": "10K Bilbao",
+      "goal": "Disfrutar la distancia en el estreno con el equipo",
+      "type": "10K"
+    },
+    {
+      "name": "Nerea García",
+      "race": "10K Bilbao",
+      "goal": "Queremos una nueva marca personal. Vamos a por 56’",
+      "type": "10K"
+    },
+    {
+      "name": "Nerea Garrido",
+      "race": "10K Bilbao",
+      "goal": "Otra marca personal. En este caso vamos a por sub45’",
+      "type": "10K"
+    },
+    {
+      "name": "Isabel Romero",
+      "race": "Media Maratón de Lisboa",
+      "goal": "Disfrutar el carrerón después de un dedo rebelde",
+      "type": "Media"
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "Ecoparque Trail",
+      "goal": "Intentar bajar de 2h50 luchando contra el barro",
+      "type": "Trail"
+    }
+  ]
+}
