@@ -1,42 +1,45 @@
 import { useMemo, useState } from 'react'
 
 import Header from '../components/Header'
+import heroImage from '../assets/competitions-hero.jpg'
 
-import weekend20260516 from '../data/competitions/weekend-2026-05-16.json'
-import weekend20260509 from '../data/competitions/weekend-2026-05-09.json'
-import weekend20260426 from '../data/competitions/weekend-2026-04-26.json'
-import weekend20260329 from '../data/competitions/weekend-2026-03-29.json'
-import weekend20260322 from '../data/competitions/weekend-2026-03-22.json'
-import weekend20260315 from '../data/competitions/weekend-2026-03-15.json'
-import weekend20260320 from '../data/competitions/weekend-2026-03-20.json'
-import weekend20260314 from '../data/competitions/weekend-2026-03-14.json'
-import weekend20260306 from '../data/competitions/weekend-2026-03-06.json'
+const competitionModules = import.meta.glob(
+  '../data/competitions/*.json',
+  { eager: true },
+)
 
-const competitionWeeks = [
-  weekend20260516,
-  weekend20260509,
-  weekend20260426,
-  weekend20260329,
-  weekend20260322,
-  weekend20260315,
-  weekend20260320,
-  weekend20260314,
-  weekend20260306,
-]
-
-function formatDate(date) {
-  return new Date(date).toLocaleDateString('es-ES', {
-    day: '2-digit',
-    month: 'long',
-    year: 'numeric',
-  })
-}
+const competitionWeeks = Object.values(competitionModules).map(
+  module => module.default,
+)
 
 function formatMonth(date) {
   return new Date(date).toLocaleDateString('es-ES', {
     month: 'long',
     year: 'numeric',
   })
+}
+
+function formatWeekendParts(date) {
+  const start = new Date(date)
+  const end = new Date(date)
+
+  end.setDate(start.getDate() + 1)
+
+  const startDay = start.toLocaleDateString('es-ES', { day: '2-digit' })
+  const endDay = end.toLocaleDateString('es-ES', { day: '2-digit' })
+
+  const month = end
+    .toLocaleDateString('es-ES', { month: 'long' })
+    .toUpperCase()
+
+  const year = end.getFullYear()
+
+  return {
+    range: `${startDay}-${endDay}`,
+    month,
+    year,
+    full: `FINDE DEL ${startDay}-${endDay} ${month} ${year}`,
+  }
 }
 
 function Competitions() {
@@ -47,31 +50,21 @@ function Competitions() {
   }, [])
 
   const [selectedDate, setSelectedDate] = useState(sortedWeeks[0]?.date)
-  const [draftDate, setDraftDate] = useState(sortedWeeks[0]?.date)
   const [showFilters, setShowFilters] = useState(false)
 
   const currentWeek =
     sortedWeeks.find(week => week.date === selectedDate) || sortedWeeks[0]
 
-  const draftMonth = formatMonth(draftDate)
+  const currentMonth = formatMonth(selectedDate)
+  const currentWeekend = formatWeekendParts(currentWeek.date)
 
   const months = useMemo(() => {
     return [...new Set(sortedWeeks.map(week => formatMonth(week.date)))]
   }, [sortedWeeks])
 
   const weeksByMonth = useMemo(() => {
-    return sortedWeeks.filter(week => formatMonth(week.date) === draftMonth)
-  }, [draftMonth, sortedWeeks])
-
-  const openFilters = () => {
-    setDraftDate(selectedDate)
-    setShowFilters(true)
-  }
-
-  const closeFilters = () => {
-    setDraftDate(selectedDate)
-    setShowFilters(false)
-  }
+    return sortedWeeks.filter(week => formatMonth(week.date) === currentMonth)
+  }, [currentMonth, sortedWeeks])
 
   const changeMonth = month => {
     const firstWeekOfMonth = sortedWeeks.find(
@@ -79,101 +72,120 @@ function Competitions() {
     )
 
     if (firstWeekOfMonth) {
-      setDraftDate(firstWeekOfMonth.date)
+      setSelectedDate(firstWeekOfMonth.date)
     }
   }
 
-  const applyFilters = () => {
-    setSelectedDate(draftDate)
-    setShowFilters(false)
-  }
-
   return (
-    <main className="competitions-page">
+    <main
+      className="competitions-page"
+      style={{ '--competitions-bg': `url(${heroImage})` }}
+    >
       <Header />
 
       <section className="competitions-hero">
         <div className="competitions-hero-content">
-
           <h1>Valientes con dorsal</h1>
 
-          <p className="competitions-lead">
+          <p>
             {currentWeek.subtitle}. {currentWeek.intro}
           </p>
 
-          <div className="competitions-info-panel">
-            <div className="date-card">
-              <div>
-                <strong>{formatDate(currentWeek.date)}</strong>
-                <span>Fecha del finde</span>
-              </div>
+          <div className="competitions-filter-area">
+            <button
+              type="button"
+              className={
+                showFilters
+                  ? 'weekend-filter-button active'
+                  : 'weekend-filter-button'
+              }
+              onClick={() => setShowFilters(!showFilters)}
+            >
+              <span className="weekend-filter-icon">▣</span>
 
-              <button
-                type="button"
-                className={showFilters ? 'date-filter-btn active' : 'date-filter-btn'}
-                onClick={showFilters ? closeFilters : openFilters}
-                aria-label="Abrir filtros"
-              >
-                ⌄
-              </button>
-            </div>
+              <strong>
+                Finde del <em>{currentWeekend.range}</em>{' '}
+                {currentWeekend.month} {currentWeekend.year}
+              </strong>
+
+              <span className="weekend-filter-arrow">⌄</span>
+            </button>
+
+            {showFilters && (
+              <div className="competition-filter-panel">
+                <div className="competition-filter-head">
+                  <strong>Cambiar finde</strong>
+
+                  <button
+                    type="button"
+                    onClick={() => setShowFilters(false)}
+                    aria-label="Cerrar filtro"
+                  >
+                    ✕
+                  </button>
+                </div>
+
+                <div className="filter-block">
+                  <span>Mes</span>
+
+                  <div className="filter-options">
+                    {months.map(month => (
+                      <button
+                        type="button"
+                        key={month}
+                        className={
+                          month === currentMonth
+                            ? 'month-option active'
+                            : 'month-option'
+                        }
+                        onClick={() => changeMonth(month)}
+                      >
+                        {month}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="filter-block">
+                  <span>Semana</span>
+
+                  <div className="week-options">
+                    {weeksByMonth.map(week => {
+                      const weekend = formatWeekendParts(week.date)
+
+                      return (
+                        <button
+                          type="button"
+                          key={week.id}
+                          className={
+                            week.date === selectedDate
+                              ? 'week-option active'
+                              : 'week-option'
+                          }
+                          onClick={() => {
+                            setSelectedDate(week.date)
+                            setShowFilters(false)
+                          }}
+                        >
+                          <strong>{weekend.range}</strong>
+                          <small>{weekend.month}</small>
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
-
-        {showFilters && (
-          <div className="competition-filter-panel">
-            <div className="competition-filter-head">
-              <strong>Filtrar competiciones</strong>
-
-              <div className="competition-filter-actions">
-                <button type="button" className="filter-see-btn" onClick={applyFilters}>
-                  Ver
-                </button>
-
-                <button type="button" className="filter-close-btn" onClick={closeFilters}>
-                  ✕
-                </button>
-              </div>
-            </div>
-
-            <div className="competition-filter-grid">
-              <label className="competition-select">
-                <span>Mes</span>
-
-                <select
-                  value={draftMonth}
-                  onChange={event => changeMonth(event.target.value)}
-                >
-                  {months.map(month => (
-                    <option key={month} value={month}>
-                      {month}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="competition-select">
-                <span>Semana</span>
-
-                <select
-                  value={draftDate}
-                  onChange={event => setDraftDate(event.target.value)}
-                >
-                  {weeksByMonth.map(week => (
-                    <option key={week.id} value={week.date}>
-                      {formatDate(week.date)}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
-          </div>
-        )}
       </section>
 
       <section className="competitions-grid">
         {currentWeek.runners.map((runner, index) => (
-          <article className="competition-card" key={`${runner.name}-${index}`}>
+          <article
+            className="competition-card"
+            key={`${runner.name}-${index}`}
+          >
             <div className="competition-card-header">
               <span className="runner-status"></span>
 
@@ -199,12 +211,14 @@ function Competitions() {
       </section>
 
       <section className="competitions-closing">
-        <div>
+        <div className="closing-km1-glow">KM1</div>
+
+        <div className="closing-content">
           {currentWeek.closing.map(text => (
             <p key={text}>{text}</p>
           ))}
 
-          <h2>¡Vamos a por ello equipo!🔥</h2>
+          <h2>¡Vamos a por ello equipo!</h2>
         </div>
       </section>
     </main>
