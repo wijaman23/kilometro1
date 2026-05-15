@@ -1,0 +1,81 @@
+{
+  "id": "weekend-2026-05-16",
+  "date": "2026-05-16",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Vamos a por ello equipo!🔥"
+  ],
+  "runners": [
+    {
+      "name": "José Antonio",
+      "race": "Media de la Media - Valladolid",
+      "goal": "Mejorar tiempo del año pasado",
+      "type": "21k"
+    },
+    {
+      "name": "Jorge Cubero",
+      "race": "3.000ml Cpto. máster La Rioja-Navarra",
+      "goal": "Objetivo 11:40",
+      "type": "Pista"
+    },
+    {
+      "name": "David Santamaría",
+      "race": "10K Salamanca",
+      "goal": "Objetivo sub 45’",
+      "type": "10K"
+    },
+    {
+      "name": "Marta Sánchez",
+      "race": "Viaje a la Alcarria",
+      "goal": "Disfrutar de esta carrera por etapas",
+      "type": "Trail"
+    },
+    {
+      "name": "Sergi Asensio",
+      "race": "Cursa Nou Barris",
+      "goal": "Hacer de liebre en un entreno con dorsal de cara a fuertes objetivos!",
+      "type": "Running"
+    },
+    {
+      "name": "Judit Claret",
+      "race": "5K Alguazas",
+      "goal": "Batir la marca personal y bajar 34´!",
+      "type": "5K"
+    },
+    {
+      "name": "Natalia Mostolac",
+      "race": "10K Ponle Freno Zaragoza",
+      "goal": "Ayudar a compi a bajar de la hora!",
+      "type": "10K"
+    },
+    {
+      "name": "Juan Ortiz",
+      "race": "10K Elche",
+      "goal": "Carrera en pareja!",
+      "type": "10K"
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "Nocturna L’Hospitalet",
+      "goal": "Atacar MP, vamos a por ese sub 52´!",
+      "type": "Running"
+    },
+    {
+      "name": "Paula Rodriguez",
+      "race": "15KM Massamagrel",
+      "goal": "Desbloqueando distancia! Vamos a por más records!",
+      "type": "15K"
+    },
+    {
+      "name": "Rocio Ruiz",
+      "race": "Monda Trail",
+      "goal": "Estreno en trail, vamos a por sub 2h!",
+      "type": "Trail"
+    }
+  ]
+}
