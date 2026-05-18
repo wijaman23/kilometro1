@@ -36,26 +36,19 @@ function MeetupPopup() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   useEffect(() => {
-    const closed = localStorage.getItem('km1-meetup-popup-closed')
-
-    if (!closed) {
-      const timer = setTimeout(() => {
-        setVisible(true)
-      }, 900)
-
+    if (!localStorage.getItem('km1-meetup-popup-closed')) {
+      const timer = setTimeout(() => setVisible(true), 700)
       return () => clearTimeout(timer)
     }
   }, [])
 
   const closePopup = () => {
     localStorage.setItem('km1-meetup-popup-closed', 'true')
-
     setMobileOpen(false)
     setVisible(false)
   }
 
   const totalVotes = races.reduce((total, race) => total + race.votes, 0)
-
   const leader = races.reduce((prev, current) =>
     current.votes > prev.votes ? current : prev
   )
@@ -68,7 +61,8 @@ function MeetupPopup() {
         className={`meetup-mobile-trigger ${mobileOpen ? 'hidden' : ''}`}
         onClick={() => setMobileOpen(true)}
       >
-        🔔 Quedada KM1 2026
+        <span className="meetup-alert-dot" />
+        <span>Quedada KM1 2026</span>
       </button>
 
       <div
@@ -76,16 +70,12 @@ function MeetupPopup() {
         onClick={() => setMobileOpen(false)}
       />
 
-      <section
-        className={`meetup-popup ${mobileOpen ? 'mobile-open' : ''}`}
-      >
+      <section className={`meetup-popup ${mobileOpen ? 'mobile-open' : ''}`}>
         <button className="meetup-popup-close" onClick={closePopup}>
           ×
         </button>
 
-        <div className="meetup-popup-kicker">
-          Quedada KM1 2026
-        </div>
+        <div className="meetup-popup-kicker">Quedada KM1 2026</div>
 
         <h3>Estamos eligiendo destino 🍀</h3>
 
@@ -96,9 +86,7 @@ function MeetupPopup() {
 
         <div className="meetup-popup-results">
           {races.map(race => {
-            const percentage = Math.round(
-              (race.votes / totalVotes) * 100
-            )
+            const percentage = Math.round((race.votes / totalVotes) * 100)
 
             return (
               <a
@@ -127,10 +115,7 @@ function MeetupPopup() {
 
         <div className="meetup-popup-footer">
           <span>{totalVotes} votos registrados</span>
-
-          <button onClick={closePopup}>
-            Entendido
-          </button>
+          <button onClick={closePopup}>Entendido</button>
         </div>
       </section>
     </>

@@ -5,11 +5,7 @@
   overflow-x: hidden;
   color: var(--km-white);
   background:
-    radial-gradient(
-      circle at top right,
-      rgba(20, 49, 28, 0.62),
-      transparent 34%
-    ),
+    radial-gradient(circle at top right, rgba(20, 49, 28, 0.62), transparent 34%),
     var(--km-black);
 }
 
@@ -51,16 +47,8 @@
   z-index: 1;
 
   background:
-    radial-gradient(
-      circle at top left,
-      rgba(67, 255, 123, 0.1),
-      transparent 28%
-    ),
-    linear-gradient(
-      180deg,
-      transparent 0%,
-      rgba(2, 3, 2, 0.78) 90%
-    );
+    radial-gradient(circle at top left, rgba(67, 255, 123, 0.1), transparent 28%),
+    linear-gradient(180deg, transparent 0%, rgba(2, 3, 2, 0.78) 90%);
 
   pointer-events: none;
 }
@@ -332,8 +320,6 @@
   text-transform: capitalize;
 }
 
-/* BOTONES SEMANA IGUALES Y PEQUEÑOS */
-
 .week-option {
   width: 64px;
   height: 64px;
@@ -389,6 +375,9 @@
 /* GRID */
 
 .competitions-grid {
+  position: relative;
+  z-index: 5;
+
   width: min(1500px, calc(100% - 40px));
 
   margin: 18px auto 0;
@@ -401,6 +390,9 @@
 
 .competition-card {
   position: relative;
+  z-index: 6;
+
+  display: block;
   overflow: hidden;
 
   min-height: 178px;
@@ -420,6 +412,12 @@
   box-shadow: 0 20px 56px rgba(0, 0, 0, 0.24);
 
   backdrop-filter: blur(12px);
+
+  text-decoration: none;
+  color: inherit;
+
+  cursor: pointer;
+  pointer-events: auto;
 
   transition:
     transform 0.25s ease,
@@ -455,7 +453,6 @@
 
   box-shadow: 0 26px 70px rgba(0, 0, 0, 0.3);
 }
-
 
 .competition-card-header,
 .competition-card-body {
@@ -525,6 +522,7 @@
 
 .competitions-closing {
   position: relative;
+  z-index: 5;
   width: min(1500px, calc(100% - 40px));
   margin: 80px auto 0;
   padding: 70px 0 60px;

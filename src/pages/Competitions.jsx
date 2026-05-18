@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import Header from '../components/Header'
 import heroImage from '../assets/competitions-hero.jpg'
 
-const competitionModules = import.meta.glob(
-  '../data/competitions/*.json',
-  { eager: true },
-)
+const competitionModules = import.meta.glob('../data/competitions/*.json', {
+  eager: true,
+})
 
 const competitionWeeks = Object.values(competitionModules).map(
   module => module.default,
@@ -38,7 +38,6 @@ function formatWeekendParts(date) {
     range: `${startDay}-${endDay}`,
     month,
     year,
-    full: `FINDE DEL ${startDay}-${endDay} ${month} ${year}`,
   }
 }
 
@@ -182,7 +181,8 @@ function Competitions() {
 
       <section className="competitions-grid">
         {currentWeek.runners.map((runner, index) => (
-          <article
+          <Link
+            to={`/competiciones/${runner.slug}`}
             className="competition-card"
             key={`${runner.name}-${index}`}
           >
@@ -206,7 +206,7 @@ function Competitions() {
                 <p>{runner.goal}</p>
               </div>
             </div>
-          </article>
+          </Link>
         ))}
       </section>
 

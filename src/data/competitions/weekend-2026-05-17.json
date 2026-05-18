@@ -14,67 +14,166 @@
       "name": "José Antonio",
       "race": "Media de la Media - Valladolid",
       "goal": "Mejorar tiempo del año pasado",
-      "type": "21k"
+      "type": "10.5K",
+      "slug": "jose-antonio-media-de-la-media-valladolid",
+      "details": {
+        "distance": "10.5K",
+        "location": "Valladolid",
+        "time": "10:00h",
+        "raceInfo": "La Media de la Media forma parte de la jornada de la Media Maratón Ciudad de Valladolid. Un recorrido urbano y llano por las calles de la ciudad, ideal para correr fuerte y buscar buenas sensaciones.",
+        "website": "https://www.mediamaratonvalladolid.com/",
+        "routeImage": "https://www.mediamaratonvalladolid.com/wp-content/uploads/2023/03/Recorrido-Carrera-popular-82-768x813.gif"
+      }
     },
     {
       "name": "Jorge Cubero",
-      "race": "3.000ml Cpto. máster La Rioja-Navarra",
+      "race": "3.000m Cpto. máster La Rioja-Navarra",
       "goal": "Objetivo 11:40",
-      "type": "Pista"
+      "type": "Pista",
+      "slug": "jorge-cubero-3000ml-cpto-master-la-rioja-navarra",
+      "details": {
+        "distance": "3.000m",
+        "location": "La Rioja / Navarra",
+        "time": "",
+        "raceInfo": "Campeonato Máster La Rioja-Navarra y control en pista. Prueba de 3.000 metros lisos dentro del programa del campeonato.",
+        "website": "https://www.fratletismo.com/noticias",
+        "routeImage": ""
+      }
     },
     {
       "name": "David Santamaría",
       "race": "10K Salamanca",
       "goal": "Objetivo sub 45’",
-      "type": "10K"
+      "type": "10K",
+      "slug": "david-santamaria-10k-salamanca",
+      "details": {
+        "distance": "10K",
+        "location": "Salamanca",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
     },
     {
       "name": "Marta Sánchez",
       "race": "Viaje a la Alcarria",
       "goal": "Disfrutar de esta carrera por etapas",
-      "type": "Trail"
+      "type": "Trail",
+      "slug": "marta-sanchez-viaje-a-la-alcarria",
+      "details": {
+        "distance": "Por etapas",
+        "location": "Guadalajara - Pastrana",
+        "time": "",
+        "raceInfo": "Reto por etapas del 15 al 17 de mayo que une Guadalajara con Pastrana por sendas y caminos, rememorando el Viaje a la Alcarria de Camilo José Cela.",
+        "website": "https://www.retoviajealcarria.com/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Sergi Asensio",
       "race": "Cursa Nou Barris",
       "goal": "Hacer de liebre en un entreno con dorsal de cara a fuertes objetivos!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "sergi-asensio-cursa-nou-barris",
+      "details": {
+        "distance": "5K / 10K",
+        "location": "Barcelona",
+        "time": "09:00h",
+        "raceInfo": "Cursa urbana de Nou Barris con pruebas de 5K y 10K. Salida en Pg. Andreu Nin / Pintor Alsamora, delante de SOM Multiespai.",
+        "website": "https://cursanoubarris.cat/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Judit Claret",
       "race": "5K Alguazas",
       "goal": "Batir la marca personal y bajar 34´!",
-      "type": "5K"
+      "type": "5K",
+      "slug": "judit-claret-5k-alguazas",
+      "details": {
+        "distance": "5K",
+        "location": "Alguazas, Murcia",
+        "time": "09:30h",
+        "raceInfo": "XIII Carrera Popular Villa de Alguazas, con salida desde la Plaza del Ayuntamiento y pruebas de 10K, 5K, senderismo y carreras infantiles.",
+        "website": "https://www.alcanzatumeta.es/xiii-carrera-popular-villa-de-alguazas-2026/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Natalia Mostolac",
       "race": "10K Ponle Freno Zaragoza",
       "goal": "Ayudar a compi a bajar de la hora!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "natalia-mostolac-10k-ponle-freno-zaragoza",
+      "details": {
+        "distance": "10K",
+        "location": "Zaragoza",
+        "time": "10:00h",
+        "raceInfo": "Carrera Ponle Freno Zaragoza 2026, con recorridos de 5K y 10K y salida en Zaragoza.",
+        "website": "https://www.rockthesport.com/es/evento/ponle-freno-zaragoza-2026",
+        "routeImage": ""
+      }
     },
     {
       "name": "Juan Ortiz",
       "race": "10K Elche",
       "goal": "Carrera en pareja!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "juan-ortiz-10k-elche",
+      "details": {
+        "distance": "10K",
+        "location": "Elche",
+        "time": "22:00h",
+        "raceInfo": "Elche Night Race 2026, prueba nocturna con distancias de 5K y 10K, con salida desde el Puente del Ferrocarril.",
+        "website": "https://www.elchenightrace.es/",
+        "routeImage": "https://www.elchenightrace.es/assets/images/5k.jpeg"
+      }
     },
     {
       "name": "Òscar Pareja",
       "race": "Nocturna L’Hospitalet",
       "goal": "Atacar MP, vamos a por ese sub 52´!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "oscar-pareja-nocturna-lhospitalet",
+      "details": {
+        "distance": "5K / 10K",
+        "location": "L’Hospitalet de Llobregat",
+        "time": "",
+        "raceInfo": "La Nocturna de L’Hospitalet 2026 cuenta con recorridos de 5K y 10K, urbanos y homologados por la Federació Catalana d’Atletisme.",
+        "website": "https://cursanocturnalh.cat/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Paula Rodriguez",
       "race": "15KM Massamagrel",
       "goal": "Desbloqueando distancia! Vamos a por más records!",
-      "type": "15K"
+      "type": "15K",
+      "slug": "paula-rodriguez-15km-massamagrel",
+      "details": {
+        "distance": "15K",
+        "location": "Massamagrell",
+        "time": "19:00h",
+        "raceInfo": "XXIII 15K i I 5K Vila de Massamagrell, prueba popular con modalidades de 15K y 5K.",
+        "website": "https://www.cronorunner.com/evento.php?ref=643-2180",
+        "routeImage": ""
+      }
     },
     {
       "name": "Rocio Ruiz",
       "race": "Monda Trail",
       "goal": "Estreno en trail, vamos a por sub 2h!",
-      "type": "Trail"
+      "type": "Trail",
+      "slug": "rocio-ruiz-monda-trail",
+      "details": {
+        "distance": "20K",
+        "location": "Puerto Lumbreras",
+        "time": "",
+        "raceInfo": "III Monda Trail 2026, prueba de montaña con varias modalidades, entre ellas Monda Sprint 20K y Monda Open 10K.",
+        "website": "https://mondacxm.com/",
+        "routeImage": ""
+      }
     }
   ]
 }

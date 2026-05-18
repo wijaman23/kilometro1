@@ -13,103 +13,256 @@
       "name": "Mario González",
       "race": "Vektor Apex - Camargo",
       "goal": "Disfrutar de la primera prueba híbrida",
-      "type": "Híbrida"
+      "type": "Híbrida",
+      "slug": "mario-gonzalez-vektor-apex-camargo",
+      "details": {
+        "distance": "Híbrida",
+        "location": "Camargo",
+        "time": "",
+        "raceInfo": "Vektor Apex Camargo es una competición híbrida que combina carrera y estaciones funcionales en un formato exigente de resistencia y fuerza.",
+        "website": "https://www.deporticket.com/web-evento/12827-vektor-apex-2026-camargo",
+        "routeImage": ""
+      }
     },
     {
       "name": "Adrián Ortega",
       "race": "Vuelta a Casa de Campo",
       "goal": "Tirada larga con dorsal",
-      "type": "Running"
+      "type": "Running",
+      "slug": "adrian-ortega-vuelta-a-casa-de-campo",
+      "details": {
+        "distance": "16.5K",
+        "location": "Madrid",
+        "time": "",
+        "raceInfo": "La Vuelta a la Casa de Campo 2026 se celebra sobre una distancia principal de 16,5 kilómetros, con recorrido por uno de los grandes pulmones verdes de Madrid.",
+        "website": "https://www.vueltacasadecampo.com/",
+        "routeImage": "https://deporticket.blob.core.windows.net/awebs/vuelta-a-la-casa-de-campo/plano-circuito_casa-de-campo_web.jpg"
+      }
     },
     {
       "name": "Marta Sánchez",
       "race": "10k Azuqueca de Henares",
       "goal": "Objetivo MMP y sub 47:45",
-      "type": "10K"
+      "type": "10K",
+      "slug": "marta-sanchez-10k-azuqueca-de-henares",
+      "details": {
+        "distance": "10K",
+        "location": "Azuqueca de Henares",
+        "time": "09:00h",
+        "raceInfo": "La prueba forma parte de la Media Maratón Azuqueca 2026 Chemo-Liconsa. El 10K utiliza una vuelta urbana por las principales calles del municipio.",
+        "website": "https://mediamaratonazuqueca.es/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Mireia",
       "race": "XI Carrera José Antonio Redolat",
       "goal": "Disfrutar de cada metro!!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "mireia-xi-carrera-jose-antonio-redolat",
+      "details": {
+        "distance": "5K",
+        "location": "Valencia",
+        "time": "09:00h",
+        "raceInfo": "La XI Carrera José Antonio Redolat es una prueba de 5.000 metros homologados del Circuit de Carreres Caixa Popular Ciutat de València, con salida en Maestro Rodrigo.",
+        "website": "https://www.valenciaciudaddelrunning.com/evento/xi-carrera-jose-antonio-redolat/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Irune Ansa",
       "race": "Media maratón Pamplona",
       "goal": "Desbloquear una nueva distancia!!",
-      "type": "Media maratón"
+      "type": "Media maratón",
+      "slug": "irune-ansa-media-maraton-pamplona",
+      "details": {
+        "distance": "21K",
+        "location": "Pamplona",
+        "time": "",
+        "raceInfo": "La Media Maratón Pamplona 2026 celebra su 42ª edición. La prueba recorre zonas emblemáticas de la ciudad, con ambiente ligado a San Fermín, Hemingway y el Camino de Santiago.",
+        "website": "https://mediamaratonpamplona.com/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Marina de la Fuente",
       "race": "Carrera de la mujer Madrid",
       "goal": "Tener las mejores sensaciones en una carrera en equipo!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "marina-de-la-fuente-carrera-de-la-mujer-madrid",
+      "details": {
+        "distance": "6.4K",
+        "location": "Madrid",
+        "time": "09:00h",
+        "raceInfo": "La Carrera de la Mujer Madrid 2026 se celebra el 10 de mayo con un recorrido popular de 6,4 km y gran ambiente de equipo por la ciudad.",
+        "website": "https://www.carreradelamujer.com/muj-recorrido-madrid",
+        "routeImage": ""
+      }
     },
     {
       "name": "Iodia García",
       "race": "10k Martin Fiz",
       "goal": "Estrenarse con el equipo, sacando una marca de menos de 55´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "iodia-garcia-10k-martin-fiz",
+      "details": {
+        "distance": "10K",
+        "location": "Vitoria-Gasteiz",
+        "time": "08:30h",
+        "raceInfo": "El 10K Martín Fiz forma parte de la jornada del Maratón Martín Fiz 2026 en Vitoria-Gasteiz, con salida común a las 8:30h y recorrido urbano.",
+        "website": "https://www.maratonmartinfiz.com/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Nerea Garrido",
       "race": "21k Martin Fiz",
       "goal": "Atacar MP, vamos a por ese 1h40!",
-      "type": "Media maratón"
+      "type": "Media maratón",
+      "slug": "nerea-garrido-21k-martin-fiz",
+      "details": {
+        "distance": "21K",
+        "location": "Vitoria-Gasteiz",
+        "time": "08:30h",
+        "raceInfo": "La media maratón Martín Fiz 2026 forma parte del evento de Vitoria-Gasteiz, con circuito rápido y urbano dentro de la gran fiesta del running de la ciudad.",
+        "website": "https://www.maratonmartinfiz.com/circuito-21k/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Enekpo Martinez",
       "race": "Barrika Pirata Trail",
       "goal": "Debut con el equipo, preparando retos venideros!",
-      "type": "Trail"
+      "type": "Trail",
+      "slug": "enekpo-martinez-barrika-pirata-trail",
+      "details": {
+        "distance": "13.2K",
+        "location": "Barrika",
+        "time": "09:30h",
+        "raceInfo": "La Barrika Pirata Trail 2026 recorre la costa de Barrika, con paso por las playas de Muriola, Barrika y Meñakoz. Una prueba de trail de unos 13,2 km con ambiente pirata.",
+        "website": "https://web.rockthesport.com/es/event/barrika-pirata-trail-2026",
+        "routeImage": ""
+      }
     },
     {
       "name": "Natalia Mostolac",
       "race": "Binter Run La Palma",
       "goal": "Vamos a por MP, bajar de 48:30´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "natalia-mostolac-binter-run-la-palma",
+      "details": {
+        "distance": "10K",
+        "location": "",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
     },
     {
       "name": "Jose Carlos Otón",
       "race": "Night Run Arx Asdrubalis",
       "goal": "Mantener buenas posiciones en el circuito de Cartagena!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "jose-carlos-oton-night-run-arx-asdrubalis",
+      "details": {
+        "distance": "10K",
+        "location": "Cartagena",
+        "time": "21:10h",
+        "raceInfo": "La Night Run Arx Asdrubalis 2026 es una prueba nocturna de 10K en Cartagena, con salida y meta en la Plaza de San Francisco y recorrido por zonas históricas de la ciudad.",
+        "website": "https://cartaginesesyromanos.es/night-run-arx-asdrubalis-2026/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Òscar Pareja",
       "race": "10k Cursa Corte Inglés",
       "goal": "Vamos con todo, buscando un sub 53´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "oscar-pareja-10k-cursa-corte-ingles",
+      "details": {
+        "distance": "10K",
+        "location": "Barcelona",
+        "time": "09:00h",
+        "raceInfo": "La Cursa El Corte Inglés 2026 presenta un recorrido homologado de 10 km por Barcelona, con salida en Av. Diagonal 617 y llegada en Plaça Catalunya.",
+        "website": "https://lacursa.barcelona/es/recorrido/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Maria Palco",
       "race": "Rabiosa OCR",
       "goal": "Disfrutar en equipo de una nueva disciplina!",
-      "type": "OCR"
+      "type": "OCR",
+      "slug": "maria-palco-rabiosa-ocr",
+      "details": {
+        "distance": "6K",
+        "location": "Marcilla",
+        "time": "10:00h",
+        "raceInfo": "Rabiosa Race 2026 es una carrera OCR de obstáculos en Marcilla, con barro, agua y obstáculos en un recorrido de unos 6 km.",
+        "website": "https://web.rockthesport.com/es/event/rabiosa-race-2026",
+        "routeImage": ""
+      }
     },
     {
       "name": "Marta Pascual",
       "race": "10k Cursa Corte Inglés",
       "goal": "Otra marca que queremos, en este caso sub 53:30´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "marta-pascual-10k-cursa-corte-ingles",
+      "details": {
+        "distance": "10K",
+        "location": "Barcelona",
+        "time": "09:00h",
+        "raceInfo": "La Cursa El Corte Inglés 2026 presenta un recorrido homologado de 10 km por Barcelona, con salida en Av. Diagonal 617 y llegada en Plaça Catalunya.",
+        "website": "https://lacursa.barcelona/es/recorrido/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Marta Pérez",
       "race": "Carrera de la mujer Madrid",
       "goal": "Romper barrera de 36´!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "marta-perez-carrera-de-la-mujer-madrid",
+      "details": {
+        "distance": "6.4K",
+        "location": "Madrid",
+        "time": "09:00h",
+        "raceInfo": "La Carrera de la Mujer Madrid 2026 se celebra el 10 de mayo con un recorrido popular de 6,4 km y gran ambiente de equipo por la ciudad.",
+        "website": "https://www.carreradelamujer.com/muj-recorrido-madrid",
+        "routeImage": ""
+      }
     },
     {
       "name": "Laura Turro",
       "race": "10k Cursa Corte Inglés",
       "goal": "Desbloquear nueva distancia!!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "laura-turro-10k-cursa-corte-ingles",
+      "details": {
+        "distance": "10K",
+        "location": "Barcelona",
+        "time": "09:00h",
+        "raceInfo": "La Cursa El Corte Inglés 2026 presenta un recorrido homologado de 10 km por Barcelona, con salida en Av. Diagonal 617 y llegada en Plaça Catalunya.",
+        "website": "https://lacursa.barcelona/es/recorrido/",
+        "routeImage": ""
+      }
     },
     {
       "name": "Marimar",
       "race": "Legua a Legua Palencia",
       "goal": "Empezar a coger chispa para los próximos objetivos",
-      "type": "Running"
+      "type": "Running",
+      "slug": "marimar-legua-a-legua-palencia",
+      "details": {
+        "distance": "5.5K",
+        "location": "Villada",
+        "time": "11:00h",
+        "raceInfo": "La primera prueba del circuito Palencia Legua a Legua 2026 se celebra en Villada el 10 de mayo, dentro del circuito provincial de atletismo popular.",
+        "website": "https://inscripciones.runvasport.es/inscripcion/villada-palencia-legua-a-legua-2026/?lang=es",
+        "routeImage": ""
+      }
     }
   ]
 }
