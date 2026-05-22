@@ -1,0 +1,224 @@
+{
+  "id": "weekend-2026-05-23",
+  "date": "2026-05-23",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Úrsula Campos",
+      "race": "Media del Puerto",
+      "goal": "Objetivo MMP y sub 1h55!",
+      "type": "21K",
+      "slug": "ursula-campos-media-del-puerto",
+      "details": {
+        "distance": "21K",
+        "location": "",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Mario González",
+      "race": "Trail 21K del Soplao",
+      "goal": "Disfrutar de este nuevo terreno!",
+      "type": "Trail",
+      "slug": "mario-gonzalez-trail-21k-del-soplao",
+      "details": {
+        "distance": "21K",
+        "location": "Cantabria",
+        "time": "",
+        "raceInfo": "Los 10.000 del Soplao es uno de los eventos de montaña más conocidos del norte de España, con recorridos exigentes y gran ambiente trail.",
+        "website": "https://www.diezmildelsoplao.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Sergi Asensio",
+      "race": "Cursa Dir Guardia Urbana",
+      "goal": "Vamos a por marca, romper la barrera de 40´!",
+      "type": "10K",
+      "slug": "sergi-asensio-cursa-dir-guardia-urbana",
+      "details": {
+        "distance": "10K",
+        "location": "Barcelona",
+        "time": "",
+        "raceInfo": "La Cursa DIR Guardia Urbana recorre algunas de las principales avenidas de Barcelona con un circuito rápido y homologado.",
+        "website": "https://www.cursaguardiurbana.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "II Run for Parkinson Cartagena",
+      "goal": "Reventar marca y conseguir mantenernos en las mejores posiciones del circuito!",
+      "type": "Running",
+      "slug": "jose-carlos-oton-run-for-parkinson-cartagena",
+      "details": {
+        "distance": "",
+        "location": "Cartagena",
+        "time": "",
+        "raceInfo": "Carrera solidaria Run for Parkinson celebrada en Cartagena dentro del circuito local de running.",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Mireia Aznar",
+      "race": "VII Carrera Marta Fernández de Castro",
+      "goal": "Volver a batir marcas!",
+      "type": "Running",
+      "slug": "mireia-aznar-vii-carrera-marta-fernandez-de-castro",
+      "details": {
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Pedro Alberto",
+      "race": "5K El Talentón",
+      "goal": "Otra marca personal para casa!",
+      "type": "5K",
+      "slug": "pedro-alberto-5k-el-talenton",
+      "details": {
+        "distance": "5K",
+        "location": "",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "Cursa Dir Guardia Urbana",
+      "goal": "Atacar MP, vamos a por ese sub 52´!",
+      "type": "10K",
+      "slug": "oscar-pareja-cursa-dir-guardia-urbana",
+      "details": {
+        "distance": "10K",
+        "location": "Barcelona",
+        "time": "",
+        "raceInfo": "La Cursa DIR Guardia Urbana recorre algunas de las principales avenidas de Barcelona con un circuito rápido y homologado.",
+        "website": "https://www.cursaguardiurbana.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Judit Claret",
+      "race": "5K Esclerosis Solidaria",
+      "goal": "Desbloqueando records, vamos a por sub 33´!",
+      "type": "5K",
+      "slug": "judit-claret-5k-esclerosis-solidaria",
+      "details": {
+        "distance": "5K",
+        "location": "",
+        "time": "",
+        "raceInfo": "Carrera solidaria destinada a recaudar fondos y dar visibilidad a la esclerosis múltiple.",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Rafa López",
+      "race": "8K Baeza",
+      "goal": "Parar el crono sub 35´!",
+      "type": "8K",
+      "slug": "rafa-lopez-8k-baeza",
+      "details": {
+        "distance": "8K",
+        "location": "Baeza",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Maria Palco",
+      "race": "La conquista del Castillo de Javier",
+      "goal": "Carrera especial, modalidad y reto nuevos!",
+      "type": "Trail",
+      "slug": "maria-palco-la-conquista-del-castillo-de-javier",
+      "details": {
+        "distance": "",
+        "location": "Navarra",
+        "time": "",
+        "raceInfo": "Evento deportivo con recorrido y obstáculos en torno al Castillo de Javier.",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Maraceli Peinado",
+      "race": "Media Maratón del Puerto",
+      "goal": "Conseguir disfrutar cada metro en un evento muy especial!",
+      "type": "21K",
+      "slug": "maraceli-peinado-media-maraton-del-puerto",
+      "details": {
+        "distance": "21K",
+        "location": "",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marina Sarria",
+      "race": "FunRun Port Aventura",
+      "goal": "Estreno con el equipo!",
+      "type": "Running",
+      "slug": "marina-sarria-funrun-port-aventura",
+      "details": {
+        "distance": "",
+        "location": "PortAventura",
+        "time": "",
+        "raceInfo": "Evento running dentro del entorno de PortAventura World con ambiente festivo y recorridos populares.",
+        "website": "https://www.portaventuraworld.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Alicia Sanchez",
+      "race": "10K Cursa Belmes",
+      "goal": "Reventar marca personal, romper la barrera de 50´!",
+      "type": "10K",
+      "slug": "alicia-sanchez-10k-cursa-belmes",
+      "details": {
+        "distance": "10K",
+        "location": "",
+        "time": "",
+        "raceInfo": "",
+        "website": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "Maratón de los 10.000 del Soplao",
+      "goal": "Coger sensaciones de cara a retos venideros bajando de 5h45!",
+      "type": "Trail",
+      "slug": "daniel-matarranz-maraton-10000-del-soplao",
+      "details": {
+        "distance": "Maratón",
+        "location": "Cantabria",
+        "time": "08:00",
+        "raceInfo": "La Maratón de los 10.000 del Soplao es una de las pruebas de montaña más emblemáticas del calendario nacional, con gran desnivel y terreno técnico.",
+        "website": "https://www.diezmildelsoplao.com/",
+        "routeImage": "https://www.diezmildelsoplao.com/images/2026/maraton/PERFIL%20MARATON%2010000%20DEL%20SOPLAO.jpg"
+      }
+    }
+  ]
+}
