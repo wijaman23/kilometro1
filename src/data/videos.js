@@ -8,7 +8,7 @@ const videos = [
     descripcion:
       'Sesión de dudas nutricionales con Alfonso Mendoza Barba.',
     enlace: 'https://www.loom.com/share/d2bc9ddb4adf4d3ba871039bfbaa9a7f',
-    thumbnail: 'https://www.endondecorrer.com/wp-content/uploads/2024/03/Alimentacion-Post-Carrera-696x696.jpg',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales.jpg',
   },
   {
     id: 17,

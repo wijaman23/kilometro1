@@ -612,6 +612,9 @@
 
 .youtube-thumb:hover img {
   transform: scale(1.03);
+}
+
+.youtube-thumb:has(.preview-iframe):hover img {
   opacity: 0;
 }
 
