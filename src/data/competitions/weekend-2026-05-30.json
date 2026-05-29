@@ -1,0 +1,194 @@
+{
+  "id": "weekend-2026-05-30",
+  "date": "2026-05-30",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Jorge Cubero",
+      "race": "1500ml Cpto. La Rioja de Clubs",
+      "goal": "Objetivo Sub 5:30",
+      "type": "Pista",
+      "slug": "jorge-cubero-1500m-la-rioja-clubs",
+      "details": {
+        "distance": "1500m",
+        "location": "La Rioja",
+        "time": "",
+        "raceInfo": "Campeonato de clubes de atletismo en pista con pruebas rápidas y tácticas.",
+        "website": "https://www.fratletismo.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "3000ml Cpto. La Rioja de Clubs",
+      "goal": "Objetivo Sub 9:20",
+      "type": "Pista",
+      "slug": "carlos-perez-3000m-la-rioja-clubs",
+      "details": {
+        "distance": "3000m",
+        "location": "La Rioja",
+        "time": "",
+        "raceInfo": "Prueba de fondo en pista dentro del campeonato riojano de clubes.",
+        "website": "https://www.fratletismo.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Andrea Herrera",
+      "race": "43 Milla Urbana Isla de Ibiza",
+      "goal": "Vamos a por marca, romper la barrera de 26´!",
+      "type": "Milla",
+      "slug": "andrea-herrera-milla-urbana-ibiza",
+      "details": {
+        "distance": "1609m",
+        "location": "Sant Antoni de Portmany, Ibiza",
+        "time": "",
+        "raceInfo": "Milla urbana rápida celebrada junto al paseo marítimo de Ibiza.",
+        "website": "https://www.elitechip.net/index.php?idcomp=7380232&zwlng=en&zwshow=compdet",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "XIII Cross de Alumbres",
+      "goal": "Reventar marca y conseguir mantenernos en las mejores posiciones del circuito!",
+      "type": "Cross",
+      "slug": "jose-carlos-oton-cross-alumbres",
+      "details": {
+        "distance": "6K",
+        "location": "Cartagena, Murcia",
+        "time": "",
+        "raceInfo": "Cross popular dentro del circuito running cartagenero con recorrido rápido y competitivo.",
+        "website": "https://www.lineadesalida.net/carreras/xiii-cross-de-alumbres",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "5K por la esclerosis",
+      "goal": "Disfrutar junto a su hijo de una carrera solidaria!",
+      "type": "5K",
+      "slug": "marta-perez-5k-esclerosis",
+      "details": {
+        "distance": "5K",
+        "location": "Madrid",
+        "time": "",
+        "raceInfo": "Carrera solidaria para recaudar fondos y dar visibilidad a la esclerosis múltiple.",
+        "website": "https://web.rockthesport.com/es/event/xvi-carrera-por-la-esclerosis-multiple",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Ruth Ro",
+      "race": "Trail Cox",
+      "goal": "Disfrutar de una jornada de senderismo con buen desnivel!",
+      "type": "Trail",
+      "slug": "ruth-ro-trail-cox",
+      "details": {
+        "distance": "Trail",
+        "location": "Cox, Alicante",
+        "time": "",
+        "raceInfo": "Trail nocturno con subida al castillo y ambiente muy montañero.",
+        "website": "https://www.alcanzatumeta.es/iii-trail-nocturno-castillo-de-cox/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Maria del Mar Román",
+      "race": "Legua Quintana del puente",
+      "goal": "Vamos a por el podium del circuito Palentino, bajando de 21´!",
+      "type": "Running",
+      "slug": "maria-del-mar-roman-legua-quintana",
+      "details": {
+        "distance": "5.8K",
+        "location": "Quintana del Puente, Palencia",
+        "time": "",
+        "raceInfo": "Prueba del circuito Palencia Legua a Legua con recorrido muy competitivo.",
+        "website": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Sara Rubio",
+      "race": "Media maratón de la Rioja",
+      "goal": "Desbloqueando records, vamos a buscar cerca de 5min/km!",
+      "type": "Media",
+      "slug": "sara-rubio-media-maraton-rioja",
+      "details": {
+        "distance": "21K",
+        "location": "Logroño",
+        "time": "",
+        "raceInfo": "Media maratón urbana con circuito homologado y ambiente espectacular.",
+        "website": "https://maraton.larioja.com/reglamento-media-maraton/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carmen San Millán",
+      "race": "Carrera de la mujer de Vitoria",
+      "goal": "Mejorar tiempos año pasado!",
+      "type": "5K",
+      "slug": "carmen-san-millan-carrera-mujer-vitoria",
+      "details": {
+        "distance": "5K",
+        "location": "Vitoria-Gasteiz",
+        "time": "",
+        "raceInfo": "Carrera popular y solidaria con muchísimo ambiente en el centro de Vitoria.",
+        "website": "https://www.carreradelamujer.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Alicia Sánchez",
+      "race": "Cobrarace oficial",
+      "goal": "Dar bien de gas en una prueba híbrida!",
+      "type": "Híbrida",
+      "slug": "alicia-sanchez-cobra-race",
+      "details": {
+        "distance": "Hybrid",
+        "location": "España",
+        "time": "",
+        "raceInfo": "Competición híbrida con estaciones de fuerza y carrera.",
+        "website": "https://cobrarace.es/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Iñaki Tovar",
+      "race": "Trail Cox",
+      "goal": "Estreno en trail, superarlo con las mejores sensciones en menos de 1h50!",
+      "type": "Trail",
+      "slug": "inaki-tovar-trail-cox",
+      "details": {
+        "distance": "12K",
+        "location": "Cox, Alicante",
+        "time": "",
+        "raceInfo": "Trail nocturno con desnivel y zonas técnicas ideales para estrenarse.",
+        "website": "https://www.alcanzatumeta.es/iii-trail-nocturno-castillo-de-cox/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Vladimir Velasco",
+      "race": "Maraton Estocolmo",
+      "goal": "Vamos a por una maratón internacional, calvándola en menos de 3h50!",
+      "type": "Maratón",
+      "slug": "vladimir-velasco-maraton-estocolmo",
+      "details": {
+        "distance": "42.195K",
+        "location": "Estocolmo, Suecia",
+        "time": "",
+        "raceInfo": "Una de las maratones más emblemáticas de Europa con final en el Estadio Olímpico.",
+        "website": "https://www.stockholmmarathon.se/eng/",
+        "routeImage": "https://www.stockholmmarathon.se/wp-content/uploads/2026/05/ASM2026-bankarta-_2605012-scaled.png"
+      }
+    }
+  ]
+}
