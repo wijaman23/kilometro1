@@ -1,5 +1,16 @@
 const videos = [
   {
+    id: 18,
+    titulo: 'Clase 7 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2026-05-29',
+    descripcion:
+      'Sesión de dudas nutricionales con Alfonso Mendoza Barba.',
+    enlace: 'https://www.loom.com/share/d2bc9ddb4adf4d3ba871039bfbaa9a7f',
+    thumbnail: 'https://www.endondecorrer.com/wp-content/uploads/2024/03/Alimentacion-Post-Carrera-696x696.jpg',
+  },
+  {
     id: 17,
     titulo: 'Corrí la Movistar Medio Maratón SIN entrenarla… ¿error o acierto?',
     categoriaPrincipal: 'Clase del mes',

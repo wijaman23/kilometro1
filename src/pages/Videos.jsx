@@ -6,7 +6,7 @@ import { Apple, Brain, GraduationCap } from "lucide-react";
 import videos from "../data/videos";
 import Header from "../components/Header";
 
-function getYoutubeId(url) {
+function getYoutubeId(url = "") {
   if (url.includes("youtu.be/")) {
     return url.split("youtu.be/")[1].split("?")[0];
   }
@@ -15,7 +15,47 @@ function getYoutubeId(url) {
     return url.split("watch?v=")[1].split("&")[0];
   }
 
+  if (url.includes("/embed/") && url.includes("youtube.com")) {
+    return url.split("/embed/")[1].split("?")[0];
+  }
+
   return "";
+}
+
+function getLoomId(url = "") {
+  if (url.includes("loom.com/share/")) {
+    return url.split("loom.com/share/")[1].split("?")[0];
+  }
+
+  if (url.includes("loom.com/embed/")) {
+    return url.split("loom.com/embed/")[1].split("?")[0];
+  }
+
+  return "";
+}
+
+function getVideoType(url = "") {
+  if (url.includes("loom.com")) return "loom";
+  if (url.includes("youtube.com") || url.includes("youtu.be")) return "youtube";
+  return "unknown";
+}
+
+function getEmbedUrl(url = "", autoplay = false) {
+  const tipo = getVideoType(url);
+
+  if (tipo === "loom") {
+    const loomId = getLoomId(url);
+    return `https://www.loom.com/embed/${loomId}${autoplay ? "?autoplay=1" : ""}`;
+  }
+
+  if (tipo === "youtube") {
+    const youtubeId = getYoutubeId(url);
+    return `https://www.youtube.com/embed/${youtubeId}${
+      autoplay ? "?autoplay=1&rel=0" : "?rel=0"
+    }`;
+  }
+
+  return url;
 }
 
 function getCategoriasVideo(video) {
@@ -223,7 +263,6 @@ function Videos() {
       <section className="videos-container">
         <div className="videos-title-row">
           <header className="videos-title">
-
             <h1>Vídeos</h1>
 
             <span>
@@ -411,6 +450,7 @@ function Videos() {
           <section className="youtube-grid">
             {videosFiltrados.map((video) => {
               const youtubeId = getYoutubeId(video.enlace);
+              const esYoutube = getVideoType(video.enlace) === "youtube";
 
               return (
                 <article className="youtube-card" key={video.id}>
@@ -424,12 +464,14 @@ function Videos() {
                       loading="lazy"
                     />
 
-                    <iframe
-                      className="preview-iframe"
-                      src={`https://www.youtube.com/embed/${youtubeId}?mute=1&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${youtubeId}`}
-                      title={`Preview ${video.titulo}`}
-                      allow="autoplay; encrypted-media"
-                    />
+                    {esYoutube && youtubeId && (
+                      <iframe
+                        className="preview-iframe"
+                        src={`https://www.youtube.com/embed/${youtubeId}?mute=1&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${youtubeId}`}
+                        title={`Preview ${video.titulo}`}
+                        allow="autoplay; encrypted-media"
+                      />
+                    )}
 
                     <span className="play-badge">▶</span>
 
@@ -481,9 +523,7 @@ function Videos() {
             )}
 
             <iframe
-              src={`https://www.youtube.com/embed/${getYoutubeId(
-                videoActivo.enlace,
-              )}?autoplay=1&rel=0`}
+              src={getEmbedUrl(videoActivo.enlace, true)}
               title={videoActivo.titulo}
               allow="autoplay; encrypted-media; picture-in-picture"
               allowFullScreen
