@@ -12,7 +12,7 @@
   "runners": [
     {
       "name": "Jorge Cubero",
-      "race": "1500ml Cpto. La Rioja de Clubs",
+      "race": "1500m Cpto. La Rioja de Clubs",
       "goal": "Objetivo Sub 5:30",
       "type": "Pista",
       "slug": "jorge-cubero-1500m-la-rioja-clubs",
@@ -20,14 +20,15 @@
         "distance": "1500m",
         "location": "La Rioja",
         "time": "",
-        "raceInfo": "Campeonato de clubes de atletismo en pista con pruebas rápidas y tácticas.",
+        "raceInfo": "Prueba de pista dentro del Campeonato de La Rioja de Clubs. Una carrera corta, rápida y muy táctica, donde colocarse bien desde el inicio y mantener la concentración vuelta a vuelta será clave.",
         "website": "https://www.fratletismo.com/",
+        "routeUrl": "https://www.fratletismo.com/",
         "routeImage": ""
       }
     },
     {
       "name": "Carlos Pérez",
-      "race": "3000ml Cpto. La Rioja de Clubs",
+      "race": "3000m Cpto. La Rioja de Clubs",
       "goal": "Objetivo Sub 9:20",
       "type": "Pista",
       "slug": "carlos-perez-3000m-la-rioja-clubs",
@@ -35,8 +36,9 @@
         "distance": "3000m",
         "location": "La Rioja",
         "time": "",
-        "raceInfo": "Prueba de fondo en pista dentro del campeonato riojano de clubes.",
+        "raceInfo": "Prueba de fondo en pista dentro del Campeonato de La Rioja de Clubs. Ritmo exigente, control mental y mucha regularidad para pelear ese objetivo de sub 9:20.",
         "website": "https://www.fratletismo.com/",
+        "routeUrl": "https://www.fratletismo.com/",
         "routeImage": ""
       }
     },
@@ -47,11 +49,12 @@
       "type": "Milla",
       "slug": "andrea-herrera-milla-urbana-ibiza",
       "details": {
-        "distance": "1609m",
-        "location": "Sant Antoni de Portmany, Ibiza",
-        "time": "",
-        "raceInfo": "Milla urbana rápida celebrada junto al paseo marítimo de Ibiza.",
+        "distance": "1.609m / 5K según modalidad",
+        "location": "Passeig de la Mar, Puerto de Sant Antoni, Ibiza",
+        "time": "10:00",
+        "raceInfo": "Carrera urbana en el Passeig de la Mar, junto al Puerto de Sant Antoni. Las categorías absolutas disputan la milla completa de 1.609 metros y también existe modalidad de 5K. Circuito rápido, ambiente de costa y buen escenario para buscar marca.",
         "website": "https://www.elitechip.net/index.php?idcomp=7380232&zwlng=en&zwshow=compdet",
+        "routeUrl": "https://www.elitechip.net/index.php?idcomp=7380232&zwlng=en&zwshow=compdet",
         "routeImage": ""
       }
     },
@@ -63,10 +66,11 @@
       "slug": "jose-carlos-oton-cross-alumbres",
       "details": {
         "distance": "6K",
-        "location": "Cartagena, Murcia",
-        "time": "",
-        "raceInfo": "Cross popular dentro del circuito running cartagenero con recorrido rápido y competitivo.",
+        "location": "Alumbres, Cartagena, Murcia",
+        "time": "18:30 / 19:00",
+        "raceInfo": "Cross popular en Alumbres, con salida en la zona del Pabellón de Alumbres / complejo deportivo del Secante. Prueba de 6K incluida en el circuito Running Challenge, ideal para competir fuerte y pelear posiciones.",
         "website": "https://www.lineadesalida.net/carreras/xiii-cross-de-alumbres",
+        "routeUrl": "https://www.alcanzatumeta.es/xiii-cross-alumbres-2026/",
         "routeImage": ""
       }
     },
@@ -78,10 +82,11 @@
       "slug": "marta-perez-5k-esclerosis",
       "details": {
         "distance": "5K",
-        "location": "Madrid",
-        "time": "",
-        "raceInfo": "Carrera solidaria para recaudar fondos y dar visibilidad a la esclerosis múltiple.",
+        "location": "Casa de Campo, Madrid",
+        "time": "09:00 / 10:00 según distancia",
+        "raceInfo": "Carrera solidaria por la Esclerosis Múltiple en la Casa de Campo de Madrid. El evento cuenta con distancias de 10K, 5K y 2,3K, con un enfoque familiar, popular y solidario.",
         "website": "https://web.rockthesport.com/es/event/xvi-carrera-por-la-esclerosis-multiple",
+        "routeUrl": "https://www.correporlaesclerosismultiple.org/recorrido/",
         "routeImage": ""
       }
     },
@@ -92,11 +97,12 @@
       "type": "Trail",
       "slug": "ruth-ro-trail-cox",
       "details": {
-        "distance": "Trail",
+        "distance": "Senderismo / Trail",
         "location": "Cox, Alicante",
-        "time": "",
-        "raceInfo": "Trail nocturno con subida al castillo y ambiente muy montañero.",
+        "time": "20:30",
+        "raceInfo": "Trail nocturno en Cox con salida desde Calle Alameda / Glorieta de Cox. Jornada de senderismo y montaña con ambiente nocturno, desnivel y paso por el entorno del Castillo de Cox.",
         "website": "https://www.alcanzatumeta.es/iii-trail-nocturno-castillo-de-cox/",
+        "routeUrl": "https://www.alcanzatumeta.es/iii-trail-nocturno-castillo-de-cox/",
         "routeImage": ""
       }
     },
@@ -107,11 +113,12 @@
       "type": "Running",
       "slug": "maria-del-mar-roman-legua-quintana",
       "details": {
-        "distance": "5.8K",
+        "distance": "Legua / 5,8K aprox.",
         "location": "Quintana del Puente, Palencia",
         "time": "",
-        "raceInfo": "Prueba del circuito Palencia Legua a Legua con recorrido muy competitivo.",
+        "raceInfo": "Prueba del circuito Palencia Legua a Legua. Carrera rápida y competitiva, con objetivo de pelear el podio del circuito y buscar bajar de 21 minutos.",
         "website": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
+        "routeUrl": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
         "routeImage": ""
       }
     },
@@ -122,11 +129,12 @@
       "type": "Media",
       "slug": "sara-rubio-media-maraton-rioja",
       "details": {
-        "distance": "21K",
-        "location": "Logroño",
-        "time": "",
-        "raceInfo": "Media maratón urbana con circuito homologado y ambiente espectacular.",
+        "distance": "21.097K",
+        "location": "Logroño, La Rioja",
+        "time": "10:00",
+        "raceInfo": "34ª Media Maratón de La Rioja. Prueba urbana con salida desde Rotonda Chile / Duques de Nájera y meta en la calle Muro de la Mata de Logroño. Circuito homologado y ambiente perfecto para desbloquear marca.",
         "website": "https://maraton.larioja.com/reglamento-media-maraton/",
+        "routeUrl": "https://maraton.larioja.com/reglamento-media-maraton/",
         "routeImage": ""
       }
     },
@@ -138,10 +146,11 @@
       "slug": "carmen-san-millan-carrera-mujer-vitoria",
       "details": {
         "distance": "5K",
-        "location": "Vitoria-Gasteiz",
-        "time": "",
-        "raceInfo": "Carrera popular y solidaria con muchísimo ambiente en el centro de Vitoria.",
-        "website": "https://www.carreradelamujer.com/",
+        "location": "Mendizabala, Vitoria-Gasteiz",
+        "time": "10:30",
+        "raceInfo": "Tercera prueba del Circuito de la Carrera de la Mujer Central Lechera Asturiana 2026. Carrera popular y solidaria de 5K, con salida y llegada en Mendizabala.",
+        "website": "https://www.carreradelamujer.com/web-evento/13031-carrera-de-la-mujer-central-lechera-asturiana-2026-vitoria-gasteiz",
+        "routeUrl": "https://www.carreradelamujer.com/web-evento/13031-carrera-de-la-mujer-central-lechera-asturiana-2026-vitoria-gasteiz",
         "routeImage": ""
       }
     },
@@ -152,11 +161,12 @@
       "type": "Híbrida",
       "slug": "alicia-sanchez-cobra-race",
       "details": {
-        "distance": "Hybrid",
-        "location": "España",
+        "distance": "Running + workouts",
+        "location": "Mallorca, Islas Baleares",
         "time": "",
-        "raceInfo": "Competición híbrida con estaciones de fuerza y carrera.",
+        "raceInfo": "Competición híbrida de running y workouts. Formato exigente que combina resistencia, potencia, control mental y estaciones funcionales como remo, fuerza y ejercicios de alta intensidad.",
         "website": "https://cobrarace.es/",
+        "routeUrl": "https://cobrarace.es/carreras/",
         "routeImage": ""
       }
     },
@@ -169,24 +179,26 @@
       "details": {
         "distance": "12K",
         "location": "Cox, Alicante",
-        "time": "",
-        "raceInfo": "Trail nocturno con desnivel y zonas técnicas ideales para estrenarse.",
+        "time": "20:30",
+        "raceInfo": "III Trail Nocturno Castillo de Cox. Prueba nocturna de trail con modalidad de 12K, desnivel, tramos de sendero y paso por el entorno del castillo. Obligatorio salir con cabeza y guardar piernas para la parte más exigente.",
         "website": "https://www.alcanzatumeta.es/iii-trail-nocturno-castillo-de-cox/",
+        "routeUrl": "https://www.alcanzatumeta.es/iii-trail-nocturno-castillo-de-cox/",
         "routeImage": ""
       }
     },
     {
       "name": "Vladimir Velasco",
       "race": "Maraton Estocolmo",
-      "goal": "Vamos a por una maratón internacional, calvándola en menos de 3h50!",
+      "goal": "Vamos a por una maratón internacional, clavándola en menos de 3h50!",
       "type": "Maratón",
       "slug": "vladimir-velasco-maraton-estocolmo",
       "details": {
         "distance": "42.195K",
         "location": "Estocolmo, Suecia",
         "time": "",
-        "raceInfo": "Una de las maratones más emblemáticas de Europa con final en el Estadio Olímpico.",
+        "raceInfo": "adidas Stockholm Marathon 2026. Maratón internacional con recorrido urbano por Estocolmo, zonas históricas, tramos junto al agua y final en el Estadio Olímpico. El recorrido 2026 introduce un trazado algo más fluido y ligeramente más llano.",
         "website": "https://www.stockholmmarathon.se/eng/",
+        "routeUrl": "https://www.stockholmmarathon.se/eng/eng-banan/",
         "routeImage": "https://www.stockholmmarathon.se/wp-content/uploads/2026/05/ASM2026-bankarta-_2605012-scaled.png"
       }
     }

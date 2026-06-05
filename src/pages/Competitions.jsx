@@ -1,8 +1,10 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 
 import Header from '../components/Header'
+import CompetitionCard from '../components/CompetitionCard'
 import heroImage from '../assets/competitions-hero.jpg'
+
+import '../styles/competitions.css'
 
 const competitionModules = import.meta.glob('../data/competitions/*.json', {
   eager: true,
@@ -25,19 +27,14 @@ function formatWeekendParts(date) {
 
   end.setDate(start.getDate() + 1)
 
-  const startDay = start.toLocaleDateString('es-ES', { day: '2-digit' })
-  const endDay = end.toLocaleDateString('es-ES', { day: '2-digit' })
-
-  const month = end
-    .toLocaleDateString('es-ES', { month: 'long' })
-    .toUpperCase()
-
-  const year = end.getFullYear()
-
   return {
-    range: `${startDay}-${endDay}`,
-    month,
-    year,
+    range: `${start.toLocaleDateString('es-ES', {
+      day: '2-digit',
+    })}-${end.toLocaleDateString('es-ES', {
+      day: '2-digit',
+    })}`,
+    month: end.toLocaleDateString('es-ES', { month: 'long' }).toUpperCase(),
+    year: end.getFullYear(),
   }
 }
 
@@ -84,7 +81,9 @@ function Competitions() {
 
       <section className="competitions-hero">
         <div className="competitions-hero-content">
-          <h1>Valientes con dorsal</h1>
+          <h1>
+            Valientes <span>con dorsal</span>
+          </h1>
 
           <p>
             {currentWeek.subtitle}. {currentWeek.intro}
@@ -179,34 +178,18 @@ function Competitions() {
         </div>
       </section>
 
+      <section className="competitions-section-head">
+        <span>Listado oficial KM1</span>
+        <h2>Competiciones del finde</h2>
+      </section>
+
       <section className="competitions-grid">
         {currentWeek.runners.map((runner, index) => (
-          <Link
-            to={`/competiciones/${runner.slug}`}
-            className="competition-card"
-            key={`${runner.name}-${index}`}
-          >
-            <div className="competition-card-header">
-              <span className="runner-status"></span>
-
-              <div>
-                <p>{runner.type}</p>
-                <h2>{runner.name}</h2>
-              </div>
-            </div>
-
-            <div className="competition-card-body">
-              <div>
-                <span>🏁</span>
-                <p>{runner.race}</p>
-              </div>
-
-              <div>
-                <span>🎯</span>
-                <p>{runner.goal}</p>
-              </div>
-            </div>
-          </Link>
+          <CompetitionCard
+            key={`${runner.slug}-${index}`}
+            runner={runner}
+            index={index}
+          />
         ))}
       </section>
 
