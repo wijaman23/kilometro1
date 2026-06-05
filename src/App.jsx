@@ -4,6 +4,7 @@ import Videos from './pages/Videos'
 import Competitions from './pages/Competitions'
 import CompetitionDetail from './pages/CompetitionDetail'
 import MeetupPopup from './components/MeetupPopup'
+import Analytics from './components/Analytics'
 
 import './styles/global.css'
 import './styles/home.css'
@@ -14,6 +15,8 @@ import './styles/competitionDetail.css'
 function App() {
   return (
     <>
+      <Analytics />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/videos" element={<Videos />} />
