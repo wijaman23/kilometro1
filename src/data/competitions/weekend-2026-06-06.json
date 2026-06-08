@@ -1,0 +1,160 @@
+
+{
+  "id": "weekend-2026-06-06",
+  "date": "2026-06-06",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Laís Ferreira",
+      "race": "Carrera Híbrida",
+      "goal": "Dar gas como preparativo al próximo objetivo!",
+      "type": "Híbrida",
+      "slug": "lais-ferreira-carrera-hibrida",
+      "details": {
+        "distance": "Running + workouts",
+        "location": "",
+        "time": "",
+        "raceInfo": "Prueba híbrida que combina tramos de carrera a pie con estaciones funcionales. Una competición exigente donde cuentan la resistencia, la fuerza, la gestión del esfuerzo y la cabeza.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Anne García",
+      "race": "Balmaseda Running Fest",
+      "goal": "Reventar el circuito rompepiernas en menos de 55 min!",
+      "type": "10K",
+      "slug": "anne-garcia-balmaseda-running-fest",
+      "details": {
+        "distance": "10K",
+        "location": "Balmaseda, Bizkaia",
+        "time": "22:00",
+        "raceInfo": "Balmaseda Running Fest 10K. Carrera urbana en Balmaseda con ambiente festivo, música y un recorrido exigente para pelear cada kilómetro.",
+        "website": "https://www.10kbalmaseda.com/",
+        "routeUrl": "https://www.10kbalmaseda.com/",
+        "routeImage": "https://www.10kbalmaseda.com/images/fichas/ver-recorrido.jpg"
+      }
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "10K Santa Perpètua",
+      "goal": "Vamos con todo en una carrera complicada, a bajar de 54´!",
+      "type": "10K",
+      "slug": "oscar-pareja-10k-santa-perpetua",
+      "details": {
+        "distance": "10K",
+        "location": "Santa Perpètua de Mogoda, Barcelona",
+        "time": "",
+        "raceInfo": "Els 10 de Santa. Carrera popular de 10K en Santa Perpètua de Mogoda, con recorrido mixto y ambiente competitivo. Prueba ideal para correr con cabeza y apretar fuerte en la segunda mitad.",
+        "website": "https://www.staperpetua.cat/ajuntament/plans-campanyes-i-programes/els-10-de-santa.html",
+        "routeUrl": "https://www.staperpetua.cat/ajuntament/plans-campanyes-i-programes/els-10-de-santa.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Araceli Peinado",
+      "race": "10K Huelva Puerta del descubrimiento",
+      "goal": "Vamos con todo, a bajar de 52´!",
+      "type": "10K",
+      "slug": "araceli-peinado-10k-huelva-puerta-descubrimiento",
+      "details": {
+        "distance": "10K",
+        "location": "Paseo de la Ría, Huelva",
+        "time": "21:30",
+        "raceInfo": "VIII 10K Huelva Puerta del Descubrimiento. Carrera urbana sobre asfalto, homologada por la RFEA y con salida desde el Paseo de la Ría. Una prueba rápida y competitiva para buscar marca.",
+        "website": "https://www.10khuelva.es/",
+        "routeUrl": "https://www.10khuelva.es/",
+        "routeImage": "https://www.10khuelva.es/wp-content/uploads/2025/11/Reglamento-10K-2026--1024x701.jpg"
+      }
+    },
+    {
+      "name": "Ruth Ro",
+      "race": "10K Binter Night Run Murcia",
+      "goal": "Disfrutar mucho, y parar el crono en sub 1h03",
+      "type": "10K",
+      "slug": "ruth-ro-binter-night-run-murcia",
+      "details": {
+        "distance": "10K",
+        "location": "Murcia",
+        "time": "",
+        "raceInfo": "Binter Night Run Murcia. Carrera nocturna con modalidad de 10K por lugares emblemáticos de la ciudad, ambiente especial bajo las estrellas y recorrido pensado para disfrutar corriendo de noche.",
+        "website": "https://www.binternightrun.es/murcia/",
+        "routeUrl": "https://www.binternightrun.es/murcia/",
+        "routeImage": "https://www.binternightrun.es/murcia/wp-content/uploads/2026/05/RECORRIDO-10K-1111-01-scaled.jpg"
+      }
+    },
+    {
+      "name": "Iñaki Tovar",
+      "race": "10K Binter Night Run Murcia",
+      "goal": "Vamos con todo a por ese sub 54´!",
+      "type": "10K",
+      "slug": "inaki-tovar-binter-night-run-murcia",
+      "details": {
+        "distance": "10K",
+        "location": "Murcia",
+        "time": "",
+        "raceInfo": "Binter Night Run Murcia. Carrera nocturna urbana con distancia de 10K, ambiente festivo y recorrido por algunos de los puntos más reconocibles de Murcia.",
+        "website": "https://www.binternightrun.es/murcia/",
+        "routeUrl": "https://www.binternightrun.es/murcia/",
+        "routeImage": "https://www.binternightrun.es/murcia/wp-content/uploads/2026/05/RECORRIDO-10K-1111-01-scaled.jpg"
+      }
+    },
+    {
+      "name": "Horacio Vega",
+      "race": "Trail Ruta de los Infiernos",
+      "goal": "Vamos a por ese podium local!",
+      "type": "Trail",
+      "slug": "horacio-vega-trail-ruta-infiernos",
+      "details": {
+        "distance": "Trail",
+        "location": "",
+        "time": "",
+        "raceInfo": "Trail de montaña exigente, con desnivel, senderos y terreno técnico. Una prueba para correr con cabeza, guardar fuerzas en las subidas y aprovechar bien los tramos favorables.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Anabel Vera",
+      "race": "Cursa de las dones de Cambrils",
+      "goal": "Parar el crono en sub 28´!",
+      "type": "5K",
+      "slug": "anabel-vera-cursa-dones-cambrils",
+      "details": {
+        "distance": "5K",
+        "location": "Cambrils, Tarragona",
+        "time": "09:00",
+        "raceInfo": "Cursa de les Dones de Cambrils. Carrera popular y solidaria de 5K en Cambrils, con ambiente festivo y recorrido ideal para disfrutar y buscar buen ritmo.",
+        "website": "https://www.runatica.com/event/cursa-dones-cambrils-2026",
+        "routeUrl": "https://www.runatica.com/event/cursa-dones-cambrils-2026",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "Picón Castro Ultra",
+      "goal": "Objetivo disfrutar cada kilómetro durante 11-12h!",
+      "type": "Ultra",
+      "slug": "daniel-matarranz-picon-castro-ultra",
+      "details": {
+        "distance": "62,5K",
+        "location": "Espinosa de los Monteros, Burgos",
+        "time": "06:30",
+        "raceInfo": "La Picón Castro Ultra. Prueba de montaña de 62,5 kilómetros y 3.700 metros de desnivel positivo por los Valles Pasiegos en su vertiente burgalesa. Una ultra dura, larga y espectacular.",
+        "website": "https://lapiconcastro.com/",
+        "routeUrl": "https://lapiconcastro.com/prueba/2026-carrera-ultra/",
+        "routeImage": ""
+      }
+    }
+  ]
+}
+
