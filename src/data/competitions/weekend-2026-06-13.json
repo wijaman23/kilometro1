@@ -1,0 +1,127 @@
+
+{
+  "id": "weekend-2026-06-13",
+  "date": "2026-06-13",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Mario González",
+      "race": "Prueba Híbrida Santander",
+      "goal": "Disfrutar y tener buenas sensaciones",
+      "type": "Híbrida",
+      "slug": "mario-gonzalez-prueba-hibrida-santander",
+      "details": {
+        "distance": "Running + Workouts",
+        "location": "Santander, Cantabria",
+        "time": "",
+        "raceInfo": "Competición híbrida que combina carrera a pie con diferentes estaciones funcionales. Una prueba donde la resistencia, la fuerza y la capacidad de gestionar el esfuerzo serán fundamentales para completar una gran actuación.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "10K Del Soto Pablo Ariza",
+      "goal": "Disputar puestos delanteros de la general",
+      "type": "10K",
+      "slug": "carlos-perez-10k-del-soto",
+      "details": {
+        "distance": "10K",
+        "location": "Azagra, Navarra",
+        "time": "09:30",
+        "raceInfo": "XIII edición del 10K del Soto Pablo Ariza. Carrera incluida en el circuito de carreras populares de Navarra y La Rioja. El recorrido discurre junto al río Ebro y es una de las pruebas más destacadas del calendario popular de la zona. Organizada por el Club Atletismo Peña Azagresa.",
+        "website": "https://atletismoazagra.com/xiii-edicion-10-km-del-soto-pablo-ariza-14-06-2026/",
+        "routeUrl": "https://atletismoazagra.com/xiii-edicion-10-km-del-soto-pablo-ariza-14-06-2026/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "XII Cross Paraíso Xtrem 2026",
+      "goal": "Dar gas y meternos en podium de categoria",
+      "type": "Cross",
+      "slug": "jose-carlos-oton-cross-paraiso-xtrem",
+      "details": {
+        "distance": "7K",
+        "location": "Playa Paraíso, Cartagena, Murcia",
+        "time": "20:00",
+        "raceInfo": "XII Cross Paraíso Xtrem, prueba perteneciente a la Running Challenge de la Región de Murcia. Se disputa en Playa Paraíso sobre una distancia de 7 kilómetros y está organizada por el Club de Deportes La Manga. Carrera rápida junto al Mar Menor con gran participación y nivel competitivo.",
+        "website": "https://www.alcanzatumeta.es/xii-cross-paraiso-xtrem-2026/",
+        "routeUrl": "https://www.alcanzatumeta.es/xii-cross-paraiso-xtrem-2026/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Maria del Mar Román",
+      "race": "Legua Herrera de Pisuerga",
+      "goal": "Seguir manteniendonos en las primeras posiciones del circuito Palentino",
+      "type": "Running",
+      "slug": "maria-del-mar-roman-legua-herrera-pisuerga",
+      "details": {
+        "distance": "Legua / 5,5K aprox.",
+        "location": "Herrera de Pisuerga, Palencia",
+        "time": "",
+        "raceInfo": "Prueba perteneciente al Circuito Palencia Legua a Legua. Recorrido rápido y competitivo donde cada posición cuenta para la clasificación general del circuito provincial.",
+        "website": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
+        "routeUrl": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Sara Rubio",
+      "race": "10K Del Soto Pablo Ariza",
+      "goal": "Vamos con todo, a bajar de 48:30´!",
+      "type": "10K",
+      "slug": "sara-rubio-10k-del-soto",
+      "details": {
+        "distance": "10K",
+        "location": "Azagra, Navarra",
+        "time": "09:30",
+        "raceInfo": "XIII edición del 10K del Soto Pablo Ariza. Prueba popular con salida a las 09:30 y recorrido junto al río Ebro. Carrera rápida y muy participativa, ideal para buscar marca personal.",
+        "website": "https://atletismoazagra.com/xiii-edicion-10-km-del-soto-pablo-ariza-14-06-2026/",
+        "routeUrl": "https://atletismoazagra.com/xiii-edicion-10-km-del-soto-pablo-ariza-14-06-2026/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Reyes García",
+      "race": "5K Nocturno del Alamillo",
+      "goal": "Disfrutar en compañia de una bonita carrera!",
+      "type": "5K",
+      "slug": "reyes-garcia-5k-nocturno-alamillo",
+      "details": {
+        "distance": "5K",
+        "location": "Parque del Alamillo, Sevilla",
+        "time": "",
+        "raceInfo": "Carrera nocturna celebrada en el entorno del Parque del Alamillo. Recorrido llano y muy participativo, perfecto para disfrutar de una noche de running en un entorno privilegiado.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Laís Ferreira",
+      "race": "Carrera Híbrida",
+      "goal": "Reventar una carrera diferente! Mezclando varias disciplinas",
+      "type": "Híbrida",
+      "slug": "lais-ferreira-carrera-hibrida",
+      "details": {
+        "distance": "Running + Workouts",
+        "location": "",
+        "time": "",
+        "raceInfo": "Competición híbrida donde se combinan diferentes disciplinas, estaciones funcionales y carrera a pie. Una prueba muy completa que exige potencia, resistencia y capacidad de sufrimiento.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    }
+  ]
+}

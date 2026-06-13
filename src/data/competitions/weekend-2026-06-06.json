@@ -114,12 +114,12 @@
       "type": "Trail",
       "slug": "horacio-vega-trail-ruta-infiernos",
       "details": {
-        "distance": "Trail",
-        "location": "",
-        "time": "",
-        "raceInfo": "Trail de montaña exigente, con desnivel, senderos y terreno técnico. Una prueba para correr con cabeza, guardar fuerzas en las subidas y aprovechar bien los tramos favorables.",
-        "website": "",
-        "routeUrl": "",
+        "distance": "20K",
+        "location": "Cabezón de Pisuerga, Valladolid",
+        "time": "09:00",
+        "raceInfo": "El 7 de junio regresa una de las pruebas más exigentes de la zona, con recorridos de 20 km, 13 km y Mini Trail de 4 km. Un desafío entre los Cortados de Cabezón y el Cerro de Altamira, combinando deporte, naturaleza y superación personal. ¡Trail en estado puro!",
+        "website": "https://cabezondepisuerga.es/undecima-edicion-del-trail/",
+        "routeUrl": "https://cabezondepisuerga.es/undecima-edicion-del-trail/",
         "routeImage": ""
       }
     },
@@ -149,7 +149,7 @@
         "distance": "62,5K",
         "location": "Espinosa de los Monteros, Burgos",
         "time": "06:30",
-        "raceInfo": "La Picón Castro Ultra. Prueba de montaña de 62,5 kilómetros y 3.700 metros de desnivel positivo por los Valles Pasiegos en su vertiente burgalesa. Una ultra dura, larga y espectacular.",
+        "raceInfo": "Picón Castro Ultra es una exigente prueba de 62,5 km y 3.700 m+ que recorre las montañas pasiegas de Burgos. Un trazado espectacular que enlaza cumbres emblemáticas como Picón Blanco, La Inmunia y Castro Valnera, ofreciendo una experiencia de trail puro en uno de los entornos más salvajes y espectaculares del norte de España",
         "website": "https://lapiconcastro.com/",
         "routeUrl": "https://lapiconcastro.com/prueba/2026-carrera-ultra/",
         "routeImage": ""
