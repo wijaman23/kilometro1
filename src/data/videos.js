@@ -1,5 +1,16 @@
 const videos = [
   {
+    id: 19,
+    titulo: 'Entrenar con calor, claves y beneficios',
+    categoriaPrincipal: 'Clase del mes',
+    categorias: ['Entrenamiento'],
+    fecha: '2026-06-18',
+    descripcion:
+      'Aprende las claves para entrenar con calor de forma segura, aprovechar sus beneficios y evitar los errores más comunes durante los meses de verano.',
+    enlace: 'https://www.loom.com/share/ffb5df16b9a940f680c3ea266e0cd894',
+    thumbnail: '/thumbnails/entrenar-con-calor.jpg',
+  },
+  {
     id: 18,
     titulo: 'Clase 7 - Dudas Nutricionales',
     categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
