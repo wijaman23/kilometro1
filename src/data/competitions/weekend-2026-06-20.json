@@ -1,0 +1,110 @@
+{
+  "id": "weekend-2026-06-20",
+  "date": "2026-06-20",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Jorge Cubero",
+      "race": "Cpto. La Rioja Absoluto 1500m",
+      "goal": "Sub 5'20\"",
+      "type": "Pista",
+      "slug": "jorge-cubero-cpto-rioja-1500m",
+      "details": {
+        "distance": "1500m",
+        "location": "Logroño, La Rioja",
+        "time": "19:25",
+        "raceInfo": "Prueba del Campeonato Absoluto de La Rioja de Atletismo. El 1.500 metros es una de las pruebas más tácticas de la pista, donde la colocación, el control del ritmo y un último 400 muy fuerte serán claves para luchar por el objetivo.",
+        "website": "https://www.fratletismo.com/",
+        "routeUrl": "https://www.fratletismo.com/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3_aVvIWOibzw5ybeesyjA9HSFhlpFpuLeLmYwAITgGw&s=10"
+      }
+    },
+    {
+      "name": "Luis Javier Muñoz",
+      "race": "10K Norte vs Sur",
+      "goal": "Sub 42:30",
+      "type": "10K",
+      "slug": "luis-javier-munoz-10k-norte-vs-sur",
+      "details": {
+        "distance": "10K",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Una de las carreras populares más conocidas de Madrid. El recorrido une el norte y el sur de la ciudad en un circuito muy rápido y favorable, ideal para buscar marca personal. Miles de corredores llenarán las calles en una prueba con gran ambiente.",
+        "website": "https://www.nortevssur.es/",
+        "routeUrl": "https://www.nortevssur.es/",
+        "routeImage": "https://www.soycorredor.es/uploads/s1/13/26/68/08/asi-es-el-recorrido-de-la-klm-norte-vs-sur-2024.jpeg"
+      }
+    },
+    {
+      "name": "Eneko Martinez",
+      "race": "Burdin Hesiko",
+      "goal": "Coger buenas sensaciones de cara al objetivo Backyard",
+      "type": "Trail",
+      "slug": "eneko-martinez-burdin-hesiko",
+      "details": {
+        "distance": "Trail",
+        "location": "Aretxabaleta, Gipuzkoa",
+        "time": "08:15",
+        "raceInfo": "Trail de montaña con un recorrido exigente por senderos y fuertes desniveles. Una prueba perfecta para acumular horas de montaña y preparar futuros retos de ultra distancia como una Backyard.",
+        "website": "https://www.burdinhesikomendilasterketa.com/",
+        "routeUrl": "https://www.burdinhesikomendilasterketa.com/",
+        "routeImage": "https://www.buscametas.com/webs/70/recorrido_1_20250619052123.jpg"
+      }
+    },
+    {
+      "name": "Ariadna de Dios",
+      "race": "5K Nocturna Cornellà",
+      "goal": "Reventar la marca personal, vamos a por sub 22´!",
+      "type": "5K",
+      "slug": "ariadna-de-dios-5k-nocturna-cornella",
+      "details": {
+        "distance": "5K",
+        "location": "Cornellà de Llobregat, Barcelona",
+        "time": "20:15",
+        "raceInfo": "Carrera nocturna urbana sobre un circuito rápido y completamente asfaltado por las calles de Cornellà. El ambiente nocturno y el perfil favorable hacen de esta prueba una gran oportunidad para mejorar la marca personal.",
+        "website": "https://lacursanocturnacornella.com/",
+        "routeUrl": "https://lacursanocturnacornella.com/",
+        "routeImage": "https://www.corresolidaris.org/wp-content/uploads/2025/03/Imagen1-1.jpg"
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "10K Norte vs Sur",
+      "goal": "Objetivo MP, sub 46´!",
+      "type": "10K",
+      "slug": "carlos-perez-10k-norte-vs-sur",
+      "details": {
+        "distance": "10K",
+        "location": "Madrid",
+        "time": "08:30",
+        "raceInfo": "El 10K Norte vs Sur de Madrid presenta un recorrido muy favorable para correr rápido. Una prueba multitudinaria con miles de participantes y un gran ambiente desde la salida hasta la meta.",
+        "website": "https://www.nortevssur.es/",
+        "routeUrl": "https://www.nortevssur.es/",
+        "routeImage": "https://www.soycorredor.es/uploads/s1/13/26/68/08/asi-es-el-recorrido-de-la-klm-norte-vs-sur-2024.jpeg"
+      }
+    },
+    {
+      "name": "Vladimir Velasco",
+      "race": "Media Maratón San Lorenzo del Escorial",
+      "goal": "Disfrutar de la media maratón más dura de Madrid!",
+      "type": "Media",
+      "slug": "vladimir-velasco-media-maraton-san-lorenzo-escorial",
+      "details": {
+        "distance": "21.097K",
+        "location": "San Lorenzo de El Escorial, Madrid",
+        "time": "09:30",
+        "raceInfo": "Considerada por muchos corredores como una de las medias maratones más exigentes de la Comunidad de Madrid. El recorrido atraviesa el entorno del Monasterio de San Lorenzo de El Escorial, alternando largas subidas, bajadas técnicas y un importante desnivel acumulado que convierte la prueba en todo un reto.",
+        "website": "https://mediamaratonsanlorenzo.com/",
+        "routeUrl": "https://mediamaratonsanlorenzo.com/",
+        "routeImage": "https://www.telemadrid.es/2024/05/16/deportes/_2670342975_45541240_427x405.png"
+      }
+    }
+  ]
+}
