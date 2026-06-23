@@ -1,6 +1,6 @@
 const videos = [
   {
-    id: 19,
+    id: 25,
     titulo: 'Entrenar con calor, claves y beneficios',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Entrenamiento'],
@@ -11,7 +11,7 @@ const videos = [
     thumbnail: '/thumbnails/entrenar-con-calor.jpg',
   },
   {
-    id: 18,
+    id: 24,
     titulo: 'Clase 7 - Dudas Nutricionales',
     categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
     categorias: ['Nutrición'],
@@ -19,20 +19,32 @@ const videos = [
     descripcion:
       'Sesión de dudas nutricionales con Alfonso Mendoza Barba.',
     enlace: 'https://www.loom.com/share/d2bc9ddb4adf4d3ba871039bfbaa9a7f',
-    thumbnail: '/thumbnails/alfonso-dudas-nutricionales.jpg',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-7.jpg',
   },
   {
-    id: 17,
+    id: 23,
+    titulo: 'Clase 6 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2026-04-28',
+    descripcion:
+      'Resolución de dudas sobre entrenamiento en ayunas, geles y enfermedad inflamatoria intestinal.',
+    enlace: 'https://www.loom.com/share/2db91a7029af4ab0bcfcca5c8567388a',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-6.jpg',
+  },
+  {
+    id: 22,
     titulo: 'Corrí la Movistar Medio Maratón SIN entrenarla… ¿error o acierto?',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Mentalidad', 'Entrenamiento'],
     fecha: '2026-04-12',
-    descripcion: 'Corrí la Media Maratón de Madrid sin prepararla específicamente… y así lo viví.',
+    descripcion:
+      'Corrí la Media Maratón de Madrid sin prepararla específicamente… y así lo viví.',
     enlace: 'https://www.youtube.com/watch?v=qBaVmUm4x2Q&t=11s',
     thumbnail: 'https://img.youtube.com/vi/qBaVmUm4x2Q/hqdefault.jpg',
   },
   {
-    id: 16,
+    id: 21,
     titulo: 'Sesión Mastermind KM1 | Abril',
     categoriaPrincipal: 'Sesión Mastermind',
     categorias: [],
@@ -42,17 +54,29 @@ const videos = [
     thumbnail: 'https://img.youtube.com/vi/wvDRwhZ-TYs/hqdefault.jpg',
   },
   {
-    id: 15,
+    id: 20,
     titulo: 'Mejora tu control y estabilidad del pie al correr',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Técnica', 'Entrenamiento'],
     fecha: '2026-04-01',
-    descripcion: 'Clase de abril sobre control, estabilidad del pie y técnica al correr.',
+    descripcion:
+      'Clase de abril sobre control, estabilidad del pie y técnica al correr.',
     enlace: 'https://youtu.be/cPzKi7zUWZI',
     thumbnail: 'https://img.youtube.com/vi/cPzKi7zUWZI/hqdefault.jpg',
   },
   {
-    id: 14,
+    id: 19,
+    titulo: 'Clase 5 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2026-03-31',
+    descripcion:
+      'Qué comer antes de entrenar, qué comer antes de competir y estrategia nutricional en carreras nocturnas.',
+    enlace: 'https://www.loom.com/share/8777db5f75544bcfbfa2daafe893bf54',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-5.jpg',
+  },
+  {
+    id: 18,
     titulo: 'Sesión Mastermind KM1 | Marzo',
     categoriaPrincipal: 'Sesión Mastermind',
     categorias: [],
@@ -62,17 +86,29 @@ const videos = [
     thumbnail: 'https://img.youtube.com/vi/z6ZNdeVWU0M/hqdefault.jpg',
   },
   {
-    id: 13,
+    id: 17,
     titulo: 'Mira esto antes de usar zapatillas con placa de carbono',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Material deportivo', 'Técnica'],
     fecha: '2026-03-01',
-    descripcion: 'Clase de marzo sobre el uso de zapatillas con placa de carbono.',
+    descripcion:
+      'Clase de marzo sobre el uso de zapatillas con placa de carbono.',
     enlace: 'https://youtu.be/G9dd_B6C46o',
     thumbnail: 'https://img.youtube.com/vi/G9dd_B6C46o/hqdefault.jpg',
   },
   {
-    id: 12,
+    id: 16,
+    titulo: 'Clase 4 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2026-02-26',
+    descripcion:
+      'Déficit calórico y rendimiento, nutrición intraentreno y creatina.',
+    enlace: 'https://www.loom.com/share/8ec363212cdc454585013931212818f8',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-4.jpg',
+  },
+    {
+    id: 15,
     titulo: 'Sesión Mastermind KM1 | Febrero',
     categoriaPrincipal: 'Sesión Mastermind',
     categorias: [],
@@ -82,17 +118,29 @@ const videos = [
     thumbnail: 'https://img.youtube.com/vi/344CJodlurI/hqdefault.jpg',
   },
   {
-    id: 11,
+    id: 14,
     titulo: 'Guía para elegir adecuadamente tus zapatillas de running',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Material deportivo'],
     fecha: '2026-02-01',
-    descripcion: 'Clase de febrero sobre cómo elegir zapatillas de running correctamente.',
+    descripcion:
+      'Clase de febrero sobre cómo elegir zapatillas de running correctamente.',
     enlace: 'https://youtu.be/aK26pwGJIEU',
     thumbnail: 'https://img.youtube.com/vi/aK26pwGJIEU/hqdefault.jpg',
   },
   {
-    id: 10,
+    id: 13,
+    titulo: 'Clase 3 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2026-01-28',
+    descripcion:
+      'Nutrición pre y post entrenamiento, estrategia para competición, larga distancia y ultrafondo.',
+    enlace: 'https://www.loom.com/share/7d31ace6960141a489856dee062cb734',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-3.jpg',
+  },
+  {
+    id: 12,
     titulo: 'Técnica de Carrera: TODO lo que necesitas saber',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Técnica', 'Entrenamiento'],
@@ -102,7 +150,18 @@ const videos = [
     thumbnail: 'https://img.youtube.com/vi/rRkchEAMqxw/hqdefault.jpg',
   },
   {
-    id: 9,
+    id: 11,
+    titulo: 'Clase 2 - Nutrición en la mujer corredora',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2025-12-30',
+    descripcion:
+      'Clase dedicada íntegramente a la nutrición en la mujer corredora y resolución de las dudas más frecuentes sobre este tema.',
+    enlace: 'https://www.loom.com/share/2824b12d3a864042b6847aada3d9ae80',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-2.jpg',
+  },
+  {
+    id: 10,
     titulo: 'Sesión Mastermind KM1 | Diciembre',
     categoriaPrincipal: 'Sesión Mastermind',
     categorias: [],
@@ -112,7 +171,7 @@ const videos = [
     thumbnail: 'https://img.youtube.com/vi/5LklrHAnpE0/hqdefault.jpg',
   },
   {
-    id: 8,
+    id: 9,
     titulo: 'Cómo afrontar las Navidades',
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Mentalidad', 'Nutrición'],
@@ -120,6 +179,17 @@ const videos = [
     descripcion: 'Clase de diciembre sobre cómo afrontar las Navidades.',
     enlace: 'https://youtu.be/bMrQ_I9t5-g',
     thumbnail: 'https://img.youtube.com/vi/bMrQ_I9t5-g/hqdefault.jpg',
+  },
+  {
+    id: 8,
+    titulo: 'Clase 1 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2025-11-27',
+    descripcion:
+      'Primera sesión de dudas nutricionales sobre lesión, recuperación, creatina, desayuno precompetición y alimentación postentreno.',
+    enlace: 'https://www.loom.com/share/f561ba70141144ba8c59dab4fcf92717',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-1.jpg',
   },
   {
     id: 7,
@@ -157,7 +227,8 @@ const videos = [
     categoriaPrincipal: 'Clase del mes',
     categorias: ['Mentalidad'],
     fecha: '2025-09-01',
-    descripcion: 'Clase sobre cómo gestionar esos días en los que el cuerpo no responde durante el entrenamiento.',
+    descripcion:
+      'Clase sobre cómo gestionar esos días en los que el cuerpo no responde durante el entrenamiento.',
     enlace: 'https://youtu.be/XEPm8xyj238',
     thumbnail: 'https://img.youtube.com/vi/XEPm8xyj238/hqdefault.jpg',
   },
