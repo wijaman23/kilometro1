@@ -1,0 +1,47 @@
+{
+  "id": "weekend-2026-06-27",
+  "date": "2026-06-27",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Mario González",
+      "race": "Prueba Híbrida Torrelavega",
+      "goal": "Seguir mejorando sensaciones en pruebas híbridas",
+      "type": "Híbrida",
+      "slug": "mario-gonzalez-prueba-hibrida-torrelavega",
+      "details": {
+        "distance": "Running + Workouts",
+        "location": "Torrelavega, Cantabria",
+        "time": "",
+        "raceInfo": "Competición híbrida que combina carrera a pie con diferentes estaciones funcionales. Este tipo de pruebas exigen un gran equilibrio entre resistencia, fuerza, potencia y capacidad de recuperación, convirtiéndose en una excelente preparación para futuros retos híbridos.",
+        "website": "https://hybridzone.es/",
+        "routeUrl": "https://hybridzone.es/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "María del Mar Román",
+      "race": "Legua Itero de la Vega",
+      "goal": "Acabar el circuito Palentino en Podium final!",
+      "type": "Running",
+      "slug": "maria-del-mar-roman-legua-itero-vega",
+      "details": {
+        "distance": "Legua (5,5 km aprox.)",
+        "location": "Itero de la Vega, Palencia",
+        "time": "",
+        "raceInfo": "La Legua de Itero de la Vega forma parte del prestigioso circuito Palencia Legua a Legua. Es una prueba rápida y muy competitiva donde los corredores luchan por los últimos puntos del circuito, siendo decisiva para la clasificación general y los puestos de podio finales.",
+        "website": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
+        "routeUrl": "https://www.diputaciondepalencia.es/sitio/deportes/pruebas-atleticas/palencia-legua-legua",
+        "routeImage": "https://scontent.fmad12-2.fna.fbcdn.net/v/t39.99422-6/730503517_1373648264614450_1552071534459761902_n.png?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s1080x1440&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DJmrYHA2cmoQ7kNvwEEXyYQ&_nc_oc=AdoXhz6o0HFQd_XhcdhxbcKM9n0cDC1RWyi5Zt6eu5uoEE71zLTsVZKP-GMFxmKs5MI&_nc_zt=14&_nc_ht=scontent.fmad12-2.fna&_nc_gid=3oip0IDjpBeyJ9uxF5jslQ&_nc_ss=7b2a8&oh=00_Af8mhljKOWMnf4S9d6pueTMaAI7aagpPtvLsP2ch2UsrqQ&oe=6A44A1CC"
+      }
+    }
+  ]
+}
+
