@@ -1,4 +1,16 @@
 const videos = [
+    {
+    id: 26,
+    titulo: 'Sesión Mastermind KM1 | Julio',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
+    fecha: '2026-07-01',
+    descripcion:
+      'Sesión Mastermind KM1 del mes de Julio. Hablamos sobre el entrenamiento con calor, zapatillas, RPE y otros temas de interés para seguir mejorando como corredores.',
+    enlace: 'https://fathom.video/share/p5s56dv78xduvNwaxLC8U7pchDybM5LS',
+    thumbnail: '/thumbnails/mastermind-julio-2026.png',
+    abrirExterno: true,
+  },
   {
     id: 29,
     titulo: "Las 5 claves para entrenar en verano",

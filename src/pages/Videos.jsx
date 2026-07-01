@@ -227,6 +227,11 @@ function Videos() {
       label: video.titulo,
     });
 
+    if (video.abrirExterno) {
+      window.open(video.enlace, "_blank", "noopener,noreferrer");
+      return;
+    }
+
     setCargandoVideo(true);
     setVideoActivo(video);
   };
