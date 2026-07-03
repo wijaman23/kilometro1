@@ -1,0 +1,110 @@
+{
+  "id": "weekend-2026-07-04",
+  "date": "2026-07-04",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Jorge Cubero",
+      "race": "Cpto. La Rioja Absoluto 800m",
+      "goal": "Sub 2'35\"",
+      "type": "Pista",
+      "slug": "jorge-cubero-cpto-rioja-800m",
+      "details": {
+        "distance": "800m",
+        "location": "Logroño, La Rioja",
+        "time": "",
+        "raceInfo": "Prueba del Campeonato Absoluto de La Rioja de Atletismo. El 800 metros es una de las pruebas más explosivas y tácticas del atletismo en pista, donde la velocidad, la colocación y la gestión del esfuerzo serán determinantes para luchar por el objetivo.",
+        "website": "https://www.fratletismo.com/",
+        "routeUrl": "https://www.fratletismo.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Perez",
+      "race": "Cpto. La Rioja Absoluto 3000m",
+      "goal": "Sub 9'25\"",
+      "type": "Pista",
+      "slug": "carlos-perez-cpto-rioja-3000m",
+      "details": {
+        "distance": "3000m",
+        "location": "Logroño, La Rioja",
+        "time": "",
+        "raceInfo": "Prueba de fondo del Campeonato Absoluto de La Rioja. El 3000 metros exige mantener un ritmo elevado durante toda la carrera, combinando estrategia, resistencia y un final muy fuerte para pelear por la mejor marca posible.",
+        "website": "https://www.fratletismo.com/",
+        "routeUrl": "https://www.fratletismo.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Pedro Alberto Pérez",
+      "race": "Puerto de la Cruz Music Run",
+      "goal": "Traernos una marca personal en el bolsillo!",
+      "type": "10K",
+      "slug": "pedro-alberto-perez-puerto-cruz-music-run",
+      "details": {
+        "distance": "10K",
+        "location": "Puerto de la Cruz, Tenerife",
+        "time": "21:00",
+        "raceInfo": "La Puerto de la Cruz Music Run es una carrera popular que combina deporte, música y un gran ambiente en uno de los municipios más emblemáticos del norte de Tenerife. Un recorrido urbano ideal para disfrutar y buscar una gran marca.",
+        "website": "https://summitsportsevents.com/futuros-eventos/puerto-de-la-cruz-music-run-night-2026/",
+        "routeUrl": "https://summitsportsevents.com/futuros-eventos/puerto-de-la-cruz-music-run-night-2026/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlK4721swF2F5rOzvBR9xlAvNZRPUtRcpkbAxUOJrfWw&s"
+      }
+    },
+    {
+      "name": "Eneko Martinez",
+      "race": "Euskal Backyard Ultra",
+      "goal": "Conseguir llegar al amanecer, mínimo 10 vueltas!",
+      "type": "Backyard",
+      "slug": "eneko-martinez-euskal-backyard-ultra",
+      "details": {
+        "distance": "6,706 km por vuelta",
+        "location": "País Vasco",
+        "time": "21:00",
+        "raceInfo": "La Euskal Backyard Ultra sigue el formato Backyard: una vuelta de 6,706 kilómetros cada hora. Los corredores deben completar cada vuelta antes del límite de tiempo para poder tomar la salida de la siguiente. La competición termina cuando solo queda un participante en carrera.",
+        "website": "https://bigsbackyardultra.com/races/euskal-backyard-ultra/",
+        "routeUrl": "https://bigsbackyardultra.com/races/euskal-backyard-ultra/",
+        "routeImage": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/FIM3EKKWXBGZLD7KHKGYJSELS4.png"
+      }
+    },
+    {
+      "name": "Ruth Lucila",
+      "race": "XII 11K Ciudad de Vera",
+      "goal": "Conseguir disfrutar sin pensar en ese isquio!",
+      "type": "11k",
+      "slug": "ruth-lucila-11k-la-vera",
+      "details": {
+        "distance": "11K",
+        "location": "La Vera, Almeria",
+        "time": "20:00",
+        "raceInfo": "La 11K Ciudad de Vera celebra en julio su duodécima edición en Vera, Almería, consolidándose como una prueba de referencia del verano en el levante almeriense. Esta carrera popular nocturna ofrece tres distancias (4 kilómetros, 11 kilómetros y media maratón) junto al mar Mediterráneo, con salida y meta en la avenida Puerto Rey.",
+        "website": "https://www.turunner.com/carreras/media-maraton-y-11k-ciudad-de-vera",
+        "routeUrl": "https://www.turunner.com/carreras/media-maraton-y-11k-ciudad-de-vera",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYfvJS2iKgnLRlegxM8IlEYMgwGpzjowUypYnLb2m2jQ&s"
+      }
+    },
+    {
+      "name": "Iñaki Tovar",
+      "race": "XII Media Maratón Ciudad de Vera",
+      "goal": "Marca personal al bolsillo, parando el crono en 2h05!",
+      "type": "21k",
+      "slug": "inaki-tovar-21k-la-vera",
+      "details": {
+        "distance": "21K",
+        "location": "La Vera, Almeria",
+        "time": "20:00",
+        "raceInfo": "La Media Maratón Ciudad de Vera celebra en julio su duodécima edición en Vera, Almería, consolidándose como una prueba de referencia del verano en el levante almeriense. Esta carrera popular nocturna ofrece tres distancias (4 kilómetros, 11 kilómetros y media maratón) junto al mar Mediterráneo, con salida y meta en la avenida Puerto Rey.",
+        "website": "https://www.turunner.com/carreras/media-maraton-y-11k-ciudad-de-vera",
+        "routeUrl": "https://www.turunner.com/carreras/media-maraton-y-11k-ciudad-de-vera",
+        "routeImage": ""
+      }
+    }
+  ]
+}

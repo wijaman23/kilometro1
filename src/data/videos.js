@@ -1,6 +1,17 @@
 const videos = [
-    {
-    id: 26,
+  {
+    id: 31,
+    titulo: 'Clase 8 - Dudas Nutricionales',
+    categoriaPrincipal: 'Nutrición con Alfonso Mendoza',
+    categorias: ['Nutrición'],
+    fecha: '2026-07-02',
+    descripcion:
+      'Clase de nutrición centrada en las proteínas: necesidades diarias, diferencias entre alimentos y suplementos, y ejemplos prácticos para planificar una ingesta adecuada.',
+    enlace: 'https://www.loom.com/share/bbc6554ad1e5415284e947f8eb6dda59',
+    thumbnail: '/thumbnails/alfonso-dudas-nutricionales-8.jpg',
+  },
+  {
+    id: 30,
     titulo: 'Sesión Mastermind KM1 | Julio',
     categoriaPrincipal: 'Sesión Mastermind',
     categorias: [],
