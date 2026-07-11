@@ -1,0 +1,30 @@
+{
+  "id": "weekend-2026-07-04",
+  "date": "2026-07-04",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Carlos Otón",
+      "race": "IV Cross Solidario Virgen del Carmen",
+      "goal": "Conseguir otro podium mas",
+      "type": "6K",
+      "slug": "Carlos-oton-iv-cross-solidario-virgen-del-carmen",
+      "details": {
+        "distance": "6K",
+        "location": "Cartagena, Murcia",
+        "time": "20:00",
+        "raceInfo": "El IV Cross de las Iglesias es una carrera popular, solidaria e inclusiva que se celebra en Cartagena y que combina deporte, patrimonio e historia. Con un recorrido de aproximadamente 7 kilómetros, la prueba transcurre por el casco histórico, el Arsenal Militar, el barrio de Santa Lucía y el entorno del puerto, pasando por 17 puntos de interés, entre ellos varias iglesias emblemáticas de la ciudad. La salida y la meta están situadas en la Plaza del Muelle, ofreciendo a los participantes un circuito urbano único con un gran ambiente festivo y un marcado carácter solidario. Además, la carrera forma parte de la Running Challenge Región de Murcia y de la Carthago Running League",
+        "website": "https://www.lineadesalida.net/carreras/iv-cross-solidario-virgen-del-carmen",
+        "routeUrl": "https://www.lineadesalida.net/carreras/iv-cross-solidario-virgen-del-carmen",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkBwqgrN86CoZUVP_7fTzl4L5AD_PQA4dmG-M3CQA3CA&s=10"
+      }
+    }
+  ]
+}
