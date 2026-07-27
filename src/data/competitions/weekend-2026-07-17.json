@@ -1,0 +1,31 @@
+{
+  "id": "weekend-2026-07-17",
+  "date": "2026-07-17",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Mario González",
+      "race": "Prueba Híbrida por Parejas - Solares",
+      "goal": "Seguir mejorando y disfrutar de una nueva experiencia en competición híbrida",
+      "type": "Híbrida",
+      "slug": "mario-gonzalez-prueba-hibrida-solares",
+      "details": {
+        "distance": "Running + Workouts por parejas",
+        "location": "Solares, Cantabria",
+        "time": "16:00",
+        "raceInfo": "La prueba híbrida celebrada en Solares, Cantabria, corresponde a los Hyrcross Games, una competición que mezcla carrera a pie y estaciones de fuerza. El evento forma parte de la Liga Cántabra de este deporte.",
+        "website": "https://hyrcrossgames.com/",
+        "routeUrl": "https://hyrcrossgames.com/",
+        "routeImage": ""
+      }
+    }
+  ]
+}
+

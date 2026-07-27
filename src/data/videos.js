@@ -4,7 +4,7 @@ const videos = [
   titulo: 'Respiración para entrenar mejor',
   categoriaPrincipal: 'Clase del mes',
   categorias: ['Entrenamiento', 'Técnica'],
-  fecha: '2026-07-03',
+  fecha: '2026-07-16',
   descripcion:
     'Aprende cómo utilizar la respiración para mejorar tu rendimiento, correr con mayor eficiencia y recuperarte mejor. Se desmontan algunos mitos y se explican estrategias prácticas para aplicar en los entrenamientos.',
   enlace: 'https://www.loom.com/share/7d2c7fecab8a4af38010df127bf5c7ef',

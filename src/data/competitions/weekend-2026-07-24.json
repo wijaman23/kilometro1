@@ -1,0 +1,46 @@
+{
+  "id": "weekend-2026-07-24",
+  "date": "2026-07-24",
+  "title": "Competiciones del finde",
+  "subtitle": "Fin de semana de carreras y retos por delante",
+  "intro": "Aquí van lxs valientes del equipo que se ponen el dorsal estos días.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "José Carlos Oton",
+      "race": "Cross Cabo de Palos",
+      "goal": "Seguir demostrando el gran momento de forma en unas difíciles condiciones climatológicas.",
+      "type": "Cross",
+      "slug": "jose-carlos-oton-cross-cabo-de-palos",
+      "details": {
+        "distance": "6K",
+        "location": "Cabo de Palos, Cartagena, Murcia",
+        "time": "18:30",
+        "raceInfo": "El Cross de Cabo de Palos es una de las pruebas estivales más populares de la costa murciana. El recorrido discurre por el entorno del puerto y el paseo marítimo, con un perfil rápido pero muy exigente debido a las altas temperaturas y la humedad propias de finales de julio. Una carrera donde la gestión del esfuerzo será tan importante como el ritmo.",
+        "website": "https://www.lineadesalida.net/carreras/xvi-cross-de-cabo-de-palos",
+        "routeUrl": "https://www.lineadesalida.net/carreras/xvi-cross-de-cabo-de-palos",
+        "routeImage": "https://fotografias.larazon.es/clipping/cmsimages01/2019/08/22/A2203C0A-5B83-4EA2-BB7F-FA4782079A6D/98.jpg?crop=668,376,x0,y109&width=1900&height=1069&optimize=low&format=webply"
+      }
+    },
+    {
+      "name": "Carlos Cabello",
+      "race": "5K Summer Time Marbella",
+      "goal": "Reventar marca personal, atacando la barrera de 22´!",
+      "type": "5K",
+      "slug": "carlos-cabello-5k-summer-time-marbella",
+      "details": {
+        "distance": "5K",
+        "location": "Marbella, Málaga",
+        "time": "08:30",
+        "raceInfo": "El 5K Summer Time Marbella es una carrera popular veraniega con un recorrido urbano y prácticamente llano, ideal para buscar una buena marca. El ambiente nocturno y el entorno de Marbella convierten la prueba en una cita muy atractiva para los corredores populares.",
+        "website": "https://worldsmarathons.com/es/marathon/summer-time-marbella",
+        "routeUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9BJT_uBf_WUl2EYzxeO4JdVt-Hs-7nfd7s3Rvy9M84w&s=10",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9BJT_uBf_WUl2EYzxeO4JdVt-Hs-7nfd7s3Rvy9M84w&s=10"
+      }
+    }
+  ]
+}
