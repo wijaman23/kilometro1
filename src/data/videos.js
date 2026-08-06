@@ -1,5 +1,17 @@
 const videos = [
   {
+  id: 33,
+  titulo: 'Sesión Mastermind KM1 | Agosto',
+  categoriaPrincipal: 'Sesión Mastermind',
+  categorias: [],
+  fecha: '2026-08-05',
+  descripcion:
+    'Sesión Mastermind KM1 del mes de agosto. Hablamos sobre la estrategia nutricional para carreras de ultra distancia, entrenamiento digestivo, elección de zapatillas y resolución de dudas de los miembros del equipo.',
+  enlace: 'https://fathom.video/share/xJM1_zUD3YmosfTU11NhdmUp7kFL3js2',
+  thumbnail: '/thumbnails/mastermind-agosto-2026.png',
+  abrirExterno: true,
+  },
+  {
   id: 32,
   titulo: 'Respiración para entrenar mejor',
   categoriaPrincipal: 'Clase del mes',

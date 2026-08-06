@@ -1,0 +1,32 @@
+{
+  "id": "weekend-2026-08-01",
+  "date": "2026-08-01",
+  "title": "🔥 Actualidad KM1",
+  "subtitle": "Esta semana no hay competiciones... ¡pero seguimos construyendo la temporada!",
+  "intro": "El verano también forma parte del entrenamiento. Este fin de semana no tendremos dorsales del equipo, pero seguimos acumulando kilómetros, disfrutando del proceso y preparando los grandes objetivos del otoño.",
+  "closing": [
+    "Cada entrenamiento de hoy será el resultado de mañana.",
+    "Disfrutad del verano, entrenad con cabeza y seguid construyendo vuestra mejor versión.",
+    "¡Nos vemos muy pronto en la siguiente línea de salida! ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Equipo Kilómetro1",
+      "race": "Próxima gran cita: 10K Ponle Freno Madrid",
+      "goal": "Nos vemos el 15 de noviembre en la gran quedada oficial de KM1.",
+      "type": "Equipo",
+      "slug": "equipo-kilometro1-ponle-freno-madrid",
+      "details": {
+        "distance": "10K",
+        "location": "Madrid",
+        "time": "15 de noviembre de 2026",
+        "raceInfo": "Aunque este fin de semana no haya competiciones oficiales, el equipo ya tiene puesta la mirada en la gran quedada KM1 de final de temporada. El próximo 15 de noviembre nos reuniremos en el 10K Ponle Freno Madrid para compartir kilómetros, disfrutar del ambiente y vivir una jornada muy especial con corredores de todo el equipo. Hasta entonces, toca seguir entrenando, sumar kilómetros y llegar con la mejor versión de cada uno.",
+        "website": "https://www.ponlefreno.com/carreras/madrid/",
+        "routeUrl": "https://www.ponlefreno.com/carreras/madrid/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXLxv3cBHY9t6WF3nVRpPyDGQCFZKUARjfqnpVWNmgA&s=10"
+      }
+    }
+  ]
+}
+
+
