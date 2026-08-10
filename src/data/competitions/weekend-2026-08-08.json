@@ -1,0 +1,82 @@
+{
+  "id": "weekend-2026-08-08",
+  "date": "2026-08-08",
+  "title": "Competiciones del finde",
+  "subtitle": "¡Vuelven los dorsales a KM1!",
+  "intro": "Fin de semana de carreras y retos por delante. Aquí van lxs valientes del equipo que se ponen el dorsal estos días y durante las próximas jornadas festivas de agosto.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥"
+  ],
+  "runners": [
+    {
+      "name": "Manuel Cristóbal",
+      "race": "5K Murchante",
+      "goal": "Primer estímulo fuerte post-vacaciones",
+      "type": "5K",
+      "slug": "manuel-cristobal-5k-murchante",
+      "details": {
+        "raceDate": "09/08/2026",
+        "distance": "5K",
+        "location": "Murchante, Navarra",
+        "time": "09:15",
+        "raceInfo": "El Cross Virgen de la Asunción de Murchante alcanza en 2026 su 30.ª edición. Es una prueba tradicional del calendario deportivo de la localidad navarra y se celebra el domingo anterior al comienzo de las fiestas patronales de Murchante, dedicadas a la Virgen de la Asunción y San Roque. El Ayuntamiento la define como una carrera de carácter popular y gratuita, en la que participan corredores locales junto a atletas llegados de otros puntos de Navarra y del resto de España.",
+        "website": "https://www.plazanueva.com/event/agenda/30o-cross-virgen-asuncion-murchante-2026/20260625101639295073.html",
+        "routeUrl": "https://www.plazanueva.com/event/agenda/30o-cross-virgen-asuncion-murchante-2026/20260625101639295073.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Tamara López",
+      "race": "32ª Carrera Nocturna Playa de San Lorenzo",
+      "goal": "Mejorar ritmos del año pasado",
+      "type": "5K",
+      "slug": "tamara-lopez-nocturna-playa-san-lorenzo",
+      "details": {
+        "raceDate": "2026-08-10",
+        "distance": "5K",
+        "location": "Playa de San Lorenzo, Gijón",
+        "time": "21:15",
+        "raceInfo": "32ª edición de la Carrera Nocturna Playa de San Lorenzo, organizada por el Patronato Deportivo Municipal de Gijón y Deportes Arconada. La prueba absoluta consta de 5.000 metros íntegramente sobre la arena de la Playa de San Lorenzo, con salida y llegada a la altura de La Escalerona (escalera nº 4). La organización ofrece 700 plazas para la categoría absoluta. Una carrera completamente diferente al asfalto, donde la arena, el estado de la marea y la gestión del esfuerzo añaden dificultad al 5K.",
+        "website": "https://www.321go.es/Carrera/Detail/554-32carreranocturnaplayadesanlorenzo",
+        "routeUrl": "https://www.321go.es/Carrera/Detail/554-32carreranocturnaplayadesanlorenzo",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLwEFnPhQbfrH8wdXjVJz-ldoaT13TB3SSBs9POrglSg&s=10"
+      }
+    },
+    {
+      "name": "Jorge Cubero",
+      "race": "Carrera Puente a Puente de Ezcaray",
+      "goal": "Disfrutar de estas carreras populares metiendo los primeros estímulos fuertes de la pre-temporada",
+      "type": "Running",
+      "slug": "jorge-cubero-puente-a-puente-ezcaray",
+      "details": {
+        "raceDate": "2026-08-11",
+        "distance": "2K",
+        "location": "Ezcaray, La Rioja",
+        "time": "19:00",
+        "raceInfo": "Tradicional Carrera Puente a Puente de Ezcaray, una de las citas deportivas populares vinculadas a las fiestas de San Lorenzo. La prueba, también conocida tradicionalmente como Carrera Violeta Villanueva, forma parte desde hace años del programa festivo de la localidad. Una carrera de ambiente totalmente popular que Jorge utilizará como uno de los primeros estímulos intensos de su pretemporada.",
+        "website": "https://www.ezcaray.org/",
+        "routeUrl": "https://www.ezcaray.org/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Jorge Cubero",
+      "race": "Milla de San Roque - Santo Domingo de la Calzada",
+      "goal": "Disfrutar de estas carreras populares metiendo los primeros estímulos fuertes de la pre-temporada",
+      "type": "Milla",
+      "slug": "jorge-cubero-milla-san-roque-santo-domingo",
+      "details": {
+        "raceDate": "2026/08/07",
+        "distance": "1.610m",
+        "location": "Santo Domingo de la Calzada, La Rioja",
+        "time": "19:00",
+        "raceInfo": "Milla urbana de San Roque de Santo Domingo de la Calzada. La prueba absoluta se disputa sobre la distancia clásica de una milla, 1.610 metros, en un circuito que transcurre por la Avenida Juan Carlos I y el casco antiguo de la ciudad. Una carrera corta, rápida e intensa, perfecta para introducir velocidad y competición dentro de la pretemporada.",
+        "website": "https://www.santodomingodelacalzada.org/",
+        "routeUrl": "https://www.santodomingodelacalzada.org/",
+        "routeImage": "https://nuevecuatrouno.com/wp-content/uploads/2026/08/Santo-Domingo-de-la-Calzada-carrera2.jpeg"
+      }
+    }
+  ]
+}
