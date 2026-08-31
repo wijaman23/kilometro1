@@ -1,3 +1,7 @@
+/* =========================================================
+   HOME - KILÓMETRO1
+   ========================================================= */
+
 .home-page {
   position: relative;
   min-height: 100vh;
@@ -358,7 +362,7 @@
 
 /* =========================================================
    TARJETAS PARTNERS
-   CROWN + SIROKO UTILIZAN EXACTAMENTE LA MISMA TARJETA
+   CROWN + SIROKO
    ========================================================= */
 
 .hero-sponsor-card,
@@ -486,9 +490,6 @@
 
 /* =========================================================
    CONTENEDOR DE LOGOS
-
-   MUY IMPORTANTE:
-   Ambos logos ocupan exactamente el mismo espacio.
    ========================================================= */
 
 .hero-sponsor-logo-container {
@@ -522,9 +523,6 @@
 
 /* =========================================================
    AJUSTES INDIVIDUALES DE LOGOS
-
-   Solo sirven para compensar posibles márgenes internos
-   existentes dentro de los propios archivos de imagen.
    ========================================================= */
 
 .hero-crown-logo {
@@ -578,6 +576,7 @@
    ========================================================= */
 
 @keyframes backgroundZoom {
+
   from {
     transform: scale(1.02);
   }
@@ -599,6 +598,7 @@
   }
 }
 
+
 @media (max-width: 960px) {
 
   .hero-title {
@@ -617,6 +617,10 @@
 
 @media (max-width: 620px) {
 
+  /* =======================================================
+     NAVBAR
+     ======================================================= */
+
   .hero-navbar {
     width: calc(100% - 20px);
 
@@ -625,17 +629,20 @@
     gap: 8px;
   }
 
+
   .hero-logo-link {
     padding: 7px 9px;
 
     border-radius: 13px;
   }
 
+
   .hero-logo-img {
     width: 120px;
 
     max-width: 32vw;
   }
+
 
   .hero-menu {
     gap: 3px;
@@ -647,6 +654,7 @@
     overflow: hidden;
   }
 
+
   .hero-menu-link {
     min-height: 34px;
 
@@ -657,14 +665,31 @@
     letter-spacing: 0;
   }
 
+
+  /* =======================================================
+     FONDO
+     ======================================================= */
+
   .hero-background {
-    background-position: center center;
+
+    /*
+      Mantenemos la foto original.
+      Solo ajustamos ligeramente su posición
+      para que el corredor se vea mejor.
+    */
+
+    background-position: 62% center;
 
     filter:
       contrast(1.02)
       brightness(.82)
       saturate(1.01);
   }
+
+
+  /* =======================================================
+     CONTENIDO
+     ======================================================= */
 
   .hero-content {
     width: calc(100% - 24px);
@@ -673,12 +698,18 @@
 
     align-items: flex-end;
 
-    padding-bottom: 34px;
+    padding-bottom: 28px;
   }
+
 
   .hero-text {
     max-width: 100%;
   }
+
+
+  /* =======================================================
+     SUBTÍTULO
+     ======================================================= */
 
   .hero-subtitle {
     font-size: 11px;
@@ -688,13 +719,23 @@
     margin-bottom: 10px;
   }
 
-  .hero-title {
-    font-size: 64px;
 
-    line-height: .98;
+  /* =======================================================
+     TÍTULO
+     ======================================================= */
+
+  .hero-title {
+    font-size: clamp(50px, 15.5vw, 64px);
+
+    line-height: .95;
 
     letter-spacing: -2px;
   }
+
+
+  /* =======================================================
+     DESCRIPCIÓN
+     ======================================================= */
 
   .hero-description {
     margin-top: 16px;
@@ -708,10 +749,19 @@
 
 
   /* =======================================================
-     ACTIONS MOBILE
+     ACTIONS
      ======================================================= */
 
   .hero-actions {
+
+    /*
+      Pasamos de FLEX a GRID.
+
+      Esto es lo que hace que:
+      - Comunidad ocupe toda la fila.
+      - Crown y Siroko ocupen 50% cada uno.
+    */
+
     width: 100%;
 
     display: grid;
@@ -720,147 +770,462 @@
       minmax(0, 1fr)
       minmax(0, 1fr);
 
-    gap: 9px;
+    gap: 8px;
 
-    margin-top: 26px;
+    margin-top: 23px;
+
+    box-sizing: border-box;
   }
 
 
-  /* COMUNIDAD ARRIBA Y A TODO EL ANCHO */
+  /* =======================================================
+     BOTÓN COMUNIDAD
+     ======================================================= */
 
-  .hero-community-btn {
+  .hero-community-btn,
+  .hero-community-btn:link,
+  .hero-community-btn:visited,
+  .hero-community-btn:hover,
+  .hero-community-btn:active,
+  .hero-community-btn:any-link {
+
+    /*
+      Las dos columnas.
+    */
+
     grid-column: 1 / -1;
 
     width: 100%;
 
+    min-width: 0;
+
+    height: 50px;
+
     min-height: 50px;
 
-    padding: 0 18px;
+    padding: 0 14px;
 
-    border-radius: 16px;
+    border-radius: 15px;
 
-    font-size: 14px;
+    box-sizing: border-box;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .15px;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
   }
 
 
-  /* CROWN Y SIROKO IDÉNTICOS */
+  /* =======================================================
+     CROWN + SIROKO
+     ======================================================= */
 
-  .hero-sponsor-card {
+  .hero-sponsor-card,
+  .hero-sponsor-card:link,
+  .hero-sponsor-card:visited,
+  .hero-sponsor-card:hover,
+  .hero-sponsor-card:active,
+  .hero-sponsor-card:any-link {
+
+    /*
+      IMPORTANTE:
+      Cada tarjeta ocupa una sola columna.
+    */
+
     width: 100%;
-
-    height: 80px;
 
     min-width: 0;
 
-    padding: 8px 10px;
+    height: 72px;
 
-    border-radius: 16px;
+    min-height: 72px;
+
+    padding: 7px 9px;
+
+    box-sizing: border-box;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    /*
+      Evita que el contenido interno
+      haga crecer la tarjeta.
+    */
+
+    display: flex;
+
+    flex-direction: column;
   }
+
+
+  /* =======================================================
+     CABECERA PARTNER
+     ======================================================= */
 
   .hero-sponsor-top {
-    height: 13px;
+
+    width: 100%;
+
+    height: 11px;
+
+    min-height: 11px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 4px;
+
+    overflow: hidden;
   }
+
 
   .hero-sponsor-top > span:first-child {
-    font-size: 7px;
 
-    letter-spacing: .5px;
+    min-width: 0;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    font-size: 6px;
+
+    letter-spacing: .45px;
   }
+
+
+  /* =======================================================
+     DESCUENTO
+     ======================================================= */
 
   .hero-sponsor-discount {
+
+    flex-shrink: 0;
+
     padding: 2px 5px;
 
-    font-size: 8px !important;
+    font-size: 6.5px !important;
+
+    line-height: 1;
   }
 
 
-  /* LOGOS IDÉNTICOS EN MÓVIL */
+  /* =======================================================
+     LOGO
+     ======================================================= */
+
+  .hero-sponsor-logo-container {
+
+    flex: 1;
+
+    width: 100%;
+
+    min-width: 0;
+
+    min-height: 0;
+
+    height: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    overflow: hidden;
+  }
+
 
   .hero-sponsor-logo {
-    width: 100px;
 
-    height: 24px;
+    display: block;
 
-    max-width: 100px;
+    width: auto;
 
-    max-height: 24px;
+    max-width: 85%;
+
+    height: 21px;
+
+    max-height: 21px;
+
+    object-fit: contain;
+
+    object-position: left center;
   }
+
+
+  /* =======================================================
+     CROWN
+     ======================================================= */
 
   .hero-crown-logo {
-    width: 100px;
 
-    height: 24px;
+    width: 88px;
+
+    max-width: 88px;
+
+    height: 21px;
+
+    max-height: 21px;
   }
+
+
+  /* =======================================================
+     SIROKO
+     ======================================================= */
 
   .hero-siroko-logo {
-    width: 100px;
 
-    height: 24px;
+    width: 70px;
+
+    max-width: 70px;
+
+    height: 21px;
+
+    max-height: 21px;
   }
+
+
+  /* =======================================================
+     PARTE INFERIOR
+     ======================================================= */
 
   .hero-sponsor-bottom {
-    height: 12px;
+
+    width: 100%;
+
+    height: 10px;
+
+    min-height: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    overflow: hidden;
   }
 
+
   .hero-sponsor-bottom span {
-    font-size: 7px;
+
+    display: block;
+
+    width: 100%;
+
+    min-width: 0;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    font-size: 5.8px;
+
+    line-height: 1;
   }
 }
 
 
 /* =========================================================
-   VERY SMALL
+   MÓVILES MUY PEQUEÑOS
    ========================================================= */
 
 @media (max-width: 380px) {
 
-  .hero-title {
-    font-size: 56px;
+  .hero-navbar {
+    width: calc(100% - 16px);
   }
+
+
+  .hero-logo-img {
+    max-width: 30vw;
+  }
+
+
+  .hero-menu-link {
+    padding: 0 7px;
+
+    font-size: 8px;
+  }
+
+
+  /* =======================================================
+     CONTENIDO
+     ======================================================= */
+
+  .hero-content {
+
+    width: calc(100% - 20px);
+
+    padding-bottom: 20px;
+  }
+
+
+  .hero-subtitle {
+
+    font-size: 9px;
+
+    letter-spacing: 1.4px;
+  }
+
+
+  .hero-title {
+
+    font-size: 48px;
+
+    line-height: .95;
+
+    letter-spacing: -2px;
+  }
+
 
   .hero-description {
-    font-size: 15px;
+
+    max-width: 97%;
+
+    margin-top: 15px;
+
+    font-size: 14px;
+
+    line-height: 1.4;
   }
 
-  .hero-community-btn {
-    font-size: 12px;
+
+  /* =======================================================
+     ACTIONS
+     ======================================================= */
+
+  .hero-actions {
+
+    gap: 6px;
+
+    margin-top: 20px;
   }
 
-  .hero-sponsor-card {
-    height: 76px;
 
-    padding-left: 8px;
+  /* =======================================================
+     COMUNIDAD
+     ======================================================= */
 
-    padding-right: 8px;
+  .hero-community-btn,
+  .hero-community-btn:link,
+  .hero-community-btn:visited,
+  .hero-community-btn:hover,
+  .hero-community-btn:active,
+  .hero-community-btn:any-link {
+
+    height: 46px;
+
+    min-height: 46px;
+
+    padding: 0 10px;
+
+    border-radius: 13px;
+
+    font-size: 10px;
   }
 
-  .hero-sponsor-logo {
-    width: 88px;
 
-    height: 22px;
+  /* =======================================================
+     SPONSORS
+     ======================================================= */
 
-    max-width: 88px;
+  .hero-sponsor-card,
+  .hero-sponsor-card:link,
+  .hero-sponsor-card:visited,
+  .hero-sponsor-card:hover,
+  .hero-sponsor-card:active,
+  .hero-sponsor-card:any-link {
 
-    max-height: 22px;
+    height: 68px;
+
+    min-height: 68px;
+
+    padding: 6px 8px;
+
+    border-radius: 13px;
   }
 
-  .hero-crown-logo {
-    width: 88px;
 
-    height: 22px;
+  .hero-sponsor-top {
+
+    height: 10px;
+
+    min-height: 10px;
   }
 
-  .hero-siroko-logo {
-    width: 88px;
-
-    height: 22px;
-  }
-
-  .hero-sponsor-bottom span {
-    font-size: 6.5px;
-  }
 
   .hero-sponsor-top > span:first-child {
-    font-size: 6.5px;
+
+    font-size: 5.5px;
+
+    letter-spacing: .35px;
+  }
+
+
+  .hero-sponsor-discount {
+
+    padding: 2px 4px;
+
+    font-size: 6px !important;
+  }
+
+
+  /* =======================================================
+     LOGOS PEQUEÑOS
+     ======================================================= */
+
+  .hero-crown-logo {
+
+    width: 78px;
+
+    max-width: 78px;
+
+    height: 19px;
+
+    max-height: 19px;
+  }
+
+
+  .hero-siroko-logo {
+
+    width: 62px;
+
+    max-width: 62px;
+
+    height: 19px;
+
+    max-height: 19px;
+  }
+
+
+  /* =======================================================
+     BOTTOM
+     ======================================================= */
+
+  .hero-sponsor-bottom {
+
+    height: 9px;
+
+    min-height: 9px;
+  }
+
+
+  .hero-sponsor-bottom span {
+
+    font-size: 5.4px;
   }
 }

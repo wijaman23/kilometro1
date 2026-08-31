@@ -1,0 +1,117 @@
+{
+  "id": "weekend-2026-08-29",
+  "date": "2026-08-29",
+  "title": "Competiciones del finde",
+  "subtitle": "¡Últimos dorsales de agosto! 🔥",
+  "intro": "Fin de semana de carreras y retos por delante. Agosto llega a su recta final y nuestros corredores siguen demostrando que, incluso en pleno verano, el trabajo y la constancia no paran.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Vamos a por ello equipo!🔥"
+  ],
+  "runners": [
+    {
+      "name": "Úrsula Campos",
+      "race": "XI Running Night Los Toruños",
+      "goal": "Mejorar los 46:42 del año pasado",
+      "type": "9K",
+      "slug": "ursula-campos-running-night-los-torunos",
+      "details": {
+        "raceDate": "29/08/2026",
+        "distance": "9K",
+        "location": "El Puerto de Santa María, Cádiz",
+        "time": "22:00",
+        "raceInfo": "La XI Running Night Los Toruños 2026 es una carrera nocturna de 9 kilómetros que se celebra en el Parque Metropolitano Marisma de Los Toruños y Pinar de La Algaida, en El Puerto de Santa María. La prueba está organizada por el Club Deportivo Solsport y combina una modalidad competitiva de carrera con otra de senderismo. El recorrido discurre por el entorno natural del parque y es completamente llano, con predominio de senderos de tierra compactada. Al tratarse de una prueba nocturna, los participantes deben llevar su propio sistema de iluminación. La carrera se ha consolidado como una de las citas deportivas del verano en la Bahía de Cádiz y en 2026 alcanza su undécima edición.",
+        "website": "https://cadizturismo.com/es/eventos/running-night-los-torunos",
+        "routeUrl": "https://cadizturismo.com/es/eventos/running-night-los-torunos",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "XXXI Cross Subida a la Fuente del Sapo",
+      "goal": "Demostrar ese gran momento de forma bajando de 39'",
+      "type": "10K",
+      "slug": "jose-carlos-oton-cross-fuente-del-sapo",
+      "details": {
+        "raceDate": "29/08/2026",
+        "distance": "9.960 m",
+        "location": "El Algar, Cartagena, Murcia",
+        "time": "19:00",
+        "raceInfo": "El XXXI Cross Subida a la Fuente del Sapo es una de las pruebas clásicas del verano en El Algar, Cartagena. En 2026 alcanza su 31.ª edición y forma parte de la Región de Murcia Running Challenge. La prueba absoluta tiene una distancia oficial de 9.960 metros y presenta un recorrido mixto, con predominio de caminos de tierra, que incluye la característica subida a la Fuente del Sapo. La salida está situada en la Avenida Filipinas y la meta en la Plaza D. José María Serrano. La carrera está organizada por la Asociación Amigos Fuente del Sapo con la colaboración de la Concejalía de Deportes del Ayuntamiento de Cartagena, la Junta Vecinal de El Algar y la Federación de Atletismo de la Región de Murcia. La salida de la prueba absoluta está prevista a las 19:00 horas.",
+        "website": "https://www.alcanzatumeta.es/xxxi-cross-subida-a-la-fuente-del-sapo",
+        "routeUrl": "https://www.wikiloc.com/running-trails/xxxi-cross-subida-a-la-fuente-del-sapo-liga-famu-running-challenge-y-carthago-running-league-2026-282853137",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Ruth Lucila",
+      "race": "XXX Carrera del Amanecer Santa Pola",
+      "goal": "¡Reventar pronósticos, bajando de 37'!",
+      "type": "6K",
+      "slug": "ruth-lucila-carrera-amanecer-santa-pola",
+      "details": {
+        "raceDate": "30/08/2026",
+        "distance": "6K",
+        "location": "Santa Pola, Alicante",
+        "time": "07:30",
+        "raceInfo": "La XXX Carrera del Amanecer de Santa Pola se celebra el domingo 30 de agosto de 2026 y es una de las pruebas populares más singulares del calendario veraniego de la localidad. Organizada por el Club Atletismo Santa Pola, la carrera tiene una distancia oficial de 6 kilómetros y cuenta con una única salida a las 07:30 horas desde la Plaza Félix Rodríguez de la Fuente, donde también se encuentra la meta. El recorrido se desarrolla junto al litoral de Santa Pola y permite a los corredores disfrutar del amanecer junto al Mediterráneo. La organización fijó inicialmente un cupo de 1.500 participantes y posteriormente informó de una participación superior a esa cifra. Todos los inscritos reciben camiseta técnica y dorsal, además de diploma acreditativo y fotografía de llegada. Tras cruzar la meta, los participantes pueden disfrutar de avituallamiento y de un baño de mar gratuito.",
+        "website": "https://amanecer.clubatletismosantapola.com/",
+        "routeUrl": "https://amanecer.clubatletismosantapola.com/",
+        "routeImage": "https://amanecer.clubatletismosantapola.com/wp-content/uploads/2026/06/recorrido-amanecer-2026.png"
+      }
+    },
+    {
+      "name": "Iñaki Tovar",
+      "race": "XXX Carrera del Amanecer Santa Pola",
+      "goal": "Bajar la marca del año pasado, atacando los 32'",
+      "type": "6K",
+      "slug": "inaki-tovar-carrera-amanecer-santa-pola",
+      "details": {
+        "raceDate": "30/08/2026",
+        "distance": "6K",
+        "location": "Santa Pola, Alicante",
+        "time": "07:30",
+        "raceInfo": "La XXX Carrera del Amanecer de Santa Pola se celebra el domingo 30 de agosto de 2026. La prueba está organizada por el Club Atletismo Santa Pola y cuenta con una única salida a las 07:30 horas desde la Plaza Félix Rodríguez de la Fuente, punto que también acoge la llegada. La distancia oficial es de 6 kilómetros y el recorrido transcurre junto al mar, convirtiendo la prueba en una experiencia especialmente atractiva por el ambiente y las primeras luces del día. La organización establece un recorrido completamente orientado a disfrutar del entorno costero y competir en una distancia corta. La prueba cuenta con camiseta técnica, dorsal, diploma y fotografía de llegada para los participantes inscritos.",
+        "website": "https://amanecer.clubatletismosantapola.com/",
+        "routeUrl": "https://amanecer.clubatletismosantapola.com/",
+        "routeImage": "https://amanecer.clubatletismosantapola.com/wp-content/uploads/2026/06/recorrido-amanecer-2026.png"
+      }
+    },
+    {
+      "name": "Rafa López",
+      "race": "XXIV Carrera Popular de las Antorchas",
+      "goal": "Vamos a por marca personal, reventando la barrera de 45'!",
+      "type": "10K",
+      "slug": "rafa-lopez-carrera-antorchas",
+      "details": {
+        "raceDate": "29/08/2026",
+        "distance": "10K",
+        "location": "Villanueva de los Infantes, Ciudad Real",
+        "time": "21:00",
+        "raceInfo": "La XXIV Carrera Popular de las Antorchas se celebra el sábado 29 de agosto de 2026 en Villanueva de los Infantes, Ciudad Real. La prueba forma parte del Circuito de Carreras de Ciudad Real y ofrece modalidades de 10K y 5K, además de carreras para categorías inferiores. La salida está prevista a las 21:00 horas, aprovechando el carácter nocturno de la prueba y las temperaturas más favorables de la noche. La carrera está organizada por el Ayuntamiento de Villanueva de los Infantes y se ha convertido en una de las citas tradicionales del calendario provincial. Para Rafa será una oportunidad perfecta para atacar la barrera de los 45 minutos y buscar una nueva marca personal.",
+        "website": "https://carreradelasantorchas.es/",
+        "routeUrl": "https://carreradelasantorchas.es/",
+        "routeImage": "https://carrerasciudadreal.es/wp-content/uploads/2018/08/Plano-Infantes-modified.jpg"
+      }
+    },
+    {
+      "name": "Juan de Dios",
+      "race": "11ª Carrera Popular Arquitectura del Sol",
+      "goal": "Comprobar estado de forma post Camino de Santiago",
+      "type": "5K",
+      "slug": "juan-de-dios-5k-arquitectura-del-sol",
+      "details": {
+        "raceDate": "29/08/2026",
+        "distance": "5K",
+        "location": "Bujalance, Córdoba",
+        "time": "22:00",
+        "raceInfo": "La 11.ª Carrera Popular Arquitectura del Sol se celebra en Bujalance, Córdoba, el sábado 29 de agosto de 2026. La prueba reina tiene una distancia de 5 kilómetros y se disputa por las calles del casco histórico de la localidad. Se trata de una carrera popular de carácter nocturno, integrada en el Circuito Provincial de Carreras Populares de Córdoba. El recorrido tradicional se caracteriza por sus continuas subidas y bajadas y por diferentes tramos de calles empedradas, lo que añade dificultad a pesar de la corta distancia. La carrera tiene un marcado carácter festivo y reúne cada año a corredores de diferentes localidades de la provincia. La edición de 2026 alcanza la undécima edición y vuelve a celebrarse dentro del ambiente festivo de Bujalance.",
+        "website": "https://carrerasencordoba.com/carreras/11-c-p-arquitectura-del-sol.html",
+        "routeUrl": "https://carrerasencordoba.com/carreras/11-c-p-arquitectura-del-sol.html",
+        "routeImage": ""
+      }
+    }
+  ]
+}
