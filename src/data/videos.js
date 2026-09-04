@@ -1,5 +1,17 @@
 const videos = [
   {
+    id: 34,
+    titulo: 'Sesión Mastermind KM1 | Septiembre',
+    categoriaPrincipal: 'Sesión Mastermind',
+    categorias: [],
+    fecha: '2026-09-02',
+    descripcion:
+      'Sesión Mastermind KM1 del mes de Septiembre. Hablamos sobre recuperación de lesiones, estrategia de carrera, mentalidad y suplementación para mejorar el rendimiento.',
+    enlace: 'https://fathom.video/share/FnhQggjZiCxrHTQEkXuHLLBwR7V9fk89',
+    thumbnail: '/thumbnails/mastermind-septiembre-2026.png',
+    abrirExterno: true,
+  },
+  {
   id: 33,
   titulo: 'Sesión Mastermind KM1 | Agosto',
   categoriaPrincipal: 'Sesión Mastermind',
