@@ -1,0 +1,100 @@
+{
+  "id": "weekend-2026-09-04",
+  "date": "2026-09-04",
+  "title": "Competiciones del finde",
+  "subtitle": "¡Nuevo fin de semana de carreras! 🔥",
+  "intro": "¡Fin de semana de carreras y retos por delante! Septiembre llega con fuerza y nuestros corredores vuelven a ponerse el dorsal en diferentes puntos de España. Desde carreras rápidas de asfalto hasta HYROX y una auténtica aventura de ultradistancia en el Pirineo.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Nuevo fin de semana de carreras! ¡Vamos equipo!🔥"
+  ],
+  "runners": [
+    {
+      "name": "Jorge Cubero",
+      "race": "XII Carrera Popular 10K Ciudad de Viana",
+      "goal": "Entrenamiento con dorsal de preparación para la Media de Logroño",
+      "type": "10K",
+      "slug": "jorge-cubero-10k-viana",
+      "details": {
+        "raceDate": "06/09/2026",
+        "distance": "10K",
+        "location": "Viana, Navarra",
+        "time": "10:00",
+        "raceInfo": "La XII Carrera Popular 10K Ciudad de Viana se celebra el domingo 6 de septiembre de 2026 en Viana, Navarra. La prueba ofrece distancias de 5K y 10K y el recorrido de la prueba larga consiste en completar dos vueltas a un circuito urbano de 5 kilómetros íntegramente homologado por la RFEA. El recorrido transcurre por las calles de Viana, una localidad histórica del Camino de Santiago, y combina el ambiente de una carrera popular con un circuito rápido y controlado. La organización corre a cargo del Ayuntamiento de Viana y el C.D. VianaTrekking, con el control técnico de la Federación Navarra de Atletismo. Los participantes del 10K cuentan con avituallamiento en el kilómetro 5 y en meta, asistencia sanitaria y seguro. Para Jorge será una competición utilizada como entrenamiento con dorsal y preparación específica de cara a la Media Maratón de Logroño.",
+        "website": "https://web.rockthesport.com/es/event/xii-carrera-popular-10k-ciudad-de-viana",
+        "routeUrl": "https://web.rockthesport.com/es/event/xii-carrera-popular-10k-ciudad-de-viana",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Adrián Ortega",
+      "race": "HYROX Tenerife 26/27 - Equipos",
+      "goal": "Disfrutar de la experiencia y dar el 100%",
+      "type": "HYROX",
+      "slug": "adrian-ortega-hyrox-tenerife-equipos",
+      "details": {
+        "raceDate": "04/09/2026",
+        "distance": "HYROX",
+        "location": "Santa Cruz de Tenerife, Tenerife",
+        "time": "",
+        "raceInfo": "HYROX Tenerife 26/27 es el primer gran evento HYROX celebrado en las Islas Canarias y tiene lugar del 4 al 6 de septiembre de 2026 en el Recinto Ferial de Tenerife, en Santa Cruz de Tenerife. La competición combina 8 kilómetros de carrera, repartidos en ocho tramos de 1 km, con ocho estaciones de ejercicios funcionales. El evento cuenta con diferentes modalidades individuales, dobles y relevos/equipos. Para Adrián supone una experiencia diferente al running convencional, donde además de la capacidad aeróbica será fundamental gestionar ejercicios funcionales, transiciones y el trabajo coordinado con el equipo. La organización espera reunir a miles de atletas de numerosas nacionalidades en la primera edición de HYROX en Canarias.",
+        "website": "https://hyrox.es/eventos/hyrox-tenerife-26-27/",
+        "routeUrl": "https://hyrox.es/eventos/hyrox-tenerife-26-27/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "I Cross Solidario Colegio Narval",
+      "goal": "Demostrar ese gran momento de forma",
+      "type": "5K",
+      "slug": "jose-carlos-oton-cross-solidario-narval",
+      "details": {
+        "raceDate": "04/09/2026",
+        "distance": "5,5K",
+        "location": "Cartagena, Murcia",
+        "time": "20:00",
+        "raceInfo": "El I Cross Solidario Narval se celebra el viernes 4 de septiembre de 2026 en el Colegio Narval, situado en el Polígono de Santa Ana de Cartagena. La prueba nace con carácter solidario y destina la recaudación al proyecto Respira la Vida. La carrera absoluta presenta un recorrido aproximado de 5,5 kilómetros que combina caminos de la Vía Verde y calles del Polígono de Santa Ana. Además de la prueba absoluta se celebran diferentes carreras para categorías infantiles. La competición pretende unir deporte, participación familiar y solidaridad, convirtiéndose en una nueva cita del calendario deportivo de Cartagena. Para José Carlos será una nueva oportunidad de comprobar y demostrar el gran momento de forma que está atravesando.",
+        "website": "https://haid.app/es/events/i-cross-solidario-narval-mqn55c07",
+        "routeUrl": "https://haid.app/es/events/i-cross-solidario-narval-mqn55c07",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Pedro Alberto",
+      "race": "XLV Carrera Popular del Cristo",
+      "goal": "Reventar marca personal, parando el crono en torno a 53'!",
+      "type": "10K",
+      "slug": "pedro-alberto-10k-popular-del-cristo",
+      "details": {
+        "raceDate": "05/09/2026",
+        "distance": "10K",
+        "location": "San Cristóbal de La Laguna, Tenerife",
+        "time": "17:30",
+        "raceInfo": "La XLV Carrera Popular del Cristo se celebra el sábado 5 de septiembre de 2026 en San Cristóbal de La Laguna, Tenerife. La prueba forma parte del VII Circuito de Carreras Ciudades Patrimonio de la Humanidad y ofrece distancias de 5K y 10K. La salida de las pruebas adultas está prevista a las 17:30 horas. El recorrido se desarrolla sobre asfalto por las calles de La Laguna, ciudad declarada Patrimonio de la Humanidad por la UNESCO, aportando a la carrera un escenario urbano y monumental muy especial. La prueba combina el carácter popular con la posibilidad de competir en un circuito homologado y buscar una buena marca. Pedro Alberto llega con un objetivo claro: atacar su mejor registro y tratar de detener el crono alrededor de los 53 minutos.",
+        "website": "https://deportelagunero.com/",
+        "routeUrl": "https://circuitodecarrerasciudadespatrimonio.org/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Gerard Mateu",
+      "race": "XIII Trail 2 Heaven - 50K",
+      "goal": "Finalizar la carrera de ultradistancia intentando bajar de 11h",
+      "type": "Trail Ultra",
+      "slug": "gerard-mateu-trail-2-heaven-benasque-50k",
+      "details": {
+        "raceDate": "05/09/2026",
+        "distance": "50,7K",
+        "location": "Valle de Benasque, Huesca",
+        "time": "08:30",
+        "raceInfo": "La XIII Trail 2 Heaven se celebra el sábado 5 de septiembre de 2026 en el Valle de Benasque y es una de las carreras de montaña más singulares del Pirineo. La prueba destaca por su carácter transfronterizo, conectando España y Francia a través de antiguos caminos y pasos de alta montaña. La distancia de 50K cuenta con aproximadamente 50,7 kilómetros y 2.640 metros de desnivel positivo, partiendo desde la zona de Los Llanos del Hospital. El recorrido atraviesa algunos de los paisajes más espectaculares del Pirineo, bajo la presencia del Aneto y el macizo de las Maladetas. La Trail 2 Heaven reúne diferentes distancias para adaptarse a distintos niveles, pero la 50K es el gran reto de ultradistancia del evento. En 2026 la organización espera alrededor de 1.000 corredores procedentes de unas 30 nacionalidades. Para Gerard el reto será mayúsculo: completar la ultradistancia y, si las condiciones lo permiten, intentar bajar de las 11 horas.",
+        "website": "https://www.trail2heaven.com/",
+        "routeUrl": "https://www.trail2heaven.com/",
+        "routeImage": ""
+      }
+    }
+  ]
+}
