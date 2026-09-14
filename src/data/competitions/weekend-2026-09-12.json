@@ -1,0 +1,66 @@
+{
+  "id": "weekend-2026-09-12",
+  "date": "2026-09-12",
+  "title": "Competiciones del finde",
+  "subtitle": "¡Nuevo fin de semana de carreras! 🔥",
+  "intro": "¡Fin de semana de carreras y retos por delante! Septiembre continúa con fuerza y nuestros corredores vuelven a ponerse el dorsal en diferentes puntos de España. Desde un 10K solidario en Vitoria-Gasteiz hasta una carrera urbana con fuertes desniveles en Bellaterra y un exigente 15K nocturno en Alfafar.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Vamos a por ello equipo! ¡Vamos a por el finde!🔥"
+  ],
+  "runners": [
+    {
+      "name": "Idoia Garcia",
+      "race": "CórrELA Araba 10K",
+      "goal": "Vamos a mejorar marca personal, rompiendo la barrera de 50'",
+      "type": "10K",
+      "slug": "idoia-garcia-correla-araba-10k",
+      "details": {
+        "raceDate": "13/09/2026",
+        "distance": "10K",
+        "location": "Vitoria-Gasteiz, Álava",
+        "time": "09:30",
+        "raceInfo": "La V edición de CórrELA Araba se celebra el domingo 13 de septiembre de 2026 en Vitoria-Gasteiz. Es un evento deportivo solidario organizado a favor de las personas afectadas por la Esclerosis Lateral Amiotrófica (ELA) y sus familias en Álava. La jornada incluye una carrera de 10 kilómetros, una carrera de 5 kilómetros y una marcha solidaria de 1 kilómetro. La salida y el entorno principal del evento se sitúan en la Plaza del Arca de Vitoria-Gasteiz. Los recorridos de 5K y 10K son urbanos, sobre asfalto y cerrados al tráfico salvo vehículos autorizados. La carrera de 10K dispone de cronometraje mediante dorsal con chip y clasificación oficial. La organización contempla un avituallamiento aproximadamente en el kilómetro 3,5. Las inscripciones de la edición 2026 tienen un límite de 1.400 participantes entre las diferentes modalidades. Para Idoia el objetivo es especialmente ambicioso: buscar una nueva marca personal y tratar de romper la barrera de los 50 minutos en los 10 kilómetros.",
+        "website": "https://sites.google.com/view/correlaaraba",
+        "routeUrl": "https://runario.app/carrera/correla-araba",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "La 6.6 de Bellaterra",
+      "goal": "Disfrutar la vuelta a la competición en un circuito complicado",
+      "type": "Trail / Running",
+      "slug": "oscar-pareja-la-6-6-de-bellaterra",
+      "details": {
+        "raceDate": "11/09/2026",
+        "distance": "7K aprox.",
+        "location": "Bellaterra, Barcelona",
+        "time": "09:30",
+        "raceInfo": "La 6.6 de Bellaterra celebra su tercera edición el viernes 11 de septiembre de 2026, coincidiendo con la Diada Nacional de Catalunya. La prueba está organizada por la EMD de Bellaterra y forma parte de la programación deportiva de la Festa Major. Aunque la carrera mantiene el nombre de La 6.6, la edición 2026 presenta un recorrido diferente debido a las restricciones que afectan a las zonas forestales. El nuevo circuito es completamente urbano y consta de dos vueltas de aproximadamente 3,5 kilómetros, por lo que la distancia real se sitúa alrededor de los 7 kilómetros. El recorrido transcurre íntegramente por asfalto y pasa por calles como Pintor Fortuny, Terranova, Josep Sentís y el Camí Antic de Sant Cugat. Es un circuito especialmente exigente por sus constantes subidas y bajadas, con algunos repechos superiores al 10% y descensos rápidos hacia meta. La salida y llegada están situadas en la zona de la Plaça del Pi, junto a la estación de FGC de Bellaterra. La carrera dispone de cronometraje con chip y cuenta también con avituallamiento, guardarropa, música, animación y desayuno popular para los participantes. Para Òscar será una buena oportunidad para volver a ponerse un dorsal y recuperar sensaciones competitivas en un recorrido exigente y rompepiernas.",
+        "website": "https://la6punt6debellaterra.cat/",
+        "routeUrl": "https://blogmaldito.com/2026/09/09/guia-la-6-6-de-bellaterra-recorrido/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Rafa Cerdá",
+      "race": "XIII Gran Fons Nocturn Alfafar",
+      "goal": "Comprobar estado de forma de cara a mayores objetivos, rondando los 72'!",
+      "type": "15K",
+      "slug": "rafa-cerda-15k-alfafar",
+      "details": {
+        "raceDate": "13/09/2026",
+        "distance": "15K",
+        "location": "Alfafar, Valencia",
+        "time": "09:30",
+        "raceInfo": "El XIII Gran Fons Nocturn Alfafar se celebra el domingo 13 de septiembre de 2026 en Alfafar, Valencia, y forma parte del Circuit Albufera. La prueba mantiene su tradicional formato de 15 kilómetros y está integrada en el calendario de carreras populares del entorno del Parque Natural de l'Albufera. El recorrido se desarrolla sobre asfalto y por el término municipal de Alfafar y sus alrededores. En ediciones anteriores la salida se ha situado en la Avenida de los Reyes Católicos, en la zona del CEIP La Fila, y la carrera se ha caracterizado por un trazado urbano y muy llano, con desniveles reducidos, lo que permite mantener ritmos constantes durante buena parte de la prueba. La edición 2026 aparece como una de las citas del Circuit Albufera y mantiene la denominación Gran Fons Nocturn Alfafar. La información actual del circuito confirma la celebración el 13 de septiembre, aunque la hora publicada actualmente en el calendario presenta una discrepancia con el carácter tradicionalmente nocturno de la prueba, por lo que se deja pendiente de confirmación. Para Rafa será una carrera especialmente interesante para comprobar su estado de forma actual y obtener una referencia de cara a objetivos posteriores, con la intención de moverse alrededor de los 72 minutos.",
+        "website": "https://www.circuitalbufera.com/",
+        "routeUrl": "https://es.wikiloc.com/rutas/carreira/espana/comunitat-valenciana/lugar-nuevo-de-la-corona",
+        "routeImage": ""
+      }
+    }
+  ]
+}
