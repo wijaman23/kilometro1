@@ -1,4 +1,16 @@
 const videos = [
+    {
+      id: 35,
+      titulo: 'Sesión de Mentalidad KM1 | Septiembre',
+      categoriaPrincipal: 'Sesión de Mentalidad',
+      categorias: ['Mentalidad'],
+      fecha: '2026-09-16',
+      descripcion:
+        'Sesión de mentalidad centrada en cómo desarrollar una mentalidad de corredor imparable. Hablamos sobre visión a largo plazo, resiliencia ante el fracaso, disciplina inteligente, paciencia, mentalidad de aprendiz y la importancia de disfrutar del proceso.',
+      enlace: 'https://fathom.video/share/abMvaxQsisk7o3-ryBWYK8WX6NR9ufzV',
+      thumbnail: '/thumbnails/mentalidad-septiembre-2026.png',
+      abrirExterno: true,
+  },
   {
     id: 34,
     titulo: 'Sesión Mastermind KM1 | Septiembre',

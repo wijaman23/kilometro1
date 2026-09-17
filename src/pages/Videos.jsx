@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import ReactGA from "react-ga4";
-import { Apple, Brain, GraduationCap } from "lucide-react";
+import { Apple, Brain, GraduationCap, Target } from "lucide-react";
 
 import videos from "../data/videos";
 import Header from "../components/Header";
@@ -104,6 +104,11 @@ function Videos() {
       nombre: "Clase del mes",
       descripcion: "Clases mensuales sobre entrenamiento y rendimiento.",
       icono: <GraduationCap size={24} strokeWidth={2.4} />,
+    },
+    {
+      nombre: "Sesión de Mentalidad",
+      descripcion: "Sesiones para entrenar la mente y mejorar como corredor.",
+      icono: <Target size={24} strokeWidth={2.4} />,
     },
     {
       nombre: "Nutrición con Alfonso Mendoza",
