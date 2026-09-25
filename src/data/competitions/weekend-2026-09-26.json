@@ -1,0 +1,355 @@
+{
+  "id": "weekend-2026-09-26",
+  "date": "2026-09-26",
+  "title": "Competiciones del finde",
+  "subtitle": "¡Fin de semana de carreras y retos por delante! 🔥",
+  "intro": "¡Fin de semana de carreras y retos por delante! Tenemos un finde cargadísimo de dorsales, con asfalto, montaña, trail, pruebas híbridas y carreras solidarias repartidas por diferentes puntos de España y Europa. Desde Valladolid y Valencia hasta Suecia, pasando por Barakaldo, Marbella, Toledo, Sevilla e Ibiza. ¡Muchos retos y muchas historias por contar!",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Vamos a por ello equipo!🔥"
+  ],
+  "runners": [
+    {
+      "name": "José Antonio Pérez",
+      "race": "XXXVII Media Maratón Ciudad de Valladolid",
+      "goal": "Rodaje con dorsal de preparación para el Maratón",
+      "type": "Media Maratón",
+      "slug": "jose-antonio-perez-media-maraton-valladolid",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "21,1K",
+        "location": "Valladolid",
+        "time": "10:00",
+        "raceInfo": "La XXXVII Media Maratón Ciudad de Valladolid se celebra el domingo 27 de septiembre de 2026. La salida está prevista a las 10:00 horas desde la calle Miguel Íscar y la llegada se sitúa en el Paseo Central del Campo Grande. La prueba ofrece un recorrido urbano de 21,1 kilómetros, prácticamente llano, por las principales calles y monumentos de Valladolid. La organización destaca precisamente el perfil llano del circuito, pensado para permitir mantener ritmos constantes. La carrera está incluida en el calendario autonómico de la Federación de Atletismo de Castilla y León. Los avituallamientos líquidos están previstos en los kilómetros 5, 10, 15 y 20. Para José Antonio será principalmente un entrenamiento con dorsal dentro de la preparación para el Maratón, utilizando la media como un rodaje largo y controlado.",
+        "website": "https://www.mediamaratonvalladolid.com/",
+        "routeUrl": "https://www.mediamaratonvalladolid.com/la-carrera/categorias-y-reglamento/",
+        "routeImage": "https://www.mediamaratonvalladolid.com/wp-content/uploads/2026/09/Plano-MMVA26.jpg"
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "Pulmón de Acero Sprint Trail",
+      "goal": "Primera vez en Trail… Road to Marathon des Sables",
+      "type": "Trail",
+      "slug": "carlos-perez-pulmon-de-acero-sprint-trail",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "14,9K",
+        "location": "Barakaldo, Bizkaia",
+        "time": "",
+        "raceInfo": "El Pulmón de Acero Trail se celebra el domingo 27 de septiembre de 2026 en Barakaldo, Bizkaia. La modalidad Sprint Trail cuenta con una distancia oficial de 14,90 kilómetros y aproximadamente 675 metros de desnivel positivo. El recorrido es circular y atraviesa algunos de los montes más representativos de Barakaldo, pasando por zonas como Retuerto, el monte Goronillo, el Argalario y el pico Mendibil. La organización califica la dificultad física como moderada y la técnica como media. El trazado combina ascensos continuos, senderos, bajadas con firme irregular y diferentes zonas de montaña antes de regresar al Parque Tellaetxe, donde se sitúa la meta. Para Carlos será una cita especialmente importante al tratarse de su primera experiencia en Trail y supone un primer paso dentro de su camino hacia el Marathon des Sables.",
+        "website": "https://www.pulmondeacero.com/",
+        "routeUrl": "https://www.pulmondeacero.com/recorrido-sprint-trail/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Cabello",
+      "race": "Sierra Blanca Estates Marbella Half Marathon",
+      "goal": "Traer una marca personal de cara al objetivo principal!",
+      "type": "Media Maratón",
+      "slug": "carlos-cabello-media-maraton-marbella",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "21,1K",
+        "location": "Marbella, Málaga",
+        "time": "09:00",
+        "raceInfo": "La XXXIX Media Maratón de Marbella, denominada oficialmente Sierra Blanca Estates Marbella Half Marathon, se celebra el domingo 27 de septiembre de 2026 a las 09:00 horas. La salida está situada en el Arco de Bienvenida de Marbella, en la N-340, y la meta en el Parque del Mediterráneo. El circuito, homologado por la Federación Andaluza de Atletismo, tiene 21,0975 kilómetros y discurre principalmente por asfalto, atravesando las principales avenidas de Marbella, el paseo marítimo y el entorno de Puerto Banús. Es un recorrido prácticamente llano y con escasos desniveles. La organización establece un tiempo máximo de 2 horas y 40 minutos y contará con avituallamientos a lo largo del recorrido y liebres para diferentes objetivos de tiempo. Para Carlos el objetivo será aprovechar un circuito rápido para buscar una nueva marca personal de cara al objetivo principal de la temporada.",
+        "website": "https://deportes.marbella.es/mediamaraton",
+        "routeUrl": "https://www.marbella.es/actualidad/noticias/la-inscripcion-para-participar-en-la-media-maraton-de-marbella-2026-que-se-celebrara-el-27-de-septiembre-se-abrira-el-2-de-marzo-con-el-objetivo-de-alcanzar-los-3-000-participantes.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Emilia Cagnoni",
+      "race": "15K Nocturna Valencia Gana Energía",
+      "goal": "Reventar el 15K con vistas a la media!",
+      "type": "15K",
+      "slug": "emilia-cagnoni-15k-nocturna-valencia",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "15K",
+        "location": "Valencia",
+        "time": "22:30",
+        "raceInfo": "La 13ª 15K Nocturna Valencia Gana Energía se celebra el sábado 26 de septiembre de 2026 a las 22:30 horas. La salida se encuentra en la Avenida del Ingeniero Manuel Soto y el recorrido, homologado por la RFEA e incluido en el calendario nacional con categoría internacional, atraviesa algunos de los lugares más emblemáticos de Valencia como las Torres de Serranos, la calle de la Paz, la Plaza de la Reina, la Plaza del Ayuntamiento y la Ciudad de las Artes y las Ciencias. La carrera se disputa íntegramente sobre asfalto y está diseñada como un circuito rápido. La organización espera reunir a miles de corredores y la edición 2026 cuenta con alrededor de 14.000 participantes. Para Emilia será un estímulo competitivo importante para comprobar el estado de forma en los 15 kilómetros y afinar de cara a la preparación de la media maratón.",
+        "website": "https://15knocturnavalencia.com/",
+        "routeUrl": "https://15knocturnavalencia.com/recorrido-2/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Francisco Cahfer",
+      "race": "15K Nocturna Valencia Gana Energía",
+      "goal": "Vamos a atacar un sub 1h13´!",
+      "type": "15K",
+      "slug": "francisco-cahfer-15k-nocturna-valencia",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "15K",
+        "location": "Valencia",
+        "time": "22:30",
+        "raceInfo": "La 15K Nocturna Valencia Gana Energía 2026 se celebra el sábado 26 de septiembre a las 22:30 horas. La prueba cuenta con un recorrido homologado por la RFEA de 15 kilómetros completamente sobre asfalto. La salida se sitúa en la Avenida del Ingeniero Manuel Soto y el circuito atraviesa diferentes lugares emblemáticos de Valencia, incluyendo las Torres de Serranos, la Plaza del Ayuntamiento y la Ciudad de las Artes y las Ciencias. Se trata de una carrera nocturna de gran participación y con un recorrido diseñado para permitir ritmos elevados. Para Francisco el objetivo está muy claro: atacar la barrera de 1 hora y 13 minutos en los 15 kilómetros.",
+        "website": "https://15knocturnavalencia.com/",
+        "routeUrl": "https://15knocturnavalencia.com/recorrido-2/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Nerea García",
+      "race": "Pulmón de Acero Trail",
+      "goal": "Superarnos un día más en la disciplina de montaña",
+      "type": "Trail",
+      "slug": "nerea-garcia-pulmon-de-acero-trail",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "21,5K",
+        "location": "Barakaldo, Bizkaia",
+        "time": "",
+        "raceInfo": "La modalidad Media Marathon del Pulmón de Acero Trail se celebra el domingo 27 de septiembre de 2026 en Barakaldo. El recorrido tiene una distancia de 21,50 kilómetros y aproximadamente 1.000 metros de desnivel positivo. El trazado circular recorre los montes emblemáticos de Barakaldo y pasa por el Goronillo, el Argalario y el pico Mendibil, alcanzando zonas de montaña con vistas sobre el entorno. La organización califica la dificultad física y técnica como media. El recorrido combina ascensos, senderos y descensos técnicos sobre terreno irregular, antes de regresar hacia el Parque Tellaetxe. Para Nerea será una nueva oportunidad de seguir creciendo en la disciplina de montaña y enfrentarse a un recorrido exigente y variado.",
+        "website": "https://www.pulmondeacero.com/",
+        "routeUrl": "https://www.pulmondeacero.com/recorrido-trail-media-maraton/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Judit Claret",
+      "race": "XX Carrera de la Charca Grande - Gran Premio Panzamelba",
+      "goal": "Inicio en trail, objetivo disfrutar cada metro!",
+      "type": "Trail",
+      "slug": "judit-claret-carrera-charca-grande",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "8,2K",
+        "location": "Totana, Murcia",
+        "time": "18:45",
+        "raceInfo": "La XX Carrera de la Charca Grande - Gran Premio Panzamelba se celebra el sábado 26 de septiembre de 2026 en Totana, Región de Murcia. La prueba recupera una carrera emblemática del municipio cuya última edición se celebró en 2019. El programa incluye una marcha senderista de 8,2 km, pruebas infantiles y la carrera absoluta competitiva, cuya salida está prevista a las 18:45 horas y cuya distancia oficial es también de 8.200 metros. La organización corre a cargo del Club Deportivo La Ventanica, en colaboración con el Club de Atletismo de Totana y la Federación de Atletismo de la Región de Murcia, con apoyo del Ayuntamiento. El recorrido se desarrolla en el entorno de Totana y combina carácter popular y contacto con el entorno natural. Para Judit supone su inicio en el Trail y el objetivo será disfrutar de cada metro de esta nueva experiencia.",
+        "website": "https://www.lacharcagrande.com/",
+        "routeUrl": "https://www.lacharcagrande.com/reglamento.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Andrea Herrera",
+      "race": "XVIII Cursa Popular Pla de Sant Mateu",
+      "goal": "Completar un sub 56´en una carrera que nos debe no 1, si no 2!",
+      "type": "10K",
+      "slug": "andrea-herrera-10k-sant-mateu",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "10K",
+        "location": "Sant Mateu d'Albarca, Ibiza",
+        "time": "09:30",
+        "raceInfo": "La XVIII Cursa Popular Pla de Sant Mateu se celebra el domingo 27 de septiembre de 2026 en Sant Mateu d'Albarca, Ibiza. La prueba ofrece distancias de 5 y 10 kilómetros sobre asfalto. La carrera principal de 10K consiste en dos vueltas a un circuito de 5 kilómetros, con salida y llegada frente a la Iglesia de Sant Mateu. La organización corre a cargo del Club d'Atletisme Sa Raval, con la colaboración del Ayuntamiento de Sant Antoni de Portmany y la Asociación de Vecinos de Sant Mateu. La salida de las pruebas de 5 y 10 kilómetros está prevista a las 09:30 horas. Para Andrea el reto será completar una carrera exigente a nivel de esfuerzo competitivo y buscar un registro por debajo de los 56 minutos.",
+        "website": "https://www.elitechip.net/index.php?idcomp=7566126&zwprint=1&zwshow=compdet",
+        "routeUrl": "https://www.elitechip.net/index.php?idcomp=7566126&zwprint=1&zwshow=compdet",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Tamara López",
+      "race": "HURBAX Gijón",
+      "goal": "Dar caña en una prueba híbrida!",
+      "type": "Híbrida",
+      "slug": "tamara-lopez-hurbax-gijon",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "5K + 5 estaciones",
+        "location": "Gijón, Asturias",
+        "time": "",
+        "raceInfo": "HURBAX Gijón se celebra el sábado 26 de septiembre de 2026 en los Jardines del Náutico de Gijón. HURBAX es una competición híbrida que combina carrera y ejercicios funcionales. El formato consiste en completar 5 kilómetros de carrera intercalados con 5 estaciones de alta intensidad, alternando aproximadamente 1 kilómetro de carrera con un workout funcional. La competición dispone de diferentes modalidades y categorías adaptadas a distintos niveles. La edición de Gijón forma parte de la temporada 2026 y supone una prueba diferente al running convencional, en la que es necesario gestionar simultáneamente resistencia, fuerza, estrategia y transiciones. Para Tamara será una oportunidad para darlo todo en una prueba híbrida y enfrentarse a un estímulo deportivo diferente.",
+        "website": "https://www.hurbax.com/",
+        "routeUrl": "https://www.hurbax.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Gerard Mateu",
+      "race": "XII Marxa dels Gats",
+      "goal": "Disfrutar de cada metro en la última del bloque de pruebas!",
+      "type": "Trail / Marcha",
+      "slug": "gerard-mateu-marxa-dels-gats",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "16K",
+        "location": "Palamós, Girona",
+        "time": "20:00",
+        "raceInfo": "La XII Marxa dels Gats se celebra el sábado 26 de septiembre de 2026 en Palamós, Girona. Se trata de una marcha nocturna organizada por la Associació Cultural Showboys que tiene salida y llegada en la Platja de Sant Esteve de la Fosca. La modalidad larga tiene una distancia de 16 kilómetros, mientras que también existen recorridos de 10 y 5 kilómetros. La salida está prevista a las 20:00 horas y es obligatorio llevar un punto de luz o frontal. El recorrido transcurre por algunos de los parajes más emblemáticos de la Costa Brava y puede realizarse corriendo o caminando. La inscripción incluye seguro, avituallamientos y camiseta técnica, además de un bocadillo y refresco a la llegada. Para Gerard será la última prueba de su bloque y el objetivo será disfrutar de cada metro de una experiencia nocturna muy especial.",
+        "website": "https://marxadelsgats.my.canva.site/",
+        "routeUrl": "https://marxadelsgats.my.canva.site/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Rafa López",
+      "race": "VII Media Maratón de Toledo",
+      "goal": "Atacar la 1h40 de cara próximas aventuras!",
+      "type": "Media Maratón",
+      "slug": "rafa-lopez-media-maraton-toledo",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "21,097K",
+        "location": "Toledo",
+        "time": "09:30",
+        "raceInfo": "La VII Media Maratón de Toledo se celebra el domingo 27 de septiembre de 2026. La salida y llegada están situadas en la Avenida de Carlos III, en la zona del aparcamiento de Santa Teresa. La prueba tiene una distancia oficial de 21,097 kilómetros y recorre diferentes zonas de Toledo, incluyendo el casco antiguo y las principales avenidas de la ciudad. El recorrido es predominantemente urbano y la organización establece un tiempo máximo de 2 horas y 30 minutos. Hay avituallamientos previstos aproximadamente en los kilómetros 5, 10, 15 y en la zona de postmeta. Para Rafa será una prueba de referencia para buscar un buen registro y atacar la barrera de 1 hora y 40 minutos de cara a los próximos objetivos.",
+        "website": "http://mediamaratontoledo.com",
+        "routeUrl": "http://mediamaratontoledo.com",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Juan Ortiz",
+      "race": "15K Nocturna Valencia Gana Energía",
+      "goal": "Afinar de cara al 90K de la semana que viene!",
+      "type": "15K",
+      "slug": "juan-ortiz-15k-nocturna-valencia",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "15K",
+        "location": "Valencia",
+        "time": "22:30",
+        "raceInfo": "La 15K Nocturna Valencia Gana Energía se celebra el sábado 26 de septiembre de 2026 a las 22:30 horas. El recorrido homologado por la RFEA parte de la Avenida del Ingeniero Manuel Soto y atraviesa algunos de los puntos más emblemáticos de Valencia, como las Torres de Serranos, la Plaza del Ayuntamiento, la calle de la Paz y la Ciudad de las Artes y las Ciencias. La carrera se desarrolla completamente sobre asfalto y tiene carácter internacional dentro del calendario nacional de la RFEA. Para Juan será principalmente un estímulo dentro de la preparación de cara al gran reto de 90 kilómetros de la semana siguiente, buscando afinar sensaciones sin perder de vista el objetivo principal.",
+        "website": "https://15knocturnavalencia.com/",
+        "routeUrl": "https://15knocturnavalencia.com/recorrido-2/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "37a Cursa de La Llagosta",
+      "goal": "Objetivo de seguir cogiendo ritmo, en este caso con un sub 53´!",
+      "type": "10K",
+      "slug": "oscar-pareja-10k-llagosta",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "10K",
+        "location": "La Llagosta, Barcelona",
+        "time": "",
+        "raceInfo": "La 37ª Cursa de La Llagosta de 5 y 10 kilómetros se celebra el domingo 27 de septiembre de 2026. La prueba ofrece modalidades de 10K y 5K, además de categorías infantiles. La inscripción oficial confirma la distancia de 10 kilómetros y la fecha de celebración. La carrera se disputa sobre un circuito urbano y cuenta con cronometraje y diferentes servicios para los participantes. Para Òscar será una nueva oportunidad de seguir acumulando ritmo competitivo y buscar un registro por debajo de los 53 minutos.",
+        "website": "https://xipgroc.cat/es/curses/LaLlagosta2026/",
+        "routeUrl": "https://xipgroc.cat/es/curses/LaLlagosta2026/10k/inscripcio/lliga?layout=false",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Mia Pellicer",
+      "race": "TCS Lidingöloppet 15",
+      "goal": "Disfrutar en una maravillosa carrera en Suecia!",
+      "type": "Trail / 15K",
+      "slug": "mia-pellicer-lidingoloppet-15k",
+      "details": {
+        "raceDate": "26/09/2026",
+        "distance": "15K",
+        "location": "Lidingö, Estocolmo, Suecia",
+        "time": "09:00",
+        "raceInfo": "El TCS Lidingöloppet 15 se celebra el sábado 26 de septiembre de 2026 en Lidingö, Suecia. Es la versión de 15 kilómetros del tradicional Lidingöloppet y ofrece una experiencia de carrera sobre caminos naturales y terreno ondulado. La salida está prevista a las 09:00 horas desde Koltorps Gärde y la llegada se sitúa en Grönsta Gärde. El recorrido transcurre por pistas y senderos de superficie blanda y presenta un perfil claramente diferente al de una carrera urbana de asfalto. La organización describe la prueba como una alternativa para quienes quieren disfrutar de una carrera rápida en un entorno natural sin afrontar la distancia completa de 30 kilómetros. Para Mia será una oportunidad para disfrutar de una de las carreras de referencia de Suecia y de su ambiente y entorno natural.",
+        "website": "https://www.lidingoloppet.se/",
+        "routeUrl": "https://www.lidingoloppet.se/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Maria del Mar Román",
+      "race": "XII Legua Popular Ciudad de Valladolid",
+      "goal": "Pegarnos un apretón tras un gran verano picando piedra!",
+      "type": "Legua",
+      "slug": "maria-del-mar-roman-legua-valladolid",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "5,5K",
+        "location": "Valladolid",
+        "time": "10:10",
+        "raceInfo": "La XII Legua Popular Ciudad de Valladolid se celebra el domingo 27 de septiembre de 2026. La salida está prevista a las 10:10 horas desde la calle Miguel Íscar y la llegada en el Paseo Central del Campo Grande. Aunque se denomina Legua Popular, la distancia oficial indicada para la edición 2026 es aproximadamente 5,5 kilómetros. El circuito es urbano y llano y recorre diferentes calles de Valladolid. La prueba no es federada y está organizada por el C.D. Atletas Populares de Valladolid. La participación está abierta a corredores desde los 16 años y existe un límite de 850 participantes. Para Maria del Mar será una oportunidad de apretar después de un verano de trabajo y comprobar cómo responde el cuerpo tras todo el bloque de entrenamiento.",
+        "website": "https://www.mediamaratonvalladolid.com/",
+        "routeUrl": "https://www.mediamaratonvalladolid.com/la-carrera/categorias-y-reglamento/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Horacio Vega",
+      "race": "XXXVII Media Maratón Ciudad de Valladolid",
+      "goal": "Sumar minutos de cara a Bilbao!",
+      "type": "Media Maratón",
+      "slug": "horacio-vega-media-maraton-valladolid",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "21,1K",
+        "location": "Valladolid",
+        "time": "10:00",
+        "raceInfo": "La XXXVII Media Maratón Ciudad de Valladolid se celebra el domingo 27 de septiembre de 2026 a las 10:00 horas. La salida está situada en la calle Miguel Íscar y la llegada en el Paseo Central del Campo Grande. El circuito tiene 21,1 kilómetros y destaca por ser urbano y prácticamente llano. La prueba recorre diferentes calles y monumentos de Valladolid y cuenta con avituallamientos líquidos en los kilómetros 5, 10, 15 y 20. Para Horacio el objetivo será sumar minutos y kilómetros de calidad dentro de la preparación, utilizando la carrera como un entrenamiento con dorsal de cara al objetivo de Bilbao.",
+        "website": "https://www.mediamaratonvalladolid.com/",
+        "routeUrl": "https://www.mediamaratonvalladolid.com/la-carrera/categorias-y-reglamento/",
+        "routeImage": "https://www.mediamaratonvalladolid.com/wp-content/uploads/2026/09/Plano-MMVA26.jpg"
+      }
+    },
+    {
+      "name": "Roberto Alconada",
+      "race": "Carrera Nocturna del Guadalquivir KH7",
+      "goal": "Sumar buen entrenamiento haciendo de liebre!",
+      "type": "8,5K",
+      "slug": "roberto-alconada-nocturna-guadalquivir",
+      "details": {
+        "raceDate": "25/09/2026",
+        "distance": "8,5K",
+        "location": "Sevilla",
+        "time": "22:00",
+        "raceInfo": "La Carrera Nocturna del Guadalquivir KH7 2026 se celebra el viernes 25 de septiembre de 2026 a las 22:00 horas en Sevilla. La prueba tiene un recorrido aproximado de 8.500 metros y discurre por avenidas amplias y céntricas de la ciudad. La carrera está organizada por el Instituto Municipal de Deportes de Sevilla y tiene un límite de 25.000 participantes. El acceso a la zona de salida comienza a las 21:00 horas y los corredores se distribuyen en cajones según las marcas acreditadas. Se trata de una de las grandes carreras populares nocturnas de Sevilla y destaca por su ambiente multitudinario. Para Roberto el objetivo será convertir la carrera en un buen entrenamiento mientras ejerce de liebre y ayuda a otros corredores a mantener el ritmo.",
+        "website": "https://imd.sevilla.org/programas-deportivos/carrera-nocturna-del-guadalquivir-kh7",
+        "routeUrl": "https://imd.sevilla.org/programas-deportivos/carrera-nocturna-del-guadalquivir-kh7",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Araceli Peinado",
+      "race": "5K Benemérita Virgen del Pilar",
+      "goal": "Objetivo ganar a los compis 😉!",
+      "type": "5K",
+      "slug": "araceli-peinado-5k-benemerita-virgen-pilar",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "5K",
+        "location": "La Rábida, Huelva",
+        "time": "09:15",
+        "raceInfo": "El 5K Benemérita Virgen del Pilar se celebra el domingo 27 de septiembre de 2026 en La Rábida, Huelva. La prueba comparte jornada con la primera edición del 10K Entre Dos Puertos y tiene salida y llegada en el Muelle de la Compañía Riotinto. La salida del 5K está prevista a las 09:15 horas, después de la salida del 10K. La carrera está organizada por la Diputación de Huelva junto con EMG, con la colaboración del Puerto de Huelva y la Comandancia de la Guardia Civil. La inscripción tiene un límite de 250 participantes. Para Araceli el objetivo está claro y llega con el componente competitivo añadido de intentar superar a sus compañeros del equipo.",
+        "website": "https://www.10kentredospuertos.es/5k/",
+        "routeUrl": "https://www.10kentredospuertos.es/5k/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Anabel Vera",
+      "race": "11ª SOSCIATHLON",
+      "goal": "Objetivo sub 29´ en una carrera benéfica",
+      "type": "5K",
+      "slug": "anabel-vera-sosciathlon-5k",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "5K",
+        "location": "La Pineda, Vila-seca, Tarragona",
+        "time": "",
+        "raceInfo": "La 11ª edición de SOSCIATHLON se celebra el domingo 27 de septiembre de 2026 en La Pineda, Vila-seca. Se trata de una jornada deportiva solidaria que combina diferentes actividades: carrera de 5 kilómetros, caminata de 5 kilómetros, BTT de 11 kilómetros, natación y pruebas infantiles. La carrera de 5K discurre sobre asfalto y paseo marítimo y cuenta con cronometraje mediante chip. La organización corre a cargo de la Associació Solidària Sosciathlon y el evento tiene un marcado carácter benéfico. Para Anabel el objetivo será aprovechar el 5K para buscar un registro por debajo de los 29 minutos dentro de una jornada deportiva y solidaria.",
+        "website": "https://sosciathlon.com/",
+        "routeUrl": "https://redrunners.es/carreras/sosciathlon-la-pineda/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "XXXVII Media Maratón Ciudad de Valladolid",
+      "goal": "Sumar buen entrenamiento haciendo de liebre de 1h40!",
+      "type": "Media Maratón",
+      "slug": "daniel-matarranz-media-maraton-valladolid",
+      "details": {
+        "raceDate": "27/09/2026",
+        "distance": "21,1K",
+        "location": "Valladolid",
+        "time": "10:00",
+        "raceInfo": "La XXXVII Media Maratón Ciudad de Valladolid se disputa el domingo 27 de septiembre de 2026 a las 10:00 horas. La salida se encuentra en la calle Miguel Íscar y la llegada en el Paseo Central del Campo Grande. El recorrido de 21,1 kilómetros es urbano y prácticamente llano, recorriendo diferentes puntos y monumentos de Valladolid. La organización dispone de avituallamientos líquidos en los kilómetros 5, 10, 15 y 20. Para Daniel la carrera tendrá un objetivo muy concreto: completar un buen entrenamiento y ejercer de liebre para el grupo que busque finalizar alrededor de 1 hora y 40 minutos.",
+        "website": "https://www.mediamaratonvalladolid.com/",
+        "routeUrl": "https://www.mediamaratonvalladolid.com/la-carrera/categorias-y-reglamento/",
+        "routeImage": "https://www.mediamaratonvalladolid.com/wp-content/uploads/2026/09/Plano-MMVA26.jpg"
+      }
+    }
+  ]
+}
