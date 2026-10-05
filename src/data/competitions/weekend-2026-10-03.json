@@ -1,0 +1,236 @@
+{
+  "id": "weekend-2026-10-03",
+  "date": "2026-10-03",
+  "title": "Retos del finde",
+  "subtitle": "¡Fin de semana de carreras y grandes retos! 🔥",
+  "intro": "¡Fin de semana de carreras, objetivos y retos personales para nuestros corredores! Octubre arranca con fuerza y tenemos dorsales repartidos por diferentes puntos de España y Europa. Desde la Media Maratón de Logroño hasta los 90 kilómetros del Camino de la Cruz, pasando por Toledo, Sevilla, Madrid, Chipre y Cardiff. Un finde cargado de objetivos, experiencias y ganas de darlo todo.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Vamos a por ello equipo!🔥"
+  ],
+  "runners": [
+    {
+      "name": "Jorge Cubero",
+      "race": "XII Media Maratón Internacional Ciudad de Logroño",
+      "goal": "Objetivo sub 1h32",
+      "type": "Media Maratón",
+      "slug": "jorge-cubero-media-maraton-logrono",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "21,097K",
+        "location": "Logroño, La Rioja",
+        "time": "09:00",
+        "raceInfo": "La XII Media Maratón Internacional Ciudad de Logroño se celebra el domingo 4 de octubre de 2026. La salida está prevista a las 09:00 horas desde la calle Muro de la Mata, junto al Paseo del Espolón, donde también estará situada la meta. La distancia oficial es de 21,097 kilómetros y el recorrido está homologado por la RFEA. La media maratón completa una vuelta al circuito urbano utilizado también por el maratón. El trazado discurre por las calles de Logroño y combina zonas céntricas con avenidas amplias, ofreciendo un recorrido rápido y bastante favorable para buscar buenos registros. El tiempo límite para la media maratón es de 2 horas y 30 minutos. Para Jorge el objetivo está muy claro: atacar la barrera de 1 hora y 32 minutos y buscar una gran marca en una de las citas más importantes del calendario riojano.",
+        "website": "https://maratonlogrono.es/",
+        "routeUrl": "https://maratonlogrono.es/informacion-general/",
+        "routeImage": "https://maratonlogrono.es/wp-content/uploads/recorrido_maraton_media_maraton.jpg.webp"
+      }
+    },
+    {
+      "name": "Luis Javier Muñoz",
+      "race": "XII Media Maratón Internacional Ciudad de Logroño",
+      "goal": "Rodaje con dorsal de preparación para el Maratón",
+      "type": "Media Maratón",
+      "slug": "luis-javier-munoz-media-maraton-logrono",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "21,097K",
+        "location": "Logroño, La Rioja",
+        "time": "09:00",
+        "raceInfo": "La XII Media Maratón Internacional Ciudad de Logroño se disputa el domingo 4 de octubre de 2026 a las 09:00 horas. La salida y llegada están situadas junto al Paseo del Espolón, en la calle Muro de la Mata. El recorrido de 21,097 kilómetros está homologado por la RFEA y corresponde a una vuelta completa del circuito del maratón. El trazado es urbano y permite disfrutar de diferentes zonas de Logroño durante la prueba. La organización establece un tiempo máximo de 2 horas y 30 minutos. Para Luis Javier la competición tendrá un enfoque diferente: utilizar la media como un rodaje con dorsal dentro de la preparación específica para el Maratón, acumulando kilómetros y sensaciones sin necesidad de buscar una marca.",
+        "website": "https://maratonlogrono.es/",
+        "routeUrl": "https://maratonlogrono.es/informacion-general/",
+        "routeImage": "https://maratonlogrono.es/wp-content/uploads/recorrido_maraton_media_maraton.jpg.webp"
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "Carrera Solidaria contra la ELA - Fundación Eurocaja Rural",
+      "goal": "Hacer un buen test y disputar la victoria general",
+      "type": "10K",
+      "slug": "carlos-perez-10k-toledo",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "10K",
+        "location": "Toledo",
+        "time": "10:00",
+        "raceInfo": "La Carrera Solidaria contra la ELA de Fundación Eurocaja Rural se celebra el domingo 4 de octubre de 2026 en Toledo. La salida y meta están situadas en la calle Méjico, 2, junto a los servicios centrales de Eurocaja Rural. La prueba absoluta comienza a las 10:00 horas y ofrece distancias de 5 y 10 kilómetros, además de una marcha popular de 5K y carreras infantiles. El recorrido urbano de 10 kilómetros consiste en completar dos vueltas al circuito de 5 kilómetros. El evento tiene un marcado carácter solidario y el 100% de los fondos recaudados se destina a apoyar a personas afectadas por ELA, sus familias y proyectos de investigación. En 2026 la prueba alcanzó una participación récord de 6.700 personas. Para Carlos será un test competitivo de alto nivel, con el objetivo de medir su estado de forma y luchar por la victoria general.",
+        "website": "https://fundacioneurocajarural.es/actividades/carrera-solidaria-contra-la-ela/",
+        "routeUrl": "https://fundacioneurocajarural.es/actividades/carrera-solidaria-contra-la-ela/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQKsfyW3YlLvyRTO1SIH694_n0EwS3CLmLXLveRFOjw&s=10"
+      }
+    },
+    {
+      "name": "Gabriel Martínez",
+      "race": "7th Lakatameia Energy Run - 5K",
+      "goal": "Valorar estado de forma actual",
+      "type": "5K",
+      "slug": "gabriel-martinez-5k-chipre",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "5K",
+        "location": "Nicosia, Chipre",
+        "time": "08:10",
+        "raceInfo": "La séptima edición de la Lakatameia Energy Run se celebra el domingo 4 de octubre de 2026 en Nicosia, Chipre. La prueba ofrece distancias de 10K y 5K, además de una carrera infantil de 1K. La salida y llegada están situadas en Charalambou Mouskou Street, frente al Lakatameia Amphitheatre. La carrera de 10K comienza a las 08:00 y la de 5K a las 08:10. La organización corre a cargo de Running in Cyprus y el Ayuntamiento de Lakatameia. Se trata de una carrera urbana abierta a corredores de diferentes niveles y con un marcado carácter familiar. Para Gabriel será una buena oportunidad para competir sobre 5 kilómetros y obtener una referencia clara de su estado de forma actual.",
+        "website": "https://energyrun.com.cy/",
+        "routeUrl": "https://sportformecy.com/en/events/lakatameia-energy-run",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Seve Arias",
+      "race": "90K Camino de la Cruz",
+      "goal": "Reventar tiempo personal en una 90K, bajando de 15h",
+      "type": "Ultra",
+      "slug": "seve-arias-90k-murcia-caravaca",
+      "details": {
+        "raceDate": "03/10/2026",
+        "distance": "90K",
+        "location": "Murcia - Caravaca de la Cruz",
+        "time": "06:00",
+        "raceInfo": "La novena edición de la 90K Camino de la Cruz se celebra el sábado 3 de octubre de 2026 y une la ciudad de Murcia con Caravaca de la Cruz siguiendo el histórico Camino del Levante. La prueba principal tiene una distancia de 90 kilómetros y parte de la Plaza Cardenal Belluga de Murcia a primera hora de la mañana, con llegada en la explanada de la Basílica de la Vera Cruz de Caravaca. La organización también ofrece modalidades de 42 kilómetros desde Mula y 21 kilómetros desde Bullas, todas con la misma meta. El recorrido atraviesa nueve municipios de la Región de Murcia y combina caminos, pistas y tramos asfaltados. La edición 2026 ha alcanzado los 2.500 participantes y todas las plazas se agotaron con aproximadamente un mes de antelación. Para Seve el reto es mayúsculo: completar los 90 kilómetros y atacar su mejor registro personal intentando bajar de las 15 horas.",
+        "website": "https://www.90kmurciacaravaca.com/",
+        "routeUrl": "https://www.turunner.com/carreras/camino-de-la-cruz",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Reyes García",
+      "race": "Carrera Popular Nervión - San Pablo",
+      "goal": "Coger buenas sensaciones en 10K con un sub 56´!",
+      "type": "10K",
+      "slug": "reyes-garcia-10k-nervion",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "10K",
+        "location": "Sevilla",
+        "time": "09:00",
+        "raceInfo": "La Carrera Popular Nervión-San Pablo 'El Corte Inglés', perteneciente al Circuito Divina Seguros de Carreras #SEVILLA10, se celebra el domingo 4 de octubre de 2026 en Sevilla. La salida del 10K está prevista a las 09:00 horas desde la calle Doctor Laffón Soto, junto al Centro Deportivo San Pablo, donde también se sitúa la meta. El recorrido atraviesa los barrios de Nervión y San Pablo y pasa por zonas como Ramón y Cajal, Ciudad Jardín, Gran Plaza, Luis Montoto, La Buhaira y Kansas City. La prueba dispone también de una modalidad de 5K. El circuito es urbano y combina avenidas amplias con diferentes cambios de dirección por las calles de Sevilla. Para Reyes será una oportunidad para recuperar buenas sensaciones en la distancia y buscar un registro por debajo de los 56 minutos.",
+        "website": "https://imd.sevilla.org/programas-deportivos/circuito-carreras-sevilla10/calendario-del-circuito/carrera-popular-nervion-san-pablo",
+        "routeUrl": "https://imd.sevilla.org/programas-deportivos/circuito-carreras-sevilla10/calendario-del-circuito/carrera-popular-nervion-san-pablo",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Idoia García",
+      "race": "XXIV Carrera de Empresas Vitoria-Gasteiz",
+      "goal": "Disfrutar junto a los compis de un bonito evento!",
+      "type": "5K",
+      "slug": "idoia-garcia-carrera-empresas-vitoria",
+      "details": {
+        "raceDate": "03/10/2026",
+        "distance": "5K",
+        "location": "Vitoria-Gasteiz, Álava",
+        "time": "18:00",
+        "raceInfo": "La XXIV Carrera de Empresas Vitoria-Gasteiz se celebra el sábado 3 de octubre de 2026 a las 18:00 horas. La salida está situada en la Plaza Virgen Blanca y el recorrido es completamente urbano, con una distancia aproximada de 5 kilómetros y un tiempo máximo de 45 minutos. La característica principal de esta prueba es su formato por equipos de 2, 3 o 4 personas, que deben realizar la carrera juntos desde la salida hasta la meta. Se pueden formar equipos masculinos, femeninos o mixtos y la competición busca fomentar la actividad física y el compañerismo dentro de las empresas e instituciones. Para Idoia el objetivo será disfrutar del ambiente, compartir kilómetros con sus compañeros y vivir una jornada deportiva diferente.",
+        "website": "https://www.carreradeempresas.com/",
+        "routeUrl": "https://www.carreradeempresas.com/seccion/6/reglamento/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Juan Ortiz",
+      "race": "90K Camino de la Cruz",
+      "goal": "Conseguir ese premio finisher!",
+      "type": "Ultra",
+      "slug": "juan-ortiz-90k-murcia-caravaca",
+      "details": {
+        "raceDate": "03/10/2026",
+        "distance": "90K",
+        "location": "Murcia - Caravaca de la Cruz",
+        "time": "06:00",
+        "raceInfo": "La 90K Camino de la Cruz se celebra el sábado 3 de octubre de 2026 con salida desde Murcia y llegada en Caravaca de la Cruz. La prueba principal tiene 90 kilómetros y recorre el Camino del Levante atravesando nueve municipios de la Región de Murcia. La salida tiene lugar a primera hora de la mañana en la Plaza Cardenal Belluga de Murcia y todos los participantes de las diferentes distancias tienen como destino la explanada de la Basílica de la Vera Cruz. En 2026 la organización ha alcanzado un récord de 2.500 participantes, con corredores de más de treinta provincias españolas. Para Juan el gran objetivo será conquistar la distancia completa y conseguir ese premio de finisher después de afrontar uno de los retos de ultrafondo más importantes de la Región de Murcia.",
+        "website": "https://www.90kmurciacaravaca.com/",
+        "routeUrl": "https://www.turunner.com/carreras/camino-de-la-cruz",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Roberto Alconada",
+      "race": "XXIX Carrera La Benemérita Virgen del Pilar",
+      "goal": "Pegarnos un buen apretón bajando de 56´!",
+      "type": "8,2K",
+      "slug": "roberto-alconada-carrera-benemerita-sevilla",
+      "details": {
+        "raceDate": "03/10/2026",
+        "distance": "8,2K",
+        "location": "Montequinto, Sevilla",
+        "time": "09:30",
+        "raceInfo": "La XXIX Carrera La Benemérita 'Virgen del Pilar' se celebra el sábado 3 de octubre de 2026 en el acuartelamiento de la Guardia Civil de Montequinto, Sevilla. La salida y meta están situadas en la Avenida Villanueva del Pítamo, 6, y la salida está prevista a las 09:30 horas. La distancia de la prueba principal es de 8,2 kilómetros. La carrera está organizada por la Comandancia de la Guardia Civil de Sevilla dentro de los actos conmemorativos de la festividad de la Virgen del Pilar, patrona del Cuerpo. La jornada tiene un marcado carácter popular y familiar y también incluye pruebas para categorías infantiles. Para Roberto será una buena oportunidad para realizar un esfuerzo competitivo importante y buscar un ritmo que le permita bajar de los 56 minutos.",
+        "website": "https://www.corredorespopulares.es/inscripcion/virgen_pilar/index.php",
+        "routeUrl": "https://www.corredorespopulares.es/inscripcion/virgen_pilar/index.php",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "14ª Carrera Popular Corre por el Niño",
+      "goal": "Reventar el 5K, objetivo sub 30´!",
+      "type": "5K",
+      "slug": "marta-perez-carrera-nino-madrid",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "5K",
+        "location": "Madrid",
+        "time": "10:15",
+        "raceInfo": "La 14ª Carrera Popular Corre por el Niño se celebra el domingo 4 de octubre de 2026 en Madrid y está organizada por la Fundación para la Investigación Biomédica del Hospital Infantil Universitario Niño Jesús. La prueba tiene un marcado carácter solidario y destina los fondos recaudados a la investigación de enfermedades pediátricas. La jornada cuenta con tres recorridos principales: 2 kilómetros para niños, 5 kilómetros y 10 kilómetros para runners. En 2026 la carrera reunió a unos 6.000 participantes. La salida del 5K está prevista a las 10:15 horas. Para Marta el objetivo será competir fuerte en la distancia corta y atacar la barrera de los 30 minutos.",
+        "website": "https://www.correporlenino.com/",
+        "routeUrl": "https://www.correporlenino.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Sara Rubio",
+      "race": "XII Media Maratón Internacional Ciudad de Logroño - 10K",
+      "goal": "Vamos a por marca personal y romper barrera de 45´!",
+      "type": "10K",
+      "slug": "sara-rubio-10k-logrono",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "10K",
+        "location": "Logroño, La Rioja",
+        "time": "09:00",
+        "raceInfo": "El 10K de la XII Maratón Internacional Ciudad de Logroño se celebra el domingo 4 de octubre de 2026 a las 09:00 horas. A diferencia de la maratón y la media maratón, la salida del 10K está situada en la rotonda entre la Avenida de Lobete y Obispo Fidel García, mientras que la meta se encuentra en la calle Muro de la Mata junto al Paseo del Espolón. La distancia oficial es de 10.000 metros y el recorrido está señalizado kilómetro a kilómetro. El tiempo máximo establecido es de 1 hora y 30 minutos. Para Sara la carrera tendrá un objetivo claramente competitivo: buscar una nueva marca personal y romper la barrera de los 45 minutos.",
+        "website": "https://maratonlogrono.es/",
+        "routeUrl": "https://maratonlogrono.es/informacion-general/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQKsfyW3YlLvyRTO1SIH694_n0EwS3CLmLXLveRFOjw&s=10"
+      }
+    },
+    {
+      "name": "Marina Sarria",
+      "race": "Principality Cardiff Half Marathon",
+      "goal": "Completar reto SuperHalfs!",
+      "type": "Media Maratón",
+      "slug": "marina-sarria-cardiff-half-superhalfs",
+      "details": {
+        "raceDate": "04/10/2026",
+        "distance": "21,1K",
+        "location": "Cardiff, Gales, Reino Unido",
+        "time": "10:00",
+        "raceInfo": "La Principality Cardiff Half Marathon se celebra el domingo 4 de octubre de 2026 en Cardiff. La salida está prevista a las 10:00 horas y la prueba tiene una distancia de 13,1 millas, equivalente a 21,1 kilómetros. Es una de las medias maratones más importantes de Europa y reúne a más de 27.500 corredores registrados. El recorrido es mayoritariamente llano y atraviesa algunos de los lugares más emblemáticos de Cardiff, entre ellos Cardiff Castle, el Principality Stadium, Cardiff Bay, el Wales Millennium Centre y Roath Park. La prueba forma parte oficialmente de la serie SuperHalfs, por lo que completar la carrera permite obtener el sello correspondiente en el SuperPassport. Para Marina el gran objetivo será completar esta nueva etapa del reto SuperHalfs y seguir acercándose a completar toda la serie.",
+        "website": "https://www.cardiffhalfmarathon.co.uk/",
+        "routeUrl": "https://www.cardiffhalfmarathon.co.uk/event-info/about-the-race/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbpwut_A-F3LWGcEeccHZGeRDPgNSuqsZWrM7M3LtKow&s=10"
+      }
+    },
+    {
+      "name": "Mariam Guerrero",
+      "race": "XIII Trail Solidari Ciutat d'Alcoi - Marxa Trail",
+      "goal": "Completar reto de caminata montañera!",
+      "type": "Marxa Trail",
+      "slug": "mariam-guerrero-marxa-trail-alcoi",
+      "details": {
+        "raceDate": "03/10/2026",
+        "distance": "18,7K",
+        "location": "Alcoi, Alicante",
+        "time": "08:00",
+        "raceInfo": "El XIII Trail Solidari Ciutat d'Alcoi se celebra el sábado 3 de octubre de 2026 y cuenta con tres modalidades: Trail, Mig Trail y Marxa Trail. La modalidad de Marxa Trail tiene una distancia de 18,7 kilómetros y aproximadamente 457 metros de desnivel positivo. La salida y llegada están situadas en la Plaça d'Espanya de Alcoi y el recorrido atraviesa el entorno natural de la localidad. La prueba tiene un marcado carácter solidario: el evento se organiza por equipos y parte de la recaudación se destina a la lucha contra el cáncer y a la investigación. La edición 2026 no incluye la modalidad Jove Trail, que sí había formado parte de ediciones anteriores. Para Mariam el objetivo será completar el reto de caminata montañera y disfrutar de una jornada de montaña en un entorno espectacular.",
+        "website": "https://www.trailsolidariciutatdalcoi.com/",
+        "routeUrl": "https://www.vemaxsport.com/eventos/xiii-trail-solidari-ciutat-d-alcoi-2026-2026",
+        "routeImage": ""
+      }
+    }
+  ]
+}
