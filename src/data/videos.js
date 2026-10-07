@@ -1,5 +1,18 @@
 const videos = [
     {
+      id: 36,
+      titulo: 'Sesión Mastermind KM1 | Octubre',
+      categoriaPrincipal: 'Sesión Mastermind',
+      categorias: [],
+      fecha: '2026-10-07',
+      descripcion:
+        'Sesión Mastermind KM1 del mes de octubre. Una nueva sesión para seguir compartiendo experiencias, resolver dudas y continuar mejorando como corredores.',
+      enlace: 'https://fathom.video/share/4PFWhA72ikx5gPjLRMp4qLWBKf7yAyYs',
+      thumbnail: '/thumbnails/mastermind-octubre-2026.png',
+      duracion: '44:09',
+      abrirExterno: true,
+    },
+    {
       id: 35,
       titulo: 'Sesión de Mentalidad KM1 | Septiembre',
       categoriaPrincipal: 'Sesión de Mentalidad',
