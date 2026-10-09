@@ -1,0 +1,100 @@
+{
+  "id": "weekend-2026-10-10",
+  "date": "2026-10-10",
+  "title": "Retos del finde",
+  "subtitle": "¡Otro fin de semana de carreras y retos personales! 🔥",
+  "intro": "¡Fin de semana de carreras y dorsales para los nuestros! Octubre sigue avanzando con nuevos retos, desde una carrera por el Camino Jacobeo del Ebro hasta pruebas rápidas de 5K y una media maratón. Nuestros corredores llegan con objetivos muy diferentes: luchar por victorias, comprobar el estado de forma, estrenar distancias y disfrutar de una nueva experiencia en equipo. ¡Vamos a darlo todo!",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis.",
+    "Así que disfrutad de cada metro... y permitíos dar vuestro 100% ❤️‍🔥",
+    "¡Vamos a por ello equipo!🔥"
+  ],
+  "runners": [
+    {
+      "name": "Carlos Pérez",
+      "race": "XVI Ruta Jacobea del Ebro - 2.ª etapa",
+      "goal": "Objetivo disputar victoria general",
+      "type": "12K",
+      "slug": "carlos-perez-ruta-jacobea-alfaro-rincon",
+      "details": {
+        "raceDate": "11/10/2026",
+        "distance": "12K",
+        "location": "Alfaro, La Rioja - Rincón de Soto, La Rioja",
+        "time": "10:00",
+        "raceInfo": "La XVI Ruta Jacobea del Ebro se celebra en dos etapas, los días 20 de septiembre y 11 de octubre de 2026. La segunda etapa parte el domingo 11 de octubre a las 10:00 desde la Plaza de España de Alfaro y finaliza en la Plaza del Ayuntamiento de Rincón de Soto. El recorrido tiene aproximadamente 12 kilómetros no homologados y discurre por el Camino Jacobeo del Ebro, combinando tramos de tierra y asfalto. La prueba está organizada por los ayuntamientos de Alfaro y Rincón de Soto, junto con el Club Deportivo Inferno y el Club Rincón Atletismo. La inscripción es gratuita y la organización solicita la aportación de un kilo de alimentos no perecederos para una iniciativa solidaria. También se habilita transporte en autobús entre la salida y la meta. Para Carlos, el objetivo será competir por la victoria general en esta segunda etapa.",
+        "website": "https://correrenlarioja.com/event/xvi-ruta-jacobea-del-ebro-2a-etapa/",
+        "routeUrl": "https://correrenlarioja.com/event/xvi-ruta-jacobea-del-ebro-2a-etapa/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Urtzi Arevalillo",
+      "race": "VII Carrera de la Ruta del Vino de Navarra",
+      "goal": "Estreno en el equipo con un 5K/test!",
+      "type": "5K",
+      "slug": "urtzi-arevalillo-carrera-vino-olite",
+      "details": {
+        "raceDate": "10/10/2026",
+        "distance": "5K",
+        "location": "Olite, Navarra",
+        "time": "18:00",
+        "raceInfo": "La VII Carrera de la Ruta del Vino de Navarra está programada para el sábado 10 de octubre de 2026 en Olite. La prueba figura en los calendarios de carreras populares con una distancia de 5 kilómetros sobre asfalto. Olite, localidad navarra estrechamente vinculada a la cultura vitivinícola y conocida por su casco histórico y su Palacio Real, ofrece el escenario de esta carrera popular. No he podido confirmar con suficiente seguridad el horario exacto, el plano definitivo del recorrido ni otros detalles técnicos de la edición 2026, por lo que conviene revisar la información de la organización antes de completar esos campos. Para Urtzi será una primera oportunidad de ponerse el dorsal como miembro del equipo y utilizar el 5K como test de su estado de forma.",
+        "website": "https://web.rockthesport.com/es/event/vii-edicion-de-la-carrera-de-la-ruta-del-vino-de-navarra",
+        "routeUrl": "https://web.rockthesport.com/es/event/vii-edicion-de-la-carrera-de-la-ruta-del-vino-de-navarra",
+        "routeImage": "https://rtsfiles.blob.core.windows.net/documentos/3ee9df22-2076-45c0-9d24-23ff09264671.jpg"
+      }
+    },
+    {
+      "name": "Tamara López",
+      "race": "15.ª MBA Media Maratón Gijón Villa de Jovellanos",
+      "goal": "¡Desbloquear distancia de media maratón! Bajando de 1h55... ¡y lo que venga!",
+      "type": "Media Maratón",
+      "slug": "tamara-lopez-media-maraton-gijon",
+      "details": {
+        "raceDate": "10/10/2026",
+        "distance": "21,097K",
+        "location": "Gijón, Asturias",
+        "time": "17:30",
+        "raceInfo": "La 15.ª MBA Media Maratón Gijón Villa de Jovellanos se celebra el sábado 10 de octubre de 2026. La salida está prevista a las 17:30 horas y la prueba está organizada por el Patronato Deportivo Municipal de Gijón y la Asociación Deportiva Gijón Atletismo. El circuito tiene una distancia oficial de 21,097 kilómetros y está homologado por la Real Federación Española de Atletismo. El recorrido transcurre por Gijón, a nivel del mar y con un perfil descrito como llano y con pocos giros, características favorables para mantener un ritmo constante. La organización prevé controles de paso y avituallamientos líquidos en los kilómetros 5, 10, 15 y 20, además de la meta. Para Tamara será un reto especial: completar su primera media maratón y buscar un tiempo inferior a 1 hora y 55 minutos, sin dejar de disfrutar de la experiencia.",
+        "website": "https://www.gijon.es/es/eventos/media-maraton-gijon-villa-jovellanos",
+        "routeUrl": "https://www.gijon.es/es/eventos/media-maraton-gijon-villa-jovellanos",
+        "routeImage": "https://mmgijon.321go.es/wp-content/uploads/2026/10/MMGijon26_Plano-scaled.jpg"
+      }
+    },
+    {
+      "name": "Natalia Mostolac",
+      "race": "IX Carrera Benéfica Ruta 091 Zaragoza",
+      "goal": "¡Reventar los 22´!",
+      "type": "5K",
+      "slug": "natalia-mostolac-ruta-091-zaragoza",
+      "details": {
+        "raceDate": "10/10/2026",
+        "distance": "5K",
+        "location": "Zaragoza",
+        "time": "09:00",
+        "raceInfo": "La IX Carrera Benéfica Ruta 091 Zaragoza se celebra el sábado 10 de octubre de 2026 a las 09:00 horas. La salida y la meta se encuentran en las inmediaciones del acceso al Jardín Botánico del Parque Grande José Antonio Labordeta. La prueba absoluta tiene una distancia aproximada de 5.000 metros y el recorrido transcurre por vías públicas; no está homologado por la RFEA. Está organizada por la Jefatura Superior de Policía de Aragón con autorización del Ayuntamiento de Zaragoza y forma parte del circuito solidario Ruta 091. La jornada incluye también carreras infantiles de diferentes distancias. Para Natalia, el reto será completar un 5K exigente y luchar por bajar de los 22 minutos.",
+        "website": "https://ruta091.es/carreras",
+        "routeUrl": "https://ruta091.es/carreras",
+        "routeImage": "https://ruta091zaragoza.es/images/recorrido2026.png"
+      }
+    },
+    {
+      "name": "Marina Sarria",
+      "race": "5K de la Mujer",
+      "goal": "Test post ciclo de medias maratones!",
+      "type": "5K",
+      "slug": "marina-sarria-5k-mujer",
+      "details": {
+        "raceDate": "11/10/2026",
+        "distance": "5K",
+        "location": "",
+        "time": "",
+        "raceInfo": "Marina afronta un 5K como test después de completar un ciclo de medias maratones. La prueba servirá para comprobar las sensaciones y el estado de forma tras el trabajo acumulado en distancias largas, cambiando el enfoque hacia una distancia más corta y rápida. No he podido identificar de forma inequívoca qué carrera denominada «5K de la Mujer» es la que disputará Marina este fin de semana. Quedan pendientes de confirmar la localidad, el horario, el recorrido y la web oficial de la prueba.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    }
+  ]
+}
