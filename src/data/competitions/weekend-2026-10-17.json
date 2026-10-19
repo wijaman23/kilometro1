@@ -1,0 +1,337 @@
+{
+  "id": "weekend-2026-10-17",
+  "date": "2026-10-17",
+  "title": "Retos del finde",
+  "subtitle": "¡Fin de semana de carreras y dorsales para los nuestros!",
+  "intro": "Llega un nuevo fin de semana cargado de retos, objetivos y kilómetros para el equipo Kilómetro1. Desde carreras para disfrutar en familia hasta medias maratones y un maratón internacional, nuestros corredores salen a darlo todo. ¡Aquí van lxs valientes del equipo!",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis. Así que disfrutad de cada metro... y permitíos dar vuestro 100%.",
+    "¡Vamos a por ello, equipo!"
+  ],
+  "runners": [
+    {
+      "name": "Luis Javier Muñoz",
+      "race": "DC Super Heroes Run",
+      "goal": "Rodaje con la familia",
+      "type": "Popular",
+      "slug": "luis-javier-munoz",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "6,8 km",
+        "location": "Madrid",
+        "time": "10:30",
+        "raceInfo": "Carrera popular temática organizada por Last Lap con la colaboración del Ayuntamiento de Madrid. El recorrido urbano tiene salida y meta en la avenida de Menéndez Pelayo, número 33, junto a la calle Ibiza. El circuito discurre por calles del centro de Madrid y la zona del Retiro. Los participantes pueden elegir equipo de superhéroes y existe clasificación general y por equipos. Incluye dorsal con chip, camiseta conmemorativa y avituallamiento. Tiempo máximo: 1 hora. Una prueba perfecta para disfrutar de un rodaje diferente en familia.",
+        "website": "https://www.dcsuperheroesrun.com/",
+        "routeUrl": "https://www.dcsuperheroesrun.com/sup-recorrido",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtBLS4D5EbiEXMHq0MnlFidWCbWg5pKTvyfCML_SAoA&s"
+      }
+    },
+    {
+      "name": "Irune Ansa",
+      "race": "Media Maratón de Bilbao - Bilbao Night Run Fest",
+      "goal": "Vamos a por marca personal, bajando de 1h53",
+      "type": "Media maratón",
+      "slug": "irune-ansa",
+      "details": {
+        "raceDate": "17/10/2026",
+        "distance": "21,097 km",
+        "location": "Bilbao, Bizkaia",
+        "time": "Desde las 19:00; salidas escalonadas",
+        "raceInfo": "La Bilbao Night Run Fest celebra su 18.ª edición con un recorrido nocturno urbano homologado internacionalmente por la Real Federación Española de Atletismo. La salida se sitúa en la explanada del estadio de San Mamés y la meta, en las inmediaciones del Museo Guggenheim. La media maratón se disputa en una vuelta y atraviesa diferentes zonas de Bilbao, con ambiente musical y animación durante el recorrido. El tiempo máximo anunciado para la media maratón es de 2 horas y 45 minutos. El objetivo de Irune será aprovechar la preparación para intentar bajar de 1h53 y conseguir su marca personal.",
+        "website": "https://www.bilbaonightrun.com/",
+        "routeUrl": "https://www.bilbaonightrun.com/reglamento",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRev6g1BsVqgNrcpLhrD3IG55e2r-Amiq3hsCyz1WgmgA&s=10"
+      }
+    },
+    {
+      "name": "Juan de Dios Ortiz",
+      "race": "XXVII Carrera Popular Ruta de la Miel",
+      "goal": "Entreno con dorsal de cara a retos venideros",
+      "type": "Carrera popular",
+      "slug": "juan-de-dios-ortiz",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "16,5 km",
+        "location": "Hornachuelos, Córdoba",
+        "time": "10:30",
+        "raceInfo": "La Ruta de la Miel celebra su 27.ª edición en Hornachuelos, organizada por el Ayuntamiento y el Club Atletismo Trotasierra, dentro del Circuito Cordobés de Carreras Populares. La prueba principal cuenta con un recorrido de 16,5 kilómetros y reúne a corredores de distintos puntos de la provincia. Es una carrera popular exigente en la que Juan de Dios aprovechará el dorsal para sumar experiencia y entrenar de cara a los próximos retos. La información pública consultada confirma la fecha, la distancia y la organización; conviene consultar la web del circuito para los detalles definitivos del trazado y los avituallamientos.",
+        "website": "https://www.carreraspopularescordoba.com/",
+        "routeUrl": "https://andaluciarunning.com/carreras/carrera-popular-ruta-de-la-miel-hornachuelos/",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkdIJAVEB2xsFdZStNWo0HkNfxdKHoo9VONotGSE_dA&s=10"
+      }
+    },
+    {
+      "name": "Aurelio Escribano",
+      "race": "DC Super Heroes Run",
+      "goal": "Objetivo sub 33'. Entrenando estrategia para la próxima semana",
+      "type": "Popular",
+      "slug": "aurelio-escribano",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "6,8 km",
+        "location": "Madrid",
+        "time": "10:30",
+        "raceInfo": "Carrera popular temática con salida y meta en la avenida de Menéndez Pelayo, número 33, junto a la calle Ibiza. El circuito urbano recorre calles de Madrid en el entorno del Retiro. La prueba cuenta con dorsal con chip, camiseta conmemorativa, avituallamiento y clasificaciones individuales y por equipos de superhéroes. El tiempo máximo es de una hora. Aurelio utilizará la carrera para practicar sensaciones y estrategia de competición de cara a la siguiente semana, con su objetivo marcado en bajar de 33 minutos.",
+        "website": "https://www.dcsuperheroesrun.com/",
+        "routeUrl": "https://www.dcsuperheroesrun.com/sup-recorrido",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtBLS4D5EbiEXMHq0MnlFidWCbWg5pKTvyfCML_SAoA&s"
+      }
+    },
+    {
+      "name": "Reyes García",
+      "race": "Carrera Popular Casco Antiguo de Sevilla",
+      "goal": "Vamos a bajar de 54'",
+      "type": "10K",
+      "slug": "reyes-garcia",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "10 km",
+        "location": "Sevilla",
+        "time": "09:00",
+        "raceInfo": "Prueba urbana integrada en el circuito municipal Divina Seguros #Sevilla10. La salida está situada en la avenida Torneo y la meta en la plaza de la Encarnación, junto al Metropol Parasol. El recorrido atraviesa diferentes zonas del casco histórico, pasando por puntos como Resolana, Ronda de Capuchinos, María Auxiliadora, Recaredo, la avenida del Cid, el paseo de las Delicias, la Alameda de Hércules y la Campana. La salida de los corredores está prevista a partir de las 09:00. Reyes buscará aprovechar el circuito urbano para bajar de 54 minutos.",
+        "website": "https://imd.sevilla.org/",
+        "routeUrl": "https://ctas.es/noticias/corte-de-trafico-Sevilla10K-18102026",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Nerea García",
+      "race": "Bilbao Night Run Fest - 10K",
+      "goal": "Buscar buena marca tras la preparación del reto de trail",
+      "type": "10K",
+      "slug": "nerea-garcia",
+      "details": {
+        "raceDate": "17/10/2026",
+        "distance": "10 km",
+        "location": "Bilbao, Bizkaia",
+        "time": "Desde las 19:00; salidas escalonadas",
+        "raceInfo": "Carrera nocturna urbana que forma parte del Bilbao Night Run Fest. La salida se realiza desde la explanada del estadio de San Mamés y la meta se encuentra en las inmediaciones del Museo Guggenheim. La prueba recorre las calles de Bilbao en un ambiente festivo, con música y animación. Nerea afrontará el 10K como test de velocidad después de la preparación de su reto de trail, buscando trasladar el trabajo acumulado a una buena marca sobre asfalto. Consultar el reglamento oficial para la hora asignada a cada salida.",
+        "website": "https://www.bilbaonightrun.com/",
+        "routeUrl": "https://www.bilbaonightrun.com/reglamento",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRev6g1BsVqgNrcpLhrD3IG55e2r-Amiq3hsCyz1WgmgA&s=10"
+      }
+    },
+    {
+      "name": "Nerea Garrido",
+      "race": "Bilbao Night Run Fest - Media Maratón",
+      "goal": "Buscar un sub 1h40 de cara a San Sebastián",
+      "type": "Media maratón",
+      "slug": "nerea-garrido",
+      "details": {
+        "raceDate": "17/10/2026",
+        "distance": "21,097 km",
+        "location": "Bilbao, Bizkaia",
+        "time": "Desde las 19:00; salidas escalonadas",
+        "raceInfo": "Media maratón nocturna de una vuelta, con circuito homologado internacionalmente por la RFEA. La carrera comienza en la explanada de San Mamés y finaliza cerca del Museo Guggenheim, recorriendo las calles y avenidas de Bilbao en un ambiente deportivo y festivo. El tiempo máximo anunciado es de 2 horas y 45 minutos. Nerea buscará acercarse o bajar de 1h40 para comprobar su estado de forma antes de su próximo objetivo en San Sebastián.",
+        "website": "https://www.bilbaonightrun.com/",
+        "routeUrl": "https://www.bilbaonightrun.com/reglamento",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRev6g1BsVqgNrcpLhrD3IG55e2r-Amiq3hsCyz1WgmgA&s=10"
+      }
+    },
+    {
+      "name": "Andrea Herrera",
+      "race": "5K Ibiza",
+      "goal": "Entreno con dorsal en una carrera especial",
+      "type": "5K",
+      "slug": "andrea-herrera",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "5 km",
+        "location": "Ibiza",
+        "time": "",
+        "raceInfo": "Carrera de 5 kilómetros en Ibiza. Con la denominación facilitada no he podido identificar con seguridad la prueba concreta ni localizar una página oficial que permita confirmar el horario, el punto de salida y meta o el recorrido. Andrea aprovechará la cita como entrenamiento con dorsal en una carrera especial. Pendiente de confirmar el nombre oficial del evento para completar los datos del circuito.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Rafa López",
+      "race": "XIV Media Maratón Popular de Ciudad Real",
+      "goal": "Objetivo marca personal, bajando de 1h34",
+      "type": "Media maratón",
+      "slug": "rafa-lopez",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "21,097 km",
+        "location": "Ciudad Real",
+        "time": "08:30",
+        "raceInfo": "Media maratón homologada por la RFEA, incluida en la jornada del Quijote Maratón. La salida está prevista en la ronda de Calatrava, en la intersección con la calle Vicente Alexandre, y la meta en la calle Juan Ramón Jiménez, con acceso al polideportivo Rey Juan Carlos I. La organización anuncia avituallamientos cada 5 kilómetros, esponjas cada 2,5 kilómetros y avituallamiento líquido y sólido en meta. El tiempo límite es de 2 horas y 30 minutos. Rafa buscará una nueva marca personal intentando bajar de 1h34.",
+        "website": "https://quijotemaraton.com/media-maraton/",
+        "routeUrl": "https://quijotemaraton.com/media-maraton/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Eneko Martínez",
+      "race": "TCS Amsterdam Marathon",
+      "goal": "Disfrutar de un maratón internacional",
+      "type": "Maratón",
+      "slug": "eneko-martinez",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "42,195 km",
+        "location": "Ámsterdam, Países Bajos",
+        "time": "09:00",
+        "raceInfo": "El TCS Amsterdam Marathon es uno de los maratones internacionales más reconocidos y cuenta con la etiqueta Platinum de World Athletics. La salida y la meta están situadas en el histórico Estadio Olímpico de Ámsterdam. El recorrido destaca por su perfil rápido y llano, el paso bajo el Rijksmuseum, los kilómetros junto al río Amstel y el tramo por el parque Vondelpark. La salida del maratón está prevista a las 09:00 y el tiempo máximo es de seis horas. Eneko afrontará una experiencia internacional para disfrutar de la ciudad, del ambiente y de cada kilómetro de la distancia reina.",
+        "website": "https://www.tcsamsterdammarathon.eu/",
+        "routeUrl": "https://www.tcsamsterdammarathon.eu/program",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "10K CPC",
+      "goal": "Reventar la marca en el mismo circuito",
+      "type": "10K",
+      "slug": "jose-carlos-oton",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "10 km",
+        "location": "",
+        "time": "",
+        "raceInfo": "Prueba de 10 kilómetros indicada como «CPC». No he encontrado una coincidencia suficientemente fiable para confirmar el nombre completo, la localidad, el horario ni el recorrido. José Carlos buscará mejorar su marca en un circuito que ya conoce. Pendiente de confirmar qué carrera corresponde a las siglas CPC para completar la ficha con datos oficiales.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "XLV Cursa Popular Ciutat de Cornellà - La de Deu",
+      "goal": "Meter un sub 53 minutos",
+      "type": "10K",
+      "slug": "oscar-pareja",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "10 km",
+        "location": "Cornellà de Llobregat, Barcelona",
+        "time": "09:15",
+        "raceInfo": "Carrera popular urbana de Cornellà de Llobregat que ofrece distancias de 5 y 10 kilómetros. La salida está prevista a las 09:15. Òscar disputará la distancia de 10K con el objetivo de bajar de 53 minutos. La información de calendario consultada confirma fecha, distancias y hora de salida; no he podido verificar un plano oficial del recorrido para detallar con precisión las calles por las que transcurre.",
+        "website": "https://www.cornella.cat/",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pastor",
+      "race": "XXII Cursa Km Contra el Càncer Santa Coloma de Gramenet",
+      "goal": "Completar nuestro primer 5K",
+      "type": "5K",
+      "slug": "marta-pastor",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "5 km",
+        "location": "Santa Coloma de Gramenet, Barcelona",
+        "time": "10:00",
+        "raceInfo": "Carrera solidaria organizada en colaboración con la Asociación Contra el Cáncer en Barcelona. La salida se sitúa en el Parc de Can Zam y el recorrido tiene una distancia de 5 kilómetros, con un tiempo máximo de 90 minutos. Puede completarse corriendo o caminando, por lo que es una buena prueba para debutar en la distancia. La inscripción incluye camiseta, dorsal y avituallamiento, y contribuye a la lucha contra el cáncer. Marta afrontará su primer 5K con el objetivo de disfrutar y cruzar la meta.",
+        "website": "https://enmarcha.contraelcancer.es/ca/esdeveniment/xxii-cursa-km-contra-el-cancer-santa-coloma-de-gramenet",
+        "routeUrl": "https://enmarcha.contraelcancer.es/ca/esdeveniment/xxii-cursa-km-contra-el-cancer-santa-coloma-de-gramenet",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "DC Super Heroes Run",
+      "goal": "Seguir bajando de 6 min/km en pruebas más largas",
+      "type": "Popular",
+      "slug": "marta-perez",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "6,8 km",
+        "location": "Madrid",
+        "time": "10:30",
+        "raceInfo": "Carrera urbana temática con salida y meta en la avenida de Menéndez Pelayo, número 33, junto a la calle Ibiza. El circuito recorre calles de Madrid en el entorno del Retiro y ofrece clasificaciones individuales y por equipos de superhéroes. La organización incluye dorsal con chip, camiseta conmemorativa y avituallamiento, con un tiempo máximo de una hora. Marta buscará seguir consolidando el ritmo inferior a 6 min/km en una distancia superior a los 5 kilómetros.",
+        "website": "https://www.dcsuperheroesrun.com/",
+        "routeUrl": "https://www.dcsuperheroesrun.com/sup-recorrido",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtBLS4D5EbiEXMHq0MnlFidWCbWg5pKTvyfCML_SAoA&s"
+      }
+    },
+    {
+      "name": "Ruth Lucila",
+      "race": "Wizz Air Rome Half Marathon by Brooks",
+      "goal": "Desbloquear distancia en un lugar emblemático",
+      "type": "Media maratón",
+      "slug": "ruth-lucila",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "21,097 km",
+        "location": "Roma, Italia",
+        "time": "08:00",
+        "raceInfo": "La media maratón de Roma ofrece un recorrido monumental por el centro histórico de la capital italiana. La salida está prevista junto a los arcos de Viale di Porta Ardeatina, entre las Termas de Caracalla y Via Cristoforo Colombo. El circuito atraviesa lugares emblemáticos de Roma, con vistas a la zona del Vaticano y la basílica de San Pedro, y finaliza en Via degli Annibaldi, junto al Coliseo. La prueba está organizada por RomaOstia y RCS Sports & Events. Ruth afrontará la distancia de 21,097 kilómetros en un escenario histórico, con el objetivo de completar un nuevo reto.",
+        "website": "https://www.romehalfmarathon.it/en/",
+        "routeUrl": "https://www.romehalfmarathon.it/en/the-official-course-of-the-third-edition-of-the-wizz-air-rome-half-marathon-by-brooks-2026/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Sara Rubio",
+      "race": "Carrera Popular de Andosilla",
+      "goal": "Dar todo en una dura carrera",
+      "type": "Carrera popular",
+      "slug": "sara-rubio",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "5,7 km",
+        "location": "Andosilla, Navarra",
+        "time": "",
+        "raceInfo": "Carrera popular incluida en el calendario de la Federación Navarra de Atletismo. La prueba figura con una distancia de 5,7 kilómetros y se celebra en Andosilla. No he encontrado un horario oficial fiable ni una descripción completa del recorrido, por lo que esos datos quedan pendientes de confirmación. Sara afrontará la carrera con ganas de darlo todo en una prueba que se presenta como un reto exigente.",
+        "website": "https://resultados.fnaf.es/es/carrera-popular-de-andosilla",
+        "routeUrl": "https://resultados.fnaf.es/es/carrera-popular-de-andosilla",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Álvaro Sánchez",
+      "race": "Women Race El Corte Inglés Tarragona",
+      "goal": "Estreno dentro del equipo",
+      "type": "5K",
+      "slug": "alvaro-sanchez",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "5 km",
+        "location": "Tarragona",
+        "time": "09:50",
+        "raceInfo": "Carrera solidaria de la mujer que celebra su 11.ª edición en Tarragona. La salida y la llegada están situadas en la Rambla President Lluís Companys, frente a El Corte Inglés. El recorrido urbano de 5 kilómetros pasa por puntos emblemáticos como la Rambla Nova, el Portal del Roser, la plaça de la Font, el Balcó del Mediterrani y el Mercat Central. La prueba se puede realizar corriendo o caminando y destina 5 euros de cada inscripción a la lucha contra el cáncer a través de la AECC. La web oficial anuncia el inicio de la salida de 5K a las 09:50. Álvaro aprovechará la carrera para estrenarse dentro del equipo.",
+        "website": "https://womenrace.cat/",
+        "routeUrl": "https://womenrace.cat/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Iñaki Tovar",
+      "race": "Wizz Air Rome Half Marathon by Brooks",
+      "goal": "Ser una liebre de lujo",
+      "type": "Media maratón",
+      "slug": "inaki-tovar",
+      "details": {
+        "raceDate": "18/10/2026",
+        "distance": "21,097 km",
+        "location": "Roma, Italia",
+        "time": "08:00",
+        "raceInfo": "Media maratón urbana por algunos de los enclaves más reconocibles de Roma. La salida se sitúa en Viale di Porta Ardeatina, entre las Termas de Caracalla y Via Cristoforo Colombo, y la meta en Via degli Annibaldi, junto al Coliseo. El recorrido discurre por calles históricas de la capital italiana y ofrece una experiencia singular para los corredores. Iñaki afrontará la prueba con el objetivo de ejercer de liebre y ayudar a otros corredores a alcanzar su meta.",
+        "website": "https://www.romehalfmarathon.it/en/",
+        "routeUrl": "https://www.romehalfmarathon.it/en/the-official-course-of-the-third-edition-of-the-wizz-air-rome-half-marathon-by-brooks-2026/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "Bilbao Night Run Fest - Media Maratón",
+      "goal": "Test de ritmos de cara a Oporto",
+      "type": "Media maratón",
+      "slug": "daniel-matarranz",
+      "details": {
+        "raceDate": "17/10/2026",
+        "distance": "21,097 km",
+        "location": "Bilbao, Bizkaia",
+        "time": "Desde las 19:00; salidas escalonadas",
+        "raceInfo": "Media maratón nocturna de una vuelta, con salida en la explanada del estadio de San Mamés y meta en las inmediaciones del Museo Guggenheim. El circuito urbano está homologado internacionalmente por la RFEA y combina calles y avenidas de Bilbao con ambiente musical y animación. El tiempo máximo anunciado es de 2 horas y 45 minutos. Daniel utilizará la prueba como test de ritmos para comprobar sensaciones y ajustar la preparación de cara a Oporto.",
+        "website": "https://www.bilbaonightrun.com/",
+        "routeUrl": "https://www.bilbaonightrun.com/reglamento",
+        "routeImage": ""
+      }
+    }
+  ]
+}
