@@ -1,0 +1,337 @@
+{
+  "id": "weekend-2026-10-24",
+  "date": "2026-10-24",
+  "title": "Retos del finde",
+  "subtitle": "¡Fin de semana de carreras y dorsales para los nuestros!",
+  "intro": "Un fin de semana cargado de retos para Kilómetro1: cross por equipos en La Rioja, asfalto rápido en Madrid, Burgos y Valencia, medias internacionales en Lille y Venecia, y aventuras de montaña en Ibiza y Cataluña. ¡Aquí van lxs valientes del equipo!",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis. Así que disfrutad de cada metro... y permitíos dar vuestro 100%.",
+    "¡Vamos a por ello, equipo!"
+  ],
+  "runners": [
+    {
+      "name": "Jorge Cubero",
+      "race": "Campeonato de La Rioja de Cross por Clubes",
+      "goal": "Buscar buenas sensaciones en terreno no habitual",
+      "type": "Cross",
+      "slug": "jorge-cubero",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "",
+        "location": "Santo Domingo de la Calzada, La Rioja",
+        "time": "",
+        "raceInfo": "Competición de campo a través por clubes en el entorno del Complejo Deportivo de las Piscinas Municipales, coincidiendo con el 34.º Cross Ciudad de Santo Domingo. Prueba sobre terreno natural con categorías federadas y competición por equipos. La distancia y horario concretos dependen de la categoría y no están confirmados para estos corredores.",
+        "website": "https://www.santodomingodelacalzada.org/34-o-cross-en-las-piscinas/",
+        "routeUrl": "https://www.santodomingodelacalzada.org/34-o-cross-en-las-piscinas/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Pablo Cristóbal",
+      "race": "Campeonato de La Rioja de Cross por Clubes",
+      "goal": "Objetivo podio por equipos",
+      "type": "Cross",
+      "slug": "pablo-cristobal",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "",
+        "location": "Santo Domingo de la Calzada, La Rioja",
+        "time": "",
+        "raceInfo": "Competición de campo a través por clubes en el entorno del Complejo Deportivo de las Piscinas Municipales, coincidiendo con el 34.º Cross Ciudad de Santo Domingo. Prueba sobre terreno natural con categorías federadas y competición por equipos. La distancia y horario concretos dependen de la categoría y no están confirmados para estos corredores.",
+        "website": "https://www.santodomingodelacalzada.org/34-o-cross-en-las-piscinas/",
+        "routeUrl": "https://www.santodomingodelacalzada.org/34-o-cross-en-las-piscinas/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "Campeonato de La Rioja de Cross por Clubes",
+      "goal": "Objetivo podio por equipos",
+      "type": "Cross",
+      "slug": "carlos-perez",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "",
+        "location": "Santo Domingo de la Calzada, La Rioja",
+        "time": "",
+        "raceInfo": "Competición de campo a través por clubes en el entorno del Complejo Deportivo de las Piscinas Municipales, coincidiendo con el 34.º Cross Ciudad de Santo Domingo. Prueba sobre terreno natural con categorías federadas y competición por equipos. La distancia y horario concretos dependen de la categoría y no están confirmados para estos corredores.",
+        "website": "https://www.santodomingodelacalzada.org/34-o-cross-en-las-piscinas/",
+        "routeUrl": "https://www.santodomingodelacalzada.org/34-o-cross-en-las-piscinas/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "David Santamaría",
+      "race": "10K Burgos Tras las Huellas del Cid",
+      "goal": "Objetivo sub 44:30",
+      "type": "10K",
+      "slug": "david-santamaria",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "10 km",
+        "location": "Burgos",
+        "time": "09:15",
+        "raceInfo": "Carrera urbana de 10 kilómetros organizada por Burgos 21K. Salida en avenida del Arlanzón. Comparte jornada con las modalidades de 5 y 21 kilómetros. La recogida de dorsales para residentes en Burgos y provincia se realiza el viernes 23 y sábado 24 en las pistas de hockey, patinaje y tenis de El Plantío; el domingo solo se entregan a participantes de fuera de la provincia.",
+        "website": "https://burgos21k.com/",
+        "routeUrl": "https://inscripciones.runvasport.es/inscripcion/10-km-burgos-tras-las-huellas-del-cid/?lang=es",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Ángel Alcaide",
+      "race": "Competición DEKA",
+      "goal": "Disfrutar de una prueba híbrida",
+      "type": "Híbrida",
+      "slug": "angel-alcaide",
+      "details": {
+        "raceDate": "",
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "Prueba de fitness híbrido de la familia DEKA, que combina estaciones de ejercicio funcional y desplazamientos. No se ha confirmado la modalidad concreta (DEKA FIT, MILE u otra), la sede ni el horario del evento de Ángel.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Juavier Arribas",
+      "race": "XVI Derbi de las Aficiones",
+      "goal": "Estreno con el equipo; buscar un sub 46 minutos",
+      "type": "10K",
+      "slug": "juavier-arribas",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera de 10 kilómetros homologados por la RFEA, con perfil muy favorable y rápido. Salida en la calle Padre Damián, junto al Santiago Bernabéu, y meta en paseo de los Melancólicos, cerca del antiguo Vicente Calderón. El trazado atraviesa el eje de Castellana, Recoletos y Prado, pasando por Atocha y Madrid Río. Los participantes corren como Indios o Vikingos. El reglamento indica que la marca es válida para acreditación de la San Silvestre Vallecana.",
+        "website": "https://www.derbidelasaficiones.com/",
+        "routeUrl": "https://derbidelasaficiones.com/reglamento.php",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Aurelio Escribano",
+      "race": "XVI Derbi de las Aficiones",
+      "goal": "Objetivo sub 48 minutos",
+      "type": "10K",
+      "slug": "aurelio-escribano",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera de 10 kilómetros homologados por la RFEA, con perfil muy favorable y rápido. Salida en la calle Padre Damián, junto al Santiago Bernabéu, y meta en paseo de los Melancólicos, cerca del antiguo Vicente Calderón. El trazado atraviesa el eje de Castellana, Recoletos y Prado, pasando por Atocha y Madrid Río. Los participantes corren como Indios o Vikingos. El reglamento indica que la marca es válida para acreditación de la San Silvestre Vallecana.",
+        "website": "https://www.derbidelasaficiones.com/",
+        "routeUrl": "https://derbidelasaficiones.com/reglamento.php",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Cabello",
+      "race": "35.º Medio Maratón Valencia Trinidad Alfonso Zurich",
+      "goal": "Conseguir marca personal y romper la barrera de 5 min/km",
+      "type": "Media maratón",
+      "slug": "carlos-cabello",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "21,097 km",
+        "location": "Valencia",
+        "time": "Desde las 08:30",
+        "raceInfo": "Media maratón internacional de 21,097 km con salida y meta en avenida de los Naranjos (Tarongers). Circuito urbano rápido por Alfauir, Primat Reig, Cavanilles, Menéndez Pidal, Ferran el Catòlic, Ramón y Cajal, Guillem de Castro, Blanqueries, plaza de Tetuán, calle de la Paz, plaza del Ayuntamiento, Xàtiva, Colón, Navarro Reverter, Jacinto Benavente, Alameda, Menorca y fachada marítima. Prueba con etiqueta Oro de World Athletics y gran tradición de récords. La salida puede organizarse por oleadas.",
+        "website": "https://www.valenciaciudaddelrunning.com/medio/",
+        "routeUrl": "https://www.valencia.es/cas/agenda-de-la-ciudad/-/content/medio-maraton-valencia-trinidad-alfonso-zurich-2026",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Emilia Cagnoni",
+      "race": "35.º Medio Maratón Valencia Trinidad Alfonso Zurich",
+      "goal": "Buscar marca personal en 1h55",
+      "type": "Media maratón",
+      "slug": "emilia-cagnoni",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "21,097 km",
+        "location": "Valencia",
+        "time": "Desde las 08:30",
+        "raceInfo": "Media maratón internacional de 21,097 km con salida y meta en avenida de los Naranjos (Tarongers). Circuito urbano rápido por Alfauir, Primat Reig, Cavanilles, Menéndez Pidal, Ferran el Catòlic, Ramón y Cajal, Guillem de Castro, Blanqueries, plaza de Tetuán, calle de la Paz, plaza del Ayuntamiento, Xàtiva, Colón, Navarro Reverter, Jacinto Benavente, Alameda, Menorca y fachada marítima. Prueba con etiqueta Oro de World Athletics y gran tradición de récords. La salida puede organizarse por oleadas.",
+        "website": "https://www.valenciaciudaddelrunning.com/medio/",
+        "routeUrl": "https://www.valencia.es/cas/agenda-de-la-ciudad/-/content/medio-maraton-valencia-trinidad-alfonso-zurich-2026",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Ramia Francia",
+      "race": "Semi-Marathon de Lille",
+      "goal": "Debutar en la distancia con grandes sensaciones",
+      "type": "Media maratón",
+      "slug": "ramia-francia",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "21,097 km",
+        "location": "Lille, Francia",
+        "time": "08:30",
+        "raceInfo": "Media maratón internacional de 21,097 km, integrada en la jornada del regreso del Maratón de Lille. Salida en el número 215 del boulevard de la Liberté y llegada en la explanada del Champ de Mars, junto a la Ciudadela. La organización anuncia un gran ambiente, zona de animación y servicios para corredores en el recinto de meta.",
+        "website": "https://marathon-lille.com/",
+        "routeUrl": "https://www.lille.fr/Actualites/Le-marathon-de-Lille-de-retour",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Anne García",
+      "race": "Venice Half Marathon",
+      "goal": "Disfrutar de una increíble media maratón",
+      "type": "Media maratón",
+      "slug": "anne-garcia",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "21,097 km",
+        "location": "Mestre y Venecia, Italia",
+        "time": "08:45",
+        "raceInfo": "Quinta edición de la media maratón de Venecia, prueba internacional de 21,097 km integrada en el fin de semana de la Venicemarathon. Salida anunciada en Piazza Ferretto, Mestre. El reglamento indica que la hora exacta puede ajustarse por necesidades organizativas. No se incluye un plano de recorrido no verificado.",
+        "website": "https://www.venicemarathon.it/",
+        "routeUrl": "https://www.venicemarathon.it/images/2026/atleti/Official%20Rulebook%20VM21K%20-%202026.pdf",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Urtzi Arevalillo",
+      "race": "29.ª SALTO 15K Donostia San Sebastián",
+      "goal": "Seguir cogiendo buenas sensaciones, bajando de 1h10",
+      "type": "15K",
+      "slug": "urtzi-arevalillo",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "15 km",
+        "location": "Donostia / San Sebastián, Gipuzkoa",
+        "time": "10:00",
+        "raceInfo": "Carrera de 15 kilómetros por las calles de Donostia. Salida en avenida de Madrid y meta en el entorno del miniestadio de Anoeta. Recorre Amara, Centro, Gros y Antiguo, con pasos por Zurriola, Boulevard, paseo de La Concha y avenida de Tolosa. El Ayuntamiento publica un itinerario detallado y cortes de tráfico. El evento también incluye 5K y modalidades de patinaje y deporte adaptado.",
+        "website": "https://www.15ksansebastian.com/",
+        "routeUrl": "https://donostia.eus/es/avisos/25-octubre-cortes-trafico-carrera",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Tamara López",
+      "race": "V 10K de Salinas",
+      "goal": "Buscar un sub 49 minutos tras la media maratón",
+      "type": "10K",
+      "slug": "tamara-lopez",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "10 km",
+        "location": "Salinas, Castrillón, Asturias",
+        "time": "",
+        "raceInfo": "Quinta edición de los 10 kilómetros de Salinas, con referencia de organización en la calle Pablo Laloux. Prueba de atletismo de 10.000 metros con inscripciones federadas y populares. No se ha podido contrastar un plano oficial de 2026 ni la hora exacta de salida de la prueba absoluta.",
+        "website": "https://www.321go.es/Carrera/Detail/538-vedicindelos10kmdesalinas?lang=es",
+        "routeUrl": "https://www.321go.es/Carrera/Detail/538-vedicindelos10kmdesalinas?lang=es",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "Ibiza Trail Maratón Festival - Media",
+      "goal": "Disfrutar junto a amigos de una gran experiencia",
+      "type": "Trail",
+      "slug": "jose-carlos-oton",
+      "details": {
+        "raceDate": "24/10/2026",
+        "distance": "28 km (900 m+)",
+        "location": "Sant Antoni de Portmany, Ibiza",
+        "time": "08:30",
+        "raceInfo": "La modalidad denominada Media tiene 28 km y aproximadamente 900 m de desnivel positivo: no es una media maratón de asfalto. Salida y llegada en el paseo marítimo de Sant Antoni. El recorrido supera Sa Talaia, entra al interior por senderos técnicos de dificultad media y vuelve por la costa y las calas. Avituallamientos indicados por la organización aproximadamente en los kilómetros 10,5, 15 y 21. La web oficial ofrece mapa y perfil.",
+        "website": "https://ibizatrailmaraton.com/",
+        "routeUrl": "https://ibizatrailmaraton.com/carreras-ibiza-trail/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Raimon Montalvez",
+      "race": "35.º Medio Maratón Valencia Trinidad Alfonso Zurich",
+      "goal": "Romper la barrera de 1h30",
+      "type": "Media maratón",
+      "slug": "raimon-montalvez",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "21,097 km",
+        "location": "Valencia",
+        "time": "Desde las 08:30",
+        "raceInfo": "Media maratón internacional de 21,097 km con salida y meta en avenida de los Naranjos (Tarongers). Circuito urbano rápido por Alfauir, Primat Reig, Cavanilles, Menéndez Pidal, Ferran el Catòlic, Ramón y Cajal, Guillem de Castro, Blanqueries, plaza de Tetuán, calle de la Paz, plaza del Ayuntamiento, Xàtiva, Colón, Navarro Reverter, Jacinto Benavente, Alameda, Menorca y fachada marítima. Prueba con etiqueta Oro de World Athletics y gran tradición de récords. La salida puede organizarse por oleadas.",
+        "website": "https://www.valenciaciudaddelrunning.com/medio/",
+        "routeUrl": "https://www.valencia.es/cas/agenda-de-la-ciudad/-/content/medio-maraton-valencia-trinidad-alfonso-zurich-2026",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pastor",
+      "race": "XXII Cursa Km Contra el Càncer Santa Coloma",
+      "goal": "Completar nuestro primer 5K",
+      "type": "5K",
+      "slug": "marta-pastor",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "5 km",
+        "location": "Santa Coloma de Gramenet, Barcelona",
+        "time": "10:00",
+        "raceInfo": "Carrera y caminata solidaria de 5 kilómetros en el Parc de Can Zam, organizada por la Asociación Contra el Cáncer con colaboración municipal. Estaba prevista para el 18 de octubre, pero fue aplazada al 25 por la alerta meteorológica. Se puede completar corriendo o caminando. Recogida de dorsales el 23 de octubre de 17:00 a 20:00 y el 24 de 10:00 a 13:00 en plaza Manelic.",
+        "website": "https://enmarcha.contraelcancer.es/es/evento/xxii-cursa-km-contra-el-cancer-santa-coloma-de-gramenet",
+        "routeUrl": "https://ajuntamentinforma.gramenet.cat/es/info-local/jornada-solidaria-contra-el-cancer/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pascual",
+      "race": "La Dragonera Trail",
+      "goal": "Disfrutar de su primer evento de trail",
+      "type": "Trail",
+      "slug": "marta-pascual",
+      "details": {
+        "raceDate": "24/10/2026",
+        "distance": "",
+        "location": "Sant Fost de Campsentelles, Barcelona",
+        "time": "",
+        "raceInfo": "Prueba de montaña incluida en el calendario de trail del 24 de octubre de 2026, con varias distancias anunciadas entre 8 y 22 km. No se conoce la modalidad elegida por Marta, por lo que no se asigna una distancia ni un desnivel concretos. Tampoco se ha podido verificar un plano oficial de su recorrido.",
+        "website": "",
+        "routeUrl": "https://calendario.socialtrail.es/carreras/2026/octubre",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Maria del Mar Román",
+      "race": "5K Burgos Tras las Huellas del Cid",
+      "goal": "Disfrutar cada metro del estado de forma",
+      "type": "5K",
+      "slug": "maria-del-mar-roman",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "5 km",
+        "location": "Burgos",
+        "time": "09:00",
+        "raceInfo": "Carrera urbana de 5 kilómetros organizada por Burgos 21K, con salida en avenida del Arlanzón. Comparte jornada con las distancias de 10K y 21K. Los dorsales se recogen el viernes 23 o sábado 24 en El Plantío para residentes de Burgos y provincia; el domingo solo se habilita entrega para corredores de fuera de la provincia.",
+        "website": "https://burgos21k.com/",
+        "routeUrl": "https://inscripciones.runvasport.es/inscripcion/5-km-burgos-tras-las-huellas-del-cid/?lang=es",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Isabel Romero",
+      "race": "35.º Medio Maratón Valencia Trinidad Alfonso Zurich",
+      "goal": "Conseguir marca personal por debajo de 1h50",
+      "type": "Media maratón",
+      "slug": "isabel-romero",
+      "details": {
+        "raceDate": "25/10/2026",
+        "distance": "21,097 km",
+        "location": "Valencia",
+        "time": "Desde las 08:30",
+        "raceInfo": "Media maratón internacional de 21,097 km con salida y meta en avenida de los Naranjos (Tarongers). Circuito urbano rápido por Alfauir, Primat Reig, Cavanilles, Menéndez Pidal, Ferran el Catòlic, Ramón y Cajal, Guillem de Castro, Blanqueries, plaza de Tetuán, calle de la Paz, plaza del Ayuntamiento, Xàtiva, Colón, Navarro Reverter, Jacinto Benavente, Alameda, Menorca y fachada marítima. Prueba con etiqueta Oro de World Athletics y gran tradición de récords. La salida puede organizarse por oleadas.",
+        "website": "https://www.valenciaciudaddelrunning.com/medio/",
+        "routeUrl": "https://www.valencia.es/cas/agenda-de-la-ciudad/-/content/medio-maraton-valencia-trinidad-alfonso-zurich-2026",
+        "routeImage": ""
+      }
+    }
+  ]
+}

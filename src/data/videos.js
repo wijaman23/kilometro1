@@ -1,5 +1,18 @@
 const videos = [
     {
+      id: 37,
+      titulo: 'Mentalidad Imparable KM1 | La presión es un privilegio',
+      categoriaPrincipal: 'Sesión de Mentalidad',
+      categorias: ['Mentalidad'],
+      fecha: '2026-10-21',
+      descripcion:
+        'Aprende a transformar la presión y los nervios antes de una carrera en energía para rendir mejor. Descubre un método de cuatro pasos para reconocer el estrés, compartirlo, reenfocarlo y utilizarlo a tu favor. Una sesión sobre confianza, motivación y la importancia de recordar por qué corres.',
+      enlace: 'https://fathom.video/share/W7RB-zoCLgZDFsRvi_PmxSEAqMvMnWk8',
+      thumbnail: '/thumbnails/mentalidad-octubre-2026.png',
+      duracion: '40:00',
+      abrirExterno: true,
+    },
+    {
       id: 36,
       titulo: 'Sesión Mastermind KM1 | Octubre',
       categoriaPrincipal: 'Sesión Mastermind',
