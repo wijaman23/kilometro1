@@ -1,0 +1,99 @@
+{
+  "id": "weekend-2026-10-31",
+  "date": "2026-10-31",
+  "title": "Retos del finde",
+  "subtitle": "¡Un fin de semana para disfrutar, competir y sumar kilómetros!",
+  "intro": "El equipo Kilómetro1 afronta un nuevo fin de semana de carreras, con desafíos en Pamplona, Nueva York, Sevilla, Vitoria-Gasteiz y Cartagena. Cinco corredores, cinco objetivos y muchas ganas de disfrutar de cada metro.",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis. Así que disfrutad de cada metro... y permitíos dar vuestro 100%.",
+    "¡Vamos a por ello, equipo!"
+  ],
+  "runners": [
+    {
+      "name": "Irune Ansa",
+      "race": "Carrera de las Murallas de Pamplona - Murallas 15K",
+      "goal": "Disfrutar cada metro, bajando de 1h20",
+      "type": "15K",
+      "slug": "irune-ansa",
+      "details": {
+        "raceDate": "31/10/2026",
+        "distance": "15,9 km",
+        "location": "Pamplona, Navarra",
+        "time": "17:00",
+        "raceInfo": "Prueba nocturna por el entorno fortificado de Pamplona. La modalidad Murallas recorre desde el Parque de la Vuelta del Castillo hasta el parque de Aranzadi, pasando por espacios históricos, pasadizos y construcciones con acceso especial para la carrera. La organización identifica la modalidad como Murallas 15K, aunque el Ayuntamiento publica una distancia de 15,9 km. El horario específico de esta modalidad no ha podido confirmarse; la web del recorrido indica salidas a partir de las 17:00.",
+        "website": "https://www.lasmurallaspamplona.com/",
+        "routeUrl": "https://www.lasmurallaspamplona.com/recorrido-15k/",
+        "routeImage": "https://www.lasmurallaspamplona.com/wp-content/uploads/2021/09/15K.jpg"
+      }
+    },
+    {
+      "name": "Francisco Chafer",
+      "race": "TCS New York City Marathon",
+      "goal": "Disfrutar cada metro de una maratón el día de su cumpleaños",
+      "type": "Maratón",
+      "slug": "francisco-chafer",
+      "details": {
+        "raceDate": "01/11/2026",
+        "distance": "42,195 km",
+        "location": "Nueva York, Estados Unidos",
+        "time": "Salidas por oleadas: 09:10, 09:45, 10:20, 10:55 y 11:30 (hora local)",
+        "raceInfo": "Maratón internacional por los cinco distritos de Nueva York: Staten Island, Brooklyn, Queens, Bronx y Manhattan. Comienza en Fort Wadsworth, cruza el puente Verrazzano-Narrows y termina en Central Park. El recorrido de 2026 incorpora ajustes en el Bronx, después del puente Willis Avenue, pasando por East 135th Street, Alexander Avenue y East 141st Street. Hay puestos de hidratación en buena parte del trazado y geles en las millas 12 y 18. No se conoce la oleada asignada a Francisco.",
+        "website": "https://prod.nyrr.org/races-and-events/2026/2026-tcs-new-york-city-marathon",
+        "routeUrl": "https://prod.nyrr.org/tcsnycmarathon/the-course",
+        "routeImage": "https://static.runnea.com/images/202412/maraton-nueva-york-2025-mapa.jpg?0"
+      }
+    },
+    {
+      "name": "Reyes García",
+      "race": "III CEU Sevilla 15K Experience",
+      "goal": "Prepararnos para la media, en un tiempo sub 1h30",
+      "type": "15K",
+      "slug": "reyes-garcia",
+      "details": {
+        "raceDate": "01/11/2026",
+        "distance": "15 km",
+        "location": "Sevilla",
+        "time": "08:30 (cajones escalonados hasta las 08:40)",
+        "raceInfo": "Carrera urbana de asfalto y perfil llano con salida y meta en la avenida Carlos III, en la Cartuja. El trazado pasa por Ronda de Triana, Los Remedios, el puente de San Telmo, el paseo de las Delicias, la avenida de la Borbolla, Ronda de Capuchinos, el entorno de la Macarena y Torneo. La organización publica un tiempo límite de dos horas y media y avituallamientos en los kilómetros 5 y 10 y en meta. Reyes la utilizará como preparación para su media maratón.",
+        "website": "https://15ksevillaexperience.com/",
+        "routeUrl": "https://15ksevillaexperience.com/recorrido/",
+        "routeImage": "https://15ksevillaexperience.com/wp-content/uploads/2026/10/15k-recorrido-2026-v2-fluor.webp"
+      }
+    },
+    {
+      "name": "Idoia García",
+      "race": "La Conquista de la Almendra - 10K",
+      "goal": "Conseguir un sub 50 en una carrera con circuito complejo",
+      "type": "10K",
+      "slug": "idoia-garcia",
+      "details": {
+        "raceDate": "01/11/2026",
+        "distance": "10 km",
+        "location": "Vitoria-Gasteiz, Álava",
+        "time": "11:00",
+        "raceInfo": "Tercera edición de la carrera La Conquista de la Almendra, organizada por Aetrievent. La distancia de 10 km consiste en dos vueltas al circuito de 5 km. La edición de 2026 tiene carácter solidario a favor de ACCU Álava. La organización publicó una guía del atleta el 20 de octubre y anunció que se agotaron los dorsales. No se detalla aquí el trazado exacto de calles porque no se ha podido verificar.",
+        "website": "https://www.laconquistadelaalmendra.com/",
+        "routeUrl": "https://www.laconquistadelaalmendra.com/",
+        "routeImage": "https://cdn2.ondavasca.com/1204284793_20240712115905.png"
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "IV Carrera Cofrade Cuatro Millas",
+      "goal": "Demostrar punto de forma post trail Ibiza",
+      "type": "Carrera popular",
+      "slug": "jose-carlos-oton",
+      "details": {
+        "raceDate": "01/11/2026",
+        "distance": "6,45 km",
+        "location": "Cartagena, Murcia",
+        "time": "10:45",
+        "raceInfo": "Cuarta edición de la Carrera Cofrade Cuatro Millas, con salida y meta en la calle Campos de Cartagena. El recorrido urbano atraviesa puntos vinculados a la Semana Santa y calles del casco histórico, entre ellas calle del Parque, Aire, Subida al Parque Torres y Adarve de Artillería. Las carreras infantiles comienzan a las 10:00 y la prueba general a las 10:45. El evento incluye una marcha senderista y tiene finalidad solidaria. La coincidencia de esta prueba con la carrera indicada por el equipo es probable, pero la localidad no figuraba en el mensaje original.",
+        "website": "https://www.lineadesalida.net/carreras/iv-carrera-cofrade-cuatro-millas",
+        "routeUrl": "https://deportes.cartagena.es/detalle_noticias.asp?id=90138&pagina=1",
+        "routeImage": "https://lineadesalida.net/storage/miniaturas/1788369384minCuatroMillas.jpg"
+      }
+    }
+  ]
+}
