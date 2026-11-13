@@ -1,0 +1,371 @@
+{
+  "id": "weekend-2026-11-14",
+  "date": "2026-11-14",
+  "title": "Retos del finde",
+  "subtitle": "¡Un fin de semana de carreras, compañerismo y nuevos objetivos!",
+  "intro": "Kilómetro1 vuelve a ponerse el dorsal este 14 y 15 de noviembre. Madrid reúne a buena parte del equipo en el 10K Ponle Freno, mientras otros compañeros afrontan pruebas en Tenerife, Vic, Vitoria-Gasteiz, Jaén, Elvas-Badajoz, Cartagena y Les Franqueses. ¡A disfrutar de cada metro, llueva o haga sol!",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis. Así que disfrutad de cada metro... y permitíos dar vuestro 100%.",
+    "¡Vamos a por ello, equipo!"
+  ],
+  "runners": [
+    {
+      "name": "Luis Javier Muñoz",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1",
+      "type": "10K",
+      "slug": "luis-javier-munoz",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1",
+      "type": "10K",
+      "slug": "carlos-perez",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Pablo Cristóbal",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1",
+      "type": "10K",
+      "slug": "pablo-cristobal",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Adrian Ortega",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1 e intentar ritmo sub 4:05",
+      "type": "10K",
+      "slug": "adrian-ortega",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Pedro Alberto",
+      "race": "XII Media Maratón Santa Cruz de Tenerife",
+      "goal": "Disfrutar cada metro de la distancia objetivo",
+      "type": "Media maratón",
+      "slug": "pedro-alberto",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "21,097 km",
+        "location": "Santa Cruz de Tenerife",
+        "time": "09:00",
+        "raceInfo": "Prueba urbana de media maratón por Santa Cruz de Tenerife. Los cajones abren a las 08:30 y cierran a las 08:55. La organización establece controles intermedios en los kilómetros 14,1 y 18,8. La recogida de dorsales se realiza los días 13 y 14 de noviembre en Nivaria Center, sin entrega el domingo.",
+        "website": "https://maratondetenerife.com/",
+        "routeUrl": "https://media.maratondetenerife.com/programa.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Lucía Alfaro",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Obtener marca personal sub 53 minutos",
+      "type": "10K",
+      "slug": "lucia-alfaro",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Sergi Asensio",
+      "race": "5K10K Vic - 10K",
+      "goal": "Romper la barrera de 40 minutos",
+      "type": "10K",
+      "slug": "sergi-asensio",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Vic, Barcelona",
+        "time": "",
+        "raceInfo": "Segunda edición de la prueba organizada por ETB Esport, Club Natació Vic y Ayuntamiento de Vic. Carrera sobre asfalto con recorrido certificado por la Federació Catalana d’Atletisme. La zona del evento está situada en el carrer de Josep Maria Pallàs; el objetivo de Sergi es romper la barrera de los 40 minutos.",
+        "website": "https://www.vic.cat/serveis/esports/esports/agenda/5k10k-vic-1",
+        "routeUrl": "https://www.vic.cat/serveis/esports/esports/agenda/5k10k-vic-1",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Montserrat Cabrera",
+      "race": "8K Santa Cruz de Tenerife",
+      "goal": "Disfrutar de un carrerón",
+      "type": "8K",
+      "slug": "montserrat-cabrera",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "8 km",
+        "location": "Santa Cruz de Tenerife",
+        "time": "09:45",
+        "raceInfo": "Modalidad de 8 kilómetros integrada en la jornada de la Media Maratón Santa Cruz de Tenerife. Apertura de cajones a las 09:15 y cierre a las 09:40. La organización entrega dorsales el viernes y sábado previos en Nivaria Center, no el domingo.",
+        "website": "https://maratondetenerife.com/",
+        "routeUrl": "https://media.maratondetenerife.com/programa.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Aurelio Escribano",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1",
+      "type": "10K",
+      "slug": "aurelio-escribano",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Vero Férnandez",
+      "race": "Cross Vuelta al Plantío",
+      "goal": "Mejorar tiempo de años anteriores, sub 42:30",
+      "type": "Cross",
+      "slug": "vero-fernandez",
+      "details": {
+        "raceDate": "",
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "Cross denominado Vuelta al Plantío..",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Reyes García",
+      "race": "5K AECC Sevilla",
+      "goal": "5K por una gran causa",
+      "type": "5K",
+      "slug": "reyes-garcia",
+      "details": {
+        "raceDate": "",
+        "distance": "5 km",
+        "location": "Sevilla",
+        "time": "",
+        "raceInfo": "Prueba solidaria de 5 kilómetros indicada por el equipo como AECC Sevilla. ",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Idoia García",
+      "race": "Vitoria Night Run - 10K",
+      "goal": "Parar el crono por debajo de 50 minutos",
+      "type": "10K",
+      "slug": "idoia-garcia",
+      "details": {
+        "raceDate": "14/11/2026",
+        "distance": "10 km",
+        "location": "Vitoria-Gasteiz, Álava",
+        "time": "20:00",
+        "raceInfo": "Segunda edición de la carrera nocturna de Vitoria-Gasteiz. Salida en la calle Postas 36. La distancia de 10K consiste en dos vueltas al circuito urbano de 5K. La organización anuncia una celebración posterior a la carrera.",
+        "website": "https://vitorianightrun.com/",
+        "routeUrl": "https://vitorianightrun.com/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Rafa López",
+      "race": "XXX Media Maratón Ciudad de Jaén",
+      "goal": "Disfrutar en casa, bajando de 1h37 en un entreno con dorsal",
+      "type": "Media maratón",
+      "slug": "rafa-lopez",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "21,097 km",
+        "location": "Jaén",
+        "time": "09:30",
+        "raceInfo": "Trigésima edición organizada por el Patronato Municipal de Deportes. Salida y meta en la calle Virgen de la Cabeza. Estrena recorrido de una sola vuelta, con menos desnivel, por el centro histórico, Paseo de la Estación, plaza de las Batallas, entorno de la Catedral, Campus de Las Lagunillas y parque Andrés de Vandelvira. Se han anunciado ajustes de itinerario por obras en el centro.",
+        "website": "https://jaenciudaddelatletismo.es/",
+        "routeUrl": "https://jaenciudaddelatletismo.es/project/30-edicion-media-maraton-ciudad-de-jaen-y-10k-en-memoria-de-paco-manzaneda/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Oscar Salpico",
+      "race": "XXXVII Media Maratón Elvas-Badajoz",
+      "goal": "Romper la barrera de 1h40",
+      "type": "Media maratón",
+      "slug": "oscar-salpico",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "21,097 km",
+        "location": "Elvas, Portugal – Badajoz, España",
+        "time": "10:30 (hora española)",
+        "raceInfo": "Carrera internacional entre Portugal y España. Salida en el Parque da Piedade de Elvas, junto al restaurante El Cristo, y llegada a la avenida de Huelva de Badajoz. Descenso pronunciado alrededor del kilómetro 3, algunos repechos posteriores y trazado prácticamente llano desde el kilómetro 10. Cierre de control a las 13:45.",
+        "website": "https://www.aytobadajoz.es/es/ayto/agenda/evento/60176/37-medio-maratn-elvas-badajoz/",
+        "routeUrl": "https://www.aytobadajoz.es/es/ayto/agenda/evento/60176/37-medio-maratn-elvas-badajoz/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Juan Carlos Otón",
+      "race": "Cross de la Artillería",
+      "goal": "Reventar el crono demostrando estado de forma",
+      "type": "Cross",
+      "slug": "juan-carlos-oton",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "",
+        "location": "Cartagena, Murcia",
+        "time": "",
+        "raceInfo": "Prueba popular en Cartagena con itinerarios por el centro y la zona portuaria. El Ayuntamiento anuncia cortes de tráfico en Paseo Alfonso XII, Cuesta del Batel, Muralla del Mar y entorno del Faro de Navidad, entre otras calles. La modalidad y distancia concreta del corredor no se han facilitado.",
+        "website": "https://www.cartagena.es/detalle_noticias.asp?id=90334",
+        "routeUrl": "https://www.cartagena.es/detalle_noticias.asp?id=90334",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Òscar Pareja",
+      "race": "Els 10 km de les Franqueses",
+      "goal": "Hacer de liebre en un buen entreno",
+      "type": "10K",
+      "slug": "oscar-pareja",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Les Franqueses del Vallès, Barcelona",
+        "time": "",
+        "raceInfo": "Carrera solidaria para apoyar la investigación contra el cáncer de riñón. Salida desde el Camí de Can Jep, junto al aparcamiento cercano al Complex Esportiu Municipal. El recorrido pasa por carrer de la Serra, Sant Josep, carretera de Cànoves y carretera de Ribes, entre otras vías.",
+        "website": "https://xipgroc.cat/es/curses/LesFranqueses2026/10k/inscripcio/cursa?layout=false",
+        "routeUrl": "https://www.lesfranqueses.cat/actualitat/avisos/restriccions-a-la-moblitat-per-la-cursa-els-10-km-de-les-franqueses-el-15-de-novembre.html",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pérez",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Objetivo marca, bajar de una hora",
+      "type": "10K",
+      "slug": "marta-perez",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Paula Rodriguez",
+      "race": "10K Catajorra",
+      "goal": "Disfrutar cada metro",
+      "type": "10K",
+      "slug": "paula-rodriguez",
+      "details": {
+        "raceDate": "",
+        "distance": "10 km",
+        "location": "",
+        "time": "",
+        "raceInfo": "El nombre de la prueba figura como «10k Catajorra» ",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Sara Rubio",
+      "race": "Cross Vuelta al Plantío",
+      "goal": "Seguir mejorando a cada carrera",
+      "type": "Cross",
+      "slug": "sara-rubio",
+      "details": {
+        "raceDate": "",
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "Cross denominado Vuelta al Plantío.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Vladimir Velasco",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1",
+      "type": "10K",
+      "slug": "vladimir-velasco",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "10K Ponle Freno Madrid",
+      "goal": "Disfrutar de la carrera con los compañeros de KM1",
+      "type": "10K",
+      "slug": "daniel-matarranz",
+      "details": {
+        "raceDate": "15/11/2026",
+        "distance": "10 km",
+        "location": "Madrid",
+        "time": "09:00",
+        "raceInfo": "Carrera solidaria de Atresmedia y Last Lap a favor de las víctimas de accidentes de tráfico. Salida y meta en el paseo de Recoletos, a la altura de Jorge Juan, junto a la plaza de Colón. Circuito urbano por Castellana, Chamberí y el centro de Madrid, con paso por la Puerta del Sol y el kilómetro cero. El tiempo límite para el 10K es de 1 hora y 15 minutos.",
+        "website": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/",
+        "routeUrl": "https://www.atresmedia.com/ponle-freno/carreras/2026/madrid/asi-recorrido-10km-carrera-ponle-freno-madrid-2026_202609176aa9565fd8ec24478baa471c.html",
+        "routeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KlAiURxk15AArGXN47pwOBFK0zcl39Xw8245RooUNg&s=10"
+      }
+    }
+  ]
+}
