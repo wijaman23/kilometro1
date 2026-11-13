@@ -1,0 +1,320 @@
+{
+  "id": "weekend-2026-11-07",
+  "date": "2026-11-07",
+  "title": "Retos del finde",
+  "subtitle": "¡Un fin de semana cargado de maratones, grandes clásicas y nuevos retos!",
+  "intro": "Kilómetro1 afronta un fin de semana inolvidable con el Maratón de Málaga, la Behobia–San Sebastián, la Cursa Bombers de Barcelona y el Maratón de Oporto, además de pruebas populares, solidarias, trail y carreras para buscar nuevas marcas. ¡Aquí van lxs valientes del equipo!",
+  "closing": [
+    "Desde aquí os mandamos toda la fuerza, concentración y buenas sensaciones.",
+    "Recordad: un día soñasteis con llegar donde hoy estáis. Así que disfrutad de cada metro... y permitíos dar vuestro 100%.",
+    "¡Vamos a por ello, equipo!"
+  ],
+  "runners": [
+    {
+      "name": "Luis Javier Muñoz",
+      "race": "Generali Maratón de Málaga",
+      "goal": "MMP y sub 3:30h",
+      "type": "Maratón",
+      "slug": "luis-javier-munoz-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "42,195 km",
+        "location": "Málaga",
+        "time": "08:30",
+        "raceInfo": "16.ª edición de la Generali Maratón de Málaga. Salida y meta en el Paseo del Parque, frente al Rectorado de la Universidad de Málaga. La prueba ofrece modalidades de maratón y media maratón. Luis Javier buscará mejorar su marca personal y romper la barrera de las tres horas y media.",
+        "website": "https://www.generalimaratonmalaga.com/faqs-maraton/",
+        "routeUrl": "https://www.generalimaratonmalaga.com/faqs-maraton/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Mario González",
+      "race": "Hycross",
+      "goal": "Mejorar sensaciones y tiempos de los anteriores",
+      "type": "Competición híbrida",
+      "slug": "mario-gonzalez",
+      "details": {
+        "raceDate": "",
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "Competición híbrida de fuerza y resistencia. No se ha podido identificar con certeza la sede, modalidad, distancia ni horario de la prueba concreta.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Carlos Pérez",
+      "race": "Vueling Cursa Bombers Barcelona",
+      "goal": "Sub 32:50",
+      "type": "10K",
+      "slug": "carlos-perez-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "10 km",
+        "location": "Barcelona",
+        "time": "09:00",
+        "raceInfo": "27.ª edición de la Vueling Cursa Bombers Barcelona. Circuito urbano de 10 km con salida y meta en la avenida Marquès de l’Argentera, junto a la Estació de França. Recorre Passeig de Colom, Paral·lel, Floridablanca, Gran Via, Marina, Casp y Via Laietana, entre otras calles. Salida general anunciada a las 09:00; bomberos uniformados a las 08:50. Tiempo límite de 1 h 30 min.",
+        "website": "https://cursadebombers.barcelona/",
+        "routeUrl": "https://cursadebombers.barcelona/es/la-cursa/recorrido/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "JuanDe Ortiz",
+      "race": "Behobia - San Sebastián",
+      "goal": "Disfrutar emblemática carrera en menos de 1h50",
+      "type": "Carrera popular",
+      "slug": "juande-ortiz",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "20 km",
+        "location": "Irun – Donostia/San Sebastián, Gipuzkoa",
+        "time": "Desde las 10:00, por oleadas",
+        "raceInfo": "61.ª Behobia–San Sebastián, prueba de aproximadamente 20 km no homologada. Sale de Behobia, en Irun, y termina en el Boulevard de Donostia. Recorrido exigente con los altos de Gaintxurizketa y Miracruz y aproximadamente 192 m de desnivel positivo. Salidas escalonadas a partir de las 10:00 para corredores a pie. Ocho avituallamientos y límite de 2 h 35 min desde la salida individual. En la web oficial hay infografía y tracks GPX/KML.",
+        "website": "https://www.behobia-sansebastian.com/",
+        "routeUrl": "https://www.behobia-sansebastian.com/es/carrera/recorrido",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Anne García",
+      "race": "Behobia - San Sebastián",
+      "goal": "Segundo carrerón en 15 días, disfrutar cada metro",
+      "type": "Carrera popular",
+      "slug": "anne-garcia-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "20 km",
+        "location": "Irun – Donostia/San Sebastián, Gipuzkoa",
+        "time": "Desde las 10:00, por oleadas",
+        "raceInfo": "61.ª Behobia–San Sebastián, prueba de aproximadamente 20 km no homologada. Sale de Behobia, en Irun, y termina en el Boulevard de Donostia. Recorrido exigente con los altos de Gaintxurizketa y Miracruz y aproximadamente 192 m de desnivel positivo. Salidas escalonadas a partir de las 10:00 para corredores a pie. Ocho avituallamientos y límite de 2 h 35 min desde la salida individual. En la web oficial hay infografía y tracks GPX/KML.",
+        "website": "https://www.behobia-sansebastian.com/",
+        "routeUrl": "https://www.behobia-sansebastian.com/es/carrera/recorrido",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Urtzi Arevalillo",
+      "race": "Behobia - San Sebastián",
+      "goal": "Mejorar la marca de 1h34 en la mítica Behobia",
+      "type": "Carrera popular",
+      "slug": "urtzi-arevalillo-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "20 km",
+        "location": "Irun – Donostia/San Sebastián, Gipuzkoa",
+        "time": "Desde las 10:00, por oleadas",
+        "raceInfo": "61.ª Behobia–San Sebastián, prueba de aproximadamente 20 km no homologada. Sale de Behobia, en Irun, y termina en el Boulevard de Donostia. Recorrido exigente con los altos de Gaintxurizketa y Miracruz y aproximadamente 192 m de desnivel positivo. Salidas escalonadas a partir de las 10:00 para corredores a pie. Ocho avituallamientos y límite de 2 h 35 min desde la salida individual. En la web oficial hay infografía y tracks GPX/KML.",
+        "website": "https://www.behobia-sansebastian.com/",
+        "routeUrl": "https://www.behobia-sansebastian.com/es/carrera/recorrido",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Nerea García",
+      "race": "XXXVII Erandioko Herri Krosa",
+      "goal": "Reventar la marca del año pasado con 4 minutos menos",
+      "type": "Carrera popular",
+      "slug": "nerea-garcia-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "7 km",
+        "location": "Erandio, Bizkaia",
+        "time": "10:30",
+        "raceInfo": "37.ª edición de la Herri Krosa de Erandio, organizada por el Club Atletismo Erandio. Salida y meta en la calle Tartanga, a la altura del polideportivo. La prueba absoluta figura como 7K en las clasificaciones de 2026.",
+        "website": "https://www.bizkaia.eus/es/kirolbidepro/agenda/-/evento-detalle/herri-krosa-erandio-2026",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Andrea Herrera",
+      "race": "Doblete de sábado + domingo",
+      "goal": "Entreno específico de cara a grandes objetivos",
+      "type": "Doble competición",
+      "slug": "andrea-herrera-2026-11-07",
+      "details": {
+        "raceDate": "07/11/2026 y 08/11/2026",
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "Dos pruebas durante el mismo fin de semana. No se han facilitado sus nombres, localidades, distancias ni horarios.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "María Inés",
+      "race": "II 8K Burjapower Burjassot",
+      "goal": "Disfrutar de un carrerón y parar el crono sub 56 minutos",
+      "type": "8K",
+      "slug": "maria-ines",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "8 km",
+        "location": "Burjassot, Valencia",
+        "time": "10:00",
+        "raceInfo": "Carrera urbana organizada por Burjapower con colaboración del Ayuntamiento, integrada en el Circuit Caixa Popular l’Horta Nord. Salida desde la plaza Emilio Castelar, junto al Ayuntamiento. La edición de 2026 alcanzó el cupo de 1.000 corredores.",
+        "website": "https://www.burjassot.org/abiertas-las-inscripciones-de-la-ii-8k-de-burjapower-que-tendra-lugar-el-8-de-noviembre/",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "José Carlos Otón",
+      "race": "Trail Sendero del Agua",
+      "goal": "Disfrutar del monte, sin presiones de tiempos",
+      "type": "Trail",
+      "slug": "jose-carlos-oton-2026-11-07",
+      "details": {
+        "raceDate": "",
+        "distance": "",
+        "location": "",
+        "time": "",
+        "raceInfo": "Prueba de trail indicada por el equipo como Sendero del Agua. No se ha podido identificar de forma inequívoca la edición y sede de este fin de semana.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Roberto Alconada",
+      "race": "XIII Carrera Popular Muévete por la Esclerosis Múltiple",
+      "goal": "Parar el crono en menos de 42 minutos",
+      "type": "Carrera solidaria",
+      "slug": "roberto-alconada",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "7 km",
+        "location": "Parque del Alamillo, Sevilla",
+        "time": "10:30",
+        "raceInfo": "Prueba benéfica organizada por la Asociación Sevillana de Esclerosis Múltiple. Salida y meta en el Cortijo del Parque del Alamillo. Carrera absoluta de 7 km y pruebas infantiles; los fondos contribuyen a la actividad de la asociación.",
+        "website": "https://www.corredorespopulares.es/inscripcion/esclerosis/index.php",
+        "routeUrl": "https://andaluciarunning.com/wp-content/uploads/Reglamento-Carrera-Esclerosis-Multiple-Sevilla-2026.pdf",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marta Pastor",
+      "race": "Vueling Cursa Bombers Barcelona",
+      "goal": "Primer 10K, ¡a por todas!",
+      "type": "10K",
+      "slug": "marta-pastor-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "10 km",
+        "location": "Barcelona",
+        "time": "09:00",
+        "raceInfo": "27.ª edición de la Vueling Cursa Bombers Barcelona. Circuito urbano de 10 km con salida y meta en la avenida Marquès de l’Argentera, junto a la Estació de França. Recorre Passeig de Colom, Paral·lel, Floridablanca, Gran Via, Marina, Casp y Via Laietana, entre otras calles. Salida general anunciada a las 09:00; bomberos uniformados a las 08:50. Tiempo límite de 1 h 30 min.",
+        "website": "https://cursadebombers.barcelona/",
+        "routeUrl": "https://cursadebombers.barcelona/es/la-cursa/recorrido/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Ana Rappel",
+      "race": "Vueling Cursa Bombers Barcelona",
+      "goal": "Estreno con el equipo, vamos a por una gran marca",
+      "type": "10K",
+      "slug": "ana-rappel",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "10 km",
+        "location": "Barcelona",
+        "time": "09:00",
+        "raceInfo": "27.ª edición de la Vueling Cursa Bombers Barcelona. Circuito urbano de 10 km con salida y meta en la avenida Marquès de l’Argentera, junto a la Estació de França. Recorre Passeig de Colom, Paral·lel, Floridablanca, Gran Via, Marina, Casp y Via Laietana, entre otras calles. Salida general anunciada a las 09:00; bomberos uniformados a las 08:50. Tiempo límite de 1 h 30 min.",
+        "website": "https://cursadebombers.barcelona/",
+        "routeUrl": "https://cursadebombers.barcelona/es/la-cursa/recorrido/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Isabel Romero",
+      "race": "Media Maratón Mediterráneo",
+      "goal": "Hacer de liebre y disfrutar cada metro",
+      "type": "Media maratón",
+      "slug": "isabel-romero-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "21,097 km",
+        "location": "",
+        "time": "",
+        "raceInfo": "Media maratón indicada como Mediterráneo. No se ha podido confirmar con seguridad la sede ni la edición concreta del 7–8 de noviembre de 2026.",
+        "website": "",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Oscar Salpico",
+      "race": "IV 10K Ciudad de Mérida",
+      "goal": "Parar el crono sub 45 minutos de cara al objetivo de la semana próxima",
+      "type": "10K",
+      "slug": "oscar-salpico-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "10 km",
+        "location": "Mérida, Badajoz",
+        "time": "10:30",
+        "raceInfo": "Carrera urbana de 10 km organizada por el Grupo Km0 a favor de FEAFES, con apoyo del Ayuntamiento de Mérida. Salida y meta en la calle Félix Valverde Lillo. También hay pruebas infantiles y dorsal solidario.",
+        "website": "https://www.chipserena.es/web-evento/13259-iv-10k-ciudad-de-merida",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Marina Sarria",
+      "race": "35.ª Mitja Marató Ciutat de Tarragona",
+      "goal": "Liebre los primeros 10K y disfrutar el resto",
+      "type": "Media maratón",
+      "slug": "marina-sarria",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "21,097 km",
+        "location": "Tarragona",
+        "time": "09:00",
+        "raceInfo": "35.ª edición de la media maratón de Tarragona, con modalidades de 21,097 km y 10 km. Salida desde la calle Torres Jordi. La organización publica el plano del circuito y los puntos de avituallamiento en su web; recogida de dorsales en el Pavelló Poliesportiu del Serrallo.",
+        "website": "https://www.mitjatarragona.cat/",
+        "routeUrl": "https://www.mitjatarragona.cat/",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Álvaro Sánchez",
+      "race": "Cursa Urbana d’Amposta 5K",
+      "goal": "Estreno con el equipo a buscar sub 26 minutos",
+      "type": "5K",
+      "slug": "alvaro-sanchez-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "5 km",
+        "location": "Amposta, Tarragona",
+        "time": "10:00",
+        "raceInfo": "Carrera popular urbana organizada por Club BTT Montbike e integrada en Running Series Terres de l’Ebre. Modalidades de 5 y 10 km, con salida conjunta y trazados urbanos. El itinerario pasa por el entorno del río Ebro, el Pont Penjant y el Mercat Municipal.",
+        "website": "https://atletiks.cat/esdeveniments/cursa-urbana-damposta/",
+        "routeUrl": "",
+        "routeImage": ""
+      }
+    },
+    {
+      "name": "Daniel Matarranz",
+      "race": "EDP Maratona do Porto",
+      "goal": "Objetivo claro: traer a casa una marca personal",
+      "type": "Maratón",
+      "slug": "daniel-matarranz-2026-11-07",
+      "details": {
+        "raceDate": "08/11/2026",
+        "distance": "42,195 km",
+        "location": "Oporto, Portugal",
+        "time": "08:00 (hora local)",
+        "raceInfo": "22.ª edición de la Maratona do Porto, con distancia principal de 42,195 km, Family Race de 10 km y Fun Race de 6 km. La organización y el Ayuntamiento publicaron un documento de cortes de tráfico con las vías afectadas, entre ellas la avenida da Boavista y zonas próximas a la costa.",
+        "website": "https://www.maratonadoporto.com/",
+        "routeUrl": "https://www.cm-porto.pt/files/uploads/cms/INFOMAIL-Maratona-do-Porto-2026-online-PT-01.pdf",
+        "routeImage": ""
+      }
+    }
+  ]
+}

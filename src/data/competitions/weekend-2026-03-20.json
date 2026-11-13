@@ -14,97 +14,113 @@
       "name": "Úrsula Campos",
       "race": "10K El Puerto de Santa María",
       "goal": "Mejorar marca del año pasado y estar en 51’",
-      "type": "10K"
+      "type": "10K",
+      "slug": "ursula-campos-2026-03-21"
     },
     {
       "name": "Jorge Cubero",
       "race": "5.000m pista Campeonato de La Rioja",
       "goal": "Buscar el sub20’",
-      "type": "Pista"
+      "type": "Pista",
+      "slug": "jorge-cubero-2026-03-21"
     },
     {
       "name": "Pablo Cristóbal",
       "race": "MM Movistar Madrid",
       "goal": "Disfrutar Madrid en modo entreno con dorsal",
-      "type": "Media"
+      "type": "Media",
+      "slug": "pablo-cristobal-2026-03-21"
     },
     {
       "name": "Adrián Ortega",
       "race": "Maratón de Roma",
       "goal": "Marca personal y acercarnos a 3h20’",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "adrian-ortega-2026-03-21"
     },
     {
       "name": "Carlos Pérez",
       "race": "Carrera Entreviñas",
       "goal": "Pelear los puestos de cabeza",
-      "type": "Running"
+      "type": "Running",
+      "slug": "carlos-perez-2026-03-21"
     },
     {
       "name": "Ayala Rubías",
       "race": "MM Movistar Madrid",
       "goal": "Estrenarse en la distancia con las mejores sensaciones",
-      "type": "Media"
+      "type": "Media",
+      "slug": "ayala-rubias-2026-03-21"
     },
     {
       "name": "Nacho Leyún",
       "race": "MM Movistar Madrid",
       "goal": "Batir marca personal y bajar de 1h50’",
-      "type": "Media"
+      "type": "Media",
+      "slug": "nacho-leyun-2026-03-21"
     },
     {
       "name": "Vladimir",
       "race": "MM Movistar Madrid",
       "goal": "Buscar una nueva marca personal y tocar 1h35’",
-      "type": "Media"
+      "type": "Media",
+      "slug": "vladimir-2026-03-21"
     },
     {
       "name": "Carlos Pérez",
       "race": "MM Movistar Madrid",
       "goal": "Atacar el sub1h45’",
-      "type": "Media"
+      "type": "Media",
+      "slug": "carlos-perez-2026-03-21-2"
     },
     {
       "name": "María Palco",
       "race": "Media Maratón Azpeitia-Azkoitia",
       "goal": "Superarnos y bajar marca personal",
-      "type": "Media"
+      "type": "Media",
+      "slug": "maria-palco-2026-03-21"
     },
     {
       "name": "Nerea Tomás",
       "race": "Media Maratón Elche",
       "goal": "Tocar marca de 1h55’ en la media más antigua del mundo",
-      "type": "Media"
+      "type": "Media",
+      "slug": "nerea-tomas-2026-03-21"
     },
     {
       "name": "Ariadna de Dios",
       "race": "5K Mou-te Per L’Epilèpsia",
       "goal": "Disfrutar en la semana post-maratón",
-      "type": "5K"
+      "type": "5K",
+      "slug": "ariadna-de-dios-2026-03-21"
     },
     {
       "name": "Carlos Palomares",
       "race": "Maratón de Roma",
       "goal": "Disfrutar la distancia reina en su estreno en una ciudad emblemática",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "carlos-palomares-2026-03-21"
     },
     {
       "name": "Paula Rodríguez",
       "race": "10K Carrera Pas Ras",
       "goal": "Acabar de la mejor manera la semana Fallera",
-      "type": "10K"
+      "type": "10K",
+      "slug": "paula-rodriguez-2026-03-21"
     },
     {
       "name": "Sara Rubio",
       "race": "Carrera Entreviñas",
       "goal": "Reventar la marca del año pasado",
-      "type": "Running"
+      "type": "Running",
+      "slug": "sara-rubio-2026-03-21"
     },
     {
       "name": "Araceli Peinado",
       "race": "10K Reset Running",
       "goal": "Disfrutar cada metro de la distancia",
-      "type": "10K"
+      "type": "10K",
+      "slug": "araceli-peinado-2026-03-21"
     }
   ]
 }

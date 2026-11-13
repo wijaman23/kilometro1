@@ -14,91 +14,106 @@
       "name": "Manuel Cristóbal",
       "race": "10K Camargo",
       "goal": "Objetivo MMP (42:56)",
-      "type": "10K"
+      "type": "10K",
+      "slug": "manuel-cristobal-2026-03-14"
     },
     {
       "name": "Mario González",
       "race": "10K Camargo",
       "goal": "Primer 10K en asfalto. Objetivo sub42:30",
-      "type": "10K"
+      "type": "10K",
+      "slug": "mario-gonzalez-2026-03-14"
     },
     {
       "name": "Ariadna de Dios",
       "race": "Maratón de Barcelona",
       "goal": "Estrenarse en la distancia reina con las mejores sensaciones",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "ariadna-de-dios-2026-03-14"
     },
     {
       "name": "Oskar Martinez",
       "race": "Maratón de Barcelona",
       "goal": "Debut en maratón buscando un 3h20",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "oskar-martinez-2026-03-14"
     },
     {
       "name": "Òscar Pareja",
       "race": "Maratón de Barcelona",
       "goal": "Estrenarse en la distancia reina con las mejores sensaciones",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "oscar-pareja-2026-03-14"
     },
     {
       "name": "Juan Ortiz",
       "race": "Maratón de Barcelona",
       "goal": "Buscar las mejores sensaciones de cara a repetir gesta en Ibiza",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "juan-ortiz-2026-03-14"
     },
     {
       "name": "Marina De La Fuente",
       "race": "Carrera del Agua",
       "goal": "Buscar bajar de 59’",
-      "type": "Running"
+      "type": "Running",
+      "slug": "marina-de-la-fuente-2026-03-14"
     },
     {
       "name": "Lucía Abellán",
       "race": "Carrera Popular Base Aérea Alcantarilla",
       "goal": "Estrenarse con el equipo bajando de 35’",
-      "type": "Running"
+      "type": "Running",
+      "slug": "lucia-abellan-2026-03-14"
     },
     {
       "name": "Judit Claret",
       "race": "5K Lorca",
       "goal": "Otro estreno con el equipo buscando las mejores sensaciones",
-      "type": "5K"
+      "type": "5K",
+      "slug": "judit-claret-2026-03-14"
     },
     {
       "name": "Arantxa Campos",
       "race": "Cursa de la Dona Santa Coloma de Gramenet - 5K",
       "goal": "Disfrutar la distancia en el estreno con el equipo",
-      "type": "5K"
+      "type": "5K",
+      "slug": "arantxa-campos-2026-03-14"
     },
     {
       "name": "Aurelio Escribano",
       "race": "Media Maratón de Málaga",
       "goal": "Objetivo reventar marca personal",
-      "type": "Media"
+      "type": "Media",
+      "slug": "aurelio-escribano-2026-03-14"
     },
     {
       "name": "Andrés Gea",
       "race": "5K Lorca",
       "goal": "Reventar el 5K después de hacerlo en media",
-      "type": "5K"
+      "type": "5K",
+      "slug": "andres-gea-2026-03-14"
     },
     {
       "name": "Marta Pérez",
       "race": "Carrera del Agua",
       "goal": "Romper la barrera de la hora",
-      "type": "Running"
+      "type": "Running",
+      "slug": "marta-perez-2026-03-14"
     },
     {
       "name": "Marta Sanchez",
       "race": "5K Castellón",
       "goal": "Poner buen broche a las fiestas de Castellón",
-      "type": "5K"
+      "type": "5K",
+      "slug": "marta-sanchez-2026-03-14"
     },
     {
       "name": "Laura Marco",
       "race": "Cursa de la Dona Santa Coloma de Gramenet - 5K",
       "goal": "Estreno con el equipo con un buen objetivo",
-      "type": "5K"
+      "type": "5K",
+      "slug": "laura-marco-2026-03-14"
     }
   ]
 }

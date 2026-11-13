@@ -14,79 +14,92 @@
       "name": "Carlos Pérez",
       "race": "Cpto. La Rioja 10km",
       "goal": "Objetivo disputar el podium y coger buenas sensaciones para Laredo",
-      "type": "10K"
+      "type": "10K",
+      "slug": "carlos-perez-2026-04-11"
     },
     {
       "name": "Úrsula Campos",
       "race": "10k Cerro Amate",
       "goal": "Objetivo sub 50’",
-      "type": "10K"
+      "type": "10K",
+      "slug": "ursula-campos-2026-04-11"
     },
     {
       "name": "Iván Beltrán",
       "race": "10k Benicassim",
       "goal": "Dar gas a la distancia bajando de 47´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "ivan-beltran-2026-04-11"
     },
     {
       "name": "Mario Enriquez",
       "race": "55 Vuelta Pedestre a Coín",
       "goal": "Meter marca personal, atacando el 38:30!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "mario-enriquez-2026-04-11"
     },
     {
       "name": "Nerea Garrido",
       "race": "Media maratón San Sebastián",
       "goal": "Disfrutar tras unas semanas complicadas de virus!",
-      "type": "Media"
+      "type": "Media",
+      "slug": "nerea-garrido-2026-04-11"
     },
     {
       "name": "Tamara López",
       "race": "Trail del Prerrománico Oviedo",
       "goal": "Estar abajo en 1h42!",
-      "type": "Trail"
+      "type": "Trail",
+      "slug": "tamara-lopez-2026-04-11"
     },
     {
       "name": "Natalia Mostolac",
       "race": "Ruta 091 Palma",
       "goal": "Atacar el sub 38:30!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "natalia-mostolac-2026-04-11"
     },
     {
       "name": "Ruth Lucila",
       "race": "5k Benejúzar",
       "goal": "Marca personal en el circuito peculiar",
-      "type": "5K"
+      "type": "5K",
+      "slug": "ruth-lucila-2026-04-11"
     },
     {
       "name": "Maria Roco",
       "race": "Media maratón Mérida",
       "goal": "Vamos a por 1h41 en el duro circuito del campeonato de España",
-      "type": "Media"
+      "type": "Media",
+      "slug": "maria-roco-2026-04-11"
     },
     {
       "name": "Paula Rodríguez",
       "race": "10k Volta a Peu Denia",
       "goal": "Disfrutar en la vuelta a las competiciones!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "paula-rodriguez-2026-04-11"
     },
     {
       "name": "Sara Rubio",
       "race": "10k Zaragoza",
       "goal": "Apuntar a un sub 47´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "sara-rubio-2026-04-11"
     },
     {
       "name": "Alicia Sánchez",
       "race": "Strong Race",
       "goal": "Estreno con el equipo en una competición híbrida!",
-      "type": "Híbrida"
+      "type": "Híbrida",
+      "slug": "alicia-sanchez-2026-04-11"
     },
     {
       "name": "Iñaki Tovar",
       "race": "5k Benejúzar",
       "goal": "Buscamos marca personal, sub 27´!",
-      "type": "5K"
+      "type": "5K",
+      "slug": "inaki-tovar-2026-04-11"
     }
   ]
 }

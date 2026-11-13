@@ -14,37 +14,43 @@
       "name": "Juan Ortiz",
       "race": "Trail Desafío Portichuelo",
       "goal": "Disfrutar de una disciplina diferente!",
-      "type": "Trail"
+      "type": "Trail",
+      "slug": "juan-ortiz-2026-05-02"
     },
     {
       "name": "Rafa López",
       "race": "Carrera urbana Ciudad La Carolina",
       "goal": "Vamos a buscar marca personal, parando el crono en menos de 49’!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "rafa-lopez-2026-05-02"
     },
     {
       "name": "Anabel Vera",
       "race": "Carrera de la Mujer Reus",
       "goal": "Estreno con el equipo en su primera semana!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "anabel-vera-2026-05-02"
     },
     {
       "name": "Ruth Lucilla",
       "race": "5K Granja de Rocamora",
       "goal": "Carrera de casa, carrera de marca personal, que pare el crono en menos de 31’!",
-      "type": "5K"
+      "type": "5K",
+      "slug": "ruth-lucilla-2026-05-02"
     },
     {
       "name": "Iñaki Tovar",
       "race": "5K Granja de Rocamora",
       "goal": "También en casa, también marca personal, vamos a bajar de 26’!",
-      "type": "5K"
+      "type": "5K",
+      "slug": "inaki-tovar-2026-05-02"
     },
     {
       "name": "Daniel Matarranz",
       "race": "Trail Tren Burra",
       "goal": "Coger sensaciones de competición de cara a retos venideros!",
-      "type": "Trail"
+      "type": "Trail",
+      "slug": "daniel-matarranz-2026-05-02"
     }
   ]
 }

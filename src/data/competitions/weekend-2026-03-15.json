@@ -14,37 +14,43 @@
       "name": "Gorka Guenaga",
       "race": "10k Getxo",
       "goal": "Objetivo MMP e intentar sub40’",
-      "type": "10K"
+      "type": "10K",
+      "slug": "gorka-guenaga-2026-03-28"
     },
     {
       "name": "Horacio Vega",
       "race": "Media Maratón Segovia",
       "goal": "Realizar un entreno contundente de cuestas de cara a Madrid!",
-      "type": "Media"
+      "type": "Media",
+      "slug": "horacio-vega-2026-03-28"
     },
     {
       "name": "Anne García",
       "race": "10K Getxo",
       "goal": "Superar marca y bajar de 58:30!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "anne-garcia-2026-03-28"
     },
     {
       "name": "Nerea Garrido",
       "race": "Media maratón Getxo",
       "goal": "Estrenarnos en la distancia con una marca de sub 1h42",
-      "type": "Media"
+      "type": "Media",
+      "slug": "nerea-garrido-2026-03-28"
     },
     {
       "name": "Rafa López",
       "race": "Circuito Carreras Jaén",
       "goal": "Estrenarse en su primera semana en el equipo!!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "rafa-lopez-2026-03-28"
     },
     {
       "name": "Andrea Herrera",
       "race": "10k Cursa Patrimoni",
       "goal": "Atacar el sub 55 y establecer nueva marca personal!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "andrea-herrera-2026-03-28"
     }
   ]
 }

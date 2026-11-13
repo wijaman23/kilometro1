@@ -14,109 +14,127 @@
       "name": "Manuel Cristóbal",
       "race": "10k de Laredo",
       "goal": "Objetivo MMP y sub42’",
-      "type": "10K"
+      "type": "10K",
+      "slug": "manuel-cristobal-2026-04-18"
     },
     {
       "name": "Jorge Cubero",
       "race": "10k de Laredo",
       "goal": "Objetivo sub 41’30”",
-      "type": "10K"
+      "type": "10K",
+      "slug": "jorge-cubero-2026-04-18"
     },
     {
       "name": "Pablo Cristóbal",
       "race": "10k de Laredo",
       "goal": "Objetivo volver a exprimirme post lesión y estar entorno a 36’",
-      "type": "10K"
+      "type": "10K",
+      "slug": "pablo-cristobal-2026-04-18"
     },
     {
       "name": "Gorka Guenaga",
       "race": "10k de Laredo",
       "goal": "Objetivo MMP (sub39’20”)",
-      "type": "10K"
+      "type": "10K",
+      "slug": "gorka-guenaga-2026-04-18"
     },
     {
       "name": "Carlos Pérez",
       "race": "10k de Laredo",
       "goal": "Objetivo sub32:30",
-      "type": "10K"
+      "type": "10K",
+      "slug": "carlos-perez-2026-04-18"
     },
     {
       "name": "Marta Sánchez",
       "race": "Media de Zamora",
       "goal": "Objetivo MMP y sub 1h50",
-      "type": "Media"
+      "type": "Media",
+      "slug": "marta-sanchez-2026-04-18"
     },
     {
       "name": "Pedro Alberto",
       "race": "10k Binter Run Tenerife",
       "goal": "Buscar marca personal, atacando sub 56´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "pedro-alberto-2026-04-18"
     },
     {
       "name": "Seve Arias",
       "race": "Ruta de las Fortalezas Cartagena",
       "goal": "Vamos a por un mítico ultra de 53km, reventando el tiempo de pasadas ediciones",
-      "type": "Ultra"
+      "type": "Ultra",
+      "slug": "seve-arias-2026-04-18"
     },
     {
       "name": "Arantxa Campos",
       "race": "10k D´Empúries",
       "goal": "Estrenarnos en la distancia con las mejores sensaciones posibles!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "arantxa-campos-2026-04-18"
     },
     {
       "name": "Judit Claret",
       "race": "5k de Lorqui",
       "goal": "Reventar la barrera de 35´!",
-      "type": "5K"
+      "type": "5K",
+      "slug": "judit-claret-2026-04-18"
     },
     {
       "name": "Marina de La Fuente",
       "race": "Marcha contra el Cáncer",
       "goal": "Disfrutar en familia un evento solidario",
-      "type": "Solidaria"
+      "type": "Solidaria",
+      "slug": "marina-de-la-fuente-2026-04-18"
     },
     {
       "name": "Laís Ferreira",
       "race": "10k Laredo",
       "goal": "Disfrutar de Laredo y traernos un sub 49´!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "lais-ferreira-2026-04-18"
     },
     {
       "name": "Lourdes Gallardo",
       "race": "5k Binter Run Tenerife",
       "goal": "Atacar nuestra marca personal!",
-      "type": "5K"
+      "type": "5K",
+      "slug": "lourdes-gallardo-2026-04-18"
     },
     {
       "name": "Andrea Herrera",
       "race": "12k Ibiza",
       "goal": "Desbloqueando distancias, mirando a por más!",
-      "type": "12K"
+      "type": "12K",
+      "slug": "andrea-herrera-2026-04-18"
     },
     {
       "name": "Rafa López",
       "race": "10k Córdoba",
       "goal": "Entreno con dorsal de cara a la media de Granada!",
-      "type": "10K"
+      "type": "10K",
+      "slug": "rafa-lopez-2026-04-18"
     },
     {
       "name": "Juan Ortiz",
       "race": "Maratón de Ibiza",
       "goal": "Disfrutar de uno de los maratones más bonitos del país!",
-      "type": "Maratón"
+      "type": "Maratón",
+      "slug": "juan-ortiz-2026-04-18"
     },
     {
       "name": "Rocio Ruiz",
       "race": "Carrera saludable Ciudad De Lorca",
       "goal": "Disfrutar de la distancia y atacar un buen tiempo!",
-      "type": "Running"
+      "type": "Running",
+      "slug": "rocio-ruiz-2026-04-18"
     },
     {
       "name": "Ruth Lucilla e Iñaki Tovar",
       "race": "Open de San José de la Montaña",
       "goal": "Disfrutar en pareja de una prueba de Orientación",
-      "type": "Orientación"
+      "type": "Orientación",
+      "slug": "ruth-lucilla-e-inaki-tovar-2026-04-18"
     }
   ]
 }
