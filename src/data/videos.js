@@ -1,5 +1,18 @@
 const videos = [
     {
+      id: 38,
+      titulo: 'Mentalidad KM1 | Identifica y supera tus barreras',
+      categoriaPrincipal: 'Sesión de Mentalidad',
+      categorias: ['Mentalidad'],
+      fecha: '2026-11-04',
+      descripcion:
+        'Aprende a desarrollar una mentalidad de corredor imparable mediante una visión a largo plazo. Identifica las barreras que frenan tu progreso, como la autoexigencia, las lesiones o la falta de descanso, y descubre un método de cuatro pasos para encontrar soluciones, crear mejores hábitos y mantener la constancia.',
+      enlace: 'https://fathom.video/share/MFUvgxaU392roux_DHqUYyknnQ6zVjzP',
+      thumbnail: '/thumbnails/mentalidad-noviembre-2026.png',
+      duracion: '50:58',
+      abrirExterno: true,
+    },
+    {
       id: 37,
       titulo: 'Mentalidad Imparable KM1 | La presión es un privilegio',
       categoriaPrincipal: 'Sesión de Mentalidad',
