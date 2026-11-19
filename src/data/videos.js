@@ -1,4 +1,17 @@
 const videos = [
+      {
+      id: 39,
+      titulo: 'Mentalidad KM1 | Supera tus bloqueos y alcanza tus objetivos',
+      categoriaPrincipal: 'Sesión de Mentalidad',
+      categorias: ['Mentalidad'],
+      fecha: '2026-11-18',
+      descripcion:
+        'Descubre cómo superar los bloqueos que frenan tu progreso como corredor mediante un método de cuatro pasos: identificar el problema, encontrar su causa, definir soluciones y establecer una fecha de inicio. Conoce casos reales de cambios de hábitos y aprende a utilizar la teoría inversa para transformar grandes objetivos en pequeños pasos alcanzables.',
+      enlace: 'https://fathom.video/share/NW-qFsxdPyUCi8BfbPgH769FVyqymTgy',
+      thumbnail: '/thumbnails/mentalidad-noviembre-20262.png',
+      duracion: '49:24',
+      abrirExterno: true,
+    },
     {
       id: 38,
       titulo: 'Mentalidad KM1 | Identifica y supera tus barreras',
@@ -14,7 +27,7 @@ const videos = [
     },
     {
       id: 37,
-      titulo: 'Mentalidad Imparable KM1 | La presión es un privilegio',
+      titulo: 'Mentalidad KM1 | La presión es un privilegio',
       categoriaPrincipal: 'Sesión de Mentalidad',
       categorias: ['Mentalidad'],
       fecha: '2026-10-21',
@@ -40,7 +53,7 @@ const videos = [
     },
     {
       id: 35,
-      titulo: 'Sesión de Mentalidad KM1 | Septiembre',
+      titulo: 'Mentalidad KM1 | Septiembre corredor imparable.',
       categoriaPrincipal: 'Sesión de Mentalidad',
       categorias: ['Mentalidad'],
       fecha: '2026-09-16',
